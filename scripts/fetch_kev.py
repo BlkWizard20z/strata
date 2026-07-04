@@ -11,6 +11,7 @@ Source: https://www.cisa.gov/known-exploited-vulnerabilities-catalog
 """
 
 import json
+import os
 import sys
 import urllib.request
 from datetime import date, datetime, timezone
@@ -60,11 +61,18 @@ def main() -> int:
     current_ids = {vuln["cveID"] for vuln in catalog.get("vulnerabilities", [])}
     new_ids = current_ids - previous_ids
 
-    # Dated snapshot -- gives us history so later we can build "diff over time" features.
-    today_str = date.today().isoformat()
-    dated_path = DATA_DIR / f"{today_str}.json"
-    with open(dated_path, "w", encoding="utf-8") as f:
-        json.dump(catalog, f, indent=2)
+# Dated snapshot -- our permanent history, used later for "diff over time" features.
+    # Only written in CI (GitHub Actions) so that LOCAL test runs don't create dated
+    # files that collide with the ones Actions commits. GitHub sets CI=true automatically
+    # on every Actions run; it's unset on your machine, so this block is skipped locally.
+    if os.environ.get("CI") == "true":
+        today_str = date.today().isoformat()
+        dated_path = DATA_DIR / f"{today_str}.json"
+        with open(dated_path, "w", encoding="utf-8") as f:
+            json.dump(catalog, f, indent=2)
+        print(f"[CI] Wrote dated snapshot: {dated_path}")
+    else:
+        print("[local] Skipping dated snapshot (only written in CI).")
 
     # Overwrite "latest" -- this is what the static dashboard fetches at runtime.
     with open(LATEST_PATH, "w", encoding="utf-8") as f:
