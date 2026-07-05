@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Strata — ThreatFox</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --surface-2: #1c2129;
+    --border: #30363d;
+    --text: #c9d1d9;
+    --muted: #8b949e;
+    --blue: #58a6ff;
+    --red: #f85149;
+    --green: #3fb950;
+    --amber: #f0883e;
+    --amber-2: #d9772f;
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: var(--sans); line-height: 1.5;
+    padding: 0 1.25rem 4rem;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; }
+
+  /* Header + nav */
+  header {
+    display: flex; align-items: baseline; gap: 1.5rem;
+    padding: 1.5rem 0 1rem; border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+  .brand {
+    font-family: var(--mono); font-weight: 700; font-size: 1.1rem;
+    letter-spacing: 0.35em; text-transform: uppercase; color: var(--text);
+  }
+  nav { display: flex; gap: 1rem; font-size: 0.9rem; }
+  nav a { color: var(--muted); text-decoration: none; padding-bottom: 2px; }
+  nav a:hover { color: var(--text); }
+  nav a.active { color: var(--amber); border-bottom: 2px solid var(--amber); }
+  .tagline { color: var(--muted); font-size: 0.9rem; margin: 1rem 0 1.5rem; }
+
+  /* Stats */
+  .stats { display: flex; flex-wrap: wrap; gap: 1px; background: var(--border);
+    border: 1px solid var(--border); border-radius: 8px; overflow: hidden; margin-bottom: 1.5rem; }
+  .stat { flex: 1 1 120px; background: var(--surface); padding: 0.9rem 1rem; }
+  .stat .num { font-family: var(--mono); font-size: 1.4rem; color: var(--text); }
+  .stat .lbl { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+
+  /* Controls */
+  .controls { display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; }
+  input[type="text"] {
+    flex: 1 1 260px; padding: 0.55rem 0.75rem; background: var(--surface);
+    border: 1px solid var(--border); color: var(--text); border-radius: 6px; font-size: 0.9rem;
+  }
+  input[type="text"]:focus { outline: 2px solid var(--blue); outline-offset: 0; border-color: var(--blue); }
+  .toggle { display: flex; align-items: center; gap: 0.4rem; font-size: 0.82rem; color: var(--muted); user-select: none; cursor: pointer; }
+
+  #status { color: var(--muted); font-size: 0.9rem; padding: 1rem 0; }
+
+  /* Leaderboard */
+  ul#board { list-style: none; margin: 0; padding: 0; }
+  .family { border: 1px solid var(--border); border-radius: 8px; margin-bottom: 0.5rem; overflow: hidden; background: var(--surface); }
+  .family-head {
+    width: 100%; display: grid; grid-template-columns: 2.2rem 1fr 3.5rem 1.2rem;
+    align-items: center; gap: 0.75rem; padding: 0.7rem 0.9rem;
+    background: none; border: none; color: inherit; font-family: inherit; font-size: 0.95rem;
+    text-align: left; cursor: pointer;
+  }
+  .family-head:hover { background: var(--surface-2); }
+  .family-head:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; }
+  .rank { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); }
+  .name-cell { min-width: 0; }
+  .name { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .bar { display: block; height: 6px; margin-top: 5px; background: var(--surface-2); border-radius: 3px; overflow: hidden; }
+  .bar-fill { display: block; height: 100%; border-radius: 3px;
+    background: linear-gradient(90deg, var(--amber-2), var(--amber)); }
+  .count { font-family: var(--mono); font-size: 0.9rem; color: var(--amber); text-align: right; }
+  .chev { color: var(--muted); transition: transform 0.15s ease; text-align: center; }
+  .family-head[aria-expanded="true"] .chev { transform: rotate(90deg); }
+
+  /* Detail panel */
+  .detail { padding: 0 0.9rem 1rem; border-top: 1px solid var(--border); }
+  .detail h3 { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin: 1rem 0 0.5rem; font-weight: 600; }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+  .chip { font-family: var(--mono); font-size: 0.75rem; padding: 0.2rem 0.5rem;
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 999px; color: var(--text); }
+  .chip .n { color: var(--amber); }
+  table.iocs { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+  table.iocs td { padding: 0.35rem 0.5rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+  table.iocs td.val { font-family: var(--mono); color: var(--text); word-break: break-all; }
+  table.iocs td.type { color: var(--muted); font-family: var(--mono); white-space: nowrap; }
+  table.iocs td.seen { color: var(--muted); white-space: nowrap; }
+  .conf { font-family: var(--mono); }
+  .conf.hi { color: var(--green); } .conf.mid { color: var(--amber); } .conf.lo { color: var(--muted); }
+  .links a { color: var(--blue); text-decoration: none; font-size: 0.85rem; }
+  .links a:hover { text-decoration: underline; }
+  .enrich { color: var(--muted); font-size: 0.82rem; font-style: italic; }
+  .empty { padding: 2rem 1rem; text-align: center; color: var(--muted); }
+
+  @media (prefers-reduced-motion: reduce) { .chev { transition: none; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">Strata</div>
+    <nav>
+      <a href="./index.html">KEV</a>
+      <a href="./threatfox.html" class="active" aria-current="page">ThreatFox</a>
+    </nav>
+  </header>
+
+  <p class="tagline">Recent malware indicators from ThreatFox (abuse.ch), grouped and ranked by family. The longer the bar, the more active that family's infrastructure has been.</p>
+
+  <section class="stats" id="stats" hidden>
+    <div class="stat"><div class="num" id="s-iocs">—</div><div class="lbl">Total IOCs</div></div>
+    <div class="stat"><div class="num" id="s-fams">—</div><div class="lbl">Families</div></div>
+    <div class="stat"><div class="num" id="s-window">—</div><div class="lbl">Window (days)</div></div>
+    <div class="stat"><div class="num" id="s-updated">—</div><div class="lbl">Last updated (UTC)</div></div>
+  </section>
+
+  <div class="controls" id="controls" hidden>
+    <input id="search" type="text" placeholder="Filter families by name…" autocomplete="off">
+    <label class="toggle"><input type="checkbox" id="defang" checked> Defang indicators</label>
+  </div>
+
+  <div id="status">Loading ThreatFox data…</div>
+  <ul id="board"></ul>
+</div>
+
+<script>
+  const DATA_URL = "./data/threatfox/latest.json";
+  let families = [];
+  let maxCount = 1;
+
+  const fmt = new Intl.NumberFormat("en-US");
+
+  // Defang live malicious indicators so they can't be clicked/resolved by accident.
+  function defang(value, type) {
+    if (!document.getElementById("defang").checked) return value;
+    if (type && type.toLowerCase().includes("hash")) return value; // hashes are inert
+    return String(value).replace(/^http/i, "hxxp").replace(/\./g, "[.]");
+  }
+
+  function confClass(c) {
+    if (c >= 75) return "hi";
+    if (c >= 50) return "mid";
+    return "lo";
+  }
+
+  function rank(i) { return String(i + 1).padStart(2, "0"); }
+
+  function detailHTML(fam) {
+    // IOC type breakdown as chips
+    const chips = Object.entries(fam.ioc_type_breakdown || {})
+      .sort((a, b) => b[1] - a[1])
+      .map(([t, n]) => `<span class="chip">${t} <span class="n">${n}</span></span>`)
+      .join("");
+
+    // Top IOCs table
+    const rows = (fam.top_iocs || []).map(i => `
+      <tr>
+        <td class="val">${defang(i.ioc, i.type)}</td>
+        <td class="type">${i.type ?? ""}</td>
+        <td><span class="conf ${confClass(i.confidence)}">${i.confidence ?? "?"}</span></td>
+        <td class="seen">${i.first_seen ? i.first_seen.slice(0, 10) : ""}</td>
+      </tr>`).join("");
+
+    // Malpedia link
+    const malpedia = fam.malpedia_url
+      ? `<div class="links"><a href="${fam.malpedia_url}" target="_blank" rel="noopener">Malpedia reference ↗</a></div>`
+      : `<div class="enrich">No Malpedia reference in this data.</div>`;
+
+    // Tag hints
+    const tags = (fam.tag_hints && fam.tag_hints.length)
+      ? `<div class="chips">${fam.tag_hints.map(t => `<span class="chip">${t}</span>`).join("")}</div>`
+      : `<div class="enrich">No tags on these IOCs.</div>`;
+
+    // Phase-B enrichment slots
+    const desc = fam.description
+      ? `<p>${fam.description}</p>`
+      : `<div class="enrich">Description not yet enriched (Phase B: Malpedia).</div>`;
+    const groups = (fam.associated_groups && fam.associated_groups.length)
+      ? `<div class="chips">${fam.associated_groups.map(g => `<span class="chip">${g}</span>`).join("")}</div>`
+      : `<div class="enrich">Attribution not yet enriched (Phase B: MITRE ATT&CK).</div>`;
+
+    return `
+      <div class="detail">
+        <h3>What this family is</h3>
+        ${desc}
+        ${malpedia}
+        <h3>IOC types in this window</h3>
+        <div class="chips">${chips || '<span class="enrich">None.</span>'}</div>
+        <h3>Top indicators (by confidence)</h3>
+        <table class="iocs"><tbody>${rows || '<tr><td class="enrich">None.</td></tr>'}</tbody></table>
+        <h3>Associated groups</h3>
+        ${groups}
+        <h3>Tag hints</h3>
+        ${tags}
+      </div>`;
+  }
+
+  function render(list) {
+    const board = document.getElementById("board");
+    if (!list.length) {
+      board.innerHTML = `<li class="empty">No families match that filter.</li>`;
+      return;
+    }
+    board.innerHTML = list.map((fam, idx) => {
+      const width = Math.max(2, (fam.ioc_count / maxCount) * 100);
+      return `
+        <li class="family">
+          <button class="family-head" aria-expanded="false">
+            <span class="rank">${rank(idx)}</span>
+            <span class="name-cell">
+              <span class="name">${fam.family}</span>
+              <span class="bar"><span class="bar-fill" style="width:${width}%"></span></span>
+            </span>
+            <span class="count">${fmt.format(fam.ioc_count)}</span>
+            <span class="chev">▸</span>
+          </button>
+        </li>`;
+    }).join("");
+
+    // Wire up expand/collapse. Detail is built lazily on first open.
+    board.querySelectorAll(".family-head").forEach((btn, idx) => {
+      btn.addEventListener("click", () => {
+        const li = btn.parentElement;
+        const open = btn.getAttribute("aria-expanded") === "true";
+        if (open) {
+          btn.setAttribute("aria-expanded", "false");
+          const d = li.querySelector(".detail");
+          if (d) d.remove();
+        } else {
+          btn.setAttribute("aria-expanded", "true");
+          li.insertAdjacentHTML("beforeend", detailHTML(list[idx]));
+        }
+      });
+    });
+  }
+
+  fetch(DATA_URL)
+    .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then(data => {
+      families = (data.families || []).slice().sort((a, b) => b.ioc_count - a.ioc_count);
+      maxCount = families.length ? families[0].ioc_count : 1;
+
+      document.getElementById("s-iocs").textContent = fmt.format(data.total_iocs ?? 0);
+      document.getElementById("s-fams").textContent = fmt.format(data.total_families ?? families.length);
+      document.getElementById("s-window").textContent = data.window_days ?? "—";
+      document.getElementById("s-updated").textContent = data.generated ? data.generated.slice(0, 10) : "—";
+
+      document.getElementById("stats").hidden = false;
+      document.getElementById("controls").hidden = false;
+      document.getElementById("status").textContent =
+        `${fmt.format(data.total_iocs ?? 0)} IOCs across ${families.length} families, last ${data.window_days ?? "?"} days.`;
+
+      render(families);
+
+      document.getElementById("search").addEventListener("input", e => {
+        const q = e.target.value.trim().toLowerCase();
+        render(families.filter(f => f.family.toLowerCase().includes(q)));
+      });
+      document.getElementById("defang").addEventListener("change", () => {
+        // Re-render open panels by collapsing all (simplest correct behavior).
+        render(families.filter(f =>
+          f.family.toLowerCase().includes(document.getElementById("search").value.trim().toLowerCase())
+        ));
+      });
+    })
+    .catch(err => {
+      document.getElementById("status").innerHTML =
+        `Couldn't load ThreatFox data (${err.message}). ` +
+        `If you're viewing locally, run the fetcher first and serve the docs/ folder over HTTP.`;
+    });
+</script>
+</body>
+</html>
