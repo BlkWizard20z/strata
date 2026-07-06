@@ -6,9 +6,8 @@ on:
     # committing at the exact same moment and racing each other.
     - cron: "30 13 * * *"
   workflow_dispatch: {}
-    # Manual "Run workflow" button in the Actions tab, for testing on demand.
 
-# Allows the workflow to commit the fetched data back to the repo.
+# Allows the workflow to commit the fetched + enriched data back to the repo.
 permissions:
   contents: write
 
@@ -26,10 +25,14 @@ jobs:
 
       - name: Run ThreatFox fetch script
         env:
-          # Injects the encrypted repository secret into the environment as
-          # THREATFOX_AUTH_KEY, which is exactly the variable the script reads.
           THREATFOX_AUTH_KEY: ${{ secrets.THREATFOX_AUTH_KEY }}
         run: python3 scripts/fetch_threatfox.py
+
+      - name: Enrich families from Malpedia
+        env:
+          # Optional -- only used if you've added this secret. Works without it.
+          MALPEDIA_APITOKEN: ${{ secrets.MALPEDIA_APITOKEN }}
+        run: python3 scripts/enrich_families.py
 
       - name: Copy latest.json into docs/ for GitHub Pages
         run: |
@@ -40,7 +43,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/threatfox/ docs/data/threatfox/
-          # Only commit if something actually changed, to avoid empty commits.
-          git diff --staged --quiet || git commit -m "Update ThreatFox data $(date -u +'%Y-%m-%d')"
+          git add data/threatfox/ docs/data/threatfox/ data/enrichment/
+          git diff --staged --quiet || git commit -m "Update ThreatFox + enrichment data $(date -u +'%Y-%m-%d')"
           git push
