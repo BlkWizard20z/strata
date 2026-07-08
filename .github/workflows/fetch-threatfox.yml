@@ -37,15 +37,22 @@ jobs:
           MALPEDIA_APITOKEN: ${{ secrets.MALPEDIA_APITOKEN }}
         run: python3 scripts/enrich_families.py
 
+      - name: Build Family Deep Dives
+        env:
+          THREATFOX_AUTH_KEY: ${{ secrets.THREATFOX_AUTH_KEY }}
+        run: python3 scripts/fetch_family_details.py
+
       - name: Copy latest.json into docs/ for GitHub Pages
         run: |
           mkdir -p docs/data/threatfox
           cp data/threatfox/latest.json docs/data/threatfox/latest.json
+          mkdir -p docs/data/threatfox/families
+          cp data/threatfox/families/*.json docs/data/threatfox/families/
 
       - name: Commit and push updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/threatfox/ docs/data/threatfox/ data/enrichment/
+          git add data/threatfox/ docs/data/threatfox/ data/enrichment/ data/threatfox/families/
           git diff --staged --quiet || git commit -m "Update ThreatFox + enrichment data $(date -u +'%Y-%m-%d')"
           git push
