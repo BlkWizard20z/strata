@@ -27,6 +27,8 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
+import certifi
+
 API_URL = "https://threatfox-api.abuse.ch/api/v1/"
 
 # How many of the top families (by IOC count) to build deep dives for each run.

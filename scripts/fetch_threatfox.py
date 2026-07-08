@@ -23,6 +23,8 @@ from collections import defaultdict
 from datetime import date, datetime, timezone
 from pathlib import Path
 
+import certifi
+
 API_URL = "https://threatfox-api.abuse.ch/api/v1/"
 
 # How many days of recent IOCs to pull. ThreatFox allows a maximum of 7.

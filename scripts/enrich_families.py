@@ -33,6 +33,8 @@ import urllib.request
 from datetime import date, datetime, timezone
 from pathlib import Path
 
+import certifi
+
 MALPEDIA_FAMILY_URL = "https://malpedia.caad.fkie.fraunhofer.de/api/get/family/"
 
 THREATFOX_LATEST = Path("data/threatfox/latest.json")
