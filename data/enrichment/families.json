@@ -1,1 +1,1049 @@
-{}
+{
+  "apk.hook": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Hook",
+    "description": "According to ThreatFabric, this is a malware family based on apk.ermac. The name hook is the self-advertised named by its vendor DukeEugene. It provides WebSocket communication and has RAT capabilities.",
+    "enriched_at": "2026-07-08T17:01:25.835120+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "apk.kimwolf": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Kimwolf",
+    "description": "KIMWOLF is an android based malware which uses compromised systems to relay malicious and abusive Internet traffic, as well as participating in distributed denial-of-service (DDoS). KIMWOLF primarily infects unofficial Android-TV set-top boxes and digital photo frames. The malware has frequently been noted to achieve infection spread via abusing Android Debug Bridge (ADB) and residential proxies. There are multiple reports suggesting a connection to the Aisuru botnet, with Kimwolf acting as the Android variant.",
+    "enriched_at": "2026-07-08T17:00:36.437294+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "apk.vo1d": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "vo1d",
+    "description": "According to Xlab, this malware is used to compromise Android TVs and set-top boxes, and its corresponding botnet had more than 1 million nodes observed via sinkholing (Jan 2025).",
+    "enriched_at": "2026-07-08T17:01:36.634887+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "elf.aisuru": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Aisuru",
+    "description": "Honeypot-aware variant of Mirai.",
+    "enriched_at": "2026-07-08T17:00:12.906215+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "elf.evilginx": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Evilginx",
+    "description": "According to the author, Evilginx is a standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication.",
+    "enriched_at": "2026-07-08T17:00:55.247068+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "elf.krasue_rat": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Krasue RAT",
+    "description": null,
+    "enriched_at": "2026-07-08T17:01:15.182684+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "elf.kuiper": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Kuiper",
+    "description": null,
+    "enriched_at": "2026-07-08T17:00:28.460176+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "elf.mirai": {
+    "alt_names": [
+      "Katana"
+    ],
+    "associated_groups": [],
+    "common_name": "Mirai",
+    "description": "Mirai is one of the first significant botnets targeting exposed networking devices running Linux. Found in August 2016 by MalwareMustDie, its name means \"future\" in Japanese. Nowadays it targets a wide range of networked embedded devices such as IP cameras, home routers (many vendors involved), and other IoT devices. Since the source code was published on \"Hack Forums\" many variants of the Mirai family appeared, infecting mostly home networks all around the world.",
+    "enriched_at": "2026-07-08T17:00:25.557643+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "elf.redtail": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "RedTail",
+    "description": "RedTail is a cryptomining malware, which is based on the open-source XMRIG mining software. It is being spread via known vulnerabilities such as:\r\n- CVE-2024-3400 \r\n- CVE-2023-46805\r\n- CVE-2024-21887\r\n- CVE-2023-1389\r\n- CVE-2022-22954\r\n- CVE-2018-20062",
+    "enriched_at": "2026-07-08T17:00:19.378279+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "elf.xmrig": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "XMRIG",
+    "description": null,
+    "enriched_at": "2026-07-08T17:00:43.574471+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "jar.crossrat": {
+    "alt_names": [
+      "Trupto"
+    ],
+    "associated_groups": [
+      "Dark Caracal"
+    ],
+    "common_name": "CrossRAT",
+    "description": null,
+    "enriched_at": "2026-07-08T17:00:34.510795+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "jar.strrat": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "STRRAT",
+    "description": "STRRAT is a Java-based RAT, which makes extensive use of plugins to provide full remote access to an attacker, as well as credential stealing, key logging and additional plugins. The RAT has a focus on stealing credentials of browsers and email clients, and passwords via keylogging. It supports the following browsers and email clients: Firefox, Internet Explorer, Chrome, Foxmail, Outlook, Thunderbird.\r\n\r\nSince Version 1.2 and above, STRRAT was infamous for its ransomware-like behavior of appending the file name extension .crimson to files. Version 1.5 is notably more obfuscated and modular than previous versions, but the backdoor functions mostly remain the same: collect browser passwords, run remote commands and PowerShell, log keystrokes, among others. Version 1.5 of STRRAT Malware includes a proper encryption routine, though currently pretty simple to revert.",
+    "enriched_at": "2026-07-08T17:01:28.758369+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "js.clearfake": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "ClearFake",
+    "description": "ClearFake is a malicious JavaScript framework deployed on compromised websites to deliver further malware using the drive-by download technique. The malware leverages social engineering to trick the user into running a fake web browser update.",
+    "enriched_at": "2026-07-08T17:00:07.432242+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "js.fakeupdates": {
+    "alt_names": [
+      "FakeUpdate",
+      "GhoLoader",
+      "SocGholish"
+    ],
+    "associated_groups": [
+      "GOLD PRELUDE"
+    ],
+    "common_name": "FAKEUPDATES",
+    "description": "FAKEUPDATES is a downloader written in JavaScript that communicates via HTTP. Supported payload types include executables and JavaScript. It writes the payloads to disk prior to launching them. FAKEUPDATES has led to further compromise via additional malware families that include CHTHONIC, DRIDEX, EMPIRE, KOADIC, DOPPELPAYMER, and AZORULT.\r\n\r\nFAKEUPDATES has been heavily used by UNC1543, a financially motivated group.",
+    "enriched_at": "2026-07-08T17:00:52.317504+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "js.iclickfix": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "IClickFix",
+    "description": "IClickFix is a malicious JavaScript framework deployed on compromised WordPress sites to deliver further malware using the ClickFix social engineering tactic and fake Cloudflare Turnstile CAPTCHA challenge.",
+    "enriched_at": "2026-07-08T17:00:17.228595+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "js.kongtuke": {
+    "alt_names": [
+      "TAG-124",
+      "js.LandUpdate808"
+    ],
+    "associated_groups": [],
+    "common_name": "KongTuke",
+    "description": "Kongtuke is a sophisticated TDS system that was initially discovered around May 2024. Making use of compromised CMS Websites, Kongtuke redirects website visitors through a multi-stage infection process ultimately leading to device infection. Initially using fake Update lures, it started to use FakeCaptcha lures at the beginning of 2025. It is likely an initial access service, selling infections to both Ransomware affiliates and other IA vendors like SocGholish.",
+    "enriched_at": "2026-07-08T17:00:16.252301+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "js.smartapesg": {
+    "alt_names": [
+      "HANEYMANEY",
+      "ZPHP"
+    ],
+    "associated_groups": [],
+    "common_name": "SmartApeSG",
+    "description": "According to Proofpoint, this is a cluster of fake update campaigns delivering payloads like NetSupportManager RAT and Lumma Stealer.",
+    "enriched_at": "2026-07-08T17:00:30.405059+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "js.tsundere": {
+    "alt_names": [
+      "DinDoor"
+    ],
+    "associated_groups": [
+      "MuddyWater"
+    ],
+    "common_name": "Tsundere",
+    "description": null,
+    "enriched_at": "2026-07-08T17:01:01.084578+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "osx.xagent": {
+    "alt_names": [],
+    "associated_groups": [
+      "APT28"
+    ],
+    "common_name": "X-Agent",
+    "description": null,
+    "enriched_at": "2026-07-08T17:01:20.527717+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "py.blankgrabber": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "BlankGrabber",
+    "description": "Stealer written in Python 3, typically distributed bundled via PyInstaller.",
+    "enriched_at": "2026-07-08T17:01:21.502603+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "py.creal_stealer": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Creal Stealer",
+    "description": "Creal is an open-source grabber/credential stealer that was originally made by a GitHub user named Ayhuuu, who even advertised a \"premium\" version on his now-deleted Telegram channel @Crealstealer. To the day of release, it was already not FUD, but its open-source nature made it attractive for threat actors to modify the base malware and even obfuscate it for less detection ratios. The base project came with a compiler, and the general source code the compiler used was PyInstaller for compilation into native formats like exe. For C2, Discord webhooks were utilized, which in later versions got protected with a service called https://stealer.to to make deletion not possible.\r\n\r\nIt Compromised following Data on Execution:\r\n\r\n* Discord Information\r\n* Browser Data\r\n* Crypto Related Data\r\n* Steam\r\n* Riot Games\r\n* Telegram\r\n* System Information\r\n* Tokens/Secrets",
+    "enriched_at": "2026-07-08T17:00:59.135098+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "py.stealler": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "stealler",
+    "description": null,
+    "enriched_at": "2026-07-08T17:01:04.941500+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "py.venus_stealer": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Venus Stealer",
+    "description": "Venus Stealer is a python based Infostealer observed early 2023.",
+    "enriched_at": "2026-07-08T17:00:26.525267+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "unknown": {
+    "enriched_at": "2026-07-08T17:00:08.516273+00:00",
+    "status": "not_found"
+  },
+  "unknown_loader": {
+    "enriched_at": "2026-07-08T17:00:10.586930+00:00",
+    "status": "not_found"
+  },
+  "unknown_rat": {
+    "enriched_at": "2026-07-08T17:00:45.512162+00:00",
+    "status": "not_found"
+  },
+  "unknown_stealer": {
+    "enriched_at": "2026-07-08T17:00:39.343300+00:00",
+    "status": "not_found"
+  },
+  "win.acr_stealer": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "ACR Stealer",
+    "description": "First introduced in March 2024, ACR Stealer is an information stealer sold as a Malware-as-a-Service (MaaS) on Russian-speaking cybercrime forums by a threat actor named \"SheldIO\". Researchers posit that this malware is an evolved version of the GrMsk Stealer, which likely aligns with the private stealer that SheldIO has been selling since July 2023. The malware, written in C++, is compatible with Windows 7 through 10, and the seller manages all command and control (C2) infrastructure. ACR Stealer can harvest system information, stored credentials, web browser cookies, cryptocurrency wallets, and configuration files for various programs. Additionally, it employs the dead drop resolver (DDR) technique to obfuscate the actual C2 infrastructure.",
+    "enriched_at": "2026-07-08T17:00:47.459192+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.adaptix_c2": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "AdaptixC2",
+    "description": "AdaptixC2 is a open-source post-exploitation and adversarial emulation framework that lets penetration testers control compromised hosts and execute system actions. While being created for red-teaming it is also used by threat actors for attacks.",
+    "enriched_at": "2026-07-08T17:00:29.430505+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.agent_tesla": {
+    "alt_names": [
+      "AgenTesla",
+      "AgentTesla",
+      "Negasteal"
+    ],
+    "associated_groups": [
+      "SWEED"
+    ],
+    "common_name": "Agent Tesla",
+    "description": "According to Palo Alto Networks Unit 42, Agent Tesla is a widely used .NET-based (C#) commercial keylogger and information stealer whose leaked builders have made it easily obtainable for many threat actors. It can log keystrokes, capture clipboard contents, take screenshots, and harvest credentials or other valuable data from browsers, email clients and local files, then exfiltrate this information via HTTP(S), SMTP, FTP or Telegram channels. Unit 42\u2019s analysis shows that OriginLogger is a direct evolution and variant of Agent Tesla, heavily reusing its code and configuration-handling techniques so that many Agent Tesla-focused detection rules still catch OriginLogger. This tight relationship positions Agent Tesla as the predecessor in a closely related family of .NET stealers, with OriginLogger continuing and expanding its functionality.",
+    "enriched_at": "2026-07-08T17:00:31.601180+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.akira": {
+    "alt_names": [
+      "REDBIKE"
+    ],
+    "associated_groups": [
+      "Storm-1567"
+    ],
+    "common_name": "Akira",
+    "description": null,
+    "enriched_at": "2026-07-08T17:00:15.171873+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.arkei_stealer": {
+    "alt_names": [
+      "ArkeiStealer"
+    ],
+    "associated_groups": [],
+    "common_name": "Arkei Stealer",
+    "description": "Arkei is a stealer that appeared around May 2018. It collects data about browsers (saved passwords and autofill forms), cryptocurrency wallets, and steal files matching an attacker-defined pattern. It then exfiltrates everything in a zip file uploaded to the attacker's panel. Later, it was forked and used as a base to create Vidar stealer.",
+    "enriched_at": "2026-07-08T17:01:03.978248+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.asyncrat": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "AsyncRAT",
+    "description": "AsyncRAT is a Remote Access Tool (RAT) designed to remotely monitor and control other computers through a secure encrypted connection. It is an open source remote administration tool, however, it could also be used maliciously because it provides functionality such as keylogger, remote desktop control, and many other functions that may cause harm to the victim\u2019s computer. In addition, AsyncRAT can be delivered via various methods such as spear-phishing, malvertising, exploit kit and other techniques.",
+    "enriched_at": "2026-07-08T17:00:21.550265+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.backnet": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "BackNet",
+    "description": null,
+    "enriched_at": "2026-07-08T17:01:07.932138+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.bahamut": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Bahamut",
+    "description": null,
+    "enriched_at": "2026-07-08T17:01:39.538862+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.blacknet_rat": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "BlackNET RAT",
+    "description": "Advanced and modern Windows botnet with PHP panel developed using VB.NET. It has a lot of functionalities including: stealing/grabbing files and passwords, keylogging, cryptojacking, loading files, executing commands, etc. It is open source and emerged at the end of 2019.",
+    "enriched_at": "2026-07-08T17:01:35.665110+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.brute_ratel_c4": {
+    "alt_names": [
+      "BOLDBADGER",
+      "BruteRatel"
+    ],
+    "associated_groups": [],
+    "common_name": "Brute Ratel C4",
+    "description": "Brute Ratel C4 (BRC4) is a commercial framework for red-teaming and adversarial attack simulation, which made its first appearance in December 2020. It was specifically designed to evade detection by endpoint detection and response (EDR) and antivirus (AV) capabilities. BRC4 allows operators to deploy a backdoor agent known as Badger (aka BOLDBADGER) within a target environment.\r\nThis agent enables arbitrary command execution, facilitating lateral movement, privilege escalation, and the establishment of additional persistence avenues. The Badger backdoor agent can communicate with a remote server via DNS over HTTPS, HTTP, HTTPS, SMB, and TCP, using custom encrypted channels. It supports a variety of backdoor commands including shell command execution, file transfers, file execution, and credential harvesting. Additionally, the Badger agent can perform tasks such as port scanning, screenshot capturing, and keystroke logging. Notably, in September 2022, a cracked version of Brute Ratel C4 was leaked in the cybercriminal underground, leading to its use by threat actors.",
+    "enriched_at": "2026-07-08T17:00:56.229038+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.chaos": {
+    "alt_names": [
+      "FakeRyuk",
+      "RyukJoke",
+      "Yashma"
+    ],
+    "associated_groups": [],
+    "common_name": "Chaos",
+    "description": "In-development ransomware family which was released in June 2021 by an unknown threat actor. The builder initially claimed to be a \"Ryuk .Net Ransomware Builder\" even though it was completely unrelated to the Ryuk malware family. Presently it appears to contain trojan-like features, but lacks features commonly found in ransomware such as data exfiltration.",
+    "enriched_at": "2026-07-08T17:01:42.932029+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.cobalt_strike": {
+    "alt_names": [
+      "Agentemis",
+      "BEACON",
+      "CobaltStrike",
+      "cobeacon"
+    ],
+    "associated_groups": [
+      "APT 29",
+      "APT29",
+      "APT32",
+      "APT41",
+      "AQUATIC PANDA",
+      "Anunak",
+      "Cobalt",
+      "Codoso",
+      "CopyKittens",
+      "DarkHydrus",
+      "Earth Baxia",
+      "FIN6",
+      "FIN7",
+      "Leviathan",
+      "Mustang Panda",
+      "Shell Crew",
+      "Stone Panda",
+      "TianWu",
+      "UNC1878",
+      "UNC2452",
+      "Winnti Umbrella"
+    ],
+    "common_name": "Cobalt Strike",
+    "description": "Cobalt Strike is a paid penetration testing product that allows an attacker to deploy an agent named 'Beacon' on the victim machine. Beacon includes a wealth of functionality to the attacker, including, but not limited to command execution, key logging, file transfer, SOCKS proxying, privilege escalation, mimikatz, port scanning and lateral movement. Beacon is in-memory/file-less, in that it consists of stageless or multi-stage shellcode that once loaded by exploiting a vulnerability or executing a shellcode loader, will reflectively load itself into the memory of a process without touching the disk. It supports C2 and staging over HTTP, HTTPS, DNS, SMB named pipes as well as forward and reverse TCP; Beacons can be daisy-chained. Cobalt Strike comes with a toolkit for developing shellcode loaders, called Artifact Kit.\r\n\r\nThe Beacon implant has become popular amongst targeted attackers and criminal users as it is well written, stable, and highly customizable.",
+    "enriched_at": "2026-07-08T17:00:14.206384+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.coffee_loader": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "CoffeeLoader",
+    "description": "Zscaler ThreatLabz states that this sophisticated malware family likely originated around September 2024. The purpose of the malware is to download and execute second-stage payloads while evading detection by endpoint-based security products. The malware uses numerous techniques to bypass security solutions, including a specialized packer called Armoury that utilizes the GPU, call stack spoofing, sleep obfuscation, and the use of Windows fibers. It also contains a backup DGA and is capable of deploying Rhadamanthys shellcode. ThreatLabz has observed CoffeeLoader being distributed via SmokeLoader, and both malware families share some behavioral similarities.",
+    "enriched_at": "2026-07-08T17:01:06.880318+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.coinminer": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Coinminer",
+    "description": "Coinminer is an unwanted malicious software which uses the victim's computational power (CPU and RAM mostly) to mine for coins (for example Monero or Zcash). The malware achieves persistence by adding one of the opensource miners on startup without the victim's consensus. Most sophisticated coin miners use timer settings or cap the CPU usage in order to remain stealthy.",
+    "enriched_at": "2026-07-08T17:00:37.407580+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.crimson": {
+    "alt_names": [
+      "SEEDOOR",
+      "Scarimson"
+    ],
+    "associated_groups": [
+      "Operation C-Major"
+    ],
+    "common_name": "Crimson RAT",
+    "description": "It was first discovered in 2017 and has since been used to attack organizations around the world. The malware is often distributed through phishing emails or by exploiting vulnerabilities in outdated security software. Once Crimson RAT is installed on a computer, it can be used to steal data, spy on users, and even take control of the infected computers.\r\n\r\nSome of the features of Crimson RAT include:\r\n\r\nRemote control of infected computers\r\nData theft, such as passwords, files, and emails\r\nUser spying\r\nTakeover of infected computers\r\nLocking of infected computers\r\nExtortion of payments",
+    "enriched_at": "2026-07-08T17:01:32.644929+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.danabot": {
+    "alt_names": [
+      "DanaTools"
+    ],
+    "associated_groups": [
+      "SCULLY SPIDER"
+    ],
+    "common_name": "DanaBot",
+    "description": "Proofpoints describes DanaBot as the latest example of malware focused on persistence and stealing useful information that can later be monetized rather than demanding an immediate ransom from victims. The social engineering in the low-volume DanaBot campaigns we have observed so far has been well-crafted, again pointing to a renewed focus on \u201cquality over quantity\u201d in email-based threats. DanaBot\u2019s modular nature enables it to download additional components, increasing the flexibility and robust stealing and remote monitoring capabilities of this banker.",
+    "enriched_at": "2026-07-08T17:01:24.857682+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.darktortilla": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "DarkTortilla",
+    "description": "DarkTortilla is a complex and highly configurable .NET-based crypter that has possibly been active since at least August 2015. It typically delivers popular information stealers and remote access trojans (RATs) such as AgentTesla, AsyncRat, NanoCore, and RedLine. While it appears to primarily deliver commodity malware, Secureworks\u00ae Counter Threat Unit\u2122 (CTU) researchers identified DarkTortilla samples delivering targeted payloads such as Cobalt Strike and Metasploit. It can also deliver \"addon packages\" such as additional malicious payloads, benign decoy documents, and executables. It features robust anti-analysis and anti-tamper controls that can make detection, analysis, and eradication challenging.\r\n\r\nFrom January 2021 through May 2022, an average of 93 unique DarkTortilla samples per week were uploaded to the VirusTotal analysis service. Code similarities suggest possible links between DarkTortilla and other malware: a crypter operated by the RATs Crew threat group, which was active between 2008 and 2012, and the Gameloader malware that emerged in 2021.",
+    "enriched_at": "2026-07-08T17:00:54.281619+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.dcrat": {
+    "alt_names": [
+      "DarkCrystal RAT"
+    ],
+    "associated_groups": [],
+    "common_name": "DCRat",
+    "description": "DCRat is a typical RAT that has been around since at least June 2019.",
+    "enriched_at": "2026-07-08T17:00:35.476797+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.formbook": {
+    "alt_names": [
+      "win.xloader"
+    ],
+    "associated_groups": [
+      "SWEED",
+      "Cobalt"
+    ],
+    "common_name": "Formbook",
+    "description": "FormBook contains a unique crypter RunPE that has unique behavioral patterns subject to detection. It was initially called \"Babushka Crypter\" by Insidemalware.",
+    "enriched_at": "2026-07-08T17:00:18.306415+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.gcleaner": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "GCleaner",
+    "description": null,
+    "enriched_at": "2026-07-08T17:01:11.815597+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.gentlemen": {
+    "alt_names": [],
+    "associated_groups": [
+      "The Gentlemen"
+    ],
+    "common_name": "Gentlemen",
+    "description": "According to Cybereason, \"The Gentlemen\" ransomware is a cross-platform ransomware family with lockers for Windows, Linux, and ESXi, with the analyzed Windows locker implemented as a 64-bit Golang executable. It is operated as a Ransomware-as-a-Service, supports configurable encryption levels using XChaCha20 and Curve25519, and implements dual-extortion by both encrypting and exfiltrating data. The malware emphasizes persistence and automation (self-restart, run-on-boot, registry and autostart usage), broad system interaction via tools like task schedulers, WMI, and remote PowerShell, and extensive discovery of local, network, and clustered storage to maximize impact. It also includes security evasion and anti-forensics behavior such as disabling security tools, deleting logs and traces, manipulating permissions, and terminating database, backup, remote-access, and virtualization-related services before encryption.",
+    "enriched_at": "2026-07-08T17:00:33.549014+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.ghost_rat": {
+    "alt_names": [
+      "Farfli",
+      "Gh0st RAT",
+      "PCRat"
+    ],
+    "associated_groups": [
+      "EMISSARY PANDA",
+      "Hurricane Panda",
+      "Lazarus Group",
+      "Leviathan",
+      "Red Menshen",
+      "Stone Panda"
+    ],
+    "common_name": "Ghost RAT",
+    "description": "According to Security Ninja, Gh0st RAT (Remote Access Terminal) is a trojan \u201cRemote Access Tool\u201d used on Windows platforms, and has been used to hack into some of the most sensitive computer networks on Earth.\r\n\r\nBelow is a list of Gh0st RAT capabilities.\r\nTake full control of the remote screen on the infected bot.\r\nProvide real time as well as offline keystroke logging.\r\nProvide live feed of webcam, microphone of infected host.\r\nDownload remote binaries on the infected remote host.\r\nTake control of remote shutdown and reboot of host.\r\nDisable infected computer remote pointer and keyboard input.\r\nEnter into shell of remote infected host with full control.\r\nProvide a list of all the active processes.\r\nClear all existing SSDT of all existing hooks.",
+    "enriched_at": "2026-07-08T17:00:48.422663+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.guidloader": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "GUIDLOADER",
+    "description": null,
+    "enriched_at": "2026-07-08T17:01:00.101282+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.havoc": {
+    "alt_names": [
+      "Havokiz"
+    ],
+    "associated_groups": [],
+    "common_name": "Havoc",
+    "description": "First released in October 2022, the Havoc C2 Framework is a flexible post-exploitation framework written in Golang, C++, and Qt, with agents called 'Demons' written in C and ASM, created by @C5pider. Designed to support red team engagements and adversary emulation, it offers a robust set of capabilities tailored for offensive security operations. The framework, which is under active development, utilizes HTTP(s) and SMB as communication protocols for its implants. Havoc can generate implants, known as Demons, in several formats including EXE, DLL, and Shellcode. A notable feature of Havoc is its ability to bypass EDR by employing advanced evasion techniques such as sleep obfuscation, return address stack spoofing, and indirect syscalls. This capability enhances its effectiveness in evading detection and circumventing security measures.",
+    "enriched_at": "2026-07-08T17:00:53.290988+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.hijackloader": {
+    "alt_names": [
+      "DOILoader",
+      "GHOSTPULSE",
+      "IDAT Loader",
+      "SHADOWLADDER"
+    ],
+    "associated_groups": [],
+    "common_name": "HijackLoader",
+    "description": "According to Rapid7, this is a loader first spotted in July 2023. It implements several evasion techniques including Process Doppelg\u00e4nging, DLL Search Order Hijacking, and Heaven's Gate. It has been observed to store its malicious payload in the IDAT chunk of PNG file format.",
+    "enriched_at": "2026-07-08T17:01:31.668905+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.houdini": {
+    "alt_names": [
+      "Hworm",
+      "Jenxcus",
+      "Kognito",
+      "Njw0rm",
+      "WSHRAT",
+      "dinihou",
+      "dunihi"
+    ],
+    "associated_groups": [],
+    "common_name": "Houdini",
+    "description": "Houdini is a VBS-based RAT dating back to 2013. Past in the days, it used to be wrapped in an .exe but started being spamvertized or downloaded by other malware directly as .vbs in 2018. In 2019, WSHRAT appeared, a Javascript-based version of Houdini, recoded by the name of Kognito.",
+    "enriched_at": "2026-07-08T17:01:29.725591+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.hupigon": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Hupigon",
+    "description": null,
+    "enriched_at": "2026-07-08T17:01:40.513874+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.lalala_stealer": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "LALALA Stealer",
+    "description": null,
+    "enriched_at": "2026-07-08T17:00:58.161035+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.luca_stealer": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Luca Stealer",
+    "description": "According to PCRisk, The Luca stealer can extract a variety of information from compromised machines. It targets data related to the following: operating system, device name, CPUs, desktop environment, network interface, user account name, preferred system language, running processes, etc.\r\n\r\nThis malicious program can steal information from over thirty Chromium-based browsers. From these applications, Luca can obtain Internet cookies, account log-in credentials (usernames/passwords), and credit card numbers. Additionally, the stealer can extract data from password manager and cryptowallet browser extensions compatible with over twenty browsers.\r\n\r\nThis malware also targets various messaging applications like Telegram, Discord, ICQ, Skype, Element, etc. It likewise aims to acquire information from gaming-related software such as Steam and Uplay (Ubisoft Connect). Furthermore, some versions of Luca can take screenshots and download the files stored on victims' devices.",
+    "enriched_at": "2026-07-08T17:01:16.628973+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.maskgramstealer": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "MaskGramStealer",
+    "description": null,
+    "enriched_at": "2026-07-08T17:00:42.604018+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.nanocore": {
+    "alt_names": [
+      "Nancrat",
+      "NanoCore"
+    ],
+    "associated_groups": [
+      "APT33",
+      "The Gorgon Group"
+    ],
+    "common_name": "Nanocore RAT",
+    "description": "Nanocore is a Remote Access Tool used to steal credentials and to spy on cameras. It as been used for a while by numerous criminal actors as well as by nation state threat actors.",
+    "enriched_at": "2026-07-08T17:00:40.443465+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.netsupportmanager_rat": {
+    "alt_names": [
+      "NetSupport"
+    ],
+    "associated_groups": [],
+    "common_name": "NetSupportManager RAT",
+    "description": "Enigma Software notes that NetSupport Manager is a genuine application, which was first released about twenty years ago. The purpose of the NetSupport Manager tool is to enable users to receive remote technical support or provide remote computer assistance. However, cyber crooks have hijacked this useful application and misappropriated it to use it in their harmful campaigns. The name of the modified version of the NetSupport Manager has been labeled the NetSupport Manager RAT.",
+    "enriched_at": "2026-07-08T17:01:02.049020+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.netwire": {
+    "alt_names": [
+      "NetWeird",
+      "NetWire",
+      "Recam"
+    ],
+    "associated_groups": [
+      "APT33"
+    ],
+    "common_name": "NetWire RC",
+    "description": "Netwire is a RAT, its functionality seems focused on password stealing and keylogging, but includes remote control capabilities as well.\r\n\r\nKeylog files are stored on the infected machine in an obfuscated form. The algorithm is:\r\n\r\n            for i in range(0,num_read):\r\n                buffer[i] = ((buffer[i]-0x24)^0x9D)&0xFF",
+    "enriched_at": "2026-07-08T17:00:46.480269+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.njrat": {
+    "alt_names": [
+      "Bladabindi",
+      "Lime-Worm"
+    ],
+    "associated_groups": [
+      "AQUATIC PANDA",
+      "Earth Lusca",
+      "Operation C-Major",
+      "The Gorgon Group"
+    ],
+    "common_name": "NjRAT",
+    "description": "RedPacket Security describes NJRat as \"a remote access trojan (RAT) has capabilities to log keystrokes, access the victim's camera, steal credentials stored in browsers, open a reverse shell, upload/download files, view the victim's desktop, perform process, file, and registry manipulations, and capabilities to let the attacker update, uninstall, restart, close, disconnect the RAT and rename its campaign ID. Through the Command & Control (CnC) server software, the attacker has capabilities to create and configure the malware to spread through USB drives.\"\r\n\r\nIt is supposedly popular with actors in the Middle East. Similar to other RATs, many leaked builders may be backdoored.",
+    "enriched_at": "2026-07-08T17:00:44.544296+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.overlord": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Overlord RAT",
+    "description": "According to Proofpoint, Overlord is an open-source RAT written in Go.",
+    "enriched_at": "2026-07-08T17:01:27.774235+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.prometei": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Prometei",
+    "description": "According to Lior Rochberger, Cybereason, prometei is a modular and multi-stage cryptocurrency botnet. It was discovered in July 2020, Cybereason Nocturnus team found evidence that this Prometei has been evolved since 2016. There are Linux and Windows versions of this malware.",
+    "enriched_at": "2026-07-08T17:01:18.572438+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.pupy": {
+    "alt_names": [
+      "Patpoopy"
+    ],
+    "associated_groups": [
+      "APT33",
+      "APT35",
+      "OilRig",
+      "Rocket Kitten"
+    ],
+    "common_name": "pupy",
+    "description": "Pupy is an open-source, cross-platform RAT and post-exploitation framework mainly written in python. Pupy can be loaded from various loaders, including PE EXE, reflective DLL, Linux ELF, pure python, powershell and APK. Most of the loaders bundle an embedded python runtime, python library modules in source/compiled/native forms as well as a flexible configuration. They bootstrap a python runtime environment mostly in-memory for the later stages of pupy to run in. Pupy can communicate using various transports, migrate into processes, load remote python code, python packages and python C-extensions from memory.",
+    "enriched_at": "2026-07-08T17:01:05.908136+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.quantloader": {
+    "alt_names": [],
+    "associated_groups": [
+      "Guru Spider"
+    ],
+    "common_name": "QuantLoader",
+    "description": null,
+    "enriched_at": "2026-07-08T17:01:14.203247+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.quasar_rat": {
+    "alt_names": [
+      "CinaRAT",
+      "QuasarRAT",
+      "Yggdrasil"
+    ],
+    "associated_groups": [
+      "APT33",
+      "Dropping Elephant",
+      "Stone Panda",
+      "The Gorgon Group"
+    ],
+    "common_name": "Quasar RAT",
+    "description": "Quasar RAT is a malware family written in .NET which is used by a variety of attackers. The malware is fully functional and open source, and is often packed to make analysis of the source more difficult.",
+    "enriched_at": "2026-07-08T17:00:51.352205+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.quirkyloader": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "QuirkyLoader",
+    "description": "According to X-Force, this is a loader module written in .NET languages for which ahead-of-time (AOT) compilation is used.",
+    "enriched_at": "2026-07-08T17:01:10.849467+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.raton_rat": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "RatonRAT",
+    "description": null,
+    "enriched_at": "2026-07-08T17:00:41.529017+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.rcs": {
+    "alt_names": [
+      "Remote Control System",
+      "Crisis"
+    ],
+    "associated_groups": [
+      "Hacking Team",
+      "APT-C-34"
+    ],
+    "common_name": "RCS",
+    "description": null,
+    "enriched_at": "2026-07-08T17:01:22.934481+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.redline_stealer": {
+    "alt_names": [
+      "RECORDSTEALER"
+    ],
+    "associated_groups": [],
+    "common_name": "RedLine Stealer",
+    "description": "RedLine Stealer is a malware available on underground forums for sale apparently as a standalone ($100/$150 depending on the version) or also on a subscription basis ($100/month). This malware harvests information from browsers such as saved credentials, autocomplete data, and credit card information. A system inventory is also taken when running on a target machine, to include details such as the username, location data, hardware configuration, and information regarding installed security software. More recent versions of RedLine added the ability to steal cryptocurrency. FTP and IM clients are also apparently targeted by this family, and this malware has the ability to upload and download files, execute commands, and periodically send back information about the infected computer.",
+    "enriched_at": "2026-07-08T17:01:34.702734+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.redosdru": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Redosdru",
+    "description": "Redosdru is a malware family that primarily acts as a downloader. Upon execution, it may drop downloaded DLLs in the \"%ProgramFiles%\\AppPatch\" directory. The malware modifies the Windows registry to ensure its persistence, adding entries to run automatically at system startup.",
+    "enriched_at": "2026-07-08T17:01:09.874973+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.remcos": {
+    "alt_names": [
+      "RemcosRAT",
+      "Remvio",
+      "Socmer"
+    ],
+    "associated_groups": [
+      "APT33",
+      "The Gorgon Group",
+      "UAC-0050"
+    ],
+    "common_name": "Remcos",
+    "description": "Remcos (acronym of Remote Control & Surveillance Software) is a commercial Remote Access Tool to remotely control computers.\r\n\r\nRemcos is advertised as legitimate software which can be used for surveillance and penetration testing purposes, but has been used in numerous hacking campaigns.\r\nRemcos, once installed, opens a backdoor on the computer, granting full access to the remote user.\r\nRemcos is developed by the cybersecurity company BreakingSecurity.",
+    "enriched_at": "2026-07-08T17:00:11.823918+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.remus": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Remus",
+    "description": "According to Gen, this is most likely the 64bit evolution of Lumma Stealer. It is capable of stealing stored browser passwords, cookies, cryptocurrency, and much more. It also uses EtherHiding to resolve C2s, replacing the traditional use of Steam and Telegram dead drop resolvers, and has additional anti-analysis checks.",
+    "enriched_at": "2026-07-08T17:00:49.397347+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.rms": {
+    "alt_names": [
+      "Gussdoor",
+      "Remote Manipulator System",
+      "RuRAT"
+    ],
+    "associated_groups": [
+      "TA505"
+    ],
+    "common_name": "RMS",
+    "description": "CyberInt states that Remote Manipulator System (RMS) is a legitimate tool developed by Russian organization TektonIT and has been observed in campaigns conducted by TA505 as well as numerous smaller campaigns likely attributable to other, disparate, threat actors. In addition to the availability of commercial licenses, the tool is free for non-commercial use and supports the remote administration of both Microsoft Windows and Android devices.",
+    "enriched_at": "2026-07-08T17:01:41.949239+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.salatstealer": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "SalatStealer",
+    "description": "Crypto Stealer written in GO. Targets browsers, crypto wallets and telegram clients (Telegram Desktop, Kotatogram). Can capture webcam and microphone and stream it on to c2 server.",
+    "enriched_at": "2026-07-08T17:00:38.378926+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.satacom": {
+    "alt_names": [
+      "CurlyGate",
+      "LegionLoader",
+      "RobotDropper"
+    ],
+    "associated_groups": [],
+    "common_name": "Satacom",
+    "description": null,
+    "enriched_at": "2026-07-08T17:01:23.901728+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.sliver": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Sliver",
+    "description": "According to VK9 Seecurity, Sliver is a Command and Control (C2) system made for penetration testers, red teams, and advanced persistent threats. It generates implants (slivers) that can run on virtually every architecture out there, and securely manage these connections through a central server. Sliver supports multiple callback protocols including DNS, TCP, and HTTP(S) to make egress simple, even when those pesky blue teams block your domains. You can even have multiple operators (players) simultaneously commanding your sliver army.",
+    "enriched_at": "2026-07-08T17:01:26.796361+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.snappy_client": {
+    "alt_names": [
+      "SilabRAT"
+    ],
+    "associated_groups": [],
+    "common_name": "SnappyClient",
+    "description": "According to Zscaler, SnappyClient was first observed in December 2025. It is a C++-based C2 implant with the ability to steal data and provide remote access. SnappyClient employs multiple evasion techniques to hinder endpoint security detection, including an Antimalware Scan Interface (AMSI) bypass, as well as implementing Heaven\u2019s Gate, direct system calls, and transacted hollowing. SnappyClient receives two configuration files from the C2 server, which contain a list of actions to perform when a specified condition is met, along with another that specifies applications to target for data theft. SnappyClient uses a custom network communication protocol that encrypts all network communication using ChaCha20-Poly1305.",
+    "enriched_at": "2026-07-08T17:01:37.590640+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.stealc": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Stealc",
+    "description": "Stealc is an information stealer advertised by its presumed developer Plymouth on Russian-speaking underground forums and sold as a Malware-as-a-Service since January 9, 2023. According to Plymouth's statement, stealc is a non-resident stealer with flexible data collection settings and its development is relied on other prominent stealers: Vidar, Raccoon, Mars and Redline.\r\n\r\nStealc is written in C and uses WinAPI functions. It mainly targets data from web browsers, extensions and Desktop application of cryptocurrency wallets, and from other applications (messengers, email clients, etc.). The malware downloads 7 legitimate third-party DLLs to collect sensitive data from web browsers, including sqlite3.dll, nss3.dll, vcruntime140.dll, mozglue.dll, freebl3.dll, softokn3.dll and msvcp140.dll. It then exfiltrates the collected information file by file to its C2 server using HTTP POST requests.",
+    "enriched_at": "2026-07-08T17:00:23.488806+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.strelastealer": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "StrelaStealer",
+    "description": "According to PCRisk, StrelaStealer seeks to extract email account log-in credentials. At the time of writing, this program targets Microsoft Outlook and Mozilla Thunderbird email clients.\r\n\r\nFollowing successful infiltration, StrelaStealer searches for \"logins.json\" (account/password) and \"key4.db\" (password database) within the \"%APPDATA%\\Thunderbird\\Profiles\\\" directory - by doing so, it can acquire the credentials for Thunderbird.\r\n\r\nAlternatively, if Outlook credentials are targeted - StrelaStealer seeks out the Windows Registry from where it can retrieve the program's key and \"IMAP User\", \"IMAP Server\", as well as the \"IMAP Password\" values. Since the latter is kept in an encrypted form, the malicious program employs the Windows CryptUnprotectData feature to decrypt it prior to exfiltration.",
+    "enriched_at": "2026-07-08T17:00:20.472664+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.t_cmd": {
+    "alt_names": [
+      "t_cmd"
+    ],
+    "associated_groups": [],
+    "common_name": "T-Cmd",
+    "description": null,
+    "enriched_at": "2026-07-08T17:01:33.629382+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.tinymet": {
+    "alt_names": [
+      "TiniMet"
+    ],
+    "associated_groups": [
+      "Anunak",
+      "TA505"
+    ],
+    "common_name": "TinyMet",
+    "description": "TinyMet is a meterpreter stager.",
+    "enriched_at": "2026-07-08T17:00:57.192754+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.tofsee": {
+    "alt_names": [
+      "Gheg"
+    ],
+    "associated_groups": [],
+    "common_name": "Tofsee",
+    "description": "According to PCrisk, Tofsee (also known as Gheg) is a malicious Trojan-type program that is capable of performing DDoS attacks, mining cryptocurrency, sending emails, stealing various account credentials, updating itself, and more.\r\n\r\nCyber criminals mainly use this program as an email-oriented tool (they target users' email accounts), however, having Tofsee installed can also lead to many other problems.",
+    "enriched_at": "2026-07-08T17:00:50.371116+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.valley_rat": {
+    "alt_names": [
+      "Winos"
+    ],
+    "associated_groups": [],
+    "common_name": "ValleyRAT",
+    "description": null,
+    "enriched_at": "2026-07-08T17:00:24.469032+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.venon": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "VENON",
+    "description": null,
+    "enriched_at": "2026-07-08T17:01:19.554065+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.vidar": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Vidar",
+    "description": "Vidar is a forked malware based on Arkei. It seems this stealer is one of the first that is grabbing information on 2FA Software and Tor Browser.",
+    "enriched_at": "2026-07-08T17:00:09.613780+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.vipkeylogger": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "VIP Keylogger",
+    "description": null,
+    "enriched_at": "2026-07-08T17:01:30.699041+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.vshell": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "VShell",
+    "description": "VShell is an OST framework written in Go, enabling availability of implants for multiple platforms (Windows, Linux, macOS).",
+    "enriched_at": "2026-07-08T17:00:22.518474+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.wannacryptor": {
+    "alt_names": [
+      "Wana Decrypt0r",
+      "WannaCry",
+      "WannaCrypt",
+      "Wcry"
+    ],
+    "associated_groups": [
+      "Lazarus Group"
+    ],
+    "common_name": "WannaCryptor",
+    "description": "WannaCry is ransomware that contains a worm component enabled by the EternalBlue exploit. It attempts to use vulnerabilities in the Windows SMBv1 server to remotely compromise systems, encrypt files, and spread to other hosts. Systems that have installed the MS17-010 patch are not vulnerable to the exploits used. The spreading was stopped about 8 hours after initial outbreak due to triggering a kill switch domain.",
+    "enriched_at": "2026-07-08T17:00:27.491560+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.webmonitor": {
+    "alt_names": [
+      "RevCode"
+    ],
+    "associated_groups": [],
+    "common_name": "WebMonitor RAT",
+    "description": "On its website, Webmonitor RAT is described as 'a very powerful, user-friendly, easy-to-setup and state-of-the-art monitoring tool. Webmonitor is a fully native RAT, meaning it will run on all Windows versions and languages starting from Windows XP and up, and perfectly compatible with all crypters and protectors.'\r\nUnit42 notes in their analysis that it is offered as C2-as-a-service and raises the controversial aspect that the builder allows to create client binaries that will not show any popup or dialogue during installation or while running on a target system.",
+    "enriched_at": "2026-07-08T17:01:17.590947+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.xenorat": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "XenoRAT",
+    "description": "XenoRAT is an open source remote access trojan written in C#. It can monitor user activity including keystrokes, and provide remote control over the compromised system.",
+    "enriched_at": "2026-07-08T17:01:03.011104+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.xworm": {
+    "alt_names": [],
+    "associated_groups": [
+      "Hive0137"
+    ],
+    "common_name": "XWorm",
+    "description": "Malware with wide range of capabilities ranging from RAT to ransomware.",
+    "enriched_at": "2026-07-08T17:00:32.584082+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.zebrocy": {
+    "alt_names": [
+      "Zekapab"
+    ],
+    "associated_groups": [
+      "APT28"
+    ],
+    "common_name": "Zebrocy",
+    "description": "According to brandefense, Zebrocy is malware that falls into the Trojan category, which the threat actor group APT28/Sofacy has used since 2015. Zebrocy malware consists of 3 main components; Backdoor, Downloader, and Dropper. The Downloader and Dropper take responsibility for discovery processes and downloading the main malware on the systems. At the same time, Backdoor undertakes the duties such as persistence in the system, espionage, and data extraction.\r\n\r\nThis malware, which is not considered new, has variants in many languages from the past to the present. These include programming languages such as Delphi, C#, Visual C++, VB.net, and Golang. Furthermore, we know advanced threat actors and groups revise their malicious software among their toolkits at certain time intervals using different languages and technologies.",
+    "enriched_at": "2026-07-08T17:01:38.573857+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.zedhou": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Zedhou",
+    "description": null,
+    "enriched_at": "2026-07-08T17:01:08.898413+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.zloader": {
+    "alt_names": [
+      "DELoader",
+      "SILENTNIGHT",
+      "Terdot"
+    ],
+    "associated_groups": [],
+    "common_name": "Zloader",
+    "description": "This family describes the (initially small) loader, which downloads Zeus OpenSSL.\r\n\r\nIn June 2016, a new loader was dubbed DEloader by Fortinet. It has some functions borrowed from Zeus 2.0.8.9 (e.g. the versioning, nrv2b, binstorage-labels), but more importantly, it downloaded a Zeus-like banking trojan (-> Zeus OpenSSL). Furthermore, the loader shared its versioning with the Zeus OpenSSL it downloaded.\r\nThe initial samples from May 2016 were small (17920 bytes). At some point, visualEncrypt/Decrypt was added, e.g. in v1.11.0.0 (September 2016) with size 27648 bytes. In January 2017 with v1.15.0.0, obfuscation was added, which blew the size up to roughly 80k, and the loader became known as Zloader aka Terdot. These changes may be related to the Moskalvzapoe Distribution Network, which started the distribution of it at the same time.\r\n\r\nPlease note that IBM X-Force decided to call win.zloader/win.zeus_openssl \"Zeus Sphinx\", after mentioning it as \"a new version of Zeus Sphinx\" in their initial post in August 2016. Malpedia thus lists the alias \"Zeus XSphinx\" for win.zeus_openssl - the X to refer to IBM X-Force.",
+    "enriched_at": "2026-07-08T17:01:13.233819+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  }
+}

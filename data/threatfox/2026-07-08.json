@@ -1,45 +1,46 @@
 {
-  "generated": "2026-07-08T15:42:41.183116+00:00",
+  "generated": "2026-07-08T17:00:06.743007+00:00",
   "window_days": 7,
-  "total_iocs": 3390,
+  "total_iocs": 3393,
   "total_families": 99,
   "families": [
     {
       "family": "ClearFake",
-      "ioc_count": 767,
+      "malware_id": "js.clearfake",
+      "ioc_count": 776,
       "ioc_type_breakdown": {
-        "domain": 767
+        "domain": 776
       },
       "top_iocs": [
         {
-          "ioc": "xclparsl.megashart.blog",
+          "ioc": "etorvugt.betsher.casino",
           "type": "domain",
           "confidence": 100,
-          "first_seen": "2026-07-08 15:25:31 UTC"
+          "first_seen": "2026-07-08 16:55:54 UTC"
         },
         {
-          "ioc": "megashart.blog",
+          "ioc": "wrov.betfa.download",
           "type": "domain",
           "confidence": 100,
-          "first_seen": "2026-07-08 15:20:55 UTC"
+          "first_seen": "2026-07-08 16:47:50 UTC"
         },
         {
-          "ioc": "9c8joror.melbetir.app",
+          "ioc": "4lbsgx9v.powershart.com",
           "type": "domain",
           "confidence": 100,
-          "first_seen": "2026-07-08 15:02:19 UTC"
+          "first_seen": "2026-07-08 16:40:40 UTC"
         },
         {
-          "ioc": "melbetir.app",
+          "ioc": "89g5nu0q.powershart.com",
           "type": "domain",
           "confidence": 100,
-          "first_seen": "2026-07-08 15:01:33 UTC"
+          "first_seen": "2026-07-08 16:39:40 UTC"
         },
         {
-          "ioc": "rmwj.betfa.download",
+          "ioc": "drvepxdy.milioner.bet",
           "type": "domain",
           "confidence": 100,
-          "first_seen": "2026-07-08 14:52:42 UTC"
+          "first_seen": "2026-07-08 16:34:40 UTC"
         }
       ],
       "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake",
@@ -72,14 +73,33 @@
     },
     {
       "family": "Unknown malware",
+      "malware_id": "unknown",
       "ioc_count": 372,
       "ioc_type_breakdown": {
-        "domain": 62,
+        "ip:port": 272,
+        "domain": 61,
         "sha256_hash": 5,
-        "ip:port": 269,
-        "url": 36
+        "url": 34
       },
       "top_iocs": [
+        {
+          "ioc": "103.236.92.210:80",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 16:05:04 UTC"
+        },
+        {
+          "ioc": "103.236.92.210:8080",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 16:05:04 UTC"
+        },
+        {
+          "ioc": "103.236.92.210:443",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 16:05:03 UTC"
+        },
         {
           "ioc": "1ca17239f5bec17ef244fc55357c6d0560337d7cadd1bb61574ab010f14a8d14",
           "type": "sha256_hash",
@@ -91,24 +111,6 @@
           "type": "sha256_hash",
           "confidence": 100,
           "first_seen": "2026-07-08 12:08:12 UTC"
-        },
-        {
-          "ioc": "85.137.240.26:80",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-08 12:05:06 UTC"
-        },
-        {
-          "ioc": "85.137.240.26:8080",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-08 12:05:06 UTC"
-        },
-        {
-          "ioc": "85.137.240.26:443",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-08 12:05:05 UTC"
         }
       ],
       "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown",
@@ -142,16 +144,13 @@
         "apt73",
         "bashe",
         "browser-extension",
-        "c2",
         "chollima",
         "cowrie",
         "drb-ra",
         "eraleig",
         "etherhiding",
         "eviltokens",
-        "garble",
         "go",
-        "golang",
         "honeypot",
         "iwr",
         "js-injector",
@@ -166,7 +165,6 @@
         "proxyware",
         "sentinel",
         "sign1",
-        "sm188",
         "ssh",
         "staging",
         "stealer",
@@ -177,10 +175,11 @@
     },
     {
       "family": "Vidar",
-      "ioc_count": 290,
+      "malware_id": "win.vidar",
+      "ioc_count": 288,
       "ioc_type_breakdown": {
         "domain": 39,
-        "url": 83,
+        "url": 81,
         "md5_hash": 51,
         "sha256_hash": 51,
         "sha1_hash": 51,
@@ -239,6 +238,7 @@
     },
     {
       "family": "Unknown Loader",
+      "malware_id": "unknown_loader",
       "ioc_count": 284,
       "ioc_type_breakdown": {
         "domain": 254,
@@ -307,6 +307,7 @@
     },
     {
       "family": "Remcos",
+      "malware_id": "win.remcos",
       "ioc_count": 142,
       "ioc_type_breakdown": {
         "ip:port": 130,
@@ -355,7 +356,55 @@
       "associated_groups": []
     },
     {
+      "family": "Aisuru",
+      "malware_id": "elf.aisuru",
+      "ioc_count": 109,
+      "ioc_type_breakdown": {
+        "ip:port": 109
+      },
+      "top_iocs": [
+        {
+          "ioc": "152.42.214.91:8443",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 16:24:06 UTC"
+        },
+        {
+          "ioc": "159.203.1.105:9035",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 15:57:37 UTC"
+        },
+        {
+          "ioc": "159.203.1.105:9034",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 15:18:37 UTC"
+        },
+        {
+          "ioc": "165.232.169.49:8443",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 15:18:36 UTC"
+        },
+        {
+          "ioc": "120.205.80.152:8443",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 14:51:15 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru",
+      "tag_hints": [
+        "AISURU",
+        "c2"
+      ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
       "family": "Cobalt Strike",
+      "malware_id": "win.cobalt_strike",
       "ioc_count": 108,
       "ioc_type_breakdown": {
         "ip:port": 105,
@@ -412,53 +461,8 @@
       "associated_groups": []
     },
     {
-      "family": "Aisuru",
-      "ioc_count": 107,
-      "ioc_type_breakdown": {
-        "ip:port": 107
-      },
-      "top_iocs": [
-        {
-          "ioc": "159.203.1.105:9034",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-08 15:18:37 UTC"
-        },
-        {
-          "ioc": "165.232.169.49:8443",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-08 15:18:36 UTC"
-        },
-        {
-          "ioc": "120.205.80.152:8443",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-08 14:51:15 UTC"
-        },
-        {
-          "ioc": "120.205.80.152:34567",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-08 13:03:32 UTC"
-        },
-        {
-          "ioc": "152.42.214.91:9035",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-08 08:37:38 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru",
-      "tag_hints": [
-        "AISURU",
-        "c2"
-      ],
-      "description": null,
-      "associated_groups": []
-    },
-    {
       "family": "Akira",
+      "malware_id": "win.akira",
       "ioc_count": 107,
       "ioc_type_breakdown": {
         "md5_hash": 107
@@ -505,13 +509,26 @@
     },
     {
       "family": "KongTuke",
-      "ioc_count": 78,
+      "malware_id": "js.kongtuke",
+      "ioc_count": 76,
       "ioc_type_breakdown": {
-        "url": 47,
         "domain": 30,
+        "url": 45,
         "ip:port": 1
       },
       "top_iocs": [
+        {
+          "ioc": "tommy-q.lol",
+          "type": "domain",
+          "confidence": 100,
+          "first_seen": "2026-07-08 16:08:52 UTC"
+        },
+        {
+          "ioc": "https://tommy-q.lol/o",
+          "type": "url",
+          "confidence": 100,
+          "first_seen": "2026-07-08 16:08:51 UTC"
+        },
         {
           "ioc": "https://fraitas.lol/api/v1/status",
           "type": "url",
@@ -529,18 +546,6 @@
           "type": "url",
           "confidence": 100,
           "first_seen": "2026-07-08 14:46:26 UTC"
-        },
-        {
-          "ioc": "microcrypt1987.com",
-          "type": "domain",
-          "confidence": 100,
-          "first_seen": "2026-07-08 14:46:26 UTC"
-        },
-        {
-          "ioc": "https://fraitas.lol/file.js",
-          "type": "url",
-          "confidence": 100,
-          "first_seen": "2026-07-08 12:08:10 UTC"
         }
       ],
       "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.kongtuke",
@@ -552,6 +557,7 @@
     },
     {
       "family": "IClickFix",
+      "malware_id": "js.iclickfix",
       "ioc_count": 58,
       "ioc_type_breakdown": {
         "url": 1,
@@ -601,6 +607,7 @@
     },
     {
       "family": "Formbook",
+      "malware_id": "win.formbook",
       "ioc_count": 54,
       "ioc_type_breakdown": {
         "md5_hash": 18,
@@ -646,6 +653,7 @@
     },
     {
       "family": "RedTail",
+      "malware_id": "elf.redtail",
       "ioc_count": 54,
       "ioc_type_breakdown": {
         "ip:port": 54
@@ -691,6 +699,7 @@
     },
     {
       "family": "StrelaStealer",
+      "malware_id": "win.strelastealer",
       "ioc_count": 52,
       "ioc_type_breakdown": {
         "domain": 52
@@ -738,6 +747,7 @@
     },
     {
       "family": "AsyncRAT",
+      "malware_id": "win.asyncrat",
       "ioc_count": 48,
       "ioc_type_breakdown": {
         "ip:port": 25,
@@ -790,6 +800,7 @@
     },
     {
       "family": "VShell",
+      "malware_id": "win.vshell",
       "ioc_count": 48,
       "ioc_type_breakdown": {
         "ip:port": 48
@@ -835,6 +846,7 @@
     },
     {
       "family": "Stealc",
+      "malware_id": "win.stealc",
       "ioc_count": 48,
       "ioc_type_breakdown": {
         "url": 8,
@@ -891,6 +903,7 @@
     },
     {
       "family": "ValleyRAT",
+      "malware_id": "win.valley_rat",
       "ioc_count": 44,
       "ioc_type_breakdown": {
         "ip:port": 12,
@@ -942,6 +955,7 @@
     },
     {
       "family": "Mirai",
+      "malware_id": "elf.mirai",
       "ioc_count": 40,
       "ioc_type_breakdown": {
         "ip:port": 28,
@@ -995,6 +1009,7 @@
     },
     {
       "family": "Venus Stealer",
+      "malware_id": "py.venus_stealer",
       "ioc_count": 36,
       "ioc_type_breakdown": {
         "sha256_hash": 12,
@@ -1040,6 +1055,7 @@
     },
     {
       "family": "WannaCryptor",
+      "malware_id": "win.wannacryptor",
       "ioc_count": 36,
       "ioc_type_breakdown": {
         "sha1_hash": 12,
@@ -1085,6 +1101,7 @@
     },
     {
       "family": "Kuiper",
+      "malware_id": "elf.kuiper",
       "ioc_count": 36,
       "ioc_type_breakdown": {
         "md5_hash": 12,
@@ -1130,6 +1147,7 @@
     },
     {
       "family": "AdaptixC2",
+      "malware_id": "win.adaptix_c2",
       "ioc_count": 32,
       "ioc_type_breakdown": {
         "ip:port": 26,
@@ -1180,6 +1198,7 @@
     },
     {
       "family": "SmartApeSG",
+      "malware_id": "js.smartapesg",
       "ioc_count": 32,
       "ioc_type_breakdown": {
         "url": 23,
@@ -1226,6 +1245,7 @@
     },
     {
       "family": "Agent Tesla",
+      "malware_id": "win.agent_tesla",
       "ioc_count": 30,
       "ioc_type_breakdown": {
         "domain": 9,
@@ -1274,6 +1294,7 @@
     },
     {
       "family": "XWorm",
+      "malware_id": "win.xworm",
       "ioc_count": 27,
       "ioc_type_breakdown": {
         "ip:port": 14,
@@ -1323,6 +1344,7 @@
     },
     {
       "family": "Gentlemen",
+      "malware_id": "win.gentlemen",
       "ioc_count": 27,
       "ioc_type_breakdown": {
         "md5_hash": 27
@@ -1369,6 +1391,7 @@
     },
     {
       "family": "CrossRAT",
+      "malware_id": "jar.crossrat",
       "ioc_count": 27,
       "ioc_type_breakdown": {
         "md5_hash": 9,
@@ -1414,6 +1437,7 @@
     },
     {
       "family": "DCRat",
+      "malware_id": "win.dcrat",
       "ioc_count": 22,
       "ioc_type_breakdown": {
         "ip:port": 22
@@ -1461,6 +1485,7 @@
     },
     {
       "family": "Kimwolf",
+      "malware_id": "apk.kimwolf",
       "ioc_count": 20,
       "ioc_type_breakdown": {
         "ip:port": 20
@@ -1506,10 +1531,103 @@
       "associated_groups": []
     },
     {
-      "family": "Unknown Stealer",
-      "ioc_count": 20,
+      "family": "Coinminer",
+      "malware_id": "win.coinminer",
+      "ioc_count": 18,
       "ioc_type_breakdown": {
-        "domain": 14,
+        "sha1_hash": 6,
+        "md5_hash": 6,
+        "sha256_hash": 6
+      },
+      "top_iocs": [
+        {
+          "ioc": "00c223afd934049bbd23b9743b57bf4fff852f77",
+          "type": "sha1_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-06 14:30:22 UTC"
+        },
+        {
+          "ioc": "6cb178572fe453a83472a18a6b112a33",
+          "type": "md5_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-06 14:30:22 UTC"
+        },
+        {
+          "ioc": "128f48d4dda439d084c90f283d3bd9293a8d22bd86b9b5e2c57afaf5e487243b",
+          "type": "sha256_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-06 14:30:21 UTC"
+        },
+        {
+          "ioc": "63737ab4e5b5310e0468b3707e749c53609e9962ed0e4a19ab1ce2a358dcd3a4",
+          "type": "sha256_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-04 14:41:05 UTC"
+        },
+        {
+          "ioc": "85e68fadc18ecc8b9910f074b2eb5b10eb9ff3d3",
+          "type": "sha1_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-04 14:41:05 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.coinminer",
+      "tag_hints": [],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "SalatStealer",
+      "malware_id": "win.salatstealer",
+      "ioc_count": 18,
+      "ioc_type_breakdown": {
+        "sha256_hash": 6,
+        "sha1_hash": 6,
+        "md5_hash": 6
+      },
+      "top_iocs": [
+        {
+          "ioc": "16e34d5b3836f196864a8efe804d8dcb5938801d29bed451a3b67dca6f7b0929",
+          "type": "sha256_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-04 00:44:08 UTC"
+        },
+        {
+          "ioc": "8e36e4e662812bec78ba97cdb43960743efc2bad",
+          "type": "sha1_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-04 00:44:08 UTC"
+        },
+        {
+          "ioc": "a4cd834ba9819b28bb0a45a90f34f45b",
+          "type": "md5_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-04 00:44:08 UTC"
+        },
+        {
+          "ioc": "b177b510a76386fddb69800592dbb85ccf5d1aada1059b721a061189c92300e0",
+          "type": "sha256_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-02 16:26:50 UTC"
+        },
+        {
+          "ioc": "501efd44aeb1f6827dbc83c2d84eb6be1171a41e",
+          "type": "sha1_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-02 16:26:50 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer",
+      "tag_hints": [],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "Unknown Stealer",
+      "malware_id": "unknown_stealer",
+      "ioc_count": 17,
+      "ioc_type_breakdown": {
+        "domain": 11,
         "ip:port": 2,
         "url": 4
       },
@@ -1559,97 +1677,8 @@
       "associated_groups": []
     },
     {
-      "family": "Coinminer",
-      "ioc_count": 18,
-      "ioc_type_breakdown": {
-        "sha1_hash": 6,
-        "md5_hash": 6,
-        "sha256_hash": 6
-      },
-      "top_iocs": [
-        {
-          "ioc": "00c223afd934049bbd23b9743b57bf4fff852f77",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-06 14:30:22 UTC"
-        },
-        {
-          "ioc": "6cb178572fe453a83472a18a6b112a33",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-06 14:30:22 UTC"
-        },
-        {
-          "ioc": "128f48d4dda439d084c90f283d3bd9293a8d22bd86b9b5e2c57afaf5e487243b",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-06 14:30:21 UTC"
-        },
-        {
-          "ioc": "63737ab4e5b5310e0468b3707e749c53609e9962ed0e4a19ab1ce2a358dcd3a4",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 14:41:05 UTC"
-        },
-        {
-          "ioc": "85e68fadc18ecc8b9910f074b2eb5b10eb9ff3d3",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 14:41:05 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.coinminer",
-      "tag_hints": [],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "SalatStealer",
-      "ioc_count": 18,
-      "ioc_type_breakdown": {
-        "sha256_hash": 6,
-        "sha1_hash": 6,
-        "md5_hash": 6
-      },
-      "top_iocs": [
-        {
-          "ioc": "16e34d5b3836f196864a8efe804d8dcb5938801d29bed451a3b67dca6f7b0929",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:44:08 UTC"
-        },
-        {
-          "ioc": "8e36e4e662812bec78ba97cdb43960743efc2bad",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:44:08 UTC"
-        },
-        {
-          "ioc": "a4cd834ba9819b28bb0a45a90f34f45b",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:44:08 UTC"
-        },
-        {
-          "ioc": "b177b510a76386fddb69800592dbb85ccf5d1aada1059b721a061189c92300e0",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-02 16:26:50 UTC"
-        },
-        {
-          "ioc": "501efd44aeb1f6827dbc83c2d84eb6be1171a41e",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-02 16:26:50 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer",
-      "tag_hints": [],
-      "description": null,
-      "associated_groups": []
-    },
-    {
       "family": "Nanocore RAT",
+      "malware_id": "win.nanocore",
       "ioc_count": 17,
       "ioc_type_breakdown": {
         "ip:port": 1,
@@ -1700,6 +1729,7 @@
     },
     {
       "family": "RatonRAT",
+      "malware_id": "win.raton_rat",
       "ioc_count": 16,
       "ioc_type_breakdown": {
         "ip:port": 7,
@@ -1748,6 +1778,7 @@
     },
     {
       "family": "MaskGramStealer",
+      "malware_id": "win.maskgramstealer",
       "ioc_count": 15,
       "ioc_type_breakdown": {
         "sha1_hash": 5,
@@ -1793,6 +1824,7 @@
     },
     {
       "family": "XMRIG",
+      "malware_id": "elf.xmrig",
       "ioc_count": 14,
       "ioc_type_breakdown": {
         "ip:port": 13,
@@ -1849,6 +1881,7 @@
     },
     {
       "family": "NjRAT",
+      "malware_id": "win.njrat",
       "ioc_count": 12,
       "ioc_type_breakdown": {
         "ip:port": 6,
@@ -1897,6 +1930,7 @@
     },
     {
       "family": "Unknown RAT",
+      "malware_id": "unknown_rat",
       "ioc_count": 12,
       "ioc_type_breakdown": {
         "ip:port": 4,
@@ -1951,6 +1985,7 @@
     },
     {
       "family": "NetWire RC",
+      "malware_id": "win.netwire",
       "ioc_count": 12,
       "ioc_type_breakdown": {
         "sha256_hash": 4,
@@ -1996,6 +2031,7 @@
     },
     {
       "family": "ACR Stealer",
+      "malware_id": "win.acr_stealer",
       "ioc_count": 12,
       "ioc_type_breakdown": {
         "md5_hash": 4,
@@ -2041,6 +2077,7 @@
     },
     {
       "family": "Ghost RAT",
+      "malware_id": "win.ghost_rat",
       "ioc_count": 12,
       "ioc_type_breakdown": {
         "sha1_hash": 4,
@@ -2086,6 +2123,7 @@
     },
     {
       "family": "Remus",
+      "malware_id": "win.remus",
       "ioc_count": 11,
       "ioc_type_breakdown": {
         "domain": 4,
@@ -2134,6 +2172,7 @@
     },
     {
       "family": "Tofsee",
+      "malware_id": "win.tofsee",
       "ioc_count": 9,
       "ioc_type_breakdown": {
         "ip:port": 9
@@ -2179,6 +2218,7 @@
     },
     {
       "family": "Quasar RAT",
+      "malware_id": "win.quasar_rat",
       "ioc_count": 8,
       "ioc_type_breakdown": {
         "ip:port": 4,
@@ -2230,6 +2270,7 @@
     },
     {
       "family": "FAKEUPDATES",
+      "malware_id": "js.fakeupdates",
       "ioc_count": 6,
       "ioc_type_breakdown": {
         "domain": 5,
@@ -2276,6 +2317,7 @@
     },
     {
       "family": "Havoc",
+      "malware_id": "win.havoc",
       "ioc_count": 6,
       "ioc_type_breakdown": {
         "ip:port": 6
@@ -2322,6 +2364,7 @@
     },
     {
       "family": "DarkTortilla",
+      "malware_id": "win.darktortilla",
       "ioc_count": 6,
       "ioc_type_breakdown": {
         "sha1_hash": 2,
@@ -2367,6 +2410,7 @@
     },
     {
       "family": "Evilginx",
+      "malware_id": "elf.evilginx",
       "ioc_count": 6,
       "ioc_type_breakdown": {
         "ip:port": 6
@@ -2414,6 +2458,7 @@
     },
     {
       "family": "Brute Ratel C4",
+      "malware_id": "win.brute_ratel_c4",
       "ioc_count": 6,
       "ioc_type_breakdown": {
         "ip:port": 6
@@ -2462,6 +2507,7 @@
     },
     {
       "family": "TinyMet",
+      "malware_id": "win.tinymet",
       "ioc_count": 6,
       "ioc_type_breakdown": {
         "sha1_hash": 2,
@@ -2507,6 +2553,7 @@
     },
     {
       "family": "LALALA Stealer",
+      "malware_id": "win.lalala_stealer",
       "ioc_count": 6,
       "ioc_type_breakdown": {
         "sha256_hash": 2,
@@ -2552,6 +2599,7 @@
     },
     {
       "family": "Creal Stealer",
+      "malware_id": "py.creal_stealer",
       "ioc_count": 6,
       "ioc_type_breakdown": {
         "md5_hash": 2,
@@ -2597,6 +2645,7 @@
     },
     {
       "family": "GUIDLOADER",
+      "malware_id": "win.guidloader",
       "ioc_count": 6,
       "ioc_type_breakdown": {
         "sha1_hash": 2,
@@ -2642,6 +2691,7 @@
     },
     {
       "family": "Tsundere",
+      "malware_id": "js.tsundere",
       "ioc_count": 5,
       "ioc_type_breakdown": {
         "ip:port": 5
@@ -2688,6 +2738,7 @@
     },
     {
       "family": "NetSupportManager RAT",
+      "malware_id": "win.netsupportmanager_rat",
       "ioc_count": 4,
       "ioc_type_breakdown": {
         "ip:port": 4
@@ -2729,6 +2780,7 @@
     },
     {
       "family": "XenoRAT",
+      "malware_id": "win.xenorat",
       "ioc_count": 4,
       "ioc_type_breakdown": {
         "sha1_hash": 1,
@@ -2771,6 +2823,7 @@
     },
     {
       "family": "Arkei Stealer",
+      "malware_id": "win.arkei_stealer",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "sha1_hash": 1,
@@ -2804,6 +2857,7 @@
     },
     {
       "family": "stealler",
+      "malware_id": "py.stealler",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "md5_hash": 1,
@@ -2837,6 +2891,7 @@
     },
     {
       "family": "pupy",
+      "malware_id": "win.pupy",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "ip:port": 3
@@ -2872,6 +2927,7 @@
     },
     {
       "family": "CoffeeLoader",
+      "malware_id": "win.coffee_loader",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "domain": 2,
@@ -2907,6 +2963,7 @@
     },
     {
       "family": "BackNet",
+      "malware_id": "win.backnet",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "sha256_hash": 1,
@@ -2940,6 +2997,7 @@
     },
     {
       "family": "Zedhou",
+      "malware_id": "win.zedhou",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "sha256_hash": 3
@@ -2976,6 +3034,7 @@
     },
     {
       "family": "Redosdru",
+      "malware_id": "win.redosdru",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "sha1_hash": 1,
@@ -3009,6 +3068,7 @@
     },
     {
       "family": "QuirkyLoader",
+      "malware_id": "win.quirkyloader",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "sha1_hash": 1,
@@ -3042,6 +3102,7 @@
     },
     {
       "family": "GCleaner",
+      "malware_id": "win.gcleaner",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "sha1_hash": 1,
@@ -3075,6 +3136,7 @@
     },
     {
       "family": "MimiKatz",
+      "malware_id": "win.mimikatz",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "sha1_hash": 1,
@@ -3108,6 +3170,7 @@
     },
     {
       "family": "Zloader",
+      "malware_id": "win.zloader",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "sha256_hash": 1,
@@ -3141,6 +3204,7 @@
     },
     {
       "family": "QuantLoader",
+      "malware_id": "win.quantloader",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "md5_hash": 1,
@@ -3174,6 +3238,7 @@
     },
     {
       "family": "Krasue RAT",
+      "malware_id": "elf.krasue_rat",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "md5_hash": 1,
@@ -3207,6 +3272,7 @@
     },
     {
       "family": "CraxsRAT",
+      "malware_id": "apk.craxs_rat",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "ip:port": 1,
@@ -3248,6 +3314,7 @@
     },
     {
       "family": "Luca Stealer",
+      "malware_id": "win.luca_stealer",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "sha1_hash": 1,
@@ -3281,6 +3348,7 @@
     },
     {
       "family": "WebMonitor RAT",
+      "malware_id": "win.webmonitor",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "sha1_hash": 1,
@@ -3314,6 +3382,7 @@
     },
     {
       "family": "Prometei",
+      "malware_id": "win.prometei",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "sha256_hash": 1,
@@ -3347,6 +3416,7 @@
     },
     {
       "family": "VENON",
+      "malware_id": "win.venon",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "md5_hash": 1,
@@ -3380,6 +3450,7 @@
     },
     {
       "family": "X-Agent",
+      "malware_id": "osx.xagent",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "sha1_hash": 1,
@@ -3413,6 +3484,7 @@
     },
     {
       "family": "BlankGrabber",
+      "malware_id": "py.blankgrabber",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "md5_hash": 1,
@@ -3446,6 +3518,7 @@
     },
     {
       "family": "EtherRAT",
+      "malware_id": "js.ether_rat",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "domain": 3
@@ -3479,34 +3552,8 @@
       "associated_groups": []
     },
     {
-      "family": "STRRAT",
-      "ioc_count": 2,
-      "ioc_type_breakdown": {
-        "ip:port": 2
-      },
-      "top_iocs": [
-        {
-          "ioc": "217.217.97.106:20908",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-08 09:45:03 UTC"
-        },
-        {
-          "ioc": "204.10.160.215:3608",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-01 16:50:02 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/jar.strrat",
-      "tag_hints": [
-        "STRRAT"
-      ],
-      "description": null,
-      "associated_groups": []
-    },
-    {
       "family": "RCS",
+      "malware_id": "win.rcs",
       "ioc_count": 2,
       "ioc_type_breakdown": {
         "domain": 1,
@@ -3535,6 +3582,7 @@
     },
     {
       "family": "Satacom",
+      "malware_id": "win.satacom",
       "ioc_count": 2,
       "ioc_type_breakdown": {
         "url": 1,
@@ -3563,6 +3611,7 @@
     },
     {
       "family": "DanaBot",
+      "malware_id": "win.danabot",
       "ioc_count": 2,
       "ioc_type_breakdown": {
         "ip:port": 2
@@ -3591,6 +3640,7 @@
     },
     {
       "family": "Hook",
+      "malware_id": "apk.hook",
       "ioc_count": 2,
       "ioc_type_breakdown": {
         "ip:port": 2
@@ -3619,6 +3669,7 @@
     },
     {
       "family": "Sliver",
+      "malware_id": "win.sliver",
       "ioc_count": 2,
       "ioc_type_breakdown": {
         "ip:port": 2
@@ -3647,6 +3698,7 @@
     },
     {
       "family": "Overlord RAT",
+      "malware_id": "win.overlord",
       "ioc_count": 1,
       "ioc_type_breakdown": {
         "ip:port": 1
@@ -3668,7 +3720,30 @@
       "associated_groups": []
     },
     {
+      "family": "STRRAT",
+      "malware_id": "jar.strrat",
+      "ioc_count": 1,
+      "ioc_type_breakdown": {
+        "ip:port": 1
+      },
+      "top_iocs": [
+        {
+          "ioc": "217.217.97.106:20908",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 09:45:03 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/jar.strrat",
+      "tag_hints": [
+        "STRRAT"
+      ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
       "family": "Houdini",
+      "malware_id": "win.houdini",
       "ioc_count": 1,
       "ioc_type_breakdown": {
         "ip:port": 1
@@ -3691,6 +3766,7 @@
     },
     {
       "family": "VIP Keylogger",
+      "malware_id": "win.vipkeylogger",
       "ioc_count": 1,
       "ioc_type_breakdown": {
         "domain": 1
@@ -3712,6 +3788,7 @@
     },
     {
       "family": "HijackLoader",
+      "malware_id": "win.hijackloader",
       "ioc_count": 1,
       "ioc_type_breakdown": {
         "domain": 1
@@ -3737,6 +3814,7 @@
     },
     {
       "family": "Crimson RAT",
+      "malware_id": "win.crimson",
       "ioc_count": 1,
       "ioc_type_breakdown": {
         "ip:port": 1
@@ -3760,6 +3838,7 @@
     },
     {
       "family": "T-Cmd",
+      "malware_id": "win.t_cmd",
       "ioc_count": 1,
       "ioc_type_breakdown": {
         "url": 1
@@ -3783,6 +3862,7 @@
     },
     {
       "family": "RedLine Stealer",
+      "malware_id": "win.redline_stealer",
       "ioc_count": 1,
       "ioc_type_breakdown": {
         "ip:port": 1
@@ -3804,6 +3884,7 @@
     },
     {
       "family": "BlackNET RAT",
+      "malware_id": "win.blacknet_rat",
       "ioc_count": 1,
       "ioc_type_breakdown": {
         "domain": 1
@@ -3826,6 +3907,7 @@
     },
     {
       "family": "vo1d",
+      "malware_id": "apk.vo1d",
       "ioc_count": 1,
       "ioc_type_breakdown": {
         "ip:port": 1
@@ -3848,6 +3930,7 @@
     },
     {
       "family": "SnappyClient",
+      "malware_id": "win.snappy_client",
       "ioc_count": 1,
       "ioc_type_breakdown": {
         "ip:port": 1
@@ -3869,6 +3952,7 @@
     },
     {
       "family": "Zebrocy",
+      "malware_id": "win.zebrocy",
       "ioc_count": 1,
       "ioc_type_breakdown": {
         "url": 1
@@ -3894,6 +3978,7 @@
     },
     {
       "family": "Bahamut",
+      "malware_id": "win.bahamut",
       "ioc_count": 1,
       "ioc_type_breakdown": {
         "domain": 1
@@ -3916,6 +4001,7 @@
     },
     {
       "family": "Hupigon",
+      "malware_id": "win.hupigon",
       "ioc_count": 1,
       "ioc_type_breakdown": {
         "ip:port": 1
@@ -3938,6 +4024,7 @@
     },
     {
       "family": "PureRAT",
+      "malware_id": "win.pure_rat",
       "ioc_count": 1,
       "ioc_type_breakdown": {
         "ip:port": 1
@@ -3957,6 +4044,7 @@
     },
     {
       "family": "RMS",
+      "malware_id": "win.rms",
       "ioc_count": 1,
       "ioc_type_breakdown": {
         "ip:port": 1
@@ -3978,6 +4066,7 @@
     },
     {
       "family": "Chaos",
+      "malware_id": "win.chaos",
       "ioc_count": 1,
       "ioc_type_breakdown": {
         "ip:port": 1
