@@ -23,6 +23,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
       - name: Run ThreatFox fetch script
         env:
           THREATFOX_AUTH_KEY: ${{ secrets.THREATFOX_AUTH_KEY }}
