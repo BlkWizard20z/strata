@@ -1,67 +1,64 @@
 {
-  "generated": "2026-07-07T16:03:14.985255+00:00",
+  "generated": "2026-07-08T15:42:41.183116+00:00",
   "window_days": 7,
-  "total_iocs": 3444,
-  "total_families": 106,
+  "total_iocs": 3390,
+  "total_families": 99,
   "families": [
     {
       "family": "ClearFake",
-      "ioc_count": 837,
+      "ioc_count": 767,
       "ioc_type_breakdown": {
-        "domain": 837
+        "domain": 767
       },
       "top_iocs": [
         {
-          "ioc": "k78134om.bet359.bet",
+          "ioc": "xclparsl.megashart.blog",
           "type": "domain",
           "confidence": 100,
-          "first_seen": "2026-07-07 16:01:14 UTC"
+          "first_seen": "2026-07-08 15:25:31 UTC"
         },
         {
-          "ioc": "hcqkjox.zeebline.com",
+          "ioc": "megashart.blog",
           "type": "domain",
           "confidence": 100,
-          "first_seen": "2026-07-07 15:16:53 UTC"
+          "first_seen": "2026-07-08 15:20:55 UTC"
         },
         {
-          "ioc": "zeebline.com",
+          "ioc": "9c8joror.melbetir.app",
           "type": "domain",
           "confidence": 100,
-          "first_seen": "2026-07-07 15:14:35 UTC"
+          "first_seen": "2026-07-08 15:02:19 UTC"
         },
         {
-          "ioc": "bunos.win",
+          "ioc": "melbetir.app",
           "type": "domain",
           "confidence": 100,
-          "first_seen": "2026-07-07 15:10:09 UTC"
+          "first_seen": "2026-07-08 15:01:33 UTC"
         },
         {
-          "ioc": "vilhvypu.1xborobet.bet",
+          "ioc": "rmwj.betfa.download",
           "type": "domain",
           "confidence": 100,
-          "first_seen": "2026-07-07 15:06:36 UTC"
+          "first_seen": "2026-07-08 14:52:42 UTC"
         }
       ],
       "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake",
       "tag_hints": [
         "1July2026",
         "2July2026",
-        "30June2026",
         "3July2026",
         "4July2026",
         "5July2026",
         "6July2026",
         "7July2026",
+        "8July2026",
         "ClearFake",
         "ClickFix",
         "Commandline",
         "DomainShadowing",
         "ErrTraffic",
-        "Polygon",
         "Windows",
-        "c2",
         "etherhiding",
-        "flomo",
         "mac-0x68dc",
         "mac-0x76c7",
         "mac-0xfb64",
@@ -75,70 +72,76 @@
     },
     {
       "family": "Unknown malware",
-      "ioc_count": 348,
+      "ioc_count": 372,
       "ioc_type_breakdown": {
-        "domain": 52,
-        "url": 38,
-        "ip:port": 252,
-        "sha256_hash": 6
+        "domain": 62,
+        "sha256_hash": 5,
+        "ip:port": 269,
+        "url": 36
       },
       "top_iocs": [
         {
-          "ioc": "authorization-cdn-press-enter.info",
-          "type": "domain",
+          "ioc": "1ca17239f5bec17ef244fc55357c6d0560337d7cadd1bb61574ab010f14a8d14",
+          "type": "sha256_hash",
           "confidence": 100,
-          "first_seen": "2026-07-07 09:12:34 UTC"
+          "first_seen": "2026-07-08 12:08:12 UTC"
         },
         {
-          "ioc": "http://38.180.204.13/ryoheina/mort.php",
-          "type": "url",
+          "ioc": "830a22ea4eb2ebb8c60c7731fa5175d3a315d023a812aea40147326cc4c8a4dd",
+          "type": "sha256_hash",
           "confidence": 100,
-          "first_seen": "2026-07-07 05:31:04 UTC"
+          "first_seen": "2026-07-08 12:08:12 UTC"
         },
         {
-          "ioc": "45.207.222.132:8888",
+          "ioc": "85.137.240.26:80",
           "type": "ip:port",
           "confidence": 100,
-          "first_seen": "2026-07-07 03:05:06 UTC"
+          "first_seen": "2026-07-08 12:05:06 UTC"
         },
         {
-          "ioc": "54.85.200.79:7443",
+          "ioc": "85.137.240.26:8080",
           "type": "ip:port",
           "confidence": 100,
-          "first_seen": "2026-07-07 03:05:05 UTC"
+          "first_seen": "2026-07-08 12:05:06 UTC"
         },
         {
-          "ioc": "47.254.73.23:8888",
+          "ioc": "85.137.240.26:443",
           "type": "ip:port",
           "confidence": 100,
-          "first_seen": "2026-07-06 13:05:06 UTC"
+          "first_seen": "2026-07-08 12:05:05 UTC"
         }
       ],
       "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown",
       "tag_hints": [
         "Avada",
-        "Blank-c",
-        "BlankGrabber",
-        "ClearFake",
+        "CEB",
         "ClickFix",
+        "CloudflareR2",
         "Covenant",
+        "DNS-C2",
+        "DeviceManagerAgent",
         "HadesStealer",
         "Hvnc",
+        "INNOSETUP",
         "IoT",
         "Loader",
         "Mythic",
         "MythicC2",
         "P2P",
+        "PyInstaller",
+        "PythonC2",
         "RAT",
         "Ransomware",
         "Redirect",
         "Supershell",
+        "T1090",
+        "T1176",
         "Unknown",
         "Viper",
-        "WebDav",
         "WordPress",
         "apt73",
         "bashe",
+        "browser-extension",
         "c2",
         "chollima",
         "cowrie",
@@ -147,24 +150,25 @@
         "etherhiding",
         "eviltokens",
         "garble",
+        "go",
         "golang",
-        "grabber",
         "honeypot",
         "iwr",
         "js-injector",
-        "jsdelivr",
         "kyracs",
+        "meetione",
         "naenara",
         "panchan",
         "panel",
         "phishing",
         "powershell",
-        "python",
-        "rundll32",
+        "ppn",
+        "proxyware",
         "sentinel",
         "sign1",
         "sm188",
         "ssh",
+        "staging",
         "stealer",
         "xmrig"
       ],
@@ -173,104 +177,105 @@
     },
     {
       "family": "Vidar",
-      "ioc_count": 323,
+      "ioc_count": 290,
       "ioc_type_breakdown": {
-        "url": 88,
-        "domain": 54,
-        "md5_hash": 53,
-        "sha256_hash": 55,
-        "sha1_hash": 53,
-        "ip:port": 20
+        "domain": 39,
+        "url": 83,
+        "md5_hash": 51,
+        "sha256_hash": 51,
+        "sha1_hash": 51,
+        "ip:port": 15
       },
       "top_iocs": [
         {
-          "ioc": "https://hat.realmadridiran.news/",
+          "ioc": "mon.kawahsm188.top",
+          "type": "domain",
+          "confidence": 100,
+          "first_seen": "2026-07-08 12:16:00 UTC"
+        },
+        {
+          "ioc": "https://mon.kawahsm188.top/",
           "type": "url",
           "confidence": 100,
-          "first_seen": "2026-07-07 10:00:55 UTC"
+          "first_seen": "2026-07-08 12:16:00 UTC"
         },
         {
-          "ioc": "hat.realmadridiran.news",
+          "ioc": "mon.kataksm188.top",
           "type": "domain",
           "confidence": 100,
-          "first_seen": "2026-07-07 10:00:54 UTC"
+          "first_seen": "2026-07-08 12:15:59 UTC"
         },
         {
-          "ioc": "set.realmadridiran.news",
-          "type": "domain",
-          "confidence": 100,
-          "first_seen": "2026-07-06 22:00:58 UTC"
-        },
-        {
-          "ioc": "https://set.realmadridiran.news/",
+          "ioc": "https://mon.kataksm188.top/",
           "type": "url",
           "confidence": 100,
-          "first_seen": "2026-07-06 22:00:58 UTC"
+          "first_seen": "2026-07-08 12:15:59 UTC"
         },
         {
-          "ioc": "wts.realmadridiran.news",
-          "type": "domain",
+          "ioc": "https://faz.kataksm188.top/",
+          "type": "url",
           "confidence": 100,
-          "first_seen": "2026-07-06 13:00:52 UTC"
+          "first_seen": "2026-07-08 05:00:31 UTC"
         }
       ],
       "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar",
       "tag_hints": [
+        "Arkei",
         "ClickFix",
+        "GCleaner",
+        "Go-crypter",
         "Polygon",
         "Vidar",
         "WordPress",
-        "b686353b7cd87ef4315b344a17caa3cc",
         "c2",
         "compromised",
+        "dead-drop-resolver",
         "etherhiding",
         "gw3n9",
-        "mp44s1",
-        "psgiran",
-        "we"
+        "mp44s1"
       ],
       "description": null,
       "associated_groups": []
     },
     {
       "family": "Unknown Loader",
-      "ioc_count": 231,
+      "ioc_count": 284,
       "ioc_type_breakdown": {
-        "domain": 201,
+        "domain": 254,
         "url": 26,
         "sha256_hash": 3,
         "ip:port": 1
       },
       "top_iocs": [
         {
-          "ioc": "reservphotoinstaynow.shop",
+          "ioc": "aacharyaamanastrology.com",
           "type": "domain",
           "confidence": 100,
-          "first_seen": "2026-07-07 12:22:30 UTC"
+          "first_seen": "2026-07-08 11:57:03 UTC"
         },
         {
-          "ioc": "hostreservation-reports.one",
+          "ioc": "adiapavj.ro",
           "type": "domain",
           "confidence": 100,
-          "first_seen": "2026-07-07 12:22:29 UTC"
+          "first_seen": "2026-07-08 11:57:03 UTC"
         },
         {
-          "ioc": "lonajkuvbng.cfd",
+          "ioc": "abbasheartwm.org",
           "type": "domain",
           "confidence": 100,
-          "first_seen": "2026-07-07 12:22:29 UTC"
+          "first_seen": "2026-07-08 11:57:02 UTC"
         },
         {
-          "ioc": "reservinfoaboutreserv.one",
+          "ioc": "alessiachloeperu.com.pe",
           "type": "domain",
           "confidence": 100,
-          "first_seen": "2026-07-07 12:22:29 UTC"
+          "first_seen": "2026-07-08 11:57:02 UTC"
         },
         {
-          "ioc": "https://mdsearch.xyz/plg",
-          "type": "url",
+          "ioc": "anfconcepts.com",
+          "type": "domain",
           "confidence": 100,
-          "first_seen": "2026-07-07 09:41:59 UTC"
+          "first_seen": "2026-07-08 11:57:01 UTC"
         }
       ],
       "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader",
@@ -302,12 +307,24 @@
     },
     {
       "family": "Remcos",
-      "ioc_count": 137,
+      "ioc_count": 142,
       "ioc_type_breakdown": {
-        "ip:port": 125,
+        "ip:port": 130,
         "domain": 12
       },
       "top_iocs": [
+        {
+          "ioc": "172.111.169.69:65070",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-07 22:50:07 UTC"
+        },
+        {
+          "ioc": "62.60.226.68:24042",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-07 21:35:07 UTC"
+        },
         {
           "ioc": "348787241.com",
           "type": "domain",
@@ -325,18 +342,6 @@
           "type": "ip:port",
           "confidence": 100,
           "first_seen": "2026-07-07 02:45:15 UTC"
-        },
-        {
-          "ioc": "kjdesss.ddns.net",
-          "type": "domain",
-          "confidence": 100,
-          "first_seen": "2026-07-06 14:14:53 UTC"
-        },
-        {
-          "ioc": "198.135.55.140:2404",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-02 18:00:18 UTC"
         }
       ],
       "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos",
@@ -345,6 +350,109 @@
         "RemcosRAT",
         "drb-ra",
         "remcos"
+      ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "Cobalt Strike",
+      "ioc_count": 108,
+      "ioc_type_breakdown": {
+        "ip:port": 105,
+        "domain": 3
+      },
+      "top_iocs": [
+        {
+          "ioc": "122.51.221.207:8080",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 15:05:08 UTC"
+        },
+        {
+          "ioc": "122.51.221.207:443",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 15:05:07 UTC"
+        },
+        {
+          "ioc": "117.72.181.104:8080",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 14:05:08 UTC"
+        },
+        {
+          "ioc": "117.72.181.104:80",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 14:05:07 UTC"
+        },
+        {
+          "ioc": "8.163.93.232:8080",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 09:05:06 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike",
+      "tag_hints": [
+        "60223",
+        "Cobalt Strike",
+        "CobaltStrike",
+        "c2",
+        "censys",
+        "cs-watermark-1234567890",
+        "cs-watermark-305419896",
+        "cs-watermark-391144938",
+        "cs-watermark-666666666",
+        "cs-watermark-93347",
+        "cs-watermark-987654321",
+        "drb-ra"
+      ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "Aisuru",
+      "ioc_count": 107,
+      "ioc_type_breakdown": {
+        "ip:port": 107
+      },
+      "top_iocs": [
+        {
+          "ioc": "159.203.1.105:9034",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 15:18:37 UTC"
+        },
+        {
+          "ioc": "165.232.169.49:8443",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 15:18:36 UTC"
+        },
+        {
+          "ioc": "120.205.80.152:8443",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 14:51:15 UTC"
+        },
+        {
+          "ioc": "120.205.80.152:34567",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 13:03:32 UTC"
+        },
+        {
+          "ioc": "152.42.214.91:9035",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 08:37:38 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru",
+      "tag_hints": [
+        "AISURU",
+        "c2"
       ],
       "description": null,
       "associated_groups": []
@@ -396,89 +504,43 @@
       "associated_groups": []
     },
     {
-      "family": "Aisuru",
-      "ioc_count": 102,
-      "ioc_type_breakdown": {
-        "ip:port": 102
-      },
-      "top_iocs": [
-        {
-          "ioc": "159.65.133.214:8001",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-07 15:46:24 UTC"
-        },
-        {
-          "ioc": "159.203.1.105:8001",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-07 15:44:08 UTC"
-        },
-        {
-          "ioc": "165.232.169.49:8001",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-07 15:40:57 UTC"
-        },
-        {
-          "ioc": "120.205.80.152:8001",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-07 15:38:37 UTC"
-        },
-        {
-          "ioc": "157.245.59.180:9034",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-07 14:16:48 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru",
-      "tag_hints": [
-        "AISURU",
-        "c2"
-      ],
-      "description": null,
-      "associated_groups": []
-    },
-    {
       "family": "KongTuke",
-      "ioc_count": 77,
+      "ioc_count": 78,
       "ioc_type_breakdown": {
-        "ip:port": 1,
-        "domain": 29,
-        "url": 47
+        "url": 47,
+        "domain": 30,
+        "ip:port": 1
       },
       "top_iocs": [
         {
-          "ioc": "64.95.10.37:80",
-          "type": "ip:port",
+          "ioc": "https://fraitas.lol/api/v1/status",
+          "type": "url",
           "confidence": 100,
-          "first_seen": "2026-07-07 06:27:47 UTC"
+          "first_seen": "2026-07-08 15:18:37 UTC"
         },
         {
-          "ioc": "1yiqsu0s4geu2xc.top",
-          "type": "domain",
+          "ioc": "https://azevedo.lol/api/v1/status",
+          "type": "url",
           "confidence": 100,
-          "first_seen": "2026-07-07 06:27:37 UTC"
+          "first_seen": "2026-07-08 14:46:27 UTC"
         },
         {
-          "ioc": "53bbwqsrdg3rxni.top",
-          "type": "domain",
+          "ioc": "https://microcrypt1987.com/update/package",
+          "type": "url",
           "confidence": 100,
-          "first_seen": "2026-07-07 06:27:37 UTC"
+          "first_seen": "2026-07-08 14:46:26 UTC"
         },
         {
-          "ioc": "855e6v1la8ngbep.top",
+          "ioc": "microcrypt1987.com",
           "type": "domain",
           "confidence": 100,
-          "first_seen": "2026-07-07 06:27:37 UTC"
+          "first_seen": "2026-07-08 14:46:26 UTC"
         },
         {
-          "ioc": "b9yzartkj9dd53v.top",
-          "type": "domain",
+          "ioc": "https://fraitas.lol/file.js",
+          "type": "url",
           "confidence": 100,
-          "first_seen": "2026-07-07 06:27:37 UTC"
+          "first_seen": "2026-07-08 12:08:10 UTC"
         }
       ],
       "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.kongtuke",
@@ -489,166 +551,19 @@
       "associated_groups": []
     },
     {
-      "family": "Cobalt Strike",
-      "ioc_count": 71,
-      "ioc_type_breakdown": {
-        "ip:port": 66,
-        "domain": 4,
-        "url": 1
-      },
-      "top_iocs": [
-        {
-          "ioc": "8.163.93.232:443",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-07 15:05:05 UTC"
-        },
-        {
-          "ioc": "8.163.93.232:1234",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-07 13:05:05 UTC"
-        },
-        {
-          "ioc": "114.132.89.132:56443",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-07 07:05:07 UTC"
-        },
-        {
-          "ioc": "47.96.254.114:443",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-07 01:05:05 UTC"
-        },
-        {
-          "ioc": "101.34.235.198:443",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-06 11:05:05 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike",
-      "tag_hints": [
-        "60223",
-        "Cobalt Strike",
-        "CobaltStrike",
-        "c2",
-        "censys",
-        "cs-watermark-1234567890",
-        "cs-watermark-305419896",
-        "cs-watermark-391144938",
-        "cs-watermark-666666666",
-        "cs-watermark-93347",
-        "cs-watermark-987654321",
-        "drb-ra"
-      ],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "VShell",
-      "ioc_count": 63,
-      "ioc_type_breakdown": {
-        "ip:port": 63
-      },
-      "top_iocs": [
-        {
-          "ioc": "8.130.11.130:80",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-07 14:05:06 UTC"
-        },
-        {
-          "ioc": "159.223.46.140:37421",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-07 14:05:05 UTC"
-        },
-        {
-          "ioc": "122.51.31.224:8084",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-07 14:05:04 UTC"
-        },
-        {
-          "ioc": "1.14.126.124:18083",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-07 13:05:08 UTC"
-        },
-        {
-          "ioc": "66.179.31.4:80",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-07 08:05:09 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell",
-      "tag_hints": [
-        "Vshell"
-      ],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "ValleyRAT",
+      "family": "IClickFix",
       "ioc_count": 58,
       "ioc_type_breakdown": {
-        "ip:port": 14,
-        "url": 2,
-        "md5_hash": 14,
-        "sha256_hash": 14,
-        "sha1_hash": 14
-      },
-      "top_iocs": [
-        {
-          "ioc": "http://103.80.135.33/getinstall64",
-          "type": "url",
-          "confidence": 100,
-          "first_seen": "2026-07-07 02:45:31 UTC"
-        },
-        {
-          "ioc": "http://95.40.215.140/getinstall64",
-          "type": "url",
-          "confidence": 100,
-          "first_seen": "2026-07-07 02:45:30 UTC"
-        },
-        {
-          "ioc": "137.220.152.107:8888",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-07 02:45:18 UTC"
-        },
-        {
-          "ioc": "47.239.19.194:10087",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-02 18:00:25 UTC"
-        },
-        {
-          "ioc": "21d7da7df67ca557739367e12f015061",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 14:41:54 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.valley_rat",
-      "tag_hints": [
-        "RAT",
-        "ValleyRAT",
-        "valleyrat_s2"
-      ],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "IClickFix",
-      "ioc_count": 57,
-      "ioc_type_breakdown": {
+        "url": 1,
         "domain": 57
       },
       "top_iocs": [
+        {
+          "ioc": "https://potty.com/",
+          "type": "url",
+          "confidence": 100,
+          "first_seen": "2026-07-08 15:25:14 UTC"
+        },
         {
           "ioc": "elxxvvx.xyz",
           "type": "domain",
@@ -672,12 +587,6 @@
           "type": "domain",
           "confidence": 100,
           "first_seen": "2026-07-07 05:23:07 UTC"
-        },
-        {
-          "ioc": "alphaottplaayer.click",
-          "type": "domain",
-          "confidence": 100,
-          "first_seen": "2026-07-07 05:23:06 UTC"
         }
       ],
       "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix",
@@ -687,6 +596,51 @@
         "c2",
         "victim"
       ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "Formbook",
+      "ioc_count": 54,
+      "ioc_type_breakdown": {
+        "md5_hash": 18,
+        "sha256_hash": 18,
+        "sha1_hash": 18
+      },
+      "top_iocs": [
+        {
+          "ioc": "9167ebf77d442c08692aff65cdbc99d3",
+          "type": "md5_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:44 UTC"
+        },
+        {
+          "ioc": "047736a92aa5bbb3eb3f173d99effbd83e595e5d24064c2ac3a5b9fef5275ff2",
+          "type": "sha256_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:43 UTC"
+        },
+        {
+          "ioc": "4b25c2dda4400b084eab7d73e6fb49eef2d3514c",
+          "type": "sha1_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:43 UTC"
+        },
+        {
+          "ioc": "20d1adb10b96e85874d6dceab96918da",
+          "type": "md5_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:42 UTC"
+        },
+        {
+          "ioc": "55bc609cf12b4db41c6f2adcc6496769",
+          "type": "md5_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:41 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook",
+      "tag_hints": [],
       "description": null,
       "associated_groups": []
     },
@@ -784,15 +738,21 @@
     },
     {
       "family": "AsyncRAT",
-      "ioc_count": 51,
+      "ioc_count": 48,
       "ioc_type_breakdown": {
-        "ip:port": 31,
-        "domain": 2,
-        "sha1_hash": 6,
-        "md5_hash": 6,
-        "sha256_hash": 6
+        "ip:port": 25,
+        "sha1_hash": 7,
+        "md5_hash": 7,
+        "sha256_hash": 7,
+        "domain": 2
       },
       "top_iocs": [
+        {
+          "ioc": "2.50.157.201:8808",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 15:05:07 UTC"
+        },
         {
           "ioc": "158.94.210.88:3009",
           "type": "ip:port",
@@ -816,117 +776,111 @@
           "type": "ip:port",
           "confidence": 100,
           "first_seen": "2026-07-06 05:05:04 UTC"
-        },
-        {
-          "ioc": "13.53.117.235:9000",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-04 19:05:07 UTC"
         }
       ],
       "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat",
       "tag_hints": [
-        "1472D1643B294C63AF66357816F6E5E66B427EBD",
         "DDNS",
         "RAT",
         "asyncrat",
-        "c2",
         "drb-ra"
       ],
       "description": null,
       "associated_groups": []
     },
     {
-      "family": "Venus Stealer",
+      "family": "VShell",
       "ioc_count": 48,
       "ioc_type_breakdown": {
-        "sha256_hash": 16,
-        "sha1_hash": 16,
-        "md5_hash": 16
+        "ip:port": 48
       },
       "top_iocs": [
         {
-          "ioc": "f193b47f2739aaa35c0ecec5d2731dc7d343c200340015e4a2bff663c3041512",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-05 16:22:41 UTC"
+          "ioc": "152.136.55.15:8084",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 12:05:06 UTC"
         },
         {
-          "ioc": "def05ff2de5bf7d550e6230c19480bae253d8043",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-05 16:22:41 UTC"
+          "ioc": "8.130.11.130:80",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-07 14:05:06 UTC"
         },
         {
-          "ioc": "4be39027f6e94c46bf4307f6762d8b98",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-05 16:22:41 UTC"
+          "ioc": "159.223.46.140:37421",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-07 14:05:05 UTC"
         },
         {
-          "ioc": "0350de7cdac919529ec58d085ae1eb7ece2bafba425593fbcedb7826a84ee713",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-05 16:22:16 UTC"
+          "ioc": "122.51.31.224:8084",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-07 14:05:04 UTC"
         },
         {
-          "ioc": "dae33edb4229db54bab5a44da6a2e71c02f9fd48",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-05 16:22:16 UTC"
+          "ioc": "1.14.126.124:18083",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-07 13:05:08 UTC"
         }
       ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.venus_stealer",
-      "tag_hints": [],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell",
+      "tag_hints": [
+        "Vshell"
+      ],
       "description": null,
       "associated_groups": []
     },
     {
       "family": "Stealc",
-      "ioc_count": 46,
+      "ioc_count": 48,
       "ioc_type_breakdown": {
-        "sha1_hash": 9,
-        "md5_hash": 9,
-        "sha256_hash": 9,
-        "ip:port": 14,
-        "url": 5
+        "url": 8,
+        "ip:port": 16,
+        "sha1_hash": 8,
+        "md5_hash": 8,
+        "sha256_hash": 8
       },
       "top_iocs": [
+        {
+          "ioc": "http://185.223.82.171/fd89ba886125940b747e.php",
+          "type": "url",
+          "confidence": 100,
+          "first_seen": "2026-07-08 10:33:31 UTC"
+        },
+        {
+          "ioc": "160.20.109.75:80",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 08:05:03 UTC"
+        },
+        {
+          "ioc": "http://144.31.57.70/c0e070fa9435429c8ea5.php",
+          "type": "url",
+          "confidence": 100,
+          "first_seen": "2026-07-08 07:03:49 UTC"
+        },
+        {
+          "ioc": "144.31.57.70:80",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 05:05:06 UTC"
+        },
         {
           "ioc": "94.26.83.155:80",
           "type": "ip:port",
           "confidence": 100,
           "first_seen": "2026-07-05 21:05:05 UTC"
-        },
-        {
-          "ioc": "91.202.233.134:80",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-05 19:05:05 UTC"
-        },
-        {
-          "ioc": "http://64.224.17.118/b98b577ad87f42dbbf91.php",
-          "type": "url",
-          "confidence": 100,
-          "first_seen": "2026-07-03 12:07:38 UTC"
-        },
-        {
-          "ioc": "176.65.144.127:80",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-02 19:05:04 UTC"
-        },
-        {
-          "ioc": "1475659b5d3002a0b49ee774046884d7f218693d",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-06 14:30:23 UTC"
         }
       ],
       "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.stealc",
       "tag_hints": [
+        "2",
         "Loader",
         "Stealc",
+        "build",
         "c2",
         "ip",
         "stealer",
@@ -936,104 +890,76 @@
       "associated_groups": []
     },
     {
-      "family": "Formbook",
-      "ioc_count": 42,
+      "family": "ValleyRAT",
+      "ioc_count": 44,
       "ioc_type_breakdown": {
-        "sha1_hash": 14,
-        "md5_hash": 14,
-        "sha256_hash": 14
+        "ip:port": 12,
+        "md5_hash": 10,
+        "sha256_hash": 10,
+        "sha1_hash": 10,
+        "url": 2
       },
       "top_iocs": [
         {
-          "ioc": "dc45f63319b41252b02079c0d1cf70cb58153cfd",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-06 14:30:31 UTC"
+          "ioc": "8.210.74.218:5868",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-07 21:09:09 UTC"
         },
         {
-          "ioc": "2db9b397d98c55c8a7be695d747d251c",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-06 14:30:31 UTC"
+          "ioc": "192.229.87.194:8888",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-07 18:25:07 UTC"
         },
         {
-          "ioc": "7efb9e34f0829837d0b8b8ec33124b2e68c2ee15f1c222afc7c2d4ed985f96d5",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-06 14:30:30 UTC"
+          "ioc": "http://103.80.135.33/getinstall64",
+          "type": "url",
+          "confidence": 100,
+          "first_seen": "2026-07-07 02:45:31 UTC"
         },
         {
-          "ioc": "1f9fc655026196029f316ccec34b19f63ffdd391",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:44:28 UTC"
+          "ioc": "http://95.40.215.140/getinstall64",
+          "type": "url",
+          "confidence": 100,
+          "first_seen": "2026-07-07 02:45:30 UTC"
         },
         {
-          "ioc": "6cb55456e3e5c099a85a7314076bb741",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:44:28 UTC"
+          "ioc": "137.220.152.107:8888",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-07 02:45:18 UTC"
         }
       ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook",
-      "tag_hints": [],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "SmartApeSG",
-      "ioc_count": 38,
-      "ioc_type_breakdown": {
-        "url": 27,
-        "domain": 11
-      },
-      "top_iocs": [
-        {
-          "ioc": "https://willowsummit.top/rate/dashboard-state.js",
-          "type": "url",
-          "confidence": 100,
-          "first_seen": "2026-07-07 14:12:35 UTC"
-        },
-        {
-          "ioc": "willowsummit.top",
-          "type": "domain",
-          "confidence": 100,
-          "first_seen": "2026-07-07 14:12:34 UTC"
-        },
-        {
-          "ioc": "https://willowsummit.top/rate/audit-header",
-          "type": "url",
-          "confidence": 100,
-          "first_seen": "2026-07-07 14:12:34 UTC"
-        },
-        {
-          "ioc": "https://willowsummit.top/rate/login-cache.js",
-          "type": "url",
-          "confidence": 100,
-          "first_seen": "2026-07-07 14:12:33 UTC"
-        },
-        {
-          "ioc": "https://marblecourier.top/rate/audit-header",
-          "type": "url",
-          "confidence": 100,
-          "first_seen": "2026-07-07 12:01:58 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.smartapesg",
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.valley_rat",
       "tag_hints": [
-        "SmartApeSG"
+        "RAT",
+        "ValleyRAT",
+        "valleyrat_s2"
       ],
       "description": null,
       "associated_groups": []
     },
     {
       "family": "Mirai",
-      "ioc_count": 37,
+      "ioc_count": 40,
       "ioc_type_breakdown": {
-        "ip:port": 25,
+        "ip:port": 28,
         "domain": 12
       },
       "top_iocs": [
+        {
+          "ioc": "45.90.163.37:3778",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 06:48:23 UTC"
+        },
+        {
+          "ioc": "45.90.163.37:2049",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 06:48:23 UTC"
+        },
         {
           "ioc": "94.154.43.42:8080",
           "type": "ip:port",
@@ -1051,29 +977,64 @@
           "type": "ip:port",
           "confidence": 100,
           "first_seen": "2026-07-05 13:28:22 UTC"
-        },
-        {
-          "ioc": "94.154.43.12:92",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-04 07:10:09 UTC"
-        },
-        {
-          "ioc": "103.253.212.175:6621",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-04 07:10:06 UTC"
         }
       ],
       "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai",
       "tag_hints": [
         "DDoSAgent",
         "Mirai",
+        "NFS",
         "c2",
+        "docker-api",
         "drb-ra",
         "honeypot",
         "ssh-dropper"
       ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "Venus Stealer",
+      "ioc_count": 36,
+      "ioc_type_breakdown": {
+        "sha256_hash": 12,
+        "sha1_hash": 12,
+        "md5_hash": 12
+      },
+      "top_iocs": [
+        {
+          "ioc": "f0fb6aa794861412977827099a4127f45d368885adf92b75904efb493a1eb5cb",
+          "type": "sha256_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:47 UTC"
+        },
+        {
+          "ioc": "936f5df6baefe57642eee138764dd2103d4d0849",
+          "type": "sha1_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:47 UTC"
+        },
+        {
+          "ioc": "2a8ce7e05836d21a6a31ca558ccd679f",
+          "type": "md5_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:47 UTC"
+        },
+        {
+          "ioc": "f193b47f2739aaa35c0ecec5d2731dc7d343c200340015e4a2bff663c3041512",
+          "type": "sha256_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-05 16:22:41 UTC"
+        },
+        {
+          "ioc": "def05ff2de5bf7d550e6230c19480bae253d8043",
+          "type": "sha1_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-05 16:22:41 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.venus_stealer",
+      "tag_hints": [],
       "description": null,
       "associated_groups": []
     },
@@ -1168,6 +1129,102 @@
       "associated_groups": []
     },
     {
+      "family": "AdaptixC2",
+      "ioc_count": 32,
+      "ioc_type_breakdown": {
+        "ip:port": 26,
+        "sha1_hash": 2,
+        "md5_hash": 2,
+        "sha256_hash": 2
+      },
+      "top_iocs": [
+        {
+          "ioc": "152.42.174.192:8080",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 15:05:05 UTC"
+        },
+        {
+          "ioc": "152.42.174.192:80",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 14:05:06 UTC"
+        },
+        {
+          "ioc": "23.227.199.61:80",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 14:05:06 UTC"
+        },
+        {
+          "ioc": "144.31.62.81:8080",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 13:05:08 UTC"
+        },
+        {
+          "ioc": "107.172.140.187:80",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 13:05:07 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2",
+      "tag_hints": [
+        "Adaptix",
+        "AdaptixC2",
+        "drb-ra"
+      ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "SmartApeSG",
+      "ioc_count": 32,
+      "ioc_type_breakdown": {
+        "url": 23,
+        "domain": 9
+      },
+      "top_iocs": [
+        {
+          "ioc": "https://pearlgallery.top/reset/user-ajax.js",
+          "type": "url",
+          "confidence": 100,
+          "first_seen": "2026-07-08 11:14:51 UTC"
+        },
+        {
+          "ioc": "https://pearlgallery.top/reset/refresh-util",
+          "type": "url",
+          "confidence": 100,
+          "first_seen": "2026-07-08 11:14:51 UTC"
+        },
+        {
+          "ioc": "pearlgallery.top",
+          "type": "domain",
+          "confidence": 100,
+          "first_seen": "2026-07-08 11:14:50 UTC"
+        },
+        {
+          "ioc": "https://pearlgallery.top/reset/principal-response.js",
+          "type": "url",
+          "confidence": 100,
+          "first_seen": "2026-07-08 11:14:50 UTC"
+        },
+        {
+          "ioc": "https://willowsummit.top/rate/dashboard-state.js",
+          "type": "url",
+          "confidence": 100,
+          "first_seen": "2026-07-07 14:12:35 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.smartapesg",
+      "tag_hints": [
+        "SmartApeSG"
+      ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
       "family": "Agent Tesla",
       "ioc_count": 30,
       "ioc_type_breakdown": {
@@ -1216,150 +1273,10 @@
       "associated_groups": []
     },
     {
-      "family": "CrossRAT",
-      "ioc_count": 27,
-      "ioc_type_breakdown": {
-        "sha1_hash": 9,
-        "md5_hash": 9,
-        "sha256_hash": 9
-      },
-      "top_iocs": [
-        {
-          "ioc": "6d2c4dec7124013ede8472a8cc4af34dff96f2f7",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:44:27 UTC"
-        },
-        {
-          "ioc": "c2c4fcaa0b2a62e71056e0d4f7411f9d",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:44:27 UTC"
-        },
-        {
-          "ioc": "f37d19918ca9a92945198b23ab4e10be7d681e4aa1f8dfd1b0905482a006e7dd",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:44:26 UTC"
-        },
-        {
-          "ioc": "7fe5367b3573ae5f1b1f61d288777438a717c740",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:44:19 UTC"
-        },
-        {
-          "ioc": "64be9719cd0cf6fa1d33d27953aab23b",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:44:19 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/jar.crossrat",
-      "tag_hints": [],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "SalatStealer",
-      "ioc_count": 27,
-      "ioc_type_breakdown": {
-        "sha256_hash": 9,
-        "sha1_hash": 9,
-        "md5_hash": 9
-      },
-      "top_iocs": [
-        {
-          "ioc": "16e34d5b3836f196864a8efe804d8dcb5938801d29bed451a3b67dca6f7b0929",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:44:08 UTC"
-        },
-        {
-          "ioc": "8e36e4e662812bec78ba97cdb43960743efc2bad",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:44:08 UTC"
-        },
-        {
-          "ioc": "a4cd834ba9819b28bb0a45a90f34f45b",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:44:08 UTC"
-        },
-        {
-          "ioc": "b177b510a76386fddb69800592dbb85ccf5d1aada1059b721a061189c92300e0",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-02 16:26:50 UTC"
-        },
-        {
-          "ioc": "501efd44aeb1f6827dbc83c2d84eb6be1171a41e",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-02 16:26:50 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer",
-      "tag_hints": [],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "AdaptixC2",
-      "ioc_count": 26,
-      "ioc_type_breakdown": {
-        "ip:port": 20,
-        "sha1_hash": 2,
-        "md5_hash": 2,
-        "sha256_hash": 2
-      },
-      "top_iocs": [
-        {
-          "ioc": "144.31.62.81:443",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-05 19:05:06 UTC"
-        },
-        {
-          "ioc": "152.42.174.192:443",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-05 05:05:05 UTC"
-        },
-        {
-          "ioc": "209.99.188.193:443",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-05 05:05:05 UTC"
-        },
-        {
-          "ioc": "23.27.52.106:443",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-04 11:05:10 UTC"
-        },
-        {
-          "ioc": "68.64.178.130:6443",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-01 06:05:05 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2",
-      "tag_hints": [
-        "Adaptix",
-        "AdaptixC2",
-        "drb-ra"
-      ],
-      "description": null,
-      "associated_groups": []
-    },
-    {
       "family": "XWorm",
-      "ioc_count": 24,
+      "ioc_count": 27,
       "ioc_type_breakdown": {
-        "ip:port": 11,
+        "ip:port": 14,
         "domain": 4,
         "sha256_hash": 3,
         "sha1_hash": 3,
@@ -1405,12 +1322,109 @@
       "associated_groups": []
     },
     {
+      "family": "Gentlemen",
+      "ioc_count": 27,
+      "ioc_type_breakdown": {
+        "md5_hash": 27
+      },
+      "top_iocs": [
+        {
+          "ioc": "5f319c7e83b8daa6836b8ae674c8e0e6",
+          "type": "md5_hash",
+          "confidence": 100,
+          "first_seen": "2026-07-08 08:13:13 UTC"
+        },
+        {
+          "ioc": "6add66a89721e2b7d817ba0d0f0d660e",
+          "type": "md5_hash",
+          "confidence": 100,
+          "first_seen": "2026-07-08 08:13:13 UTC"
+        },
+        {
+          "ioc": "55adc1b1cd21895765d8aff36d894382",
+          "type": "md5_hash",
+          "confidence": 100,
+          "first_seen": "2026-07-08 08:13:12 UTC"
+        },
+        {
+          "ioc": "15ced19102f80a843c22480e362c8811",
+          "type": "md5_hash",
+          "confidence": 100,
+          "first_seen": "2026-07-08 08:13:12 UTC"
+        },
+        {
+          "ioc": "50d6a53992cb7d6eb09bc71294e5a68f",
+          "type": "md5_hash",
+          "confidence": 100,
+          "first_seen": "2026-07-08 08:13:11 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.gentlemen",
+      "tag_hints": [
+        "Ransomware",
+        "gentlemen"
+      ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "CrossRAT",
+      "ioc_count": 27,
+      "ioc_type_breakdown": {
+        "md5_hash": 9,
+        "sha256_hash": 9,
+        "sha1_hash": 9
+      },
+      "top_iocs": [
+        {
+          "ioc": "379717f664cc19a3f295a11e189dd386",
+          "type": "md5_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:30 UTC"
+        },
+        {
+          "ioc": "436d5a5d5c35f34cdb4f6be2c4ff30dc",
+          "type": "md5_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:29 UTC"
+        },
+        {
+          "ioc": "aa4d642727be33ecd94acb8a24e546aeed325f08367333bb8974f5e54d99e715",
+          "type": "sha256_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:29 UTC"
+        },
+        {
+          "ioc": "12dec3f8af35e88e3cb377218572081cd619590f",
+          "type": "sha1_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:29 UTC"
+        },
+        {
+          "ioc": "ed1427c973e2c1fecdf2536e270fec2af98e31e229fbdae6664b0e23af321f9a",
+          "type": "sha256_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:28 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/jar.crossrat",
+      "tag_hints": [],
+      "description": null,
+      "associated_groups": []
+    },
+    {
       "family": "DCRat",
       "ioc_count": 22,
       "ioc_type_breakdown": {
         "ip:port": 22
       },
       "top_iocs": [
+        {
+          "ioc": "160.20.109.47:8080",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-07 19:05:05 UTC"
+        },
         {
           "ioc": "140.238.207.208:2443",
           "type": "ip:port",
@@ -1434,12 +1448,6 @@
           "type": "ip:port",
           "confidence": 100,
           "first_seen": "2026-07-05 18:05:04 UTC"
-        },
-        {
-          "ioc": "88.247.16.132:4444",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-04 13:05:05 UTC"
         }
       ],
       "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.dcrat",
@@ -1452,10 +1460,56 @@
       "associated_groups": []
     },
     {
-      "family": "Unknown Stealer",
-      "ioc_count": 22,
+      "family": "Kimwolf",
+      "ioc_count": 20,
       "ioc_type_breakdown": {
-        "domain": 16,
+        "ip:port": 20
+      },
+      "top_iocs": [
+        {
+          "ioc": "104.248.81.151:25001",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 10:33:31 UTC"
+        },
+        {
+          "ioc": "159.223.221.16:25001",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 10:33:30 UTC"
+        },
+        {
+          "ioc": "178.62.249.180:25001",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 10:33:30 UTC"
+        },
+        {
+          "ioc": "164.92.144.85:25001",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 10:33:29 UTC"
+        },
+        {
+          "ioc": "104.248.193.244:25001",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 10:33:28 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/apk.kimwolf",
+      "tag_hints": [
+        "c2",
+        "kimwolf"
+      ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "Unknown Stealer",
+      "ioc_count": 20,
+      "ioc_type_breakdown": {
+        "domain": 14,
         "ip:port": 2,
         "url": 4
       },
@@ -1506,11 +1560,11 @@
     },
     {
       "family": "Coinminer",
-      "ioc_count": 21,
+      "ioc_count": 18,
       "ioc_type_breakdown": {
-        "sha1_hash": 7,
-        "md5_hash": 7,
-        "sha256_hash": 7
+        "sha1_hash": 6,
+        "md5_hash": 6,
+        "sha256_hash": 6
       },
       "top_iocs": [
         {
@@ -1550,13 +1604,58 @@
       "associated_groups": []
     },
     {
-      "family": "Nanocore RAT",
-      "ioc_count": 20,
+      "family": "SalatStealer",
+      "ioc_count": 18,
       "ioc_type_breakdown": {
-        "ip:port": 1,
         "sha256_hash": 6,
         "sha1_hash": 6,
-        "md5_hash": 6,
+        "md5_hash": 6
+      },
+      "top_iocs": [
+        {
+          "ioc": "16e34d5b3836f196864a8efe804d8dcb5938801d29bed451a3b67dca6f7b0929",
+          "type": "sha256_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-04 00:44:08 UTC"
+        },
+        {
+          "ioc": "8e36e4e662812bec78ba97cdb43960743efc2bad",
+          "type": "sha1_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-04 00:44:08 UTC"
+        },
+        {
+          "ioc": "a4cd834ba9819b28bb0a45a90f34f45b",
+          "type": "md5_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-04 00:44:08 UTC"
+        },
+        {
+          "ioc": "b177b510a76386fddb69800592dbb85ccf5d1aada1059b721a061189c92300e0",
+          "type": "sha256_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-02 16:26:50 UTC"
+        },
+        {
+          "ioc": "501efd44aeb1f6827dbc83c2d84eb6be1171a41e",
+          "type": "sha1_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-02 16:26:50 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer",
+      "tag_hints": [],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "Nanocore RAT",
+      "ioc_count": 17,
+      "ioc_type_breakdown": {
+        "ip:port": 1,
+        "sha256_hash": 5,
+        "sha1_hash": 5,
+        "md5_hash": 5,
         "domain": 1
       },
       "top_iocs": [
@@ -1595,98 +1694,6 @@
       "tag_hints": [
         "NanoCore",
         "RAT"
-      ],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "Tsundere",
-      "ioc_count": 19,
-      "ioc_type_breakdown": {
-        "ip:port": 19
-      },
-      "top_iocs": [
-        {
-          "ioc": "93.152.224.44:80",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-07 09:46:09 UTC"
-        },
-        {
-          "ioc": "91.92.33.250:80",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-07 09:46:08 UTC"
-        },
-        {
-          "ioc": "82.23.248.76:443",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-06 09:46:17 UTC"
-        },
-        {
-          "ioc": "222.167.211.55:443",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-06 09:45:29 UTC"
-        },
-        {
-          "ioc": "2.27.122.16:80",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-06 09:44:33 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.tsundere",
-      "tag_hints": [
-        "DinDoor",
-        "drb-ra"
-      ],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "Gentlemen",
-      "ioc_count": 19,
-      "ioc_type_breakdown": {
-        "md5_hash": 19
-      },
-      "top_iocs": [
-        {
-          "ioc": "AE0E536766788478263BF448A9381641",
-          "type": "md5_hash",
-          "confidence": 50,
-          "first_seen": "2026-07-06 07:20:08 UTC"
-        },
-        {
-          "ioc": "3B46A729DB7AE6AF8B19711C9452194D",
-          "type": "md5_hash",
-          "confidence": 50,
-          "first_seen": "2026-07-06 07:20:05 UTC"
-        },
-        {
-          "ioc": "02944C8A5535CDB5B2CBB893DB2D5ACF",
-          "type": "md5_hash",
-          "confidence": 50,
-          "first_seen": "2026-07-06 07:20:05 UTC"
-        },
-        {
-          "ioc": "10CA9A4040001560D053B7E7885C1B95",
-          "type": "md5_hash",
-          "confidence": 50,
-          "first_seen": "2026-07-06 07:20:04 UTC"
-        },
-        {
-          "ioc": "3C471EBC947CDF32240A90FFADF49B13",
-          "type": "md5_hash",
-          "confidence": 50,
-          "first_seen": "2026-07-06 07:20:04 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.gentlemen",
-      "tag_hints": [
-        "Ransomware",
-        "gentlemen"
       ],
       "description": null,
       "associated_groups": []
@@ -1740,147 +1747,47 @@
       "associated_groups": []
     },
     {
-      "family": "NetWire RC",
-      "ioc_count": 15,
-      "ioc_type_breakdown": {
-        "sha256_hash": 5,
-        "sha1_hash": 5,
-        "md5_hash": 5
-      },
-      "top_iocs": [
-        {
-          "ioc": "739daec38ce1a857f5bbe3d199e6c129be79014006afd5da0f53ac84f9483afa",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-06 14:30:21 UTC"
-        },
-        {
-          "ioc": "ff1c77fafb8f58c31df9ea5118ded6091b0c2406",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-06 14:30:21 UTC"
-        },
-        {
-          "ioc": "26c722dc53ea775a91e105569e6138c5",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-06 14:30:21 UTC"
-        },
-        {
-          "ioc": "651a82b426efa1053fd38f2d28617b4324a74787934780d88c64b1cf0638d9cf",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-06 14:30:20 UTC"
-        },
-        {
-          "ioc": "bc673bbff3aa61ea4f719aa3630020f6033d9133",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-06 14:30:20 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.netwire",
-      "tag_hints": [],
-      "description": null,
-      "associated_groups": []
-    },
-    {
       "family": "MaskGramStealer",
       "ioc_count": 15,
       "ioc_type_breakdown": {
+        "sha1_hash": 5,
         "md5_hash": 5,
-        "sha256_hash": 5,
-        "sha1_hash": 5
+        "sha256_hash": 5
       },
       "top_iocs": [
         {
-          "ioc": "51242d1f06d41c80ea8c6fa541be3d6e",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 14:41:10 UTC"
-        },
-        {
-          "ioc": "eb4c2dc7db21d6a8a889c74c7b90eaac0e095205063ae3e348a400e253c6bdd8",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 14:41:09 UTC"
-        },
-        {
-          "ioc": "a01f91e44b2a59f24b9e9c72e46e2207b6f86526",
+          "ioc": "fd0a4317f389f68aaa65fce71109a470043bdbaa",
           "type": "sha1_hash",
           "confidence": 95,
-          "first_seen": "2026-07-04 14:41:09 UTC"
+          "first_seen": "2026-07-08 00:01:35 UTC"
         },
         {
-          "ioc": "c1cc183b4feb7f01efb4e39d1465c323",
+          "ioc": "ecb499448f45703e58fb73775ae80825",
           "type": "md5_hash",
           "confidence": 95,
-          "first_seen": "2026-07-04 00:44:05 UTC"
+          "first_seen": "2026-07-08 00:01:35 UTC"
         },
         {
-          "ioc": "0275c6cf588a7e26e97cbd3a8d301370ebeb18470e86b21d295c8d93ca778d86",
+          "ioc": "56473ac5c1ea3203fcfd2fd18e7287d46ecab638",
+          "type": "sha1_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:34 UTC"
+        },
+        {
+          "ioc": "09765552f6adc879d572921e394723f0",
+          "type": "md5_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:34 UTC"
+        },
+        {
+          "ioc": "cb46e59ba30a58775e80a51f23232e30b35c7eb11f8c5eb20015c2404e68ce88",
           "type": "sha256_hash",
           "confidence": 95,
-          "first_seen": "2026-07-04 00:44:04 UTC"
+          "first_seen": "2026-07-08 00:01:34 UTC"
         }
       ],
       "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.maskgramstealer",
       "tag_hints": [],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "Unknown RAT",
-      "ioc_count": 14,
-      "ioc_type_breakdown": {
-        "ip:port": 4,
-        "domain": 7,
-        "url": 3
-      },
-      "top_iocs": [
-        {
-          "ioc": "lxrrxl.ydns.eu",
-          "type": "domain",
-          "confidence": 100,
-          "first_seen": "2026-07-07 11:34:23 UTC"
-        },
-        {
-          "ioc": "mstscapps.ydns.eu",
-          "type": "domain",
-          "confidence": 100,
-          "first_seen": "2026-07-07 11:30:17 UTC"
-        },
-        {
-          "ioc": "survivaltraits.com",
-          "type": "domain",
-          "confidence": 100,
-          "first_seen": "2026-07-04 07:10:31 UTC"
-        },
-        {
-          "ioc": "mesh.sentra.cx",
-          "type": "domain",
-          "confidence": 100,
-          "first_seen": "2026-07-04 07:10:31 UTC"
-        },
-        {
-          "ioc": "sentrydb.org",
-          "type": "domain",
-          "confidence": 100,
-          "first_seen": "2026-07-04 07:10:26 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_rat",
-      "tag_hints": [
-        "317Stealer",
-        "ConnectWise",
-        "LxBaseRAT",
-        "RAT",
-        "ScreenConnect",
-        "etherhiding",
-        "meshagent",
-        "rmm",
-        "tonresolver"
-      ],
       "description": null,
       "associated_groups": []
     },
@@ -1941,50 +1848,149 @@
       "associated_groups": []
     },
     {
-      "family": "Remus",
+      "family": "NjRAT",
       "ioc_count": 12,
       "ioc_type_breakdown": {
-        "url": 9,
-        "domain": 3
+        "ip:port": 6,
+        "md5_hash": 2,
+        "sha256_hash": 2,
+        "sha1_hash": 2
       },
       "top_iocs": [
         {
-          "ioc": "midpfv.xyz",
-          "type": "domain",
+          "ioc": "158.160.75.185:43291",
+          "type": "ip:port",
           "confidence": 100,
-          "first_seen": "2026-07-04 10:08:51 UTC"
+          "first_seen": "2026-07-08 14:00:09 UTC"
         },
         {
-          "ioc": "http://pounde.xyz:4190",
-          "type": "url",
-          "confidence": 75,
-          "first_seen": "2026-07-07 14:16:06 UTC"
+          "ioc": "188.48.208.56:1177",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 10:15:07 UTC"
         },
         {
-          "ioc": "http://utiliq.xyz:7673",
-          "type": "url",
-          "confidence": 75,
-          "first_seen": "2026-07-06 21:16:42 UTC"
+          "ioc": "158.160.75.185:43175",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 05:50:04 UTC"
         },
         {
-          "ioc": "http://slugph.xyz:4190",
-          "type": "url",
-          "confidence": 75,
-          "first_seen": "2026-07-05 03:20:53 UTC"
+          "ioc": "209.99.185.115:2013",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 03:30:04 UTC"
         },
         {
-          "ioc": "http://tallyr.shop:6584",
-          "type": "url",
-          "confidence": 75,
-          "first_seen": "2026-07-04 15:31:11 UTC"
+          "ioc": "158.160.75.185:43082",
+          "type": "ip:port",
+          "confidence": 99,
+          "first_seen": "2026-07-03 06:31:28 UTC"
         }
       ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus",
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.njrat",
       "tag_hints": [
-        "Remus",
-        "RemusStealer",
-        "c2"
+        "njrat"
       ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "Unknown RAT",
+      "ioc_count": 12,
+      "ioc_type_breakdown": {
+        "ip:port": 4,
+        "domain": 5,
+        "url": 3
+      },
+      "top_iocs": [
+        {
+          "ioc": "lxrrxl.ydns.eu",
+          "type": "domain",
+          "confidence": 100,
+          "first_seen": "2026-07-07 11:34:23 UTC"
+        },
+        {
+          "ioc": "mstscapps.ydns.eu",
+          "type": "domain",
+          "confidence": 100,
+          "first_seen": "2026-07-07 11:30:17 UTC"
+        },
+        {
+          "ioc": "survivaltraits.com",
+          "type": "domain",
+          "confidence": 100,
+          "first_seen": "2026-07-04 07:10:31 UTC"
+        },
+        {
+          "ioc": "mesh.sentra.cx",
+          "type": "domain",
+          "confidence": 100,
+          "first_seen": "2026-07-04 07:10:31 UTC"
+        },
+        {
+          "ioc": "sentrydb.org",
+          "type": "domain",
+          "confidence": 100,
+          "first_seen": "2026-07-04 07:10:26 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_rat",
+      "tag_hints": [
+        "317Stealer",
+        "ConnectWise",
+        "LxBaseRAT",
+        "RAT",
+        "ScreenConnect",
+        "etherhiding",
+        "meshagent",
+        "rmm"
+      ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "NetWire RC",
+      "ioc_count": 12,
+      "ioc_type_breakdown": {
+        "sha256_hash": 4,
+        "sha1_hash": 4,
+        "md5_hash": 4
+      },
+      "top_iocs": [
+        {
+          "ioc": "739daec38ce1a857f5bbe3d199e6c129be79014006afd5da0f53ac84f9483afa",
+          "type": "sha256_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-06 14:30:21 UTC"
+        },
+        {
+          "ioc": "ff1c77fafb8f58c31df9ea5118ded6091b0c2406",
+          "type": "sha1_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-06 14:30:21 UTC"
+        },
+        {
+          "ioc": "26c722dc53ea775a91e105569e6138c5",
+          "type": "md5_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-06 14:30:21 UTC"
+        },
+        {
+          "ioc": "651a82b426efa1053fd38f2d28617b4324a74787934780d88c64b1cf0638d9cf",
+          "type": "sha256_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-06 14:30:20 UTC"
+        },
+        {
+          "ioc": "bc673bbff3aa61ea4f719aa3630020f6033d9133",
+          "type": "sha1_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-06 14:30:20 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.netwire",
+      "tag_hints": [],
       "description": null,
       "associated_groups": []
     },
@@ -2079,287 +2085,50 @@
       "associated_groups": []
     },
     {
-      "family": "Quasar RAT",
+      "family": "Remus",
       "ioc_count": 11,
       "ioc_type_breakdown": {
-        "ip:port": 7,
-        "sha1_hash": 1,
-        "md5_hash": 1,
-        "sha256_hash": 1,
-        "domain": 1
+        "domain": 4,
+        "url": 7
       },
       "top_iocs": [
         {
-          "ioc": "2.100.178.45:6606",
-          "type": "ip:port",
+          "ioc": "midpfv.xyz",
+          "type": "domain",
           "confidence": 100,
-          "first_seen": "2026-07-07 02:45:12 UTC"
+          "first_seen": "2026-07-04 10:08:51 UTC"
         },
         {
-          "ioc": "51.79.152.192:3060",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-06 03:45:03 UTC"
+          "ioc": "desecq.shop",
+          "type": "domain",
+          "confidence": 75,
+          "first_seen": "2026-07-08 07:22:01 UTC"
         },
         {
-          "ioc": "188.174.38.243:9215",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-02 18:00:11 UTC"
+          "ioc": "http://hatcae.xyz:4538",
+          "type": "url",
+          "confidence": 75,
+          "first_seen": "2026-07-07 16:41:06 UTC"
         },
         {
-          "ioc": "194.59.31.123:5000",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-02 13:05:07 UTC"
+          "ioc": "http://pounde.xyz:4190",
+          "type": "url",
+          "confidence": 75,
+          "first_seen": "2026-07-07 14:16:06 UTC"
         },
         {
-          "ioc": "187.45.77.76:4782",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-01 13:05:06 UTC"
+          "ioc": "http://utiliq.xyz:7673",
+          "type": "url",
+          "confidence": 75,
+          "first_seen": "2026-07-06 21:16:42 UTC"
         }
       ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.quasar_rat",
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus",
       "tag_hints": [
-        "5089",
-        "QuasarRAT",
-        "RAT",
-        "c2",
-        "censys",
-        "quasar"
+        "Remus",
+        "RemusStealer",
+        "c2"
       ],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "Evilginx",
-      "ioc_count": 10,
-      "ioc_type_breakdown": {
-        "ip:port": 10
-      },
-      "top_iocs": [
-        {
-          "ioc": "217.60.97.2:3000",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-06 19:45:03 UTC"
-        },
-        {
-          "ioc": "92.4.65.88:3333",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-04 19:45:47 UTC"
-        },
-        {
-          "ioc": "217.60.195.151:3000",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-02 09:44:58 UTC"
-        },
-        {
-          "ioc": "162.243.54.45:8080",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-02 09:43:39 UTC"
-        },
-        {
-          "ioc": "185.235.138.19:3000",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-01 19:44:11 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.evilginx",
-      "tag_hints": [
-        "EvilGinx",
-        "EvilGoPhish",
-        "drb-ra"
-      ],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "Havoc",
-      "ioc_count": 10,
-      "ioc_type_breakdown": {
-        "ip:port": 10
-      },
-      "top_iocs": [
-        {
-          "ioc": "2.56.212.64:8443",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-06 09:44:34 UTC"
-        },
-        {
-          "ioc": "173.249.41.141:80",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-06 09:43:59 UTC"
-        },
-        {
-          "ioc": "143.198.120.167:80",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-06 09:43:32 UTC"
-        },
-        {
-          "ioc": "77.105.169.126:80",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-05 19:45:53 UTC"
-        },
-        {
-          "ioc": "192.210.226.224:8443",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-01 13:58:11 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.havoc",
-      "tag_hints": [
-        "Havoc",
-        "HavocC2",
-        "drb-ra",
-        "havoc-webclient"
-      ],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "Kimwolf",
-      "ioc_count": 10,
-      "ioc_type_breakdown": {
-        "ip:port": 10
-      },
-      "top_iocs": [
-        {
-          "ioc": "188.166.63.49:25001",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-03 11:01:52 UTC"
-        },
-        {
-          "ioc": "167.71.1.193:25001",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-03 11:01:51 UTC"
-        },
-        {
-          "ioc": "134.122.62.67:25001",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-03 11:01:50 UTC"
-        },
-        {
-          "ioc": "164.92.146.175:25001",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-03 11:01:48 UTC"
-        },
-        {
-          "ioc": "146.190.226.132:25001",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-03 11:01:47 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/apk.kimwolf",
-      "tag_hints": [
-        "c2",
-        "kimwolf"
-      ],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "TinyMet",
-      "ioc_count": 9,
-      "ioc_type_breakdown": {
-        "sha1_hash": 3,
-        "md5_hash": 3,
-        "sha256_hash": 3
-      },
-      "top_iocs": [
-        {
-          "ioc": "5f5c56a6195e2e15167660416f442d3b10b8eff1",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 14:41:04 UTC"
-        },
-        {
-          "ioc": "4a47fe8302615af0e44cb9340b497562",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 14:41:04 UTC"
-        },
-        {
-          "ioc": "a422649564f3069ed4fcd02f25796ca99ed25cdaa0192652a11688005182a3fe",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 14:41:03 UTC"
-        },
-        {
-          "ioc": "b46f58cd9bbdcfdec0908e67229b484c6f8482523092dd627e0e97fec62e53a4",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:43:42 UTC"
-        },
-        {
-          "ioc": "dbf6a7ae14570ea721b3dd05aa4569ddade1ffce",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:43:42 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.tinymet",
-      "tag_hints": [],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "Creal Stealer",
-      "ioc_count": 9,
-      "ioc_type_breakdown": {
-        "md5_hash": 3,
-        "sha256_hash": 3,
-        "sha1_hash": 3
-      },
-      "top_iocs": [
-        {
-          "ioc": "dfcc75c15d845541948899841cbf0114",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:44:01 UTC"
-        },
-        {
-          "ioc": "fbfe4c2ffe4f4eba18c3c784bcd27528",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:44:00 UTC"
-        },
-        {
-          "ioc": "ed3171b8abf77dcc65bb6801c784a3a5adf671332fa0ad38b81c5fd87005bcf3",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:44:00 UTC"
-        },
-        {
-          "ioc": "4996523f783856f5f964914c65401c3e6374c6f5",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:44:00 UTC"
-        },
-        {
-          "ioc": "57d26f045da134f570eb745cee88057c0c3872d6aeab9477fc17ae46853e93c2",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-04 00:43:59 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.creal_stealer",
-      "tag_hints": [],
       "description": null,
       "associated_groups": []
     },
@@ -2409,48 +2178,52 @@
       "associated_groups": []
     },
     {
-      "family": "Mozi",
+      "family": "Quasar RAT",
       "ioc_count": 8,
       "ioc_type_breakdown": {
-        "url": 8
+        "ip:port": 4,
+        "sha1_hash": 1,
+        "md5_hash": 1,
+        "sha256_hash": 1,
+        "domain": 1
       },
       "top_iocs": [
         {
-          "ioc": "http://124.29.214.186:54586/Mozi.m",
-          "type": "url",
-          "confidence": 75,
-          "first_seen": "2026-07-01 13:58:06 UTC"
+          "ioc": "2.100.178.45:6606",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-07 02:45:12 UTC"
         },
         {
-          "ioc": "http://103.26.82.194:51844/Mozi.a",
-          "type": "url",
-          "confidence": 75,
-          "first_seen": "2026-07-01 13:58:06 UTC"
+          "ioc": "51.79.152.192:3060",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-06 03:45:03 UTC"
         },
         {
-          "ioc": "http://202.70.139.110:44351/Mozi.a",
-          "type": "url",
-          "confidence": 75,
-          "first_seen": "2026-07-01 07:42:37 UTC"
+          "ioc": "188.174.38.243:9215",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-02 18:00:11 UTC"
         },
         {
-          "ioc": "http://103.248.94.9:51949/Mozi.m",
-          "type": "url",
-          "confidence": 75,
-          "first_seen": "2026-07-01 07:42:36 UTC"
+          "ioc": "194.59.31.123:5000",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-02 13:05:07 UTC"
         },
         {
-          "ioc": "http://112.27.10.150:34339/Mozi.m",
-          "type": "url",
-          "confidence": 75,
-          "first_seen": "2026-07-01 05:49:37 UTC"
+          "ioc": "8a3a3cc15f5035a772abcb15c01980c16df34d38",
+          "type": "sha1_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-04 00:44:20 UTC"
         }
       ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mozi",
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.quasar_rat",
       "tag_hints": [
-        "IoT",
-        "Mozi",
-        "elf"
+        "QuasarRAT",
+        "RAT",
+        "quasar"
       ],
       "description": null,
       "associated_groups": []
@@ -2463,6 +2236,12 @@
         "ip:port": 1
       },
       "top_iocs": [
+        {
+          "ioc": "img-slow.alternativesynergies.com",
+          "type": "domain",
+          "confidence": 100,
+          "first_seen": "2026-07-08 14:46:25 UTC"
+        },
         {
           "ioc": "in-us.leadmarketingmachine.com",
           "type": "domain",
@@ -2486,17 +2265,149 @@
           "type": "ip:port",
           "confidence": 100,
           "first_seen": "2026-07-02 21:53:34 UTC"
-        },
-        {
-          "ioc": "dl.politex.app",
-          "type": "domain",
-          "confidence": 100,
-          "first_seen": "2026-07-02 14:11:09 UTC"
         }
       ],
       "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.fakeupdates",
       "tag_hints": [
         "SocGholish"
+      ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "Havoc",
+      "ioc_count": 6,
+      "ioc_type_breakdown": {
+        "ip:port": 6
+      },
+      "top_iocs": [
+        {
+          "ioc": "162.248.102.130:8848",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-08 09:43:47 UTC"
+        },
+        {
+          "ioc": "8.133.197.201:443",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-07 19:45:48 UTC"
+        },
+        {
+          "ioc": "2.56.212.64:8443",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-06 09:44:34 UTC"
+        },
+        {
+          "ioc": "173.249.41.141:80",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-06 09:43:59 UTC"
+        },
+        {
+          "ioc": "143.198.120.167:80",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-06 09:43:32 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.havoc",
+      "tag_hints": [
+        "Havoc",
+        "drb-ra"
+      ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "DarkTortilla",
+      "ioc_count": 6,
+      "ioc_type_breakdown": {
+        "sha1_hash": 2,
+        "md5_hash": 2,
+        "sha256_hash": 2
+      },
+      "top_iocs": [
+        {
+          "ioc": "7a7723e299a5591b4a45d524a4cf23b096ad16fe",
+          "type": "sha1_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:37 UTC"
+        },
+        {
+          "ioc": "225117fe6244da7cdb75649909b78289",
+          "type": "md5_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:37 UTC"
+        },
+        {
+          "ioc": "78ffc2b5dd00a7bce12ea7bb87c97c94175b595e7ea2b35f9605f943a5dbcf3b",
+          "type": "sha256_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:36 UTC"
+        },
+        {
+          "ioc": "e63bc44fbf3dd02c91262e309fb4d0eb",
+          "type": "md5_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-02 16:26:47 UTC"
+        },
+        {
+          "ioc": "51e3e006da49bddcdfaeceb3ada3b0401abc6e1536098caf85d3897a9e3e48e4",
+          "type": "sha256_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-02 16:26:46 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.darktortilla",
+      "tag_hints": [],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "Evilginx",
+      "ioc_count": 6,
+      "ioc_type_breakdown": {
+        "ip:port": 6
+      },
+      "top_iocs": [
+        {
+          "ioc": "62.192.173.164:3333",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-07 19:45:41 UTC"
+        },
+        {
+          "ioc": "217.60.97.2:3000",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-06 19:45:03 UTC"
+        },
+        {
+          "ioc": "92.4.65.88:3333",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-04 19:45:47 UTC"
+        },
+        {
+          "ioc": "217.60.195.151:3000",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-02 09:44:58 UTC"
+        },
+        {
+          "ioc": "162.243.54.45:8080",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-02 09:43:39 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.evilginx",
+      "tag_hints": [
+        "EvilGinx",
+        "EvilGoPhish",
+        "drb-ra"
       ],
       "description": null,
       "associated_groups": []
@@ -2550,6 +2461,51 @@
       "associated_groups": []
     },
     {
+      "family": "TinyMet",
+      "ioc_count": 6,
+      "ioc_type_breakdown": {
+        "sha1_hash": 2,
+        "md5_hash": 2,
+        "sha256_hash": 2
+      },
+      "top_iocs": [
+        {
+          "ioc": "5f5c56a6195e2e15167660416f442d3b10b8eff1",
+          "type": "sha1_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-04 14:41:04 UTC"
+        },
+        {
+          "ioc": "4a47fe8302615af0e44cb9340b497562",
+          "type": "md5_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-04 14:41:04 UTC"
+        },
+        {
+          "ioc": "a422649564f3069ed4fcd02f25796ca99ed25cdaa0192652a11688005182a3fe",
+          "type": "sha256_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-04 14:41:03 UTC"
+        },
+        {
+          "ioc": "b46f58cd9bbdcfdec0908e67229b484c6f8482523092dd627e0e97fec62e53a4",
+          "type": "sha256_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-04 00:43:42 UTC"
+        },
+        {
+          "ioc": "dbf6a7ae14570ea721b3dd05aa4569ddade1ffce",
+          "type": "sha1_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-04 00:43:42 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.tinymet",
+      "tag_hints": [],
+      "description": null,
+      "associated_groups": []
+    },
+    {
       "family": "LALALA Stealer",
       "ioc_count": 6,
       "ioc_type_breakdown": {
@@ -2595,7 +2551,7 @@
       "associated_groups": []
     },
     {
-      "family": "BlankGrabber",
+      "family": "Creal Stealer",
       "ioc_count": 6,
       "ioc_type_breakdown": {
         "md5_hash": 2,
@@ -2604,37 +2560,37 @@
       },
       "top_iocs": [
         {
-          "ioc": "6b5dc025587cfb9fb6d155f466dd1507",
+          "ioc": "dfcc75c15d845541948899841cbf0114",
           "type": "md5_hash",
           "confidence": 95,
-          "first_seen": "2026-07-02 16:26:38 UTC"
+          "first_seen": "2026-07-04 00:44:01 UTC"
         },
         {
-          "ioc": "de42b33110544bcc3b2251d6aae89643954eba9dd697c1fb4b2316b33081d0f7",
+          "ioc": "fbfe4c2ffe4f4eba18c3c784bcd27528",
+          "type": "md5_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-04 00:44:00 UTC"
+        },
+        {
+          "ioc": "ed3171b8abf77dcc65bb6801c784a3a5adf671332fa0ad38b81c5fd87005bcf3",
           "type": "sha256_hash",
           "confidence": 95,
-          "first_seen": "2026-07-02 16:26:37 UTC"
+          "first_seen": "2026-07-04 00:44:00 UTC"
         },
         {
-          "ioc": "641dd2937fe2a05ac0f3c9c5d1358a9963023359",
+          "ioc": "4996523f783856f5f964914c65401c3e6374c6f5",
           "type": "sha1_hash",
           "confidence": 95,
-          "first_seen": "2026-07-02 16:26:37 UTC"
+          "first_seen": "2026-07-04 00:44:00 UTC"
         },
         {
-          "ioc": "49a58699c0421dc0f5769ec37936b3ae01b7dd5e715a7075e5e39ea78715120e",
+          "ioc": "57d26f045da134f570eb745cee88057c0c3872d6aeab9477fc17ae46853e93c2",
           "type": "sha256_hash",
           "confidence": 95,
-          "first_seen": "2026-06-30 23:55:22 UTC"
-        },
-        {
-          "ioc": "05491d34e27818fd94c1baf2c3d630600adaee10",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:22 UTC"
+          "first_seen": "2026-07-04 00:43:59 UTC"
         }
       ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.blankgrabber",
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.creal_stealer",
       "tag_hints": [],
       "description": null,
       "associated_groups": []
@@ -2685,47 +2641,88 @@
       "associated_groups": []
     },
     {
-      "family": "HijackLoader",
-      "ioc_count": 4,
+      "family": "Tsundere",
+      "ioc_count": 5,
       "ioc_type_breakdown": {
-        "domain": 1,
-        "md5_hash": 1,
-        "sha256_hash": 1,
-        "sha1_hash": 1
+        "ip:port": 5
       },
       "top_iocs": [
         {
-          "ioc": "c31217109ba50059d7c081a7e832d0cf",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-01 14:02:30 UTC"
-        },
-        {
-          "ioc": "9c0a88ea53c4e0324157542385a1d342101feb51cf7b8cf76e9441376f1f522a",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-01 14:02:29 UTC"
-        },
-        {
-          "ioc": "36852534338ae1d12fee8567c96636bbe1fe6d38",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-01 14:02:29 UTC"
-        },
-        {
-          "ioc": "fullcrypters.net",
-          "type": "domain",
+          "ioc": "93.152.224.44:80",
+          "type": "ip:port",
           "confidence": 75,
-          "first_seen": "2026-07-07 10:56:19 UTC"
+          "first_seen": "2026-07-07 09:46:09 UTC"
+        },
+        {
+          "ioc": "91.92.33.250:80",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-07 09:46:08 UTC"
+        },
+        {
+          "ioc": "82.23.248.76:443",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-06 09:46:17 UTC"
+        },
+        {
+          "ioc": "222.167.211.55:443",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-06 09:45:29 UTC"
+        },
+        {
+          "ioc": "2.27.122.16:80",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-06 09:44:33 UTC"
         }
       ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.hijackloader",
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.tsundere",
       "tag_hints": [
-        "amatera",
-        "cracked-games",
-        "crypter",
-        "fullcrypters",
-        "renpy"
+        "DinDoor",
+        "drb-ra"
+      ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "NetSupportManager RAT",
+      "ioc_count": 4,
+      "ioc_type_breakdown": {
+        "ip:port": 4
+      },
+      "top_iocs": [
+        {
+          "ioc": "91.92.43.51:443",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-07 18:35:03 UTC"
+        },
+        {
+          "ioc": "216.126.227.38:443",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-07 02:45:09 UTC"
+        },
+        {
+          "ioc": "2.137.3.71:3085",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-06 09:44:31 UTC"
+        },
+        {
+          "ioc": "109.123.239.180:52607",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-05 19:43:18 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.netsupportmanager_rat",
+      "tag_hints": [
+        "NetSupport",
+        "RAT",
+        "drb-ra"
       ],
       "description": null,
       "associated_groups": []
@@ -2773,6 +2770,107 @@
       "associated_groups": []
     },
     {
+      "family": "Arkei Stealer",
+      "ioc_count": 3,
+      "ioc_type_breakdown": {
+        "sha1_hash": 1,
+        "md5_hash": 1,
+        "sha256_hash": 1
+      },
+      "top_iocs": [
+        {
+          "ioc": "d906cde072f34edb752b66a097b8284300b88a3b",
+          "type": "sha1_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:36 UTC"
+        },
+        {
+          "ioc": "17c783bb84f17edb43a538f0dfbeb1e9",
+          "type": "md5_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:36 UTC"
+        },
+        {
+          "ioc": "79a00dc593777f03f4de27e234f44908a91d600766f34b40f59aa2100000dd09",
+          "type": "sha256_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:35 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.arkei_stealer",
+      "tag_hints": [],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "stealler",
+      "ioc_count": 3,
+      "ioc_type_breakdown": {
+        "md5_hash": 1,
+        "sha256_hash": 1,
+        "sha1_hash": 1
+      },
+      "top_iocs": [
+        {
+          "ioc": "eceee0d92a65b8b01f7bfb352e3ea087",
+          "type": "md5_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:33 UTC"
+        },
+        {
+          "ioc": "dbccfce8d0ebc5ea70b601130d6453cb31db779c002149c9f2a3c6b0236fe8af",
+          "type": "sha256_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:32 UTC"
+        },
+        {
+          "ioc": "6b2b9b4788ec5ff23069329f28e10faf4518f7f0",
+          "type": "sha1_hash",
+          "confidence": 95,
+          "first_seen": "2026-07-08 00:01:32 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.stealler",
+      "tag_hints": [],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "pupy",
+      "ioc_count": 3,
+      "ioc_type_breakdown": {
+        "ip:port": 3
+      },
+      "top_iocs": [
+        {
+          "ioc": "144.172.88.9:443",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-07 19:43:29 UTC"
+        },
+        {
+          "ioc": "157.245.54.75:9000",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-06 09:43:45 UTC"
+        },
+        {
+          "ioc": "70.34.251.19:443",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-02 09:45:42 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pupy",
+      "tag_hints": [
+        "RAT",
+        "drb-ra",
+        "pupyRat"
+      ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
       "family": "CoffeeLoader",
       "ioc_count": 3,
       "ioc_type_breakdown": {
@@ -2803,41 +2901,6 @@
       "tag_hints": [
         "CoffeeLoader",
         "MSDuckStealer"
-      ],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "NetSupportManager RAT",
-      "ioc_count": 3,
-      "ioc_type_breakdown": {
-        "ip:port": 3
-      },
-      "top_iocs": [
-        {
-          "ioc": "216.126.227.38:443",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-07 02:45:09 UTC"
-        },
-        {
-          "ioc": "2.137.3.71:3085",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-06 09:44:31 UTC"
-        },
-        {
-          "ioc": "109.123.239.180:52607",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-05 19:43:18 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.netsupportmanager_rat",
-      "tag_hints": [
-        "NetSupport",
-        "RAT",
-        "drb-ra"
       ],
       "description": null,
       "associated_groups": []
@@ -3349,41 +3412,7 @@
       "associated_groups": []
     },
     {
-      "family": "DanaBot",
-      "ioc_count": 3,
-      "ioc_type_breakdown": {
-        "ip:port": 3
-      },
-      "top_iocs": [
-        {
-          "ioc": "37.244.255.240:4433",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-03 19:45:22 UTC"
-        },
-        {
-          "ioc": "177.22.119.174:9001",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-02 19:43:58 UTC"
-        },
-        {
-          "ioc": "16.163.186.117:443",
-          "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-01 09:43:40 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.danabot",
-      "tag_hints": [
-        "DanBot",
-        "drb-ra"
-      ],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "DarkTortilla",
+      "family": "BlankGrabber",
       "ioc_count": 3,
       "ioc_type_breakdown": {
         "md5_hash": 1,
@@ -3392,25 +3421,25 @@
       },
       "top_iocs": [
         {
-          "ioc": "e63bc44fbf3dd02c91262e309fb4d0eb",
+          "ioc": "6b5dc025587cfb9fb6d155f466dd1507",
           "type": "md5_hash",
           "confidence": 95,
-          "first_seen": "2026-07-02 16:26:47 UTC"
+          "first_seen": "2026-07-02 16:26:38 UTC"
         },
         {
-          "ioc": "51e3e006da49bddcdfaeceb3ada3b0401abc6e1536098caf85d3897a9e3e48e4",
+          "ioc": "de42b33110544bcc3b2251d6aae89643954eba9dd697c1fb4b2316b33081d0f7",
           "type": "sha256_hash",
           "confidence": 95,
-          "first_seen": "2026-07-02 16:26:46 UTC"
+          "first_seen": "2026-07-02 16:26:37 UTC"
         },
         {
-          "ioc": "11758c6808e531b111b91997c67cb15a1e443032",
+          "ioc": "641dd2937fe2a05ac0f3c9c5d1358a9963023359",
           "type": "sha1_hash",
           "confidence": 95,
-          "first_seen": "2026-07-02 16:26:46 UTC"
+          "first_seen": "2026-07-02 16:26:37 UTC"
         }
       ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.darktortilla",
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.blankgrabber",
       "tag_hints": [],
       "description": null,
       "associated_groups": []
@@ -3450,294 +3479,28 @@
       "associated_groups": []
     },
     {
-      "family": "stealler",
-      "ioc_count": 3,
-      "ioc_type_breakdown": {
-        "sha1_hash": 1,
-        "md5_hash": 1,
-        "sha256_hash": 1
-      },
-      "top_iocs": [
-        {
-          "ioc": "25968d28095d12ae3084b9675223d6785506f318",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-01 14:02:34 UTC"
-        },
-        {
-          "ioc": "2c768932e125bd22ea8b71a773053082",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-01 14:02:34 UTC"
-        },
-        {
-          "ioc": "3d195ba1802309316a5a54031e76cc666136cc21e01b97daf4a21a176ea5b3d3",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-07-01 14:02:33 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.stealler",
-      "tag_hints": [],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "Phantom Stealer",
-      "ioc_count": 3,
-      "ioc_type_breakdown": {
-        "sha256_hash": 1,
-        "sha1_hash": 1,
-        "md5_hash": 1
-      },
-      "top_iocs": [
-        {
-          "ioc": "283cfc119905c3e5db6fb6746aa4000cab290013157cbe61cfe6dfb650e19548",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:32 UTC"
-        },
-        {
-          "ioc": "e3a0ae83bfa4900c0219f0bf13a233904dfa17ec",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:32 UTC"
-        },
-        {
-          "ioc": "b818f530a0a9a6247f9943fe3eb32bf3",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:32 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.phantom_stealer",
-      "tag_hints": [],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "Easy Stealer",
-      "ioc_count": 3,
-      "ioc_type_breakdown": {
-        "sha1_hash": 1,
-        "md5_hash": 1,
-        "sha256_hash": 1
-      },
-      "top_iocs": [
-        {
-          "ioc": "520b7408c605636e4906d83850a5f7d24befa69f",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:26 UTC"
-        },
-        {
-          "ioc": "3f0352cbeaaec5e6bb9cad551a9b7007",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:26 UTC"
-        },
-        {
-          "ioc": "7d2370b8831dd07db1346424e487534db6079ffc9472a4a1710f8b9fcd78c182",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:25 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.easystealer",
-      "tag_hints": [],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "XoriumStealer",
-      "ioc_count": 3,
-      "ioc_type_breakdown": {
-        "sha1_hash": 1,
-        "md5_hash": 1,
-        "sha256_hash": 1
-      },
-      "top_iocs": [
-        {
-          "ioc": "85255f5f6eb8f9c061173d3347b0f6f43f6159b5",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:25 UTC"
-        },
-        {
-          "ioc": "86eef43c56ef3a426f5e282c2f2afbf8",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:25 UTC"
-        },
-        {
-          "ioc": "67643a051e8cda3cddb10e20281dd42961ea4fe754c316201670446748819718",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:24 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.xoriumstealer",
-      "tag_hints": [],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "VoltStealer",
-      "ioc_count": 3,
-      "ioc_type_breakdown": {
-        "sha256_hash": 1,
-        "sha1_hash": 1,
-        "md5_hash": 1
-      },
-      "top_iocs": [
-        {
-          "ioc": "51c6b54a5b498e78765d8a95c065ede84380ec1f0438462baefb82b7e3967bbb",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:24 UTC"
-        },
-        {
-          "ioc": "e9ff8c25cefa6e137606f64cfdc2a4637b834ce9",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:24 UTC"
-        },
-        {
-          "ioc": "958f3ce99157d6e0c1396d30f4d82e38",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:24 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.voltstealer",
-      "tag_hints": [],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "Metaencryptor",
-      "ioc_count": 3,
-      "ioc_type_breakdown": {
-        "sha256_hash": 1,
-        "sha1_hash": 1,
-        "md5_hash": 1
-      },
-      "top_iocs": [
-        {
-          "ioc": "65550f6d0ffec8421f703cdc7273d9c0563b3d480fe6702bad294a18afe72143",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:23 UTC"
-        },
-        {
-          "ioc": "c8f4474d91fe1a957887a51f212a8fd0d158c282",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:23 UTC"
-        },
-        {
-          "ioc": "6f8647bbb9fb933a367abf32a6c6821d",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:23 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.metaencryptor",
-      "tag_hints": [],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "Supper",
-      "ioc_count": 3,
-      "ioc_type_breakdown": {
-        "sha256_hash": 1,
-        "sha1_hash": 1,
-        "md5_hash": 1
-      },
-      "top_iocs": [
-        {
-          "ioc": "dec98a1ef5d1d1b5a6aa886345de1ac4adcea5829509e375b7cf87b7a22fb91d",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:18 UTC"
-        },
-        {
-          "ioc": "6d17dca898d657f7719d2c021988471061aff173",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:18 UTC"
-        },
-        {
-          "ioc": "caf61d5d2d0449eba635f900da57c26c",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:18 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.supper",
-      "tag_hints": [],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "Socks5Systemz",
-      "ioc_count": 3,
-      "ioc_type_breakdown": {
-        "md5_hash": 1,
-        "sha256_hash": 1,
-        "sha1_hash": 1
-      },
-      "top_iocs": [
-        {
-          "ioc": "2dfe7a647bfd6602e54d8803a9326207",
-          "type": "md5_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:16 UTC"
-        },
-        {
-          "ioc": "5550e9b063aa3dbf466593011bc7c1b6c01e54ff2ffeeaad74814a7726c35804",
-          "type": "sha256_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:15 UTC"
-        },
-        {
-          "ioc": "d8d4de8f8a3a4ed9bc97d1423134ec13112bbfaa",
-          "type": "sha1_hash",
-          "confidence": 95,
-          "first_seen": "2026-06-30 23:55:15 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.socks5_systemz",
-      "tag_hints": [],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "pupy",
+      "family": "STRRAT",
       "ioc_count": 2,
       "ioc_type_breakdown": {
         "ip:port": 2
       },
       "top_iocs": [
         {
-          "ioc": "157.245.54.75:9000",
+          "ioc": "217.217.97.106:20908",
           "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-06 09:43:45 UTC"
+          "confidence": 100,
+          "first_seen": "2026-07-08 09:45:03 UTC"
         },
         {
-          "ioc": "70.34.251.19:443",
+          "ioc": "204.10.160.215:3608",
           "type": "ip:port",
-          "confidence": 75,
-          "first_seen": "2026-07-02 09:45:42 UTC"
+          "confidence": 100,
+          "first_seen": "2026-07-01 16:50:02 UTC"
         }
       ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pupy",
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/jar.strrat",
       "tag_hints": [
-        "RAT",
-        "drb-ra",
-        "pupyRat"
+        "STRRAT"
       ],
       "description": null,
       "associated_groups": []
@@ -3799,6 +3562,34 @@
       "associated_groups": []
     },
     {
+      "family": "DanaBot",
+      "ioc_count": 2,
+      "ioc_type_breakdown": {
+        "ip:port": 2
+      },
+      "top_iocs": [
+        {
+          "ioc": "37.244.255.240:4433",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-03 19:45:22 UTC"
+        },
+        {
+          "ioc": "177.22.119.174:9001",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-02 19:43:58 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.danabot",
+      "tag_hints": [
+        "DanBot",
+        "drb-ra"
+      ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
       "family": "Hook",
       "ioc_count": 2,
       "ioc_type_breakdown": {
@@ -3823,31 +3614,6 @@
         "drb-ra",
         "hook"
       ],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "NjRAT",
-      "ioc_count": 2,
-      "ioc_type_breakdown": {
-        "ip:port": 2
-      },
-      "top_iocs": [
-        {
-          "ioc": "158.160.75.185:43082",
-          "type": "ip:port",
-          "confidence": 99,
-          "first_seen": "2026-07-03 06:31:28 UTC"
-        },
-        {
-          "ioc": "185.192.124.218:4291",
-          "type": "ip:port",
-          "confidence": 99,
-          "first_seen": "2026-07-03 06:31:28 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.njrat",
-      "tag_hints": [],
       "description": null,
       "associated_groups": []
     },
@@ -3880,6 +3646,50 @@
       "associated_groups": []
     },
     {
+      "family": "Overlord RAT",
+      "ioc_count": 1,
+      "ioc_type_breakdown": {
+        "ip:port": 1
+      },
+      "top_iocs": [
+        {
+          "ioc": "13.204.46.27:5173",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-08 13:07:19 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.overlord",
+      "tag_hints": [
+        "OverlordRAT",
+        "RAT"
+      ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "Houdini",
+      "ioc_count": 1,
+      "ioc_type_breakdown": {
+        "ip:port": 1
+      },
+      "top_iocs": [
+        {
+          "ioc": "46.246.12.2:7046",
+          "type": "ip:port",
+          "confidence": 75,
+          "first_seen": "2026-07-08 06:49:40 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.houdini",
+      "tag_hints": [
+        "RAT",
+        "WSHRAT"
+      ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
       "family": "VIP Keylogger",
       "ioc_count": 1,
       "ioc_type_breakdown": {
@@ -3896,6 +3706,31 @@
       "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vipkeylogger",
       "tag_hints": [
         "VIPKeylogger"
+      ],
+      "description": null,
+      "associated_groups": []
+    },
+    {
+      "family": "HijackLoader",
+      "ioc_count": 1,
+      "ioc_type_breakdown": {
+        "domain": 1
+      },
+      "top_iocs": [
+        {
+          "ioc": "fullcrypters.net",
+          "type": "domain",
+          "confidence": 75,
+          "first_seen": "2026-07-07 10:56:19 UTC"
+        }
+      ],
+      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.hijackloader",
+      "tag_hints": [
+        "amatera",
+        "cracked-games",
+        "crypter",
+        "fullcrypters",
+        "renpy"
       ],
       "description": null,
       "associated_groups": []
@@ -4159,72 +3994,6 @@
       "tag_hints": [
         "CHAOS",
         "drb-ra"
-      ],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "STRRAT",
-      "ioc_count": 1,
-      "ioc_type_breakdown": {
-        "ip:port": 1
-      },
-      "top_iocs": [
-        {
-          "ioc": "204.10.160.215:3608",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-01 16:50:02 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/jar.strrat",
-      "tag_hints": [
-        "STRRAT"
-      ],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "Bashlite",
-      "ioc_count": 1,
-      "ioc_type_breakdown": {
-        "ip:port": 1
-      },
-      "top_iocs": [
-        {
-          "ioc": "85.204.125.67:12345",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-01 10:35:28 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.bashlite",
-      "tag_hints": [
-        "Gafgyt"
-      ],
-      "description": null,
-      "associated_groups": []
-    },
-    {
-      "family": "Meterpreter",
-      "ioc_count": 1,
-      "ioc_type_breakdown": {
-        "ip:port": 1
-      },
-      "top_iocs": [
-        {
-          "ioc": "168.245.203.156:3790",
-          "type": "ip:port",
-          "confidence": 50,
-          "first_seen": "2026-07-01 05:49:29 UTC"
-        }
-      ],
-      "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.meterpreter",
-      "tag_hints": [
-        "58580",
-        "MetaSploit",
-        "c2",
-        "censys"
       ],
       "description": null,
       "associated_groups": []
