@@ -14,6 +14,8 @@
   th { color: #8b949e; font-weight: 600; position: sticky; top: 0; background: #0d1117; }
   tr:hover { background: #161b22; }
   .cve { font-family: monospace; color: #58a6ff; }
+  .cve a { color: #58a6ff; text-decoration: none; }
+  .cve a:hover { text-decoration: underline; }
   .ransomware-yes { color: #f85149; font-weight: 600; }
   #status { color: #8b949e; }
   header { display: flex; align-items: baseline; gap: 1.5rem; padding-bottom: 1rem; margin-bottom: 1.25rem; border-bottom: 1px solid #30363d; flex-wrap: wrap; }
@@ -64,7 +66,7 @@
       const tr = document.createElement("tr");
       const ransomware = v.knownRansomwareCampaignUse === "Known" ? "ransomware-yes" : "";
       tr.innerHTML = `
-        <td class="cve">${v.cveID}</td>
+       <td class="cve"><a href="https://nvd.nist.gov/vuln/detail/${v.cveID}" target="_blank" rel="noopener">${v.cveID}</a></td>
         <td>${v.vendorProject} / ${v.product}</td>
         <td>${v.vulnerabilityName}</td>
         <td>${v.dateAdded}</td>
