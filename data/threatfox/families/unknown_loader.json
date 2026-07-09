@@ -1,8 +1,8 @@
 {
   "malware_id": "unknown_loader",
   "family": "Unknown Loader",
-  "generated": "2026-07-08T02:13:14.424521+00:00",
-  "recent_window_ioc_count": 232,
+  "generated": "2026-07-08T21:03:25.906772+00:00",
+  "recent_window_ioc_count": 255,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader",
   "description": null,
   "alt_names": [],
@@ -10,32 +10,22 @@
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-01-13",
-      "latest": "2026-07-07"
+      "earliest": "2026-02-21",
+      "latest": "2026-07-08"
     },
     "ioc_type_breakdown": {
-      "domain": 381,
-      "url": 78,
+      "domain": 384,
+      "url": 75,
       "ip:port": 32,
       "sha256_hash": 9
     },
     "confidence_distribution": {
-      "high": 469,
-      "medium": 31,
+      "high": 471,
+      "medium": 29,
       "low": 0
     },
     "activity_timeline": {
-      "2026-01-13": 2,
-      "2026-01-15": 5,
-      "2026-01-30": 1,
-      "2026-02-04": 1,
-      "2026-02-09": 27,
-      "2026-02-12": 5,
-      "2026-02-16": 4,
-      "2026-02-17": 4,
-      "2026-02-18": 3,
-      "2026-02-19": 1,
-      "2026-02-21": 8,
+      "2026-02-21": 7,
       "2026-02-23": 6,
       "2026-02-26": 3,
       "2026-02-27": 1,
@@ -104,7 +94,8 @@
       "2026-07-04": 7,
       "2026-07-05": 6,
       "2026-07-06": 150,
-      "2026-07-07": 35
+      "2026-07-07": 35,
+      "2026-07-08": 54
     },
     "top_ports": [
       {
@@ -150,94 +141,94 @@
     ],
     "sample_iocs": [
       {
-        "ioc": "safeimagehub.info",
+        "ioc": "recap-cha.xyz",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-07 20:06:34 UTC"
+        "first_seen": "2026-07-08 18:35:31 UTC"
       },
       {
-        "ioc": "reservphotoinstaynow.shop",
+        "ioc": "gtm-helper.xyz",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-07 12:22:30 UTC"
+        "first_seen": "2026-07-08 18:35:31 UTC"
       },
       {
-        "ioc": "reservinfoaboutreserv.one",
+        "ioc": "adiapavj.ro",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-07 12:22:29 UTC"
+        "first_seen": "2026-07-08 11:57:03 UTC"
       },
       {
-        "ioc": "lonajkuvbng.cfd",
+        "ioc": "aacharyaamanastrology.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-07 12:22:29 UTC"
+        "first_seen": "2026-07-08 11:57:03 UTC"
       },
       {
-        "ioc": "hostreservation-reports.one",
+        "ioc": "alessiachloeperu.com.pe",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-07 12:22:29 UTC"
+        "first_seen": "2026-07-08 11:57:02 UTC"
       },
       {
-        "ioc": "ipapoker.com",
-        "type": "domain",
-        "confidence": 75,
-        "first_seen": "2026-07-07 12:01:57 UTC"
-      },
-      {
-        "ioc": "https://mdsearch.xyz/plg",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-07 09:41:59 UTC"
-      },
-      {
-        "ioc": "https://mdsearch.xyz/usa",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-07 09:41:58 UTC"
-      },
-      {
-        "ioc": "ironsize.cfd",
+        "ioc": "abbasheartwm.org",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-07 06:17:17 UTC"
+        "first_seen": "2026-07-08 11:57:02 UTC"
       },
       {
-        "ioc": "runbattle.space",
+        "ioc": "aurumvida.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-07 06:17:17 UTC"
+        "first_seen": "2026-07-08 11:57:01 UTC"
       },
       {
-        "ioc": "https://drive.google.com/uc?export=download&id=1CjSD0JhJj42n2yygv_75tmpvl6Uqic4o",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-07 05:21:39 UTC"
-      },
-      {
-        "ioc": "https://drive.google.com/uc?export=download&id=1V1G5Jk8mfKArijX1082xQoM4b7l-DF4x",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-07 05:21:36 UTC"
-      },
-      {
-        "ioc": "https://activityof.com/datei",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-07 05:21:35 UTC"
-      },
-      {
-        "ioc": "https://bnsbackend.mydevsystems.com/redirect",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-07 05:21:34 UTC"
-      },
-      {
-        "ioc": "amexhighyieldsavings.online",
+        "ioc": "anfconcepts.com",
         "type": "domain",
-        "confidence": 75,
-        "first_seen": "2026-07-07 05:21:34 UTC"
+        "confidence": 100,
+        "first_seen": "2026-07-08 11:57:01 UTC"
+      },
+      {
+        "ioc": "cash4shares.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-08 11:57:00 UTC"
+      },
+      {
+        "ioc": "boxywebtools.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-08 11:57:00 UTC"
+      },
+      {
+        "ioc": "bartonspecialistclinic.com.au",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-08 11:57:00 UTC"
+      },
+      {
+        "ioc": "comprooroediamanti.it",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-08 11:56:59 UTC"
+      },
+      {
+        "ioc": "childrenhouseschool.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-08 11:56:59 UTC"
+      },
+      {
+        "ioc": "challengerfactory.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-08 11:56:59 UTC"
+      },
+      {
+        "ioc": "danacgautreaux.net",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-08 11:56:58 UTC"
       }
     ]
   }

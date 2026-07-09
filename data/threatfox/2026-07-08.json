@@ -1,46 +1,46 @@
 {
-  "generated": "2026-07-08T20:27:16.816156+00:00",
+  "generated": "2026-07-08T21:02:41.056365+00:00",
   "window_days": 7,
-  "total_iocs": 3365,
+  "total_iocs": 3371,
   "total_families": 98,
   "families": [
     {
       "family": "ClearFake",
       "malware_id": "js.clearfake",
-      "ioc_count": 789,
+      "ioc_count": 791,
       "ioc_type_breakdown": {
-        "domain": 789
+        "domain": 791
       },
       "top_iocs": [
+        {
+          "ioc": "4z0tdlyo.calvaryhospice.org",
+          "type": "domain",
+          "confidence": 100,
+          "first_seen": "2026-07-08 20:51:29 UTC"
+        },
+        {
+          "ioc": "vfrsh9y6.bunos.bet",
+          "type": "domain",
+          "confidence": 100,
+          "first_seen": "2026-07-08 20:40:48 UTC"
+        },
+        {
+          "ioc": "ihnx.footbalpersian.ir",
+          "type": "domain",
+          "confidence": 100,
+          "first_seen": "2026-07-08 20:31:43 UTC"
+        },
+        {
+          "ioc": "footbalpersian.ir",
+          "type": "domain",
+          "confidence": 100,
+          "first_seen": "2026-07-08 20:30:39 UTC"
+        },
         {
           "ioc": "jtemlhyz.enfej.casino",
           "type": "domain",
           "confidence": 100,
           "first_seen": "2026-07-08 20:17:53 UTC"
-        },
-        {
-          "ioc": "enfej.casino",
-          "type": "domain",
-          "confidence": 100,
-          "first_seen": "2026-07-08 20:17:47 UTC"
-        },
-        {
-          "ioc": "dgl7533w.melbetir.bet",
-          "type": "domain",
-          "confidence": 100,
-          "first_seen": "2026-07-08 20:04:21 UTC"
-        },
-        {
-          "ioc": "melbetir.bet",
-          "type": "domain",
-          "confidence": 100,
-          "first_seen": "2026-07-08 20:01:42 UTC"
-        },
-        {
-          "ioc": "qakm.fiorentini.ir",
-          "type": "domain",
-          "confidence": 100,
-          "first_seen": "2026-07-08 19:35:18 UTC"
         }
       ],
       "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake",
@@ -312,12 +312,18 @@
     {
       "family": "Remcos",
       "malware_id": "win.remcos",
-      "ioc_count": 142,
+      "ioc_count": 146,
       "ioc_type_breakdown": {
-        "ip:port": 130,
-        "domain": 12
+        "domain": 15,
+        "ip:port": 131
       },
       "top_iocs": [
+        {
+          "ioc": "172.245.195.215:2404",
+          "type": "ip:port",
+          "confidence": 100,
+          "first_seen": "2026-07-08 20:50:40 UTC"
+        },
         {
           "ioc": "172.111.169.69:65070",
           "type": "ip:port",
@@ -341,12 +347,6 @@
           "type": "ip:port",
           "confidence": 100,
           "first_seen": "2026-07-07 10:15:06 UTC"
-        },
-        {
-          "ioc": "133.18.107.191:4440",
-          "type": "ip:port",
-          "confidence": 100,
-          "first_seen": "2026-07-07 02:45:15 UTC"
         }
       ],
       "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos",

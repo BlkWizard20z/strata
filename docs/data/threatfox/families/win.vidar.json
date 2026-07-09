@@ -1,10 +1,10 @@
 {
   "malware_id": "win.vidar",
   "family": "Vidar",
-  "generated": "2026-07-08T02:12:59.356475+00:00",
-  "recent_window_ioc_count": 314,
+  "generated": "2026-07-08T21:03:10.672293+00:00",
+  "recent_window_ioc_count": 290,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar",
-  "description": null,
+  "description": "Vidar is a forked malware based on Arkei. It seems this stealer is one of the first that is grabbing information on 2FA Software and Tor Browser.",
   "alt_names": [],
   "associated_groups": [],
   "stats": {
@@ -15,10 +15,10 @@
     },
     "ioc_type_breakdown": {
       "url": 153,
-      "domain": 89,
-      "sha256_hash": 78,
+      "domain": 91,
+      "sha256_hash": 77,
       "md5_hash": 76,
-      "sha1_hash": 76,
+      "sha1_hash": 75,
       "ip:port": 28
     },
     "confidence_distribution": {
@@ -27,7 +27,7 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-06-25": 45,
+      "2026-06-25": 26,
       "2026-06-26": 15,
       "2026-06-27": 13,
       "2026-06-28": 6,
@@ -40,7 +40,7 @@
       "2026-07-05": 108,
       "2026-07-06": 66,
       "2026-07-07": 14,
-      "2026-07-08": 1
+      "2026-07-08": 20
     },
     "top_ports": [
       {
@@ -54,94 +54,94 @@
     ],
     "sample_iocs": [
       {
-        "ioc": "https://acesgaragesanjose.com/",
-        "type": "url",
-        "confidence": 75,
-        "first_seen": "2026-07-08 01:15:03 UTC"
-      },
-      {
-        "ioc": "https://sop.realmadridiran.news/",
+        "ioc": "https://t08.omni-signage.com/",
         "type": "url",
         "confidence": 100,
-        "first_seen": "2026-07-07 22:00:31 UTC"
+        "first_seen": "2026-07-08 18:46:00 UTC"
       },
       {
-        "ioc": "sop.realmadridiran.news",
+        "ioc": "t08.omni-signage.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-07 22:00:31 UTC"
+        "first_seen": "2026-07-08 18:46:00 UTC"
       },
       {
-        "ioc": "https://sop.jurangsm188.top/",
+        "ioc": "https://t08.kataksm188.top/",
         "type": "url",
         "confidence": 100,
-        "first_seen": "2026-07-07 22:00:30 UTC"
+        "first_seen": "2026-07-08 18:46:00 UTC"
       },
       {
-        "ioc": "sop.jurangsm188.top",
+        "ioc": "t08.kataksm188.top",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-07 22:00:30 UTC"
+        "first_seen": "2026-07-08 18:45:59 UTC"
       },
       {
-        "ioc": "https://95.217.245.14",
-        "type": "url",
-        "confidence": 75,
-        "first_seen": "2026-07-07 16:41:16 UTC"
+        "ioc": "c6da85645488cfbb1120310f837f7fc7",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-08 18:14:38 UTC"
       },
       {
-        "ioc": "tur.realmadridiran.news",
-        "type": "domain",
-        "confidence": 75,
-        "first_seen": "2026-07-07 13:26:57 UTC"
+        "ioc": "c43ca244dc9905ea3260dff1e7c9414dc3890b37",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-08 18:14:38 UTC"
       },
       {
-        "ioc": "https://tur.realmadridiran.news/",
-        "type": "url",
-        "confidence": 75,
-        "first_seen": "2026-07-07 13:26:57 UTC"
+        "ioc": "86f77feba22ad9641d9464ac07c0fc4c2657f62cf02b85bdb50a192980265ebf",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-08 18:14:38 UTC"
       },
       {
-        "ioc": "tur.jurangsm188.top",
-        "type": "domain",
-        "confidence": 75,
-        "first_seen": "2026-07-07 13:26:46 UTC"
-      },
-      {
-        "ioc": "https://tur.jurangsm188.top/",
-        "type": "url",
-        "confidence": 75,
-        "first_seen": "2026-07-07 13:26:46 UTC"
-      },
-      {
-        "ioc": "hat.jurangsm188.top",
-        "type": "domain",
-        "confidence": 75,
-        "first_seen": "2026-07-07 10:28:00 UTC"
-      },
-      {
-        "ioc": "https://hat.jurangsm188.top/",
-        "type": "url",
-        "confidence": 75,
-        "first_seen": "2026-07-07 10:28:00 UTC"
-      },
-      {
-        "ioc": "https://hat.realmadridiran.news/",
+        "ioc": "https://mon.kawahsm188.top/",
         "type": "url",
         "confidence": 100,
-        "first_seen": "2026-07-07 10:00:55 UTC"
+        "first_seen": "2026-07-08 12:16:00 UTC"
       },
       {
-        "ioc": "hat.realmadridiran.news",
+        "ioc": "mon.kawahsm188.top",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-07 10:00:54 UTC"
+        "first_seen": "2026-07-08 12:16:00 UTC"
       },
       {
-        "ioc": "https://acesgaragerepair.com/",
+        "ioc": "https://mon.kataksm188.top/",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-08 12:15:59 UTC"
+      },
+      {
+        "ioc": "mon.kataksm188.top",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-08 12:15:59 UTC"
+      },
+      {
+        "ioc": "https://saisrls.it/",
         "type": "url",
         "confidence": 75,
-        "first_seen": "2026-07-07 00:15:03 UTC"
+        "first_seen": "2026-07-08 12:15:03 UTC"
+      },
+      {
+        "ioc": "https://88.99.120.224",
+        "type": "url",
+        "confidence": 75,
+        "first_seen": "2026-07-08 07:39:08 UTC"
+      },
+      {
+        "ioc": "https://faz.kataksm188.top/",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-08 05:00:31 UTC"
+      },
+      {
+        "ioc": "faz.kataksm188.top",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-08 05:00:30 UTC"
       }
     ]
   }

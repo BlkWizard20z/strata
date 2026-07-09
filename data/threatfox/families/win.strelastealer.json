@@ -1,10 +1,10 @@
 {
   "malware_id": "win.strelastealer",
   "family": "StrelaStealer",
-  "generated": "2026-07-08T02:15:21.901744+00:00",
+  "generated": "2026-07-08T21:05:19.629622+00:00",
   "recent_window_ioc_count": 52,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer",
-  "description": null,
+  "description": "According to PCRisk, StrelaStealer seeks to extract email account log-in credentials. At the time of writing, this program targets Microsoft Outlook and Mozilla Thunderbird email clients.\r\n\r\nFollowing successful infiltration, StrelaStealer searches for \"logins.json\" (account/password) and \"key4.db\" (password database) within the \"%APPDATA%\\Thunderbird\\Profiles\\\" directory - by doing so, it can acquire the credentials for Thunderbird.\r\n\r\nAlternatively, if Outlook credentials are targeted - StrelaStealer seeks out the Windows Registry from where it can retrieve the program's key and \"IMAP User\", \"IMAP Server\", as well as the \"IMAP Password\" values. Since the latter is kept in an encrypted form, the malicious program employs the Windows CryptUnprotectData feature to decrypt it prior to exfiltration.",
   "alt_names": [],
   "associated_groups": [],
   "stats": {

@@ -1,20 +1,21 @@
 {
   "malware_id": "js.iclickfix",
   "family": "IClickFix",
-  "generated": "2026-07-08T02:14:49.095884+00:00",
-  "recent_window_ioc_count": 57,
+  "generated": "2026-07-08T21:04:46.062951+00:00",
+  "recent_window_ioc_count": 58,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix",
-  "description": null,
+  "description": "IClickFix is a malicious JavaScript framework deployed on compromised WordPress sites to deliver further malware using the ClickFix social engineering tactic and fake Cloudflare Turnstile CAPTCHA challenge.",
   "alt_names": [],
   "associated_groups": [],
   "stats": {
     "total_iocs": 500,
     "date_range": {
       "earliest": "2026-05-02",
-      "latest": "2026-07-07"
+      "latest": "2026-07-08"
     },
     "ioc_type_breakdown": {
-      "domain": 499,
+      "domain": 498,
+      "url": 1,
       "ip:port": 1
     },
     "confidence_distribution": {
@@ -23,9 +24,9 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-05-02": 69,
+      "2026-05-02": 70,
       "2026-05-05": 1,
-      "2026-06-08": 44,
+      "2026-06-08": 42,
       "2026-06-10": 1,
       "2026-06-19": 1,
       "2026-06-21": 1,
@@ -33,7 +34,8 @@
       "2026-06-26": 166,
       "2026-06-27": 28,
       "2026-06-28": 5,
-      "2026-07-07": 57
+      "2026-07-07": 57,
+      "2026-07-08": 1
     },
     "top_ports": [
       {
@@ -42,6 +44,12 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "https://potty.com/",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-08 18:35:38 UTC"
+      },
       {
         "ioc": "elxxvvx.xyz",
         "type": "domain",
@@ -125,12 +133,6 @@
         "type": "domain",
         "confidence": 100,
         "first_seen": "2026-07-07 05:22:58 UTC"
-      },
-      {
-        "ioc": "ecomstorenutra.shop",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 05:22:56 UTC"
       }
     ]
   }

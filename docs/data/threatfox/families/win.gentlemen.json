@@ -1,0 +1,126 @@
+{
+  "malware_id": "win.gentlemen",
+  "family": "Gentlemen",
+  "generated": "2026-07-08T21:08:22.296771+00:00",
+  "recent_window_ioc_count": 27,
+  "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.gentlemen",
+  "description": "According to Cybereason, \"The Gentlemen\" ransomware is a cross-platform ransomware family with lockers for Windows, Linux, and ESXi, with the analyzed Windows locker implemented as a 64-bit Golang executable. It is operated as a Ransomware-as-a-Service, supports configurable encryption levels using XChaCha20 and Curve25519, and implements dual-extortion by both encrypting and exfiltrating data. The malware emphasizes persistence and automation (self-restart, run-on-boot, registry and autostart usage), broad system interaction via tools like task schedulers, WMI, and remote PowerShell, and extensive discovery of local, network, and clustered storage to maximize impact. It also includes security evasion and anti-forensics behavior such as disabling security tools, deleting logs and traces, manipulating permissions, and terminating database, backup, remote-access, and virtualization-related services before encryption.",
+  "alt_names": [],
+  "associated_groups": [
+    "The Gentlemen"
+  ],
+  "stats": {
+    "total_iocs": 60,
+    "date_range": {
+      "earliest": "2026-05-14",
+      "latest": "2026-07-08"
+    },
+    "ioc_type_breakdown": {
+      "sha256_hash": 33,
+      "md5_hash": 27
+    },
+    "confidence_distribution": {
+      "high": 41,
+      "medium": 19,
+      "low": 0
+    },
+    "activity_timeline": {
+      "2026-05-14": 33,
+      "2026-07-06": 19,
+      "2026-07-08": 8
+    },
+    "top_ports": [],
+    "sample_iocs": [
+      {
+        "ioc": "6add66a89721e2b7d817ba0d0f0d660e",
+        "type": "md5_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-08 08:13:13 UTC"
+      },
+      {
+        "ioc": "5f319c7e83b8daa6836b8ae674c8e0e6",
+        "type": "md5_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-08 08:13:13 UTC"
+      },
+      {
+        "ioc": "15ced19102f80a843c22480e362c8811",
+        "type": "md5_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-08 08:13:12 UTC"
+      },
+      {
+        "ioc": "55adc1b1cd21895765d8aff36d894382",
+        "type": "md5_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-08 08:13:12 UTC"
+      },
+      {
+        "ioc": "71f152d84b2928c6163724de1cb6fae3",
+        "type": "md5_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-08 08:13:11 UTC"
+      },
+      {
+        "ioc": "50d6a53992cb7d6eb09bc71294e5a68f",
+        "type": "md5_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-08 08:13:11 UTC"
+      },
+      {
+        "ioc": "4a9837dd830f8db27380836ef3a6adec",
+        "type": "md5_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-08 08:13:10 UTC"
+      },
+      {
+        "ioc": "f3c6ca1ba97b7f94ab52584dc62ea691",
+        "type": "md5_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-08 08:13:10 UTC"
+      },
+      {
+        "ioc": "AE0E536766788478263BF448A9381641",
+        "type": "md5_hash",
+        "confidence": 50,
+        "first_seen": "2026-07-06 07:20:08 UTC"
+      },
+      {
+        "ioc": "3B46A729DB7AE6AF8B19711C9452194D",
+        "type": "md5_hash",
+        "confidence": 50,
+        "first_seen": "2026-07-06 07:20:05 UTC"
+      },
+      {
+        "ioc": "02944C8A5535CDB5B2CBB893DB2D5ACF",
+        "type": "md5_hash",
+        "confidence": 50,
+        "first_seen": "2026-07-06 07:20:05 UTC"
+      },
+      {
+        "ioc": "10CA9A4040001560D053B7E7885C1B95",
+        "type": "md5_hash",
+        "confidence": 50,
+        "first_seen": "2026-07-06 07:20:04 UTC"
+      },
+      {
+        "ioc": "3C471EBC947CDF32240A90FFADF49B13",
+        "type": "md5_hash",
+        "confidence": 50,
+        "first_seen": "2026-07-06 07:20:04 UTC"
+      },
+      {
+        "ioc": "4BE8BB62F0EBBCF4CE52C35AB6F794F5",
+        "type": "md5_hash",
+        "confidence": 50,
+        "first_seen": "2026-07-06 07:20:04 UTC"
+      },
+      {
+        "ioc": "5F0B2C6D9F442754258BF4DD841C8341",
+        "type": "md5_hash",
+        "confidence": 50,
+        "first_seen": "2026-07-06 07:20:03 UTC"
+      }
+    ]
+  }
+}

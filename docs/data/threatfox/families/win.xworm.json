@@ -1,21 +1,23 @@
 {
   "malware_id": "win.xworm",
   "family": "XWorm",
-  "generated": "2026-07-08T02:18:19.022971+00:00",
-  "recent_window_ioc_count": 27,
+  "generated": "2026-07-08T21:08:09.120396+00:00",
+  "recent_window_ioc_count": 28,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.xworm",
-  "description": null,
+  "description": "Malware with wide range of capabilities ranging from RAT to ransomware.",
   "alt_names": [],
-  "associated_groups": [],
+  "associated_groups": [
+    "Hive0137"
+  ],
   "stats": {
     "total_iocs": 500,
     "date_range": {
       "earliest": "2026-03-04",
-      "latest": "2026-07-07"
+      "latest": "2026-07-08"
     },
     "ioc_type_breakdown": {
-      "domain": 241,
-      "ip:port": 228,
+      "domain": 240,
+      "ip:port": 229,
       "sha256_hash": 14,
       "md5_hash": 6,
       "url": 6,
@@ -27,7 +29,7 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-03-04": 5,
+      "2026-03-04": 3,
       "2026-03-05": 6,
       "2026-03-06": 19,
       "2026-03-07": 4,
@@ -117,7 +119,8 @@
       "2026-07-04": 3,
       "2026-07-05": 3,
       "2026-07-06": 3,
-      "2026-07-07": 11
+      "2026-07-07": 11,
+      "2026-07-08": 2
     },
     "top_ports": [
       {
@@ -138,7 +141,7 @@
       },
       {
         "port": "7007",
-        "count": 9
+        "count": 10
       },
       {
         "port": "1122",
@@ -157,11 +160,23 @@
         "count": 4
       },
       {
-        "port": "4444",
+        "port": "1111",
         "count": 3
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "64.89.162.178:7007",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-08 19:16:36 UTC"
+      },
+      {
+        "ioc": "194.116.236.94:4433",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-08 10:31:42 UTC"
+      },
       {
         "ioc": "178.173.247.121:1982",
         "type": "ip:port",
@@ -239,18 +254,6 @@
         "type": "ip:port",
         "confidence": 75,
         "first_seen": "2026-07-06 12:10:58 UTC"
-      },
-      {
-        "ioc": "217.60.195.172:443",
-        "type": "ip:port",
-        "confidence": 75,
-        "first_seen": "2026-07-06 09:15:56 UTC"
-      },
-      {
-        "ioc": "d9d6fc3085dd822f258601164ecb21f318822a63ca0360aead9201bcee49ed04",
-        "type": "sha256_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-05 16:22:50 UTC"
       }
     ]
   }

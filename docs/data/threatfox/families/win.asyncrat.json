@@ -1,16 +1,16 @@
 {
   "malware_id": "win.asyncrat",
   "family": "AsyncRAT",
-  "generated": "2026-07-08T02:15:33.255504+00:00",
-  "recent_window_ioc_count": 51,
+  "generated": "2026-07-08T21:05:45.858455+00:00",
+  "recent_window_ioc_count": 49,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat",
-  "description": null,
+  "description": "AsyncRAT is a Remote Access Tool (RAT) designed to remotely monitor and control other computers through a secure encrypted connection. It is an open source remote administration tool, however, it could also be used maliciously because it provides functionality such as keylogger, remote desktop control, and many other functions that may cause harm to the victim\u2019s computer. In addition, AsyncRAT can be delivered via various methods such as spear-phishing, malvertising, exploit kit and other techniques.",
   "alt_names": [],
   "associated_groups": [],
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-04-26",
+      "earliest": "2026-03-13",
       "latest": "2026-07-08"
     },
     "ioc_type_breakdown": {
@@ -21,19 +21,24 @@
       "domain": 17
     },
     "confidence_distribution": {
-      "high": 489,
-      "medium": 11,
+      "high": 493,
+      "medium": 7,
       "low": 0
     },
     "activity_timeline": {
+      "2026-03-13": 1,
+      "2026-03-15": 1,
+      "2026-03-24": 1,
+      "2026-03-27": 2,
+      "2026-04-07": 1,
+      "2026-04-11": 1,
       "2026-04-26": 1,
       "2026-04-27": 1,
       "2026-05-01": 15,
       "2026-05-02": 3,
       "2026-05-06": 2,
       "2026-05-07": 1,
-      "2026-05-08": 4,
-      "2026-05-09": 3,
+      "2026-05-08": 2,
       "2026-05-10": 5,
       "2026-05-11": 7,
       "2026-05-12": 5,
@@ -61,7 +66,6 @@
       "2026-06-05": 3,
       "2026-06-06": 5,
       "2026-06-07": 4,
-      "2026-06-08": 5,
       "2026-06-09": 10,
       "2026-06-10": 12,
       "2026-06-11": 11,
@@ -91,7 +95,7 @@
       "2026-07-05": 2,
       "2026-07-06": 14,
       "2026-07-07": 4,
-      "2026-07-08": 3
+      "2026-07-08": 6
     },
     "top_ports": [
       {
@@ -99,31 +103,31 @@
         "count": 54
       },
       {
-        "port": "7707",
-        "count": 38
+        "port": "6606",
+        "count": 40
       },
       {
-        "port": "6606",
-        "count": 38
+        "port": "7707",
+        "count": 39
+      },
+      {
+        "port": "80",
+        "count": 10
       },
       {
         "port": "6666",
         "count": 10
       },
       {
-        "port": "80",
-        "count": 9
-      },
-      {
         "port": "4444",
-        "count": 9
-      },
-      {
-        "port": "8888",
         "count": 8
       },
       {
         "port": "8000",
+        "count": 7
+      },
+      {
+        "port": "8888",
         "count": 7
       },
       {
@@ -136,6 +140,24 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "213.209.159.91:4556",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-08 19:44:32 UTC"
+      },
+      {
+        "ioc": "2.50.157.201:8808",
+        "type": "ip:port",
+        "confidence": 100,
+        "first_seen": "2026-07-08 15:05:07 UTC"
+      },
+      {
+        "ioc": "146.19.248.64:7707",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-08 09:43:32 UTC"
+      },
       {
         "ioc": "26a1127f0bac441d6a94709ddfdb9c5b",
         "type": "md5_hash",
@@ -207,24 +229,6 @@
         "type": "sha256_hash",
         "confidence": 95,
         "first_seen": "2026-07-06 14:30:32 UTC"
-      },
-      {
-        "ioc": "5053320a66a5c4989c44a932a8720b7d",
-        "type": "md5_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-06 14:30:25 UTC"
-      },
-      {
-        "ioc": "f63c54193c17199031d7826b5ad0660db4ffb6e5",
-        "type": "sha1_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-06 14:30:25 UTC"
-      },
-      {
-        "ioc": "37f7127bcae8388c61432dc2d46b0df36cb33690ebbc5b725b28b33dfb145d4b",
-        "type": "sha256_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-06 14:30:24 UTC"
       }
     ]
   }

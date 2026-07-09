@@ -1,0 +1,125 @@
+{
+  "malware_id": "elf.kuiper",
+  "family": "Kuiper",
+  "generated": "2026-07-08T21:06:29.307519+00:00",
+  "recent_window_ioc_count": 42,
+  "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.kuiper",
+  "description": null,
+  "alt_names": [],
+  "associated_groups": [],
+  "stats": {
+    "total_iocs": 42,
+    "date_range": {
+      "earliest": "2026-07-04",
+      "latest": "2026-07-08"
+    },
+    "ioc_type_breakdown": {
+      "sha1_hash": 14,
+      "md5_hash": 14,
+      "sha256_hash": 14
+    },
+    "confidence_distribution": {
+      "high": 42,
+      "medium": 0,
+      "low": 0
+    },
+    "activity_timeline": {
+      "2026-07-04": 3,
+      "2026-07-05": 33,
+      "2026-07-08": 6
+    },
+    "top_ports": [],
+    "sample_iocs": [
+      {
+        "ioc": "9c8c0b26c1ac72688e0f1a5d43ddcf16cb2726e2",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-08 18:14:49 UTC"
+      },
+      {
+        "ioc": "84e114db07c2fbe9225d08bc856ed52f",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-08 18:14:49 UTC"
+      },
+      {
+        "ioc": "16f2b00efb6012eddafdabaf21f7e7ff",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-08 18:14:48 UTC"
+      },
+      {
+        "ioc": "a237210c342b24325ac4cae7977613a85966c8b1",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-08 18:14:48 UTC"
+      },
+      {
+        "ioc": "fdf03609a12b2535488e008293cd89d596f967af96d7763b880ee1ffd8702630",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-08 18:14:48 UTC"
+      },
+      {
+        "ioc": "07e019e4309cd2d20874488411df839728fbda0b580c6f09a72c99f4d873f931",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-08 18:14:47 UTC"
+      },
+      {
+        "ioc": "43e647b9d685e1e5be276026df86d7e4",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-05 16:22:45 UTC"
+      },
+      {
+        "ioc": "3acbcfe403d42d59ce337403a39201cad1107ad4",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-05 16:22:44 UTC"
+      },
+      {
+        "ioc": "46880af4b7bbb74def06569aecda2d96702de4b8b7723b05af927674928ce327",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-05 16:22:44 UTC"
+      },
+      {
+        "ioc": "69ac856f989a3dc0d8bff532c6f7f331",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-05 16:22:44 UTC"
+      },
+      {
+        "ioc": "a6b87c3a216ef6e26d483fa69151174b27a7c6f8",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-05 16:22:43 UTC"
+      },
+      {
+        "ioc": "ccbf818a36523c19051d066f8e5edad655a478516afc916cd915aacca80dbcd2",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-05 16:22:43 UTC"
+      },
+      {
+        "ioc": "99755cc0b98e663e73aac9be9aa33c13",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-05 16:22:42 UTC"
+      },
+      {
+        "ioc": "422c55e0219b09d0262782b25420c601304f5d1b46a325f2b4859ef77244ff42",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-05 16:22:42 UTC"
+      },
+      {
+        "ioc": "116af423f975819cd0668484d7e0fb7c83460fb8",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-05 16:22:42 UTC"
+      }
+    ]
+  }
+}

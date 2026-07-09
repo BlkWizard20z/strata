@@ -1,26 +1,29 @@
 {
   "malware_id": "js.smartapesg",
   "family": "SmartApeSG",
-  "generated": "2026-07-08T02:17:49.027933+00:00",
-  "recent_window_ioc_count": 31,
+  "generated": "2026-07-08T21:07:53.436899+00:00",
+  "recent_window_ioc_count": 32,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.smartapesg",
-  "description": null,
-  "alt_names": [],
+  "description": "According to Proofpoint, this is a cluster of fake update campaigns delivering payloads like NetSupportManager RAT and Lumma Stealer.",
+  "alt_names": [
+    "HANEYMANEY",
+    "ZPHP"
+  ],
   "associated_groups": [],
   "stats": {
-    "total_iocs": 166,
+    "total_iocs": 170,
     "date_range": {
       "earliest": "2026-01-23",
-      "latest": "2026-07-07"
+      "latest": "2026-07-08"
     },
     "ioc_type_breakdown": {
-      "url": 99,
-      "domain": 47,
+      "url": 102,
+      "domain": 48,
       "sha256_hash": 11,
       "ip:port": 9
     },
     "confidence_distribution": {
-      "high": 164,
+      "high": 168,
       "medium": 2,
       "low": 0
     },
@@ -62,7 +65,8 @@
       "2026-07-03": 10,
       "2026-07-04": 4,
       "2026-07-06": 3,
-      "2026-07-07": 11
+      "2026-07-07": 11,
+      "2026-07-08": 4
     },
     "top_ports": [
       {
@@ -75,6 +79,30 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "https://pearlgallery.top/reset/refresh-util",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-08 11:14:51 UTC"
+      },
+      {
+        "ioc": "https://pearlgallery.top/reset/user-ajax.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-08 11:14:51 UTC"
+      },
+      {
+        "ioc": "https://pearlgallery.top/reset/principal-response.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-08 11:14:50 UTC"
+      },
+      {
+        "ioc": "pearlgallery.top",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-08 11:14:50 UTC"
+      },
       {
         "ioc": "https://willowsummit.top/rate/dashboard-state.js",
         "type": "url",
@@ -140,30 +168,6 @@
         "type": "url",
         "confidence": 100,
         "first_seen": "2026-07-07 05:21:42 UTC"
-      },
-      {
-        "ioc": "https://crystalmarket.top/token/signup-controller.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-06 11:19:59 UTC"
-      },
-      {
-        "ioc": "crystalmarket.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-06 11:19:59 UTC"
-      },
-      {
-        "ioc": "https://crystalmarket.top/token/api-view",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-06 11:19:59 UTC"
-      },
-      {
-        "ioc": "hazelcompass.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-04 07:10:37 UTC"
       }
     ]
   }

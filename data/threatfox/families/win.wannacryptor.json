@@ -1,12 +1,19 @@
 {
   "malware_id": "win.wannacryptor",
   "family": "WannaCryptor",
-  "generated": "2026-07-08T02:16:41.278588+00:00",
+  "generated": "2026-07-08T21:07:11.769989+00:00",
   "recent_window_ioc_count": 36,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.wannacryptor",
-  "description": null,
-  "alt_names": [],
-  "associated_groups": [],
+  "description": "WannaCry is ransomware that contains a worm component enabled by the EternalBlue exploit. It attempts to use vulnerabilities in the Windows SMBv1 server to remotely compromise systems, encrypt files, and spread to other hosts. Systems that have installed the MS17-010 patch are not vulnerable to the exploits used. The spreading was stopped about 8 hours after initial outbreak due to triggering a kill switch domain.",
+  "alt_names": [
+    "Wana Decrypt0r",
+    "WannaCry",
+    "WannaCrypt",
+    "Wcry"
+  ],
+  "associated_groups": [
+    "Lazarus Group"
+  ],
   "stats": {
     "total_iocs": 114,
     "date_range": {

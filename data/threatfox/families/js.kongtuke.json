@@ -1,21 +1,24 @@
 {
   "malware_id": "js.kongtuke",
   "family": "KongTuke",
-  "generated": "2026-07-08T02:14:10.039611+00:00",
-  "recent_window_ioc_count": 71,
+  "generated": "2026-07-08T21:04:34.569114+00:00",
+  "recent_window_ioc_count": 75,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.kongtuke",
-  "description": null,
-  "alt_names": [],
+  "description": "Kongtuke is a sophisticated TDS system that was initially discovered around May 2024. Making use of compromised CMS Websites, Kongtuke redirects website visitors through a multi-stage infection process ultimately leading to device infection. Initially using fake Update lures, it started to use FakeCaptcha lures at the beginning of 2025. It is likely an initial access service, selling infections to both Ransomware affiliates and other IA vendors like SocGholish.",
+  "alt_names": [
+    "TAG-124",
+    "js.LandUpdate808"
+  ],
   "associated_groups": [],
   "stats": {
     "total_iocs": 500,
     "date_range": {
       "earliest": "2026-03-30",
-      "latest": "2026-07-07"
+      "latest": "2026-07-08"
     },
     "ioc_type_breakdown": {
-      "url": 260,
-      "domain": 225,
+      "url": 257,
+      "domain": 228,
       "sha256_hash": 10,
       "ip:port": 5
     },
@@ -25,7 +28,7 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-03-30": 30,
+      "2026-03-30": 12,
       "2026-04-06": 8,
       "2026-04-08": 5,
       "2026-04-10": 4,
@@ -70,7 +73,8 @@
       "2026-07-03": 10,
       "2026-07-04": 4,
       "2026-07-06": 11,
-      "2026-07-07": 25
+      "2026-07-07": 25,
+      "2026-07-08": 18
     },
     "top_ports": [
       {
@@ -84,94 +88,94 @@
     ],
     "sample_iocs": [
       {
-        "ioc": "64.95.10.37:80",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-07 06:27:47 UTC"
-      },
-      {
-        "ioc": "ywomjqqy8nu5p65.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 06:27:37 UTC"
-      },
-      {
-        "ioc": "ywomjqqy8nu5p65.top1yiqsu0s4geu2xc.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 06:27:37 UTC"
-      },
-      {
-        "ioc": "vsv1ftyzzn48uhz.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 06:27:37 UTC"
-      },
-      {
-        "ioc": "sq1y5pp53vljhqs.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 06:27:37 UTC"
-      },
-      {
-        "ioc": "q2e2f5xuir4qub8.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 06:27:37 UTC"
-      },
-      {
-        "ioc": "om8d1tx6uuvmm0m.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 06:27:37 UTC"
-      },
-      {
-        "ioc": "lkf9soncx2cx8ae.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 06:27:37 UTC"
-      },
-      {
-        "ioc": "fdskeoljs92b0t1.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 06:27:37 UTC"
-      },
-      {
-        "ioc": "b9yzartkj9dd53v.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 06:27:37 UTC"
-      },
-      {
-        "ioc": "855e6v1la8ngbep.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 06:27:37 UTC"
-      },
-      {
-        "ioc": "53bbwqsrdg3rxni.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 06:27:37 UTC"
-      },
-      {
-        "ioc": "1yiqsu0s4geu2xc.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 06:27:37 UTC"
-      },
-      {
-        "ioc": "https://lombaidi.lol/file.js",
+        "ioc": "https://tommy-q.lol/o",
         "type": "url",
         "confidence": 100,
-        "first_seen": "2026-07-07 05:21:50 UTC"
+        "first_seen": "2026-07-08 18:35:37 UTC"
       },
       {
-        "ioc": "https://lombaidi.lol/api/v1/session",
+        "ioc": "tommy-q.lol",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-08 18:35:36 UTC"
+      },
+      {
+        "ioc": "https://fraitas.lol/api/v1/status",
         "type": "url",
         "confidence": 100,
-        "first_seen": "2026-07-07 05:21:49 UTC"
+        "first_seen": "2026-07-08 15:18:37 UTC"
+      },
+      {
+        "ioc": "https://azevedo.lol/api/v1/status",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-08 14:46:27 UTC"
+      },
+      {
+        "ioc": "microcrypt1987.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-08 14:46:26 UTC"
+      },
+      {
+        "ioc": "https://microcrypt1987.com/update/package",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-08 14:46:26 UTC"
+      },
+      {
+        "ioc": "fraitas.lol",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-08 12:08:10 UTC"
+      },
+      {
+        "ioc": "https://fraitas.lol/file.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-08 12:08:10 UTC"
+      },
+      {
+        "ioc": "https://fraitas.lol/api/v1/verify",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-08 12:08:09 UTC"
+      },
+      {
+        "ioc": "https://fraitas.lol/api/v1/session",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-08 12:08:09 UTC"
+      },
+      {
+        "ioc": "azevedo.lol",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-08 11:14:53 UTC"
+      },
+      {
+        "ioc": "https://azevedo.lol/api/v1/session",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-08 11:14:52 UTC"
+      },
+      {
+        "ioc": "https://azevedo.lol/file.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-08 11:14:52 UTC"
+      },
+      {
+        "ioc": "https://azevedo.lol/api/v1/verify",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-08 11:14:51 UTC"
+      },
+      {
+        "ioc": "https://appcert9869.net/update/package",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-08 06:48:31 UTC"
       }
     ]
   }

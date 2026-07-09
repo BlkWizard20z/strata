@@ -1,12 +1,16 @@
 {
   "malware_id": "win.akira",
   "family": "Akira",
-  "generated": "2026-07-08T02:13:38.527351+00:00",
+  "generated": "2026-07-08T21:04:20.801589+00:00",
   "recent_window_ioc_count": 107,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.akira",
   "description": null,
-  "alt_names": [],
-  "associated_groups": [],
+  "alt_names": [
+    "REDBIKE"
+  ],
+  "associated_groups": [
+    "Storm-1567"
+  ],
   "stats": {
     "total_iocs": 373,
     "date_range": {
