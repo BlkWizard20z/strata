@@ -1,8 +1,8 @@
 {
   "malware_id": "win.agent_tesla",
   "family": "Agent Tesla",
-  "generated": "2026-07-08T21:07:39.669261+00:00",
-  "recent_window_ioc_count": 33,
+  "generated": "2026-07-09T16:17:04.467159+00:00",
+  "recent_window_ioc_count": 37,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.agent_tesla",
   "description": "According to Palo Alto Networks Unit 42, Agent Tesla is a widely used .NET-based (C#) commercial keylogger and information stealer whose leaked builders have made it easily obtainable for many threat actors. It can log keystrokes, capture clipboard contents, take screenshots, and harvest credentials or other valuable data from browsers, email clients and local files, then exfiltrate this information via HTTP(S), SMTP, FTP or Telegram channels. Unit 42\u2019s analysis shows that OriginLogger is a direct evolution and variant of Agent Tesla, heavily reusing its code and configuration-handling techniques so that many Agent Tesla-focused detection rules still catch OriginLogger. This tight relationship positions Agent Tesla as the predecessor in a closely related family of .NET stealers, with OriginLogger continuing and expanding its functionality.",
   "alt_names": [
@@ -14,26 +14,25 @@
     "SWEED"
   ],
   "stats": {
-    "total_iocs": 147,
+    "total_iocs": 148,
     "date_range": {
       "earliest": "2025-01-18",
-      "latest": "2026-07-08"
+      "latest": "2026-07-09"
     },
     "ioc_type_breakdown": {
-      "md5_hash": 42,
-      "sha1_hash": 42,
-      "sha256_hash": 42,
-      "domain": 13,
+      "md5_hash": 41,
+      "sha1_hash": 41,
+      "sha256_hash": 41,
+      "domain": 17,
       "url": 8
     },
     "confidence_distribution": {
-      "high": 139,
+      "high": 140,
       "medium": 8,
       "low": 0
     },
     "activity_timeline": {
       "2025-01-18": 1,
-      "2026-01-08": 3,
       "2026-01-10": 6,
       "2026-01-18": 1,
       "2026-01-20": 15,
@@ -61,10 +60,35 @@
       "2026-07-04": 6,
       "2026-07-06": 12,
       "2026-07-07": 9,
-      "2026-07-08": 3
+      "2026-07-08": 3,
+      "2026-07-09": 4
     },
     "top_ports": [],
     "sample_iocs": [
+      {
+        "ioc": "ftp.altatsradgez.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 09:15:39 UTC"
+      },
+      {
+        "ioc": "ftp.piovau.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 08:36:20 UTC"
+      },
+      {
+        "ioc": "ftp.duct-master.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 08:35:29 UTC"
+      },
+      {
+        "ioc": "ftp.cantablew.top",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 08:30:50 UTC"
+      },
       {
         "ioc": "6e9cd29d317d6f0251aba016f04ea281",
         "type": "md5_hash",
@@ -130,30 +154,6 @@
         "type": "domain",
         "confidence": 100,
         "first_seen": "2026-07-07 11:16:03 UTC"
-      },
-      {
-        "ioc": "ftp.vilimorin.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 11:15:55 UTC"
-      },
-      {
-        "ioc": "f07826cd8101059cbab00ca5244d70d7",
-        "type": "md5_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-06 14:30:34 UTC"
-      },
-      {
-        "ioc": "5c372345876f52e89d82daa10a778ea6674c7a61",
-        "type": "sha1_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-06 14:30:33 UTC"
-      },
-      {
-        "ioc": "452a92a4ff9639259c0aae08fcb4fe30e93c8843a4cf301b9746e8e6b899bb74",
-        "type": "sha256_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-06 14:30:33 UTC"
       }
     ]
   }

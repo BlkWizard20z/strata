@@ -310,6 +310,15 @@
     "source": "malpedia",
     "status": "ok"
   },
+  "win.amadey": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Amadey",
+    "description": "Amadey is a botnet that appeared around October 2018 and is being sold for about $500 on Russian-speaking hacking forums. It periodically sends information about the system and installed AV software to its C2 server and polls to receive orders from it. Its main functionality is that it can load other payloads (called \"tasks\") for all or specifically targeted computers compromised by the malware.",
+    "enriched_at": "2026-07-09T16:12:43.721629+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
   "win.arkei_stealer": {
     "alt_names": [
       "ArkeiStealer"
@@ -327,6 +336,24 @@
     "common_name": "AsyncRAT",
     "description": "AsyncRAT is a Remote Access Tool (RAT) designed to remotely monitor and control other computers through a secure encrypted connection. It is an open source remote administration tool, however, it could also be used maliciously because it provides functionality such as keylogger, remote desktop control, and many other functions that may cause harm to the victim\u2019s computer. In addition, AsyncRAT can be delivered via various methods such as spear-phishing, malvertising, exploit kit and other techniques.",
     "enriched_at": "2026-07-08T17:00:21.550265+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.ave_maria": {
+    "alt_names": [
+      "AVE_MARIA",
+      "AveMariaRAT",
+      "Warzone RAT",
+      "WarzoneRAT",
+      "avemaria"
+    ],
+    "associated_groups": [
+      "ANTHROPOID SPIDER",
+      "Anunak"
+    ],
+    "common_name": "Ave Maria",
+    "description": "Information stealer which uses AutoIT for wrapping.",
+    "enriched_at": "2026-07-09T16:12:42.218206+00:00",
     "source": "malpedia",
     "status": "ok"
   },
@@ -705,6 +732,17 @@
     "source": "malpedia",
     "status": "ok"
   },
+  "win.poshc2": {
+    "alt_names": [],
+    "associated_groups": [
+      "APT33"
+    ],
+    "common_name": "PoshC2",
+    "description": "PoshC2 is a proxy aware C2 framework used to aid penetration testers with red teaming, post-exploitation and lateral movement.\r\n\r\nPoshC2 is primarily written in Python3 and follows a modular format to enable users to add their own modules and tools, allowing an extendible and flexible C2 framework. Out-of-the-box PoshC2 comes PowerShell/C# and Python3 implants with payloads written in PowerShell v2 and v4, C++ and C# source code, a variety of executables, DLLs and raw shellcode in addition to a Python3 payload. These enable C2 functionality on a wide range of devices and operating systems, including Windows, *nix and OSX.",
+    "enriched_at": "2026-07-09T16:12:44.897564+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
   "win.prometei": {
     "alt_names": [],
     "associated_groups": [],
@@ -739,6 +777,15 @@
     "common_name": "PureRAT",
     "description": "According to Morphisec, this RAT combines advanced in-memory execution, API and resource resolution at runtime, and layered evasion techniques. They have named it \u2018Resolver\u2019 due to its heavy reliance on runtime resolution mechanisms and dynamic resource handling, which make static and behavioral analysis significantly more difficult.",
     "enriched_at": "2026-07-08T20:27:21.639576+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.purelogs": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "PureLogs Stealer",
+    "description": "PureLogs, also known as PureLog Stealer, is an infostealer malware from the Pure family that aims to steal sensitive information from infected devices.",
+    "enriched_at": "2026-07-09T16:12:41.010365+00:00",
     "source": "malpedia",
     "status": "ok"
   },

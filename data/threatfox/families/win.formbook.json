@@ -1,7 +1,7 @@
 {
   "malware_id": "win.formbook",
   "family": "Formbook",
-  "generated": "2026-07-08T21:04:59.787373+00:00",
+  "generated": "2026-07-09T16:14:53.612972+00:00",
   "recent_window_ioc_count": 54,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook",
   "description": "FormBook contains a unique crypter RunPE that has unique behavioral patterns subject to detection. It was initially called \"Babushka Crypter\" by Insidemalware.",

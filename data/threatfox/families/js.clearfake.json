@@ -1,8 +1,8 @@
 {
   "malware_id": "js.clearfake",
   "family": "ClearFake",
-  "generated": "2026-07-08T21:02:51.249128+00:00",
-  "recent_window_ioc_count": 791,
+  "generated": "2026-07-09T16:12:54.278098+00:00",
+  "recent_window_ioc_count": 832,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake",
   "description": "ClearFake is a malicious JavaScript framework deployed on compromised websites to deliver further malware using the drive-by download technique. The malware leverages social engineering to trick the user into running a fake web browser update.",
   "alt_names": [],
@@ -10,8 +10,8 @@
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-07-04",
-      "latest": "2026-07-08"
+      "earliest": "2026-07-05",
+      "latest": "2026-07-09"
     },
     "ioc_type_breakdown": {
       "domain": 500
@@ -22,103 +22,103 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-07-04": 10,
-      "2026-07-05": 107,
+      "2026-07-05": 15,
       "2026-07-06": 105,
       "2026-07-07": 128,
-      "2026-07-08": 150
+      "2026-07-08": 164,
+      "2026-07-09": 88
     },
     "top_ports": [],
     "sample_iocs": [
       {
-        "ioc": "abrmot.pro",
-        "type": "domain",
-        "confidence": 90,
-        "first_seen": "2026-07-08 20:57:27 UTC"
-      },
-      {
-        "ioc": "goldstar6port.dexispointnexus.garden",
-        "type": "domain",
-        "confidence": 90,
-        "first_seen": "2026-07-08 20:52:27 UTC"
-      },
-      {
-        "ioc": "4z0tdlyo.calvaryhospice.org",
+        "ioc": "qowmn9c8.iranvibes.ir",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 20:51:29 UTC"
+        "first_seen": "2026-07-09 16:04:39 UTC"
       },
       {
-        "ioc": "vfrsh9y6.bunos.bet",
+        "ioc": "iranvibes.ir",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 20:40:48 UTC"
+        "first_seen": "2026-07-09 16:03:40 UTC"
       },
       {
-        "ioc": "ihnx.footbalpersian.ir",
+        "ioc": "jgtl.novin-gps.ir",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 20:31:43 UTC"
+        "first_seen": "2026-07-09 15:38:18 UTC"
       },
       {
-        "ioc": "footbalpersian.ir",
+        "ioc": "novin-gps.ir",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 20:30:39 UTC"
+        "first_seen": "2026-07-09 15:33:57 UTC"
       },
       {
-        "ioc": "jtemlhyz.enfej.casino",
+        "ioc": "iqtpiyvx.rabonabet.casino",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 20:17:53 UTC"
+        "first_seen": "2026-07-09 15:24:57 UTC"
       },
       {
-        "ioc": "enfej.casino",
+        "ioc": "ooycseqc.rabonabet.casino",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 20:17:47 UTC"
+        "first_seen": "2026-07-09 15:24:39 UTC"
       },
       {
-        "ioc": "dgl7533w.melbetir.bet",
+        "ioc": "rabonabet.casino",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 20:04:21 UTC"
+        "first_seen": "2026-07-09 15:24:21 UTC"
       },
       {
-        "ioc": "melbetir.bet",
+        "ioc": "5rtckgb9.powershart.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 20:01:42 UTC"
+        "first_seen": "2026-07-09 15:10:52 UTC"
       },
       {
-        "ioc": "qakm.fiorentini.ir",
+        "ioc": "0ri1ior3.powershart.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 19:35:18 UTC"
+        "first_seen": "2026-07-09 15:09:24 UTC"
       },
       {
-        "ioc": "fiorentini.ir",
+        "ioc": "yxjzgcji.proje-negar.ir",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 19:30:39 UTC"
+        "first_seen": "2026-07-09 15:09:05 UTC"
       },
       {
-        "ioc": "zvulhavn.elitesport.ir",
+        "ioc": "vkuauuum.proje-negar.ir",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 19:23:10 UTC"
+        "first_seen": "2026-07-09 15:03:53 UTC"
       },
       {
-        "ioc": "elitesport.ir",
+        "ioc": "proje-negar.ir",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 19:22:04 UTC"
+        "first_seen": "2026-07-09 15:03:49 UTC"
       },
       {
-        "ioc": "gtv6eszx.riskybet.casino",
+        "ioc": "b14xsab8.milioner.bet",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 18:42:49 UTC"
+        "first_seen": "2026-07-09 15:02:06 UTC"
+      },
+      {
+        "ioc": "rlio.catsandcarp.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 14:36:23 UTC"
+      },
+      {
+        "ioc": "3b213f9c.lionsport.ir",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 14:21:30 UTC"
       }
     ]
   }

@@ -1,8 +1,8 @@
 {
   "malware_id": "js.smartapesg",
   "family": "SmartApeSG",
-  "generated": "2026-07-08T21:07:53.436899+00:00",
-  "recent_window_ioc_count": 32,
+  "generated": "2026-07-09T16:16:23.864019+00:00",
+  "recent_window_ioc_count": 42,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.smartapesg",
   "description": "According to Proofpoint, this is a cluster of fake update campaigns delivering payloads like NetSupportManager RAT and Lumma Stealer.",
   "alt_names": [
@@ -11,19 +11,19 @@
   ],
   "associated_groups": [],
   "stats": {
-    "total_iocs": 170,
+    "total_iocs": 171,
     "date_range": {
       "earliest": "2026-01-23",
-      "latest": "2026-07-08"
+      "latest": "2026-07-09"
     },
     "ioc_type_breakdown": {
       "url": 102,
-      "domain": 48,
+      "domain": 49,
       "sha256_hash": 11,
       "ip:port": 9
     },
     "confidence_distribution": {
-      "high": 168,
+      "high": 169,
       "medium": 2,
       "low": 0
     },
@@ -44,7 +44,6 @@
       "2026-05-08": 1,
       "2026-05-12": 8,
       "2026-05-27": 2,
-      "2026-06-08": 9,
       "2026-06-09": 3,
       "2026-06-10": 7,
       "2026-06-11": 7,
@@ -66,7 +65,8 @@
       "2026-07-04": 4,
       "2026-07-06": 3,
       "2026-07-07": 11,
-      "2026-07-08": 4
+      "2026-07-08": 4,
+      "2026-07-09": 10
     },
     "top_ports": [
       {
@@ -79,6 +79,66 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "https://topazharbor.top/route/callback-deploy",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-09 15:18:29 UTC"
+      },
+      {
+        "ioc": "https://topazharbor.top/route/profile-xml.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-09 15:18:28 UTC"
+      },
+      {
+        "ioc": "topazharbor.top",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 15:18:28 UTC"
+      },
+      {
+        "ioc": "https://linenregistry.top/route/health-json.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-09 12:10:40 UTC"
+      },
+      {
+        "ioc": "https://linenregistry.top/route/callback-deploy",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-09 11:03:37 UTC"
+      },
+      {
+        "ioc": "linenregistry.top",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 11:03:36 UTC"
+      },
+      {
+        "ioc": "https://linenregistry.top/route/profile-xml.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-09 11:03:35 UTC"
+      },
+      {
+        "ioc": "https://cobaltjunction.top/reset/refresh-util",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-09 05:28:10 UTC"
+      },
+      {
+        "ioc": "cobaltjunction.top",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 05:28:09 UTC"
+      },
+      {
+        "ioc": "https://cobaltjunction.top/reset/principal-response.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-09 05:28:08 UTC"
+      },
       {
         "ioc": "https://pearlgallery.top/reset/refresh-util",
         "type": "url",
@@ -108,66 +168,6 @@
         "type": "url",
         "confidence": 100,
         "first_seen": "2026-07-07 14:12:35 UTC"
-      },
-      {
-        "ioc": "https://willowsummit.top/rate/audit-header",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-07 14:12:34 UTC"
-      },
-      {
-        "ioc": "willowsummit.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 14:12:34 UTC"
-      },
-      {
-        "ioc": "https://willowsummit.top/rate/login-cache.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-07 14:12:33 UTC"
-      },
-      {
-        "ioc": "https://marblecourier.top/rate/audit-header",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-07 12:01:58 UTC"
-      },
-      {
-        "ioc": "marblecourier.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 11:12:46 UTC"
-      },
-      {
-        "ioc": "https://marblecourier.top/rate/login-cache.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-07 11:12:44 UTC"
-      },
-      {
-        "ioc": "https://cedarfrontier.top/token/tenant-thread.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-07 05:21:44 UTC"
-      },
-      {
-        "ioc": "cedarfrontier.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 05:21:43 UTC"
-      },
-      {
-        "ioc": "https://cedarfrontier.top/token/signup-controller.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-07 05:21:42 UTC"
-      },
-      {
-        "ioc": "https://cedarfrontier.top/token/api-view",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-07 05:21:42 UTC"
       }
     ]
   }

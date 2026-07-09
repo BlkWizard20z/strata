@@ -1,8 +1,8 @@
 {
   "malware_id": "js.kongtuke",
   "family": "KongTuke",
-  "generated": "2026-07-08T21:04:34.569114+00:00",
-  "recent_window_ioc_count": 75,
+  "generated": "2026-07-09T16:14:18.460376+00:00",
+  "recent_window_ioc_count": 80,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.kongtuke",
   "description": "Kongtuke is a sophisticated TDS system that was initially discovered around May 2024. Making use of compromised CMS Websites, Kongtuke redirects website visitors through a multi-stage infection process ultimately leading to device infection. Initially using fake Update lures, it started to use FakeCaptcha lures at the beginning of 2025. It is likely an initial access service, selling infections to both Ransomware affiliates and other IA vendors like SocGholish.",
   "alt_names": [
@@ -14,7 +14,7 @@
     "total_iocs": 500,
     "date_range": {
       "earliest": "2026-03-30",
-      "latest": "2026-07-08"
+      "latest": "2026-07-09"
     },
     "ioc_type_breakdown": {
       "url": 257,
@@ -28,7 +28,7 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-03-30": 12,
+      "2026-03-30": 7,
       "2026-04-06": 8,
       "2026-04-08": 5,
       "2026-04-10": 4,
@@ -50,7 +50,7 @@
       "2026-06-01": 35,
       "2026-06-04": 2,
       "2026-06-06": 6,
-      "2026-06-08": 9,
+      "2026-06-08": 2,
       "2026-06-09": 9,
       "2026-06-10": 7,
       "2026-06-11": 2,
@@ -74,7 +74,8 @@
       "2026-07-04": 4,
       "2026-07-06": 11,
       "2026-07-07": 25,
-      "2026-07-08": 18
+      "2026-07-08": 18,
+      "2026-07-09": 12
     },
     "top_ports": [
       {
@@ -87,6 +88,78 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "https://henreques.lol/api/v1/status",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-09 15:18:31 UTC"
+      },
+      {
+        "ioc": "cloudpass7138.lol",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 15:18:30 UTC"
+      },
+      {
+        "ioc": "https://cloudpass7138.lol/update/package",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-09 15:18:30 UTC"
+      },
+      {
+        "ioc": "https://carreiro.lol/api/v1/status",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-09 15:01:32 UTC"
+      },
+      {
+        "ioc": "https://carreiro.lol/file.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-09 12:10:44 UTC"
+      },
+      {
+        "ioc": "carreiro.lol",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 12:10:43 UTC"
+      },
+      {
+        "ioc": "https://carreiro.lol/api/v1/session",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-09 12:10:42 UTC"
+      },
+      {
+        "ioc": "https://carreiro.lol/api/v1/verify",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-09 12:10:41 UTC"
+      },
+      {
+        "ioc": "https://henreques.lol/file.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-09 11:08:51 UTC"
+      },
+      {
+        "ioc": "https://henreques.lol/api/v1/session",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-09 11:08:50 UTC"
+      },
+      {
+        "ioc": "henreques.lol",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 11:08:50 UTC"
+      },
+      {
+        "ioc": "https://henreques.lol/api/v1/verify",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-09 11:08:49 UTC"
+      },
       {
         "ioc": "https://tommy-q.lol/o",
         "type": "url",
@@ -104,78 +177,6 @@
         "type": "url",
         "confidence": 100,
         "first_seen": "2026-07-08 15:18:37 UTC"
-      },
-      {
-        "ioc": "https://azevedo.lol/api/v1/status",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-08 14:46:27 UTC"
-      },
-      {
-        "ioc": "microcrypt1987.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-08 14:46:26 UTC"
-      },
-      {
-        "ioc": "https://microcrypt1987.com/update/package",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-08 14:46:26 UTC"
-      },
-      {
-        "ioc": "fraitas.lol",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-08 12:08:10 UTC"
-      },
-      {
-        "ioc": "https://fraitas.lol/file.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-08 12:08:10 UTC"
-      },
-      {
-        "ioc": "https://fraitas.lol/api/v1/verify",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-08 12:08:09 UTC"
-      },
-      {
-        "ioc": "https://fraitas.lol/api/v1/session",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-08 12:08:09 UTC"
-      },
-      {
-        "ioc": "azevedo.lol",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-08 11:14:53 UTC"
-      },
-      {
-        "ioc": "https://azevedo.lol/api/v1/session",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-08 11:14:52 UTC"
-      },
-      {
-        "ioc": "https://azevedo.lol/file.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-08 11:14:52 UTC"
-      },
-      {
-        "ioc": "https://azevedo.lol/api/v1/verify",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-08 11:14:51 UTC"
-      },
-      {
-        "ioc": "https://appcert9869.net/update/package",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-08 06:48:31 UTC"
       }
     ]
   }

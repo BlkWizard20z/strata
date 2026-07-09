@@ -1,23 +1,21 @@
 {
-  "malware_id": "unknown",
-  "family": "Unknown malware",
-  "generated": "2026-07-09T16:13:04.656512+00:00",
-  "recent_window_ioc_count": 379,
-  "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown",
+  "malware_id": "unknown_stealer",
+  "family": "Unknown Stealer",
+  "generated": "2026-07-09T16:13:01.862168+00:00",
+  "recent_window_ioc_count": 501,
+  "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer",
   "description": null,
   "alt_names": [],
   "associated_groups": [],
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-07-09",
+      "earliest": "2026-06-17",
       "latest": "2026-07-09"
     },
     "ioc_type_breakdown": {
-      "domain": 484,
-      "ip:port": 8,
-      "url": 6,
-      "sha256_hash": 2
+      "domain": 497,
+      "url": 3
     },
     "confidence_distribution": {
       "high": 500,
@@ -25,47 +23,15 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-07-09": 500
+      "2026-06-17": 6,
+      "2026-07-03": 1,
+      "2026-07-06": 2,
+      "2026-07-07": 1,
+      "2026-07-08": 8,
+      "2026-07-09": 482
     },
-    "top_ports": [
-      {
-        "port": "443",
-        "count": 2
-      },
-      {
-        "port": "8080",
-        "count": 2
-      },
-      {
-        "port": "5555",
-        "count": 1
-      },
-      {
-        "port": "8888",
-        "count": 1
-      },
-      {
-        "port": "4445",
-        "count": 1
-      },
-      {
-        "port": "80",
-        "count": 1
-      }
-    ],
+    "top_ports": [],
     "sample_iocs": [
-      {
-        "ioc": "31.76.251.246:5555",
-        "type": "ip:port",
-        "confidence": 75,
-        "first_seen": "2026-07-09 16:08:11 UTC"
-      },
-      {
-        "ioc": "178.16.54.12:443",
-        "type": "ip:port",
-        "confidence": 75,
-        "first_seen": "2026-07-09 15:51:36 UTC"
-      },
       {
         "ioc": "zurawealth.co.uk",
         "type": "domain",
@@ -140,6 +106,18 @@
       },
       {
         "ioc": "wellnesspmr.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 15:33:39 UTC"
+      },
+      {
+        "ioc": "wellkraftcabinetry.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 15:33:39 UTC"
+      },
+      {
+        "ioc": "weatherdynamics.net",
         "type": "domain",
         "confidence": 100,
         "first_seen": "2026-07-09 15:33:39 UTC"

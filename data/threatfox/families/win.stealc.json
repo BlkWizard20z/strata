@@ -1,8 +1,8 @@
 {
   "malware_id": "win.stealc",
   "family": "Stealc",
-  "generated": "2026-07-08T21:05:34.318261+00:00",
-  "recent_window_ioc_count": 51,
+  "generated": "2026-07-09T16:15:13.729953+00:00",
+  "recent_window_ioc_count": 52,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.stealc",
   "description": "Stealc is an information stealer advertised by its presumed developer Plymouth on Russian-speaking underground forums and sold as a Malware-as-a-Service since January 9, 2023. According to Plymouth's statement, stealc is a non-resident stealer with flexible data collection settings and its development is relied on other prominent stealers: Vidar, Raccoon, Mars and Redline.\r\n\r\nStealc is written in C and uses WinAPI functions. It mainly targets data from web browsers, extensions and Desktop application of cryptocurrency wallets, and from other applications (messengers, email clients, etc.). The malware downloads 7 legitimate third-party DLLs to collect sensitive data from web browsers, including sqlite3.dll, nss3.dll, vcruntime140.dll, mozglue.dll, freebl3.dll, softokn3.dll and msvcp140.dll. It then exfiltrates the collected information file by file to its C2 server using HTTP POST requests.",
   "alt_names": [],
@@ -11,7 +11,7 @@
     "total_iocs": 500,
     "date_range": {
       "earliest": "2026-02-04",
-      "latest": "2026-07-08"
+      "latest": "2026-07-09"
     },
     "ioc_type_breakdown": {
       "url": 211,
@@ -22,12 +22,12 @@
       "domain": 7
     },
     "confidence_distribution": {
-      "high": 381,
-      "medium": 119,
+      "high": 382,
+      "medium": 118,
       "low": 0
     },
     "activity_timeline": {
-      "2026-02-04": 24,
+      "2026-02-04": 23,
       "2026-02-05": 13,
       "2026-02-06": 1,
       "2026-02-07": 8,
@@ -132,7 +132,8 @@
       "2026-07-05": 10,
       "2026-07-06": 3,
       "2026-07-07": 1,
-      "2026-07-08": 7
+      "2026-07-08": 7,
+      "2026-07-09": 1
     },
     "top_ports": [
       {
@@ -153,6 +154,12 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "185.223.82.171:80",
+        "type": "ip:port",
+        "confidence": 100,
+        "first_seen": "2026-07-09 08:05:06 UTC"
+      },
       {
         "ioc": "f5088b617e231c7ea495c78deb83813dd5f98ef6",
         "type": "sha1_hash",
@@ -236,12 +243,6 @@
         "type": "url",
         "confidence": 75,
         "first_seen": "2026-07-05 17:30:49 UTC"
-      },
-      {
-        "ioc": "716608d7e9a26e980f916e73792abcb86bbb21fb949436b7f359afcaf730b078",
-        "type": "sha256_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-05 16:22:45 UTC"
       }
     ]
   }

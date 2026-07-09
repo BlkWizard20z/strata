@@ -1,33 +1,32 @@
 {
   "malware_id": "win.strelastealer",
   "family": "StrelaStealer",
-  "generated": "2026-07-08T21:05:19.629622+00:00",
+  "generated": "2026-07-09T16:15:28.007049+00:00",
   "recent_window_ioc_count": 52,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer",
   "description": "According to PCRisk, StrelaStealer seeks to extract email account log-in credentials. At the time of writing, this program targets Microsoft Outlook and Mozilla Thunderbird email clients.\r\n\r\nFollowing successful infiltration, StrelaStealer searches for \"logins.json\" (account/password) and \"key4.db\" (password database) within the \"%APPDATA%\\Thunderbird\\Profiles\\\" directory - by doing so, it can acquire the credentials for Thunderbird.\r\n\r\nAlternatively, if Outlook credentials are targeted - StrelaStealer seeks out the Windows Registry from where it can retrieve the program's key and \"IMAP User\", \"IMAP Server\", as well as the \"IMAP Password\" values. Since the latter is kept in an encrypted form, the malicious program employs the Windows CryptUnprotectData feature to decrypt it prior to exfiltration.",
   "alt_names": [],
   "associated_groups": [],
   "stats": {
-    "total_iocs": 388,
+    "total_iocs": 381,
     "date_range": {
-      "earliest": "2026-01-08",
+      "earliest": "2026-01-10",
       "latest": "2026-07-04"
     },
     "ioc_type_breakdown": {
-      "domain": 329,
-      "md5_hash": 19,
-      "sha1_hash": 19,
-      "sha256_hash": 19,
+      "domain": 328,
+      "md5_hash": 17,
+      "sha1_hash": 17,
+      "sha256_hash": 17,
       "ip:port": 1,
       "url": 1
     },
     "confidence_distribution": {
-      "high": 388,
+      "high": 381,
       "medium": 0,
       "low": 0
     },
     "activity_timeline": {
-      "2026-01-08": 6,
       "2026-01-10": 3,
       "2026-01-12": 3,
       "2026-01-24": 6,
@@ -49,7 +48,6 @@
       "2026-03-11": 1,
       "2026-03-13": 1,
       "2026-03-27": 1,
-      "2026-04-08": 1,
       "2026-04-09": 1,
       "2026-04-20": 2,
       "2026-04-22": 1,

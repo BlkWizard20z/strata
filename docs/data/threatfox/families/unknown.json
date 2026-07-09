@@ -1,8 +1,8 @@
 {
   "malware_id": "unknown",
   "family": "Unknown malware",
-  "generated": "2026-07-08T21:02:59.985669+00:00",
-  "recent_window_ioc_count": 377,
+  "generated": "2026-07-09T16:13:04.656512+00:00",
+  "recent_window_ioc_count": 379,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown",
   "description": null,
   "alt_names": [],
@@ -10,206 +10,139 @@
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-02-21",
-      "latest": "2026-07-08"
+      "earliest": "2026-07-09",
+      "latest": "2026-07-09"
     },
     "ioc_type_breakdown": {
-      "domain": 331,
-      "ip:port": 130,
-      "url": 28,
-      "sha256_hash": 7,
-      "md5_hash": 4
+      "domain": 484,
+      "ip:port": 8,
+      "url": 6,
+      "sha256_hash": 2
     },
     "confidence_distribution": {
-      "high": 481,
-      "medium": 19,
+      "high": 500,
+      "medium": 0,
       "low": 0
     },
     "activity_timeline": {
-      "2026-02-21": 1,
-      "2026-03-04": 1,
-      "2026-03-05": 6,
-      "2026-03-10": 1,
-      "2026-03-11": 1,
-      "2026-03-27": 4,
-      "2026-04-17": 1,
-      "2026-04-19": 1,
-      "2026-05-01": 4,
-      "2026-05-08": 4,
-      "2026-05-10": 1,
-      "2026-05-11": 2,
-      "2026-05-14": 1,
-      "2026-05-21": 2,
-      "2026-05-22": 1,
-      "2026-05-26": 1,
-      "2026-05-27": 1,
-      "2026-05-28": 6,
-      "2026-05-29": 1,
-      "2026-06-02": 2,
-      "2026-06-03": 4,
-      "2026-06-05": 1,
-      "2026-06-07": 4,
-      "2026-06-08": 15,
-      "2026-06-09": 4,
-      "2026-06-10": 3,
-      "2026-06-11": 3,
-      "2026-06-13": 7,
-      "2026-06-14": 2,
-      "2026-06-15": 4,
-      "2026-06-16": 2,
-      "2026-06-17": 10,
-      "2026-06-18": 1,
-      "2026-06-19": 1,
-      "2026-06-20": 5,
-      "2026-06-21": 1,
-      "2026-06-23": 3,
-      "2026-06-24": 1,
-      "2026-06-25": 1,
-      "2026-06-27": 1,
-      "2026-06-28": 2,
-      "2026-06-29": 3,
-      "2026-06-30": 4,
-      "2026-07-01": 21,
-      "2026-07-02": 2,
-      "2026-07-03": 2,
-      "2026-07-04": 2,
-      "2026-07-05": 4,
-      "2026-07-06": 163,
-      "2026-07-07": 54,
-      "2026-07-08": 128
+      "2026-07-09": 500
     },
     "top_ports": [
       {
-        "port": "7443",
-        "count": 72
-      },
-      {
         "port": "443",
-        "count": 12
+        "count": 2
       },
       {
         "port": "8080",
-        "count": 11
-      },
-      {
-        "port": "80",
-        "count": 10
-      },
-      {
-        "port": "4521",
-        "count": 3
-      },
-      {
-        "port": "6933",
         "count": 2
       },
       {
-        "port": "60000",
-        "count": 2
-      },
-      {
-        "port": "8888",
-        "count": 2
-      },
-      {
-        "port": "53",
+        "port": "5555",
         "count": 1
       },
       {
-        "port": "59821",
+        "port": "8888",
+        "count": 1
+      },
+      {
+        "port": "4445",
+        "count": 1
+      },
+      {
+        "port": "80",
         "count": 1
       }
     ],
     "sample_iocs": [
       {
-        "ioc": "117.72.78.96:80",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-08 20:05:10 UTC"
-      },
-      {
-        "ioc": "117.72.78.96:443",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-08 20:05:10 UTC"
-      },
-      {
-        "ioc": "113.44.90.0:8080",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-08 20:05:08 UTC"
-      },
-      {
-        "ioc": "107.172.20.215:443",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-08 20:05:06 UTC"
-      },
-      {
-        "ioc": "179.43.149.252:7443",
+        "ioc": "31.76.251.246:5555",
         "type": "ip:port",
         "confidence": 75,
-        "first_seen": "2026-07-08 19:43:55 UTC"
+        "first_seen": "2026-07-09 16:08:11 UTC"
       },
       {
-        "ioc": "104.64.192.34:6933",
+        "ioc": "178.16.54.12:443",
         "type": "ip:port",
         "confidence": 75,
-        "first_seen": "2026-07-08 19:43:14 UTC"
+        "first_seen": "2026-07-09 15:51:36 UTC"
       },
       {
-        "ioc": "2leap.es",
+        "ioc": "zurawealth.co.uk",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 19:28:44 UTC"
+        "first_seen": "2026-07-09 15:33:40 UTC"
       },
       {
-        "ioc": "24cart.store",
+        "ioc": "zaneogle.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 19:28:44 UTC"
+        "first_seen": "2026-07-09 15:33:39 UTC"
       },
       {
-        "ioc": "adalyametal.com",
+        "ioc": "yushiboutique.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 19:28:43 UTC"
+        "first_seen": "2026-07-09 15:33:39 UTC"
       },
       {
-        "ioc": "abenegihugu.com",
+        "ioc": "yogasegrate.it",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 19:28:43 UTC"
+        "first_seen": "2026-07-09 15:33:39 UTC"
       },
       {
-        "ioc": "abadi136.net",
+        "ioc": "yiwulanggu.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 19:28:43 UTC"
+        "first_seen": "2026-07-09 15:33:39 UTC"
       },
       {
-        "ioc": "accidentclinic.miami",
+        "ioc": "xn--wakacjewewoszech-syc.pl",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 19:28:42 UTC"
+        "first_seen": "2026-07-09 15:33:39 UTC"
       },
       {
-        "ioc": "114.132.150.96:8080",
-        "type": "ip:port",
+        "ioc": "xn--61-mlcmthgg3e.xn--p1ai",
+        "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-08 19:05:04 UTC"
+        "first_seen": "2026-07-09 15:33:39 UTC"
       },
       {
-        "ioc": "noveuam.top",
+        "ioc": "xdlab.com.br",
         "type": "domain",
-        "confidence": 75,
-        "first_seen": "2026-07-08 18:35:36 UTC"
+        "confidence": 100,
+        "first_seen": "2026-07-09 15:33:39 UTC"
       },
       {
-        "ioc": "bantamoro.icu",
+        "ioc": "wpthemesdemo.com",
         "type": "domain",
-        "confidence": 75,
-        "first_seen": "2026-07-08 18:35:35 UTC"
+        "confidence": 100,
+        "first_seen": "2026-07-09 15:33:39 UTC"
+      },
+      {
+        "ioc": "wintower.de",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 15:33:39 UTC"
+      },
+      {
+        "ioc": "winmi-machining.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 15:33:39 UTC"
+      },
+      {
+        "ioc": "wildprint.co.uk",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 15:33:39 UTC"
+      },
+      {
+        "ioc": "wellnesspmr.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 15:33:39 UTC"
       }
     ]
   }

@@ -1,7 +1,7 @@
 {
   "malware_id": "js.iclickfix",
   "family": "IClickFix",
-  "generated": "2026-07-08T21:04:46.062951+00:00",
+  "generated": "2026-07-09T16:14:29.406788+00:00",
   "recent_window_ioc_count": 58,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix",
   "description": "IClickFix is a malicious JavaScript framework deployed on compromised WordPress sites to deliver further malware using the ClickFix social engineering tactic and fake Cloudflare Turnstile CAPTCHA challenge.",
@@ -24,9 +24,9 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-05-02": 70,
+      "2026-05-02": 79,
       "2026-05-05": 1,
-      "2026-06-08": 42,
+      "2026-06-08": 33,
       "2026-06-10": 1,
       "2026-06-19": 1,
       "2026-06-21": 1,

@@ -1,7 +1,7 @@
 {
   "malware_id": "win.valley_rat",
   "family": "ValleyRAT",
-  "generated": "2026-07-08T21:06:15.639951+00:00",
+  "generated": "2026-07-09T16:15:54.691424+00:00",
   "recent_window_ioc_count": 44,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.valley_rat",
   "description": null,

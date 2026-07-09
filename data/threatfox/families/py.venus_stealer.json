@@ -1,7 +1,7 @@
 {
   "malware_id": "py.venus_stealer",
   "family": "Venus Stealer",
-  "generated": "2026-07-08T21:06:57.664738+00:00",
+  "generated": "2026-07-09T16:16:50.627433+00:00",
   "recent_window_ioc_count": 39,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.venus_stealer",
   "description": "Venus Stealer is a python based Infostealer observed early 2023.",

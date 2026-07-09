@@ -1,8 +1,8 @@
 {
   "malware_id": "unknown_loader",
   "family": "Unknown Loader",
-  "generated": "2026-07-08T21:03:25.906772+00:00",
-  "recent_window_ioc_count": 255,
+  "generated": "2026-07-09T16:13:26.828520+00:00",
+  "recent_window_ioc_count": 258,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader",
   "description": null,
   "alt_names": [],
@@ -11,21 +11,21 @@
     "total_iocs": 500,
     "date_range": {
       "earliest": "2026-02-21",
-      "latest": "2026-07-08"
+      "latest": "2026-07-09"
     },
     "ioc_type_breakdown": {
-      "domain": 384,
-      "url": 75,
+      "domain": 386,
+      "url": 73,
       "ip:port": 32,
       "sha256_hash": 9
     },
     "confidence_distribution": {
-      "high": 471,
-      "medium": 29,
+      "high": 474,
+      "medium": 26,
       "low": 0
     },
     "activity_timeline": {
-      "2026-02-21": 7,
+      "2026-02-21": 4,
       "2026-02-23": 6,
       "2026-02-26": 3,
       "2026-02-27": 1,
@@ -95,7 +95,8 @@
       "2026-07-05": 6,
       "2026-07-06": 150,
       "2026-07-07": 35,
-      "2026-07-08": 54
+      "2026-07-08": 54,
+      "2026-07-09": 3
     },
     "top_ports": [
       {
@@ -140,6 +141,24 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "brakepail.space",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 06:17:51 UTC"
+      },
+      {
+        "ioc": "mercio.org",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-09 05:28:11 UTC"
+      },
+      {
+        "ioc": "https://www.mercio.org/wp-footerblog.php",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-09 05:28:10 UTC"
+      },
       {
         "ioc": "recap-cha.xyz",
         "type": "domain",
@@ -211,24 +230,6 @@
         "type": "domain",
         "confidence": 100,
         "first_seen": "2026-07-08 11:56:59 UTC"
-      },
-      {
-        "ioc": "childrenhouseschool.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-08 11:56:59 UTC"
-      },
-      {
-        "ioc": "challengerfactory.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-08 11:56:59 UTC"
-      },
-      {
-        "ioc": "danacgautreaux.net",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-08 11:56:58 UTC"
       }
     ]
   }
