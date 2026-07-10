@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T16:17:44.154421+00:00",
+  "generated": "2026-07-10T16:03:00.459237+00:00",
   "families": [
     {
       "malware_id": "js.clearfake",
@@ -22,20 +22,24 @@
       "family": "Unknown Loader"
     },
     {
+      "malware_id": "win.cobalt_strike",
+      "family": "Cobalt Strike"
+    },
+    {
       "malware_id": "win.remcos",
       "family": "Remcos"
+    },
+    {
+      "malware_id": "win.akira",
+      "family": "Akira"
     },
     {
       "malware_id": "elf.aisuru",
       "family": "Aisuru"
     },
     {
-      "malware_id": "win.cobalt_strike",
-      "family": "Cobalt Strike"
-    },
-    {
-      "malware_id": "win.akira",
-      "family": "Akira"
+      "malware_id": "elf.kuiper",
+      "family": "Kuiper"
     },
     {
       "malware_id": "js.kongtuke",
@@ -46,60 +50,52 @@
       "family": "IClickFix"
     },
     {
-      "malware_id": "win.asyncrat",
-      "family": "AsyncRAT"
-    },
-    {
-      "malware_id": "win.formbook",
-      "family": "Formbook"
-    },
-    {
-      "malware_id": "win.stealc",
-      "family": "Stealc"
-    },
-    {
-      "malware_id": "win.strelastealer",
-      "family": "StrelaStealer"
+      "malware_id": "win.vshell",
+      "family": "VShell"
     },
     {
       "malware_id": "win.adaptix_c2",
       "family": "AdaptixC2"
     },
     {
-      "malware_id": "win.valley_rat",
-      "family": "ValleyRAT"
+      "malware_id": "win.asyncrat",
+      "family": "AsyncRAT"
     },
     {
-      "malware_id": "win.vshell",
-      "family": "VShell"
-    },
-    {
-      "malware_id": "js.smartapesg",
-      "family": "SmartApeSG"
-    },
-    {
-      "malware_id": "elf.kuiper",
-      "family": "Kuiper"
+      "malware_id": "win.strelastealer",
+      "family": "StrelaStealer"
     },
     {
       "malware_id": "py.venus_stealer",
       "family": "Venus Stealer"
     },
     {
-      "malware_id": "win.agent_tesla",
-      "family": "Agent Tesla"
+      "malware_id": "win.formbook",
+      "family": "Formbook"
     },
     {
       "malware_id": "win.wannacryptor",
       "family": "WannaCryptor"
     },
     {
-      "malware_id": "win.xworm",
-      "family": "XWorm"
+      "malware_id": "js.smartapesg",
+      "family": "SmartApeSG"
     },
     {
-      "malware_id": "win.dcrat",
-      "family": "DCRat"
+      "malware_id": "win.valley_rat",
+      "family": "ValleyRAT"
+    },
+    {
+      "malware_id": "win.agent_tesla",
+      "family": "Agent Tesla"
+    },
+    {
+      "malware_id": "win.pure_rat",
+      "family": "PureRAT"
+    },
+    {
+      "malware_id": "win.xworm",
+      "family": "XWorm"
     }
   ]
 }

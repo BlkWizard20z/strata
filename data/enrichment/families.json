@@ -1,4 +1,13 @@
 {
+  "apk.clipper": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Clipper",
+    "description": null,
+    "enriched_at": "2026-07-10T15:56:53.378435+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
   "apk.craxs_rat": {
     "alt_names": [],
     "associated_groups": [],
@@ -23,6 +32,15 @@
     "common_name": "Kimwolf",
     "description": "KIMWOLF is an android based malware which uses compromised systems to relay malicious and abusive Internet traffic, as well as participating in distributed denial-of-service (DDoS). KIMWOLF primarily infects unofficial Android-TV set-top boxes and digital photo frames. The malware has frequently been noted to achieve infection spread via abusing Android Debug Bridge (ADB) and residential proxies. There are multiple reports suggesting a connection to the Aisuru botnet, with Kimwolf acting as the Android variant.",
     "enriched_at": "2026-07-08T17:00:36.437294+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "apk.loki": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Loki",
+    "description": null,
+    "enriched_at": "2026-07-10T15:56:54.659348+00:00",
     "source": "malpedia",
     "status": "ok"
   },
@@ -173,6 +191,18 @@
     "common_name": "KongTuke",
     "description": "Kongtuke is a sophisticated TDS system that was initially discovered around May 2024. Making use of compromised CMS Websites, Kongtuke redirects website visitors through a multi-stage infection process ultimately leading to device infection. Initially using fake Update lures, it started to use FakeCaptcha lures at the beginning of 2025. It is likely an initial access service, selling infections to both Ransomware affiliates and other IA vendors like SocGholish.",
     "enriched_at": "2026-07-08T17:00:16.252301+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "js.magecart": {
+    "alt_names": [],
+    "associated_groups": [
+      "FIN6",
+      "MageCart"
+    ],
+    "common_name": "magecart",
+    "description": "Magecart is a malware framework intended to steal credit card information from compromised eCommerce websites. Used in criminal activities, it's a sophisticated implant built on top of relays, command and controls and anonymizers used to steal eCommerce customers' credit card information. The first stage is typically implemented in Javascript included into a compromised checkout page. It copies data from \"input fields\" and send them to a relay which collects credit cards coming from a subset of compromised eCommerces and forwards them to Command and Control servers.",
+    "enriched_at": "2026-07-10T15:56:51.449758+00:00",
     "source": "malpedia",
     "status": "ok"
   },
@@ -375,6 +405,15 @@
     "source": "malpedia",
     "status": "ok"
   },
+  "win.bianlian": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "BianLian",
+    "description": "BianLian is a GoLang-based ransomware that continues to breach several industries and demand large ransom amounts. The threat actors also use the double extortion method by stealing an affected organization\u2019s files and leaking them online if the ransom is not paid on time. BianLian gains access to victim systems through valid Remote Desktop Protocol (RDP) credentials, uses open-source tools and command-line scripting for discovery and credential harvesting, and exfiltrates victim data via File Transfer Protocol (FTP), Rclone, or Mega. BianLian originally employed a double-extortion model in which they encrypted victims\u2019 systems after exfiltrating the data; however, around January 2023, they shifted to primarily exfiltration-based extortion. The BianLian ransomware uses goroutines and encrypts files in chunks to quickly hijack an infected system. The ransomware adds its own extension to each encrypted file.",
+    "enriched_at": "2026-07-10T15:57:01.251342+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
   "win.blacknet_rat": {
     "alt_names": [],
     "associated_groups": [],
@@ -460,6 +499,15 @@
     "common_name": "Coinminer",
     "description": "Coinminer is an unwanted malicious software which uses the victim's computational power (CPU and RAM mostly) to mine for coins (for example Monero or Zcash). The malware achieves persistence by adding one of the opensource miners on startup without the victim's consensus. Most sophisticated coin miners use timer settings or cap the CPU usage in order to remain stealthy.",
     "enriched_at": "2026-07-08T17:00:37.407580+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.count_loader": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "CountLoader",
+    "description": "According to Silent Push, this malware exists in multiple versions, including .NET, PowerShell, and JScript. They believe it is part of an IAB toolset or used by a affiliate with ties to LockBit, BlackBasta, and Qilin ransomware groups. CountLoader was also recently used in a PDF-based phishing lure targeting individuals in Ukraine, in a campaign that impersonated the Ukrainian police.",
+    "enriched_at": "2026-07-10T15:57:02.380845+00:00",
     "source": "malpedia",
     "status": "ok"
   },
@@ -633,6 +681,24 @@
     "source": "malpedia",
     "status": "ok"
   },
+  "win.lokipws": {
+    "alt_names": [
+      "Burkina",
+      "Loki",
+      "LokiBot",
+      "LokiPWS"
+    ],
+    "associated_groups": [
+      "SWEED",
+      "The Gorgon Group",
+      "Cobalt"
+    ],
+    "common_name": "Loki Password Stealer (PWS)",
+    "description": "\"Loki Bot is a commodity malware sold on underground sites which is designed to steal private data from infected machines, and then submit that info to a command and control host via HTTP POST. This private data includes stored passwords, login credential information from Web browsers, and a variety of cryptocurrency wallets.\" - PhishMe\r\n\r\nLoki-Bot employs function hashing to obfuscate the libraries utilized. While not all functions are hashed, a vast majority of them are.\r\n\r\nLoki-Bot accepts a single argument/switch of \u2018-u\u2019 that simply delays execution (sleeps) for 10 seconds. This is used when Loki-Bot is upgrading itself.\r\n\r\nThe Mutex generated is the result of MD5 hashing the Machine GUID and trimming to 24-characters. For example: \u201cB7E1C2CC98066B250DDB2123\u201c.\r\n\r\nLoki-Bot creates a hidden folder within the %APPDATA% directory whose name is supplied by the 8th thru 13th characters of the Mutex. For example: \u201c%APPDATA%\\ C98066\\\u201d.\r\n\r\nThere can be four files within the hidden %APPDATA% directory at any given time: \u201c.exe,\u201d \u201c.lck,\u201d \u201c.hdb\u201d and \u201c.kdb.\u201d They will be named after characters 13 thru 18 of the Mutex. For example: \u201c6B250D.\u201d Below is the explanation of their purpose:\r\n\r\nFILE EXTENSION\tFILE DESCRIPTION\r\n.exe\tA copy of the malware that will execute every time the user account is logged into\r\n.lck\tA lock file created when either decrypting Windows Credentials or Keylogging to prevent resource conflicts\r\n.hdb\tA database of hashes for data that has already been exfiltrated to the C2 server\r\n.kdb\tA database of keylogger data that has yet to be sent to the C2 server\r\n\r\nIf the user is privileged, Loki-Bot sets up persistence within the registry under HKEY_LOCAL_MACHINE. If not, it sets up persistence under HKEY_CURRENT_USER.\r\n\r\nThe first packet transmitted by Loki-Bot contains application data.\r\n\r\nThe second packet transmitted by Loki-Bot contains decrypted Windows credentials.\r\n\r\nThe third packet transmitted by Loki-Bot is the malware requesting C2 commands from the C2 server. By default, Loki-Bot will send this request out every 10 minutes after the initial packet it sent.\r\n\r\nCommunications to the C2 server from the compromised host contain information about the user and system including the username, hostname, domain, screen resolution, privilege level, system architecture, and Operating System.\r\n\r\nThe first WORD of the HTTP Payload represents the Loki-Bot version.\r\n\r\nThe second WORD of the HTTP Payload is the Payload Type. Below is the table of identified payload types:\r\n\r\nBYTE\tPAYLOAD TYPE\r\n0x26\tStolen Cryptocurrency Wallet\r\n0x27\tStolen Application Data\r\n0x28\tGet C2 Commands from C2 Server\r\n0x29\tStolen File\r\n0x2A\tPOS (Point of Sale?)\r\n0x2B\tKeylogger Data\r\n0x2C\tScreenshot\r\n\r\nThe 11th byte of the HTTP Payload begins the Binary ID. This might be useful in tracking campaigns or specific threat actors. This value value is typically \u201cckav.ru\u201d. If you come across a Binary ID that is different from this, take note!\r\n\r\nLoki-Bot encrypts both the URL and the registry key used for persistence using Triple DES encryption.\r\n\r\nThe Content-Key HTTP Header value is the result of hashing the HTTP Header values that precede it. This is likely used as a protection against researchers who wish to poke and prod at Loki-Bot\u2019s C2 infrastructure.\r\n\r\nLoki-Bot can accept the following instructions from the C2 Server:\r\n\r\nBYTE\tINSTRUCTION DESCRIPTION\r\n0x00\tDownload EXE & Execute\r\n0x01\tDownload DLL & Load #1\r\n0x02\tDownload DLL & Load #2\r\n0x08\tDelete HDB File\r\n0x09\tStart Keylogger\r\n0x0A\tMine & Steal Data\r\n0x0E\tExit Loki-Bot\r\n0x0F\tUpgrade Loki-Bot\r\n0x10\tChange C2 Polling Frequency\r\n0x11\tDelete Executables & Exit\r\n\r\nSuricata Signatures\r\nRULE SID\tRULE NAME\r\n2024311\tET TROJAN Loki Bot Cryptocurrency Wallet Exfiltration Detected\r\n2024312\tET TROJAN Loki Bot Application/Credential Data Exfiltration Detected M1\r\n2024313\tET TROJAN Loki Bot Request for C2 Commands Detected M1\r\n2024314\tET TROJAN Loki Bot File Exfiltration Detected\r\n2024315\tET TROJAN Loki Bot Keylogger Data Exfiltration Detected M1\r\n2024316\tET TROJAN Loki Bot Screenshot Exfiltration Detected\r\n2024317\tET TROJAN Loki Bot Application/Credential Data Exfiltration Detected M2\r\n2024318\tET TROJAN Loki Bot Request for C2 Commands Detected M2\r\n2024319\tET TROJAN Loki Bot Keylogger Data Exfiltration Detected M2",
+    "enriched_at": "2026-07-10T15:56:58.057841+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
   "win.luca_stealer": {
     "alt_names": [],
     "associated_groups": [],
@@ -720,6 +786,18 @@
     "common_name": "NjRAT",
     "description": "RedPacket Security describes NJRat as \"a remote access trojan (RAT) has capabilities to log keystrokes, access the victim's camera, steal credentials stored in browsers, open a reverse shell, upload/download files, view the victim's desktop, perform process, file, and registry manipulations, and capabilities to let the attacker update, uninstall, restart, close, disconnect the RAT and rename its campaign ID. Through the Command & Control (CnC) server software, the attacker has capabilities to create and configure the malware to spread through USB drives.\"\r\n\r\nIt is supposedly popular with actors in the Middle East. Similar to other RATs, many leaked builders may be backdoored.",
     "enriched_at": "2026-07-08T17:00:44.544296+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.nworm": {
+    "alt_names": [
+      "nw0rm",
+      "NWorm"
+    ],
+    "associated_groups": [],
+    "common_name": "N-W0rm",
+    "description": null,
+    "enriched_at": "2026-07-10T15:56:56.581387+00:00",
     "source": "malpedia",
     "status": "ok"
   },
@@ -1043,6 +1121,15 @@
     "common_name": "VIP Keylogger",
     "description": null,
     "enriched_at": "2026-07-08T17:01:30.699041+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.vjw0rm": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Vjw0rm",
+    "description": "VJW0rm (aka Vengeance Justice Worm) is a publicly available, modular JavaScript RAT. Vjw0rm was first released in November 2016 by its primary author, v_B01 (aka Sliemerez), within the prominent DevPoint Arabic-language malware development community. VJW0rm appears to be the JavaScript variant of a series of RATs with identical functionality released by the author throughout late 2016. Other variants include a Visual Basic Script (VBS) based worm titled vw0rm (Vengeance Worm), an AutoHotkey-based tool called vrw0rm (Vengeance Rise Worm), and a PowerShell-based variant called vdw0rm (Vengeance Depth Worm).",
+    "enriched_at": "2026-07-10T15:56:59.201518+00:00",
     "source": "malpedia",
     "status": "ok"
   },

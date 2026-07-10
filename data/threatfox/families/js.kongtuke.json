@@ -1,8 +1,8 @@
 {
   "malware_id": "js.kongtuke",
   "family": "KongTuke",
-  "generated": "2026-07-09T16:14:18.460376+00:00",
-  "recent_window_ioc_count": 80,
+  "generated": "2026-07-10T15:59:02.565477+00:00",
+  "recent_window_ioc_count": 74,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.kongtuke",
   "description": "Kongtuke is a sophisticated TDS system that was initially discovered around May 2024. Making use of compromised CMS Websites, Kongtuke redirects website visitors through a multi-stage infection process ultimately leading to device infection. Initially using fake Update lures, it started to use FakeCaptcha lures at the beginning of 2025. It is likely an initial access service, selling infections to both Ransomware affiliates and other IA vendors like SocGholish.",
   "alt_names": [
@@ -14,7 +14,7 @@
     "total_iocs": 500,
     "date_range": {
       "earliest": "2026-03-30",
-      "latest": "2026-07-09"
+      "latest": "2026-07-10"
     },
     "ioc_type_breakdown": {
       "url": 257,
@@ -28,7 +28,7 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-03-30": 7,
+      "2026-03-30": 10,
       "2026-04-06": 8,
       "2026-04-08": 5,
       "2026-04-10": 4,
@@ -51,7 +51,7 @@
       "2026-06-04": 2,
       "2026-06-06": 6,
       "2026-06-08": 2,
-      "2026-06-09": 9,
+      "2026-06-09": 2,
       "2026-06-10": 7,
       "2026-06-11": 2,
       "2026-06-12": 16,
@@ -75,7 +75,8 @@
       "2026-07-06": 11,
       "2026-07-07": 25,
       "2026-07-08": 18,
-      "2026-07-09": 12
+      "2026-07-09": 12,
+      "2026-07-10": 4
     },
     "top_ports": [
       {
@@ -88,6 +89,30 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "https://leconto.lol/file.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-10 12:19:06 UTC"
+      },
+      {
+        "ioc": "https://leconto.lol/api/v1/session",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-10 12:19:04 UTC"
+      },
+      {
+        "ioc": "leconto.lol",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-10 12:19:04 UTC"
+      },
+      {
+        "ioc": "https://leconto.lol/api/v1/verify",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-10 12:19:03 UTC"
+      },
       {
         "ioc": "https://henreques.lol/api/v1/status",
         "type": "url",
@@ -153,30 +178,6 @@
         "type": "domain",
         "confidence": 100,
         "first_seen": "2026-07-09 11:08:50 UTC"
-      },
-      {
-        "ioc": "https://henreques.lol/api/v1/verify",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-09 11:08:49 UTC"
-      },
-      {
-        "ioc": "https://tommy-q.lol/o",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-08 18:35:37 UTC"
-      },
-      {
-        "ioc": "tommy-q.lol",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-08 18:35:36 UTC"
-      },
-      {
-        "ioc": "https://fraitas.lol/api/v1/status",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-08 15:18:37 UTC"
       }
     ]
   }

@@ -1,8 +1,8 @@
 {
   "malware_id": "unknown_stealer",
   "family": "Unknown Stealer",
-  "generated": "2026-07-09T16:13:01.862168+00:00",
-  "recent_window_ioc_count": 501,
+  "generated": "2026-07-10T15:57:20.956594+00:00",
+  "recent_window_ioc_count": 496,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer",
   "description": null,
   "alt_names": [],
@@ -10,12 +10,13 @@
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-06-17",
+      "earliest": "2026-07-03",
       "latest": "2026-07-09"
     },
     "ioc_type_breakdown": {
-      "domain": 497,
-      "url": 3
+      "domain": 496,
+      "url": 3,
+      "ip:port": 1
     },
     "confidence_distribution": {
       "high": 500,
@@ -23,14 +24,19 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-06-17": 6,
-      "2026-07-03": 1,
-      "2026-07-06": 2,
+      "2026-07-03": 4,
+      "2026-07-05": 2,
+      "2026-07-06": 3,
       "2026-07-07": 1,
       "2026-07-08": 8,
       "2026-07-09": 482
     },
-    "top_ports": [],
+    "top_ports": [
+      {
+        "port": "7317",
+        "count": 1
+      }
+    ],
     "sample_iocs": [
       {
         "ioc": "zurawealth.co.uk",

@@ -1,8 +1,8 @@
 {
   "malware_id": "win.formbook",
   "family": "Formbook",
-  "generated": "2026-07-09T16:14:53.612972+00:00",
-  "recent_window_ioc_count": 54,
+  "generated": "2026-07-10T16:01:14.754799+00:00",
+  "recent_window_ioc_count": 45,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook",
   "description": "FormBook contains a unique crypter RunPE that has unique behavioral patterns subject to detection. It was initially called \"Babushka Crypter\" by Insidemalware.",
   "alt_names": [
@@ -16,22 +16,22 @@
     "total_iocs": 500,
     "date_range": {
       "earliest": "2026-02-21",
-      "latest": "2026-07-08"
+      "latest": "2026-07-09"
     },
     "ioc_type_breakdown": {
       "domain": 258,
-      "url": 113,
-      "md5_hash": 43,
-      "sha256_hash": 43,
-      "sha1_hash": 43
+      "url": 110,
+      "md5_hash": 44,
+      "sha256_hash": 44,
+      "sha1_hash": 44
     },
     "confidence_distribution": {
-      "high": 129,
-      "medium": 371,
+      "high": 132,
+      "medium": 368,
       "low": 0
     },
     "activity_timeline": {
-      "2026-02-21": 242,
+      "2026-02-21": 239,
       "2026-03-03": 12,
       "2026-03-07": 27,
       "2026-03-14": 3,
@@ -46,10 +46,29 @@
       "2026-07-02": 12,
       "2026-07-04": 21,
       "2026-07-06": 3,
-      "2026-07-08": 18
+      "2026-07-08": 18,
+      "2026-07-09": 3
     },
     "top_ports": [],
     "sample_iocs": [
+      {
+        "ioc": "cd9bbcba0733e834a50214132f6338f7",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:32 UTC"
+      },
+      {
+        "ioc": "1f31686990b1715d79718451c1865512566cb6a0bcc65f9d421fc1567e5cf6e7",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:31 UTC"
+      },
+      {
+        "ioc": "899054a1848bcd07e3afffe148e9adfd9dd817c5",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:31 UTC"
+      },
       {
         "ioc": "9167ebf77d442c08692aff65cdbc99d3",
         "type": "md5_hash",
@@ -93,6 +112,12 @@
         "first_seen": "2026-07-08 00:01:41 UTC"
       },
       {
+        "ioc": "f0fb02b95072529192e9999cfdf59fe54c652100",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-08 00:01:40 UTC"
+      },
+      {
         "ioc": "77ef3956571c199697945e44f76cd308",
         "type": "md5_hash",
         "confidence": 95,
@@ -105,14 +130,8 @@
         "first_seen": "2026-07-08 00:01:40 UTC"
       },
       {
-        "ioc": "f0fb02b95072529192e9999cfdf59fe54c652100",
-        "type": "sha1_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-08 00:01:40 UTC"
-      },
-      {
-        "ioc": "c76e9b5f06dc08f7a800761d8f17bd82afe83edc",
-        "type": "sha1_hash",
+        "ioc": "bdc73b726aa57f248d2e79aed4e4130d6eb0a87b766bdb22b396911dc374105a",
+        "type": "sha256_hash",
         "confidence": 95,
         "first_seen": "2026-07-08 00:01:39 UTC"
       },
@@ -121,24 +140,6 @@
         "type": "md5_hash",
         "confidence": 95,
         "first_seen": "2026-07-08 00:01:39 UTC"
-      },
-      {
-        "ioc": "bdc73b726aa57f248d2e79aed4e4130d6eb0a87b766bdb22b396911dc374105a",
-        "type": "sha256_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-08 00:01:39 UTC"
-      },
-      {
-        "ioc": "a742591f7154ecab659896004a6827f7be16bb8d536446cb12af8ca1e07500fa",
-        "type": "sha256_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-08 00:01:38 UTC"
-      },
-      {
-        "ioc": "51f25d3bb742483a9f90dc59dd7cd49b2e8dd768",
-        "type": "sha1_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-08 00:01:38 UTC"
       }
     ]
   }

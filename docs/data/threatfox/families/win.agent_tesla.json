@@ -1,7 +1,7 @@
 {
   "malware_id": "win.agent_tesla",
   "family": "Agent Tesla",
-  "generated": "2026-07-09T16:17:04.467159+00:00",
+  "generated": "2026-07-10T16:02:26.675292+00:00",
   "recent_window_ioc_count": 37,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.agent_tesla",
   "description": "According to Palo Alto Networks Unit 42, Agent Tesla is a widely used .NET-based (C#) commercial keylogger and information stealer whose leaked builders have made it easily obtainable for many threat actors. It can log keystrokes, capture clipboard contents, take screenshots, and harvest credentials or other valuable data from browsers, email clients and local files, then exfiltrate this information via HTTP(S), SMTP, FTP or Telegram channels. Unit 42\u2019s analysis shows that OriginLogger is a direct evolution and variant of Agent Tesla, heavily reusing its code and configuration-handling techniques so that many Agent Tesla-focused detection rules still catch OriginLogger. This tight relationship positions Agent Tesla as the predecessor in a closely related family of .NET stealers, with OriginLogger continuing and expanding its functionality.",
@@ -14,20 +14,20 @@
     "SWEED"
   ],
   "stats": {
-    "total_iocs": 148,
+    "total_iocs": 151,
     "date_range": {
       "earliest": "2025-01-18",
       "latest": "2026-07-09"
     },
     "ioc_type_breakdown": {
-      "md5_hash": 41,
-      "sha1_hash": 41,
-      "sha256_hash": 41,
+      "md5_hash": 42,
+      "sha1_hash": 42,
+      "sha256_hash": 42,
       "domain": 17,
       "url": 8
     },
     "confidence_distribution": {
-      "high": 140,
+      "high": 143,
       "medium": 8,
       "low": 0
     },
@@ -61,10 +61,28 @@
       "2026-07-06": 12,
       "2026-07-07": 9,
       "2026-07-08": 3,
-      "2026-07-09": 4
+      "2026-07-09": 7
     },
     "top_ports": [],
     "sample_iocs": [
+      {
+        "ioc": "4a909313c462ab3bddc6c522b20cc49c",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:48 UTC"
+      },
+      {
+        "ioc": "237cefba9f8c884c927609b00aa0b4e6c98330b0",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:48 UTC"
+      },
+      {
+        "ioc": "9c6be60162b611918d074da4f14322909bc031c74e66201219c23370423fcf91",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:47 UTC"
+      },
       {
         "ioc": "ftp.altatsradgez.com",
         "type": "domain",
@@ -136,24 +154,6 @@
         "type": "domain",
         "confidence": 100,
         "first_seen": "2026-07-07 11:18:26 UTC"
-      },
-      {
-        "ioc": "ftp.telewatte-pe.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 11:17:08 UTC"
-      },
-      {
-        "ioc": "ftp.hivimer.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 11:16:33 UTC"
-      },
-      {
-        "ioc": "ftp.avion.com.sg",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-07 11:16:03 UTC"
       }
     ]
   }

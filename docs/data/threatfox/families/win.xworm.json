@@ -1,8 +1,8 @@
 {
   "malware_id": "win.xworm",
   "family": "XWorm",
-  "generated": "2026-07-09T16:17:30.662926+00:00",
-  "recent_window_ioc_count": 28,
+  "generated": "2026-07-10T16:02:59.958516+00:00",
+  "recent_window_ioc_count": 27,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.xworm",
   "description": "Malware with wide range of capabilities ranging from RAT to ransomware.",
   "alt_names": [],
@@ -12,16 +12,16 @@
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-03-04",
-      "latest": "2026-07-09"
+      "earliest": "2026-03-05",
+      "latest": "2026-07-10"
     },
     "ioc_type_breakdown": {
-      "domain": 239,
+      "domain": 236,
       "ip:port": 230,
-      "sha256_hash": 14,
-      "md5_hash": 6,
-      "url": 6,
-      "sha1_hash": 5
+      "sha256_hash": 15,
+      "md5_hash": 7,
+      "sha1_hash": 6,
+      "url": 6
     },
     "confidence_distribution": {
       "high": 489,
@@ -29,8 +29,7 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-03-04": 1,
-      "2026-03-05": 6,
+      "2026-03-05": 4,
       "2026-03-06": 19,
       "2026-03-07": 4,
       "2026-03-08": 11,
@@ -121,7 +120,8 @@
       "2026-07-06": 3,
       "2026-07-07": 11,
       "2026-07-08": 2,
-      "2026-07-09": 2
+      "2026-07-09": 2,
+      "2026-07-10": 3
     },
     "top_ports": [
       {
@@ -166,6 +166,24 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "c4785f0696cae4e8630d28e545bbee207544e7e3",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-10 14:54:58 UTC"
+      },
+      {
+        "ioc": "6e66f889923ccb7dc34641a4d7ddc234",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-10 14:54:58 UTC"
+      },
+      {
+        "ioc": "7ee796a8fef94d38a6ef3d906fe3d37052b5b6c2435420dcc75e459fbc501a68",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-10 14:54:57 UTC"
+      },
       {
         "ioc": "194.116.236.216:5005",
         "type": "ip:port",
@@ -237,24 +255,6 @@
         "type": "ip:port",
         "confidence": 75,
         "first_seen": "2026-07-07 12:20:30 UTC"
-      },
-      {
-        "ioc": "207.180.29.85:7004",
-        "type": "ip:port",
-        "confidence": 75,
-        "first_seen": "2026-07-07 11:20:48 UTC"
-      },
-      {
-        "ioc": "207.180.29.217:7004",
-        "type": "ip:port",
-        "confidence": 75,
-        "first_seen": "2026-07-07 11:20:47 UTC"
-      },
-      {
-        "ioc": "biesmanscars.biz",
-        "type": "domain",
-        "confidence": 75,
-        "first_seen": "2026-07-07 06:30:42 UTC"
       }
     ]
   }

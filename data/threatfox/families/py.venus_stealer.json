@@ -1,25 +1,25 @@
 {
   "malware_id": "py.venus_stealer",
   "family": "Venus Stealer",
-  "generated": "2026-07-09T16:16:50.627433+00:00",
-  "recent_window_ioc_count": 39,
+  "generated": "2026-07-10T16:00:59.275462+00:00",
+  "recent_window_ioc_count": 51,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.venus_stealer",
   "description": "Venus Stealer is a python based Infostealer observed early 2023.",
   "alt_names": [],
   "associated_groups": [],
   "stats": {
-    "total_iocs": 123,
+    "total_iocs": 135,
     "date_range": {
       "earliest": "2026-06-16",
-      "latest": "2026-07-08"
+      "latest": "2026-07-10"
     },
     "ioc_type_breakdown": {
-      "md5_hash": 41,
-      "sha1_hash": 41,
-      "sha256_hash": 41
+      "md5_hash": 45,
+      "sha1_hash": 45,
+      "sha256_hash": 45
     },
     "confidence_distribution": {
-      "high": 123,
+      "high": 135,
       "medium": 0,
       "low": 0
     },
@@ -38,10 +38,84 @@
       "2026-07-01": 12,
       "2026-07-04": 24,
       "2026-07-05": 9,
-      "2026-07-08": 6
+      "2026-07-08": 6,
+      "2026-07-09": 3,
+      "2026-07-10": 9
     },
     "top_ports": [],
     "sample_iocs": [
+      {
+        "ioc": "c4f11447afc4928a9ce8843fc81cb25c",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-10 14:54:57 UTC"
+      },
+      {
+        "ioc": "ac0ba770904dedc4cd0f713b89359048325993ef",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-10 14:54:57 UTC"
+      },
+      {
+        "ioc": "1fc2634ee7f9bdddc44bdb2424e898e71d844b8935c2d9c6bb208a6a5befba9e",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-10 14:54:56 UTC"
+      },
+      {
+        "ioc": "19f235b2a219eaa317bb0cdf87464175",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-10 14:54:25 UTC"
+      },
+      {
+        "ioc": "747d3e6a68f00e4d2f65a4bf071d2c2752a7d1ea",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-10 14:54:25 UTC"
+      },
+      {
+        "ioc": "485163c279b9dced626742d7fbb6dc9deb989459ba4781aac1a733c9f9b67596",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-10 14:54:24 UTC"
+      },
+      {
+        "ioc": "bb7d6536cecdff9abacfb25618aeb2d6",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-10 14:54:19 UTC"
+      },
+      {
+        "ioc": "0a23a08199e61347c0f4a56fa3204b5774e1b63a",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-10 14:54:18 UTC"
+      },
+      {
+        "ioc": "ae887a7346ca3547c459962ff760fda8b221c16d96fcde758422586fe7a886e3",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-10 14:54:18 UTC"
+      },
+      {
+        "ioc": "37732f094ee78c5a820f225aa70f44b1",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:45 UTC"
+      },
+      {
+        "ioc": "0bf7c92460da65ec5040d4c84171fc55dca0bd06",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:45 UTC"
+      },
+      {
+        "ioc": "d3d8e0363520cf5dd010122ffdf1ffe4d73f461029caa992d381dae096f16db2",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:44 UTC"
+      },
       {
         "ioc": "55b80c0bb297e1cdbd85530c30c6d723",
         "type": "md5_hash",
@@ -59,78 +133,6 @@
         "type": "sha256_hash",
         "confidence": 95,
         "first_seen": "2026-07-08 18:14:40 UTC"
-      },
-      {
-        "ioc": "2a8ce7e05836d21a6a31ca558ccd679f",
-        "type": "md5_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-08 00:01:47 UTC"
-      },
-      {
-        "ioc": "936f5df6baefe57642eee138764dd2103d4d0849",
-        "type": "sha1_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-08 00:01:47 UTC"
-      },
-      {
-        "ioc": "f0fb6aa794861412977827099a4127f45d368885adf92b75904efb493a1eb5cb",
-        "type": "sha256_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-08 00:01:47 UTC"
-      },
-      {
-        "ioc": "4be39027f6e94c46bf4307f6762d8b98",
-        "type": "md5_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-05 16:22:41 UTC"
-      },
-      {
-        "ioc": "def05ff2de5bf7d550e6230c19480bae253d8043",
-        "type": "sha1_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-05 16:22:41 UTC"
-      },
-      {
-        "ioc": "f193b47f2739aaa35c0ecec5d2731dc7d343c200340015e4a2bff663c3041512",
-        "type": "sha256_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-05 16:22:41 UTC"
-      },
-      {
-        "ioc": "8ff8509c63c8dcfb5349a7691c0d7363",
-        "type": "md5_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-05 16:22:16 UTC"
-      },
-      {
-        "ioc": "dae33edb4229db54bab5a44da6a2e71c02f9fd48",
-        "type": "sha1_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-05 16:22:16 UTC"
-      },
-      {
-        "ioc": "0350de7cdac919529ec58d085ae1eb7ece2bafba425593fbcedb7826a84ee713",
-        "type": "sha256_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-05 16:22:16 UTC"
-      },
-      {
-        "ioc": "dbf9477bf240f517e449c2121eb7a69f",
-        "type": "md5_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-05 16:22:15 UTC"
-      },
-      {
-        "ioc": "2c54ebcea5e2484e406a7708584b5454b1f29fe8",
-        "type": "sha1_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-05 16:22:15 UTC"
-      },
-      {
-        "ioc": "7604fc93b4e521fd559dc4afd168d833f14ee63908cf733dfdfa8bab02a9d656",
-        "type": "sha256_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-05 16:22:15 UTC"
       }
     ]
   }

@@ -1,8 +1,8 @@
 {
   "malware_id": "win.vidar",
   "family": "Vidar",
-  "generated": "2026-07-09T16:13:13.766926+00:00",
-  "recent_window_ioc_count": 292,
+  "generated": "2026-07-10T15:57:38.869680+00:00",
+  "recent_window_ioc_count": 290,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar",
   "description": "Vidar is a forked malware based on Arkei. It seems this stealer is one of the first that is grabbing information on 2FA Software and Tor Browser.",
   "alt_names": [],
@@ -10,15 +10,15 @@
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-06-25",
-      "latest": "2026-07-09"
+      "earliest": "2026-06-27",
+      "latest": "2026-07-10"
     },
     "ioc_type_breakdown": {
-      "url": 162,
-      "domain": 97,
-      "md5_hash": 70,
-      "sha256_hash": 70,
-      "sha1_hash": 69,
+      "url": 163,
+      "domain": 102,
+      "sha256_hash": 69,
+      "md5_hash": 67,
+      "sha1_hash": 67,
       "ip:port": 32
     },
     "confidence_distribution": {
@@ -27,9 +27,7 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-06-25": 7,
-      "2026-06-26": 15,
-      "2026-06-27": 13,
+      "2026-06-27": 10,
       "2026-06-28": 6,
       "2026-06-29": 81,
       "2026-06-30": 26,
@@ -41,7 +39,8 @@
       "2026-07-06": 66,
       "2026-07-07": 14,
       "2026-07-08": 24,
-      "2026-07-09": 15
+      "2026-07-09": 27,
+      "2026-07-10": 13
     },
     "top_ports": [
       {
@@ -55,94 +54,94 @@
     ],
     "sample_iocs": [
       {
-        "ioc": "https://bar.omni-signage.com/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-09 11:00:12 UTC"
+        "ioc": "bdm.omni-signage.com",
+        "type": "domain",
+        "confidence": 75,
+        "first_seen": "2026-07-10 13:27:18 UTC"
       },
       {
-        "ioc": "bar.omni-signage.com",
+        "ioc": "https://bdm.omni-signage.com/",
+        "type": "url",
+        "confidence": 75,
+        "first_seen": "2026-07-10 13:27:18 UTC"
+      },
+      {
+        "ioc": "bdm.kencangsm188.top",
+        "type": "domain",
+        "confidence": 75,
+        "first_seen": "2026-07-10 13:27:06 UTC"
+      },
+      {
+        "ioc": "https://bdm.kencangsm188.top/",
+        "type": "url",
+        "confidence": 75,
+        "first_seen": "2026-07-10 13:27:05 UTC"
+      },
+      {
+        "ioc": "dup.omni-signage.com",
+        "type": "domain",
+        "confidence": 75,
+        "first_seen": "2026-07-10 09:27:03 UTC"
+      },
+      {
+        "ioc": "https://dup.omni-signage.com/",
+        "type": "url",
+        "confidence": 75,
+        "first_seen": "2026-07-10 09:27:03 UTC"
+      },
+      {
+        "ioc": "dup.kencangsm188.top",
+        "type": "domain",
+        "confidence": 75,
+        "first_seen": "2026-07-10 09:26:51 UTC"
+      },
+      {
+        "ioc": "https://dup.kencangsm188.top/",
+        "type": "url",
+        "confidence": 75,
+        "first_seen": "2026-07-10 09:26:51 UTC"
+      },
+      {
+        "ioc": "cft.omni-signage.com",
+        "type": "domain",
+        "confidence": 75,
+        "first_seen": "2026-07-10 05:27:09 UTC"
+      },
+      {
+        "ioc": "https://cft.omni-signage.com/",
+        "type": "url",
+        "confidence": 75,
+        "first_seen": "2026-07-10 05:27:09 UTC"
+      },
+      {
+        "ioc": "cft.kencangsm188.top",
+        "type": "domain",
+        "confidence": 75,
+        "first_seen": "2026-07-10 05:26:57 UTC"
+      },
+      {
+        "ioc": "https://cft.kencangsm188.top/",
+        "type": "url",
+        "confidence": 75,
+        "first_seen": "2026-07-10 05:26:57 UTC"
+      },
+      {
+        "ioc": "https://vikingplaza.com/",
+        "type": "url",
+        "confidence": 75,
+        "first_seen": "2026-07-10 04:15:02 UTC"
+      },
+      {
+        "ioc": "https://tbs.omni-signage.com/",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-09 21:00:12 UTC"
+      },
+      {
+        "ioc": "tbs.omni-signage.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-09 11:00:11 UTC"
-      },
-      {
-        "ioc": "https://bar.kataksm188.top/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-09 11:00:11 UTC"
-      },
-      {
-        "ioc": "bar.kataksm188.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-09 11:00:10 UTC"
-      },
-      {
-        "ioc": "116.202.6.223:443",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-09 07:11:00 UTC"
-      },
-      {
-        "ioc": "88.99.120.224:443",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-09 07:10:59 UTC"
-      },
-      {
-        "ioc": "172.235.191.111:443",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-09 07:10:59 UTC"
-      },
-      {
-        "ioc": "46.224.169.55:443",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-09 07:10:59 UTC"
-      },
-      {
-        "ioc": "https://116.202.6.223/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-09 07:10:42 UTC"
-      },
-      {
-        "ioc": "https://172.235.191.111/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-09 07:10:42 UTC"
-      },
-      {
-        "ioc": "https://46.224.169.55/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-09 07:10:41 UTC"
-      },
-      {
-        "ioc": "https://ned.omni-signage.com/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-09 05:46:00 UTC"
-      },
-      {
-        "ioc": "ned.omni-signage.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-09 05:46:00 UTC"
-      },
-      {
-        "ioc": "https://ned.kataksm188.top/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-09 05:45:59 UTC"
-      },
-      {
-        "ioc": "ned.kataksm188.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-09 05:45:59 UTC"
+        "first_seen": "2026-07-09 21:00:11 UTC"
       }
     ]
   }

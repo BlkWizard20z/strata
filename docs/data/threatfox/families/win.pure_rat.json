@@ -1,0 +1,208 @@
+{
+  "malware_id": "win.pure_rat",
+  "family": "PureRAT",
+  "generated": "2026-07-10T16:02:43.084142+00:00",
+  "recent_window_ioc_count": 31,
+  "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat",
+  "description": "According to Morphisec, this RAT combines advanced in-memory execution, API and resource resolution at runtime, and layered evasion techniques. They have named it \u2018Resolver\u2019 due to its heavy reliance on runtime resolution mechanisms and dynamic resource handling, which make static and behavioral analysis significantly more difficult.",
+  "alt_names": [
+    "PureHVNC",
+    "ResolverRAT"
+  ],
+  "associated_groups": [],
+  "stats": {
+    "total_iocs": 274,
+    "date_range": {
+      "earliest": "2026-01-14",
+      "latest": "2026-07-09"
+    },
+    "ioc_type_breakdown": {
+      "ip:port": 223,
+      "sha256_hash": 14,
+      "domain": 10,
+      "md5_hash": 9,
+      "sha1_hash": 9,
+      "url": 9
+    },
+    "confidence_distribution": {
+      "high": 274,
+      "medium": 0,
+      "low": 0
+    },
+    "activity_timeline": {
+      "2026-01-14": 3,
+      "2026-03-02": 1,
+      "2026-03-08": 1,
+      "2026-03-09": 4,
+      "2026-03-11": 2,
+      "2026-03-12": 1,
+      "2026-03-16": 1,
+      "2026-03-17": 1,
+      "2026-03-18": 2,
+      "2026-03-22": 1,
+      "2026-03-23": 2,
+      "2026-03-25": 1,
+      "2026-03-28": 2,
+      "2026-04-01": 2,
+      "2026-04-06": 5,
+      "2026-04-09": 1,
+      "2026-04-11": 1,
+      "2026-04-12": 2,
+      "2026-04-14": 3,
+      "2026-04-15": 1,
+      "2026-04-18": 2,
+      "2026-04-20": 2,
+      "2026-04-24": 4,
+      "2026-04-26": 1,
+      "2026-05-02": 1,
+      "2026-05-06": 1,
+      "2026-05-17": 3,
+      "2026-05-18": 1,
+      "2026-05-19": 5,
+      "2026-05-20": 9,
+      "2026-05-21": 3,
+      "2026-05-26": 40,
+      "2026-05-27": 1,
+      "2026-06-07": 17,
+      "2026-06-11": 6,
+      "2026-06-24": 4,
+      "2026-06-25": 106,
+      "2026-07-04": 1,
+      "2026-07-09": 30
+    },
+    "top_ports": [
+      {
+        "port": "56001",
+        "count": 75
+      },
+      {
+        "port": "56002",
+        "count": 39
+      },
+      {
+        "port": "56003",
+        "count": 36
+      },
+      {
+        "port": "8443",
+        "count": 10
+      },
+      {
+        "port": "442",
+        "count": 5
+      },
+      {
+        "port": "444",
+        "count": 4
+      },
+      {
+        "port": "443",
+        "count": 3
+      },
+      {
+        "port": "8080",
+        "count": 3
+      },
+      {
+        "port": "4444",
+        "count": 2
+      },
+      {
+        "port": "1013",
+        "count": 2
+      }
+    ],
+    "sample_iocs": [
+      {
+        "ioc": "0e6987e3a5a53fa34808a4273f6e7230",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:42 UTC"
+      },
+      {
+        "ioc": "03dbcd102ca38f818348d61d45361dc3f4aaff71",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:41 UTC"
+      },
+      {
+        "ioc": "f1c14a7fb9a6ddc65bf2df2e5230a4e22bb1d7e9636c4bca50b545c03a368dc9",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:41 UTC"
+      },
+      {
+        "ioc": "9383dfc389707b42cb1792cd8b4828db",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:41 UTC"
+      },
+      {
+        "ioc": "4eec62fe481dd7e2f46101da4afa087aa7dfbc9f",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:40 UTC"
+      },
+      {
+        "ioc": "d575962d0a17de040a7fd985b94daffb7cc8edfd82bcc374c39cf023a5feadb2",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:40 UTC"
+      },
+      {
+        "ioc": "12d8f743f9abbf1cb92c342a86687dcb",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:40 UTC"
+      },
+      {
+        "ioc": "baa65a7521502e38f3614e1e7db2bad17c6b6357",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:39 UTC"
+      },
+      {
+        "ioc": "37f5c4fbdcd45051a8b098b18a8dfc53f8e01922851f7e673542e27fa5154cb5",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:39 UTC"
+      },
+      {
+        "ioc": "26f9fceff4ac3f791648b7fc49bdf382",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:39 UTC"
+      },
+      {
+        "ioc": "d9e742ecd5b29c3a5ad0ccf6a88aa35a1be31d83",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:39 UTC"
+      },
+      {
+        "ioc": "de9123300942f93ba72d2d0f32f99eb032ce4a4f3fb262831517f75561dc2983",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:38 UTC"
+      },
+      {
+        "ioc": "19ea61c208ddf0170ba98ecf2c5cf012",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:38 UTC"
+      },
+      {
+        "ioc": "d008c6360ec96d0116c5b90434e219766b5688bc",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:38 UTC"
+      },
+      {
+        "ioc": "b2c06a9ab9fac39d31229d4aa70aded718ef629858158baf0d3d9f48431ceacc",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-09 18:23:37 UTC"
+      }
+    ]
+  }
+}

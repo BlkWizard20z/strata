@@ -1,7 +1,7 @@
 {
   "malware_id": "win.akira",
   "family": "Akira",
-  "generated": "2026-07-09T16:14:05.424752+00:00",
+  "generated": "2026-07-10T15:58:21.168569+00:00",
   "recent_window_ioc_count": 107,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.akira",
   "description": null,

@@ -1,8 +1,8 @@
 {
   "malware_id": "js.smartapesg",
   "family": "SmartApeSG",
-  "generated": "2026-07-09T16:16:23.864019+00:00",
-  "recent_window_ioc_count": 42,
+  "generated": "2026-07-10T16:01:47.329141+00:00",
+  "recent_window_ioc_count": 39,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.smartapesg",
   "description": "According to Proofpoint, this is a cluster of fake update campaigns delivering payloads like NetSupportManager RAT and Lumma Stealer.",
   "alt_names": [
@@ -11,19 +11,19 @@
   ],
   "associated_groups": [],
   "stats": {
-    "total_iocs": 171,
+    "total_iocs": 175,
     "date_range": {
       "earliest": "2026-01-23",
-      "latest": "2026-07-09"
+      "latest": "2026-07-10"
     },
     "ioc_type_breakdown": {
-      "url": 102,
-      "domain": 49,
+      "url": 105,
+      "domain": 50,
       "sha256_hash": 11,
       "ip:port": 9
     },
     "confidence_distribution": {
-      "high": 169,
+      "high": 173,
       "medium": 2,
       "low": 0
     },
@@ -44,7 +44,6 @@
       "2026-05-08": 1,
       "2026-05-12": 8,
       "2026-05-27": 2,
-      "2026-06-09": 3,
       "2026-06-10": 7,
       "2026-06-11": 7,
       "2026-06-12": 7,
@@ -66,7 +65,8 @@
       "2026-07-06": 3,
       "2026-07-07": 11,
       "2026-07-08": 4,
-      "2026-07-09": 10
+      "2026-07-09": 10,
+      "2026-07-10": 7
     },
     "top_ports": [
       {
@@ -79,6 +79,48 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "https://marblehaven.top/claims/profile-view",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-10 12:19:03 UTC"
+      },
+      {
+        "ioc": "https://marblehaven.top/claims/identity-render.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-10 12:19:02 UTC"
+      },
+      {
+        "ioc": "marblehaven.top",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-10 12:19:02 UTC"
+      },
+      {
+        "ioc": "silverlandscape.top",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-10 12:05:03 UTC"
+      },
+      {
+        "ioc": "https://silverlandscape.top/claims/refresh-cookie.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-10 12:05:03 UTC"
+      },
+      {
+        "ioc": "https://silverlandscape.top/claims/identity-render.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-10 12:05:02 UTC"
+      },
+      {
+        "ioc": "https://silverlandscape.top/claims/profile-view",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-10 12:05:02 UTC"
+      },
       {
         "ioc": "https://topazharbor.top/route/callback-deploy",
         "type": "url",
@@ -126,48 +168,6 @@
         "type": "url",
         "confidence": 100,
         "first_seen": "2026-07-09 05:28:10 UTC"
-      },
-      {
-        "ioc": "cobaltjunction.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-09 05:28:09 UTC"
-      },
-      {
-        "ioc": "https://cobaltjunction.top/reset/principal-response.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-09 05:28:08 UTC"
-      },
-      {
-        "ioc": "https://pearlgallery.top/reset/refresh-util",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-08 11:14:51 UTC"
-      },
-      {
-        "ioc": "https://pearlgallery.top/reset/user-ajax.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-08 11:14:51 UTC"
-      },
-      {
-        "ioc": "https://pearlgallery.top/reset/principal-response.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-08 11:14:50 UTC"
-      },
-      {
-        "ioc": "pearlgallery.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-08 11:14:50 UTC"
-      },
-      {
-        "ioc": "https://willowsummit.top/rate/dashboard-state.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-07 14:12:35 UTC"
       }
     ]
   }

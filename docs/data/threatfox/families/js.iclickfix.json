@@ -1,7 +1,7 @@
 {
   "malware_id": "js.iclickfix",
   "family": "IClickFix",
-  "generated": "2026-07-09T16:14:29.406788+00:00",
+  "generated": "2026-07-10T15:59:16.165187+00:00",
   "recent_window_ioc_count": 58,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix",
   "description": "IClickFix is a malicious JavaScript framework deployed on compromised WordPress sites to deliver further malware using the ClickFix social engineering tactic and fake Cloudflare Turnstile CAPTCHA challenge.",
@@ -14,9 +14,9 @@
       "latest": "2026-07-08"
     },
     "ioc_type_breakdown": {
-      "domain": 498,
-      "url": 1,
-      "ip:port": 1
+      "domain": 492,
+      "ip:port": 6,
+      "url": 2
     },
     "confidence_distribution": {
       "high": 498,
@@ -24,8 +24,11 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-05-02": 79,
-      "2026-05-05": 1,
+      "2026-05-02": 66,
+      "2026-05-05": 6,
+      "2026-05-06": 1,
+      "2026-05-07": 1,
+      "2026-05-31": 6,
       "2026-06-08": 33,
       "2026-06-10": 1,
       "2026-06-19": 1,
@@ -40,6 +43,26 @@
     "top_ports": [
       {
         "port": "6504",
+        "count": 1
+      },
+      {
+        "port": "443",
+        "count": 1
+      },
+      {
+        "port": "3083",
+        "count": 1
+      },
+      {
+        "port": "80",
+        "count": 1
+      },
+      {
+        "port": "3333",
+        "count": 1
+      },
+      {
+        "port": "4782",
         "count": 1
       }
     ],
@@ -81,13 +104,13 @@
         "first_seen": "2026-07-07 05:23:06 UTC"
       },
       {
-        "ioc": "amper.pl",
+        "ioc": "amigored.com.co",
         "type": "domain",
         "confidence": 100,
         "first_seen": "2026-07-07 05:23:05 UTC"
       },
       {
-        "ioc": "amigored.com.co",
+        "ioc": "amper.pl",
         "type": "domain",
         "confidence": 100,
         "first_seen": "2026-07-07 05:23:05 UTC"
