@@ -1,26 +1,26 @@
 # Strata
--Strata is a threat-intelligence platform that aggregates Known Exploited Vulnerabilities (KEVs) and Indicators of Compromise (IOCs) by malware family. It gives defenders a single, continuously-updated view of the active threat landscape.
+- Strata is a threat-intelligence platform that aggregates Known Exploited Vulnerabilities (KEVs) and Indicators of Compromise (IOCs) by malware family. It gives defenders a single, continuously-updated view of the active threat landscape.
 
 **[ Live Demo Link ] https://blkwizard20z.github.io/strata/index.html**
  
 # Features
--Seperate Data Feeds - CISA KEV and ThreatFox
--KEV Dashboard - searchable table of actively exploited vulnerabilites.
--ThreatFox IOC Dashboard - malware IOCs grouped and ranked by family
--Data Enrichment - family description adn threat actor attribution
--Daily Automation - Runs via Github Actions
+- Separate Data Feeds - CISA KEV and ThreatFox
+- KEV Dashboard - searchable table of actively exploited vulnerabilities.
+- ThreatFox IOC Dashboard - malware IOCs grouped and ranked by family
+- Data Enrichment - family description and threat actor attribution
+- Daily Automation - Runs via GitHub Actions
 
 # How it works
--The fetch scripts for each data source reach out via API to pull down the relevant JSON and KEV data. That data is then parsed and grouped based on the malware family. After that the data is enriched to provide a short description of the malware family, defanged IOCs, and several other features to a static dashboard. The enrichment uses a cache so each family is only looked up once; the daily GitHub Actions run keeps everything current.
+- The fetch scripts for each data source reach out via API to pull down the relevant JSON and KEV data. That data is then parsed and grouped based on the malware family. After that the data is enriched to provide a short description of the malware family, defanged IOCs, and several other features to a static dashboard. The enrichment uses a cache so each family is only looked up once; the daily GitHub Actions run keeps everything current.
 
 # Tech Stack
--Python (stdlib + certifi)
--Github Actions
--Github Pages
--HTML 
--CSS
--JS
--Data Sources CISA KEV, ThreatFox, Malpedia
+- Python (stdlib + certifi)
+- GitHub Actions
+- GitHub Pages
+- HTML 
+- CSS
+- JS
+- Data Sources CISA KEV, ThreatFox, Malpedia
 
 # Project Structure
 strata/
@@ -63,18 +63,18 @@ strata/
 └── README.md
 
 # Getting Started
--Ensure that you have Python 2.10+ installed
--Get a ThreatFox Auth key which is free!
--Clone the Repo using the following command 
+- Ensure that you have Python 3.10+ installed
+- Get a ThreatFox Auth key which is free!
+- Clone the Repo using the following command 
 ```bash
 git clone https://github.com/BlkWizard20z/strata.git
 cd strata
 ```
--Install the requirements file
+- Install the requirements file
 ```bash
 pip install -r requirements.txt
 ```
--Run the following scripts
+- Run the following scripts
 ```bash
 python scripts/fetch_kev.py
 python scripts/fetch_threatfox.py
@@ -84,10 +84,10 @@ python scripts/fetch_family_details.py
 
 
 # Data Sources and Credit
--CISA
--abuse.ch/ThreatFOX (CCO)
--Malpedia
+- CISA
+- abuse.ch/ThreatFOX (CCO)
+- Malpedia
 
 # Road Map
 
--Future project expansion includes adding more feeds, an overiew page, MITRE ATT&CK, and an artifact knowledge base.
+- Future project expansion includes adding more feeds, an overview page, MITRE ATT&CK, and an artifact knowledge base.
