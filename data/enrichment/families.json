@@ -269,6 +269,17 @@
     "source": "malpedia",
     "status": "ok"
   },
+  "osx.amos": {
+    "alt_names": [
+      "Atomic macOS Stealer"
+    ],
+    "associated_groups": [],
+    "common_name": "AMOS",
+    "description": null,
+    "enriched_at": "2026-07-14T15:09:01.007695+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
   "osx.xagent": {
     "alt_names": [],
     "associated_groups": [
@@ -773,6 +784,15 @@
     "source": "malpedia",
     "status": "ok"
   },
+  "win.masslogger": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "MASS Logger",
+    "description": "MassLogger is a .NET credential stealer. It starts with a launcher that uses simple anti-debugging techniques which can be easily bypassed when identified. This first stage loader eventually XOR-decrypts the second stage assembly which then decrypts, loads and executes the final MassLogger payload.",
+    "enriched_at": "2026-07-14T15:09:05.448189+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
   "win.meterpreter": {
     "alt_names": [],
     "associated_groups": [],
@@ -872,6 +892,15 @@
     "common_name": "Overlord RAT",
     "description": "According to Proofpoint, Overlord is an open-source RAT written in Go.",
     "enriched_at": "2026-07-08T17:01:27.774235+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.phantom_stealer": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "Phantom Stealer",
+    "description": "According to Proofpoint, this is a fork of Stealerium that has high overlap with its originating codebase.",
+    "enriched_at": "2026-07-14T15:09:04.290097+00:00",
     "source": "malpedia",
     "status": "ok"
   },
@@ -984,6 +1013,17 @@
     "source": "malpedia",
     "status": "ok"
   },
+  "win.qvoidstealer": {
+    "alt_names": [
+      "Qvoid-Token-Grabber"
+    ],
+    "associated_groups": [],
+    "common_name": "QvoidStealer",
+    "description": null,
+    "enriched_at": "2026-07-14T15:09:03.258828+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
   "win.raton_rat": {
     "alt_names": [],
     "associated_groups": [],
@@ -1051,6 +1091,15 @@
     "common_name": "Remus",
     "description": "According to Gen, this is most likely the 64bit evolution of Lumma Stealer. It is capable of stealing stored browser passwords, cookies, cryptocurrency, and much more. It also uses EtherHiding to resolve C2s, replacing the traditional use of Steam and Telegram dead drop resolvers, and has additional anti-analysis checks.",
     "enriched_at": "2026-07-08T17:00:49.397347+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.revstealer": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "RevStealer",
+    "description": null,
+    "enriched_at": "2026-07-14T15:09:02.160827+00:00",
     "source": "malpedia",
     "status": "ok"
   },

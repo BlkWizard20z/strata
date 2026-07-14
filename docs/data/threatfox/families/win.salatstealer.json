@@ -1,0 +1,168 @@
+{
+  "malware_id": "win.salatstealer",
+  "family": "SalatStealer",
+  "generated": "2026-07-14T15:13:34.674344+00:00",
+  "recent_window_ioc_count": 30,
+  "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer",
+  "description": "Crypto Stealer written in GO. Targets browsers, crypto wallets and telegram clients (Telegram Desktop, Kotatogram). Can capture webcam and microphone and stream it on to c2 server.",
+  "alt_names": [],
+  "associated_groups": [],
+  "stats": {
+    "total_iocs": 329,
+    "date_range": {
+      "earliest": "2025-09-08",
+      "latest": "2026-07-13"
+    },
+    "ioc_type_breakdown": {
+      "md5_hash": 105,
+      "sha1_hash": 105,
+      "sha256_hash": 105,
+      "url": 8,
+      "ip:port": 4,
+      "domain": 2
+    },
+    "confidence_distribution": {
+      "high": 323,
+      "medium": 6,
+      "low": 0
+    },
+    "activity_timeline": {
+      "2025-09-08": 1,
+      "2025-10-16": 1,
+      "2025-10-19": 1,
+      "2025-11-03": 1,
+      "2026-01-14": 1,
+      "2026-01-20": 21,
+      "2026-01-22": 3,
+      "2026-02-01": 30,
+      "2026-02-03": 34,
+      "2026-02-05": 4,
+      "2026-02-07": 18,
+      "2026-02-13": 6,
+      "2026-02-15": 21,
+      "2026-02-17": 39,
+      "2026-03-03": 15,
+      "2026-03-07": 3,
+      "2026-03-25": 1,
+      "2026-04-25": 1,
+      "2026-06-02": 1,
+      "2026-06-03": 1,
+      "2026-06-16": 6,
+      "2026-06-20": 36,
+      "2026-06-22": 9,
+      "2026-06-25": 12,
+      "2026-06-29": 6,
+      "2026-07-01": 9,
+      "2026-07-02": 15,
+      "2026-07-04": 3,
+      "2026-07-10": 18,
+      "2026-07-13": 12
+    },
+    "top_ports": [
+      {
+        "port": "80",
+        "count": 2
+      },
+      {
+        "port": "8082",
+        "count": 1
+      },
+      {
+        "port": "443",
+        "count": 1
+      }
+    ],
+    "sample_iocs": [
+      {
+        "ioc": "66a00a43bf3626d775015cec5bb11d8f",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-13 16:58:33 UTC"
+      },
+      {
+        "ioc": "3cdd0d915cb1e61ab3d3145107fa4f3ed2800402",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-13 16:58:33 UTC"
+      },
+      {
+        "ioc": "63423364abc33ebeda68838dd5605d60b883e21f3c29b1d98c927c75c8fb25d5",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-13 16:58:32 UTC"
+      },
+      {
+        "ioc": "57cc2a7038bbd3e297c59144e2f3ed85",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-13 16:58:31 UTC"
+      },
+      {
+        "ioc": "3fe86ee5b3223af55f54554f37003ab8a33e9b0e",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-13 16:58:31 UTC"
+      },
+      {
+        "ioc": "f36467769f8a9e79cf9342a01622cd6a099fb0104f20057c44fa8758823f1c6e",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-13 16:58:31 UTC"
+      },
+      {
+        "ioc": "fcc1104a5b4508c3f0c1c467d88941e2",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-13 16:58:29 UTC"
+      },
+      {
+        "ioc": "9a2f37ff8710fe00d976d49179d9b9110a2b4e04",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-13 16:58:29 UTC"
+      },
+      {
+        "ioc": "3ecae3266e1e24200de4a94f0ecdd504219d6de741af53340f65de9c8098fa01",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-13 16:58:29 UTC"
+      },
+      {
+        "ioc": "2ea79a634c56d40338763ea276e596a0",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-13 16:58:28 UTC"
+      },
+      {
+        "ioc": "fe3f06c245b31847c1cbddfa747c384ed355ce22",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-13 16:58:28 UTC"
+      },
+      {
+        "ioc": "d81d3e290d3e6f3f453a0e911069c95065ad52287bf2d46d4cbd12f268a423e7",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-13 16:58:28 UTC"
+      },
+      {
+        "ioc": "a3c1ef1092965bc58c12d579a889f296",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-10 14:55:02 UTC"
+      },
+      {
+        "ioc": "3e5560670aeaf9ae87844f896264751efc1446cd",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-10 14:55:01 UTC"
+      },
+      {
+        "ioc": "d9e8f073c050b9f75f78003c05cc77bc0b60fb5bbdfb980fe6216fa0fd8ace6a",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-10 14:55:00 UTC"
+      }
+    ]
+  }
+}

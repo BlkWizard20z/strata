@@ -1,8 +1,8 @@
 {
   "malware_id": "unknown_loader",
   "family": "Unknown Loader",
-  "generated": "2026-07-13T16:06:48.256015+00:00",
-  "recent_window_ioc_count": 132,
+  "generated": "2026-07-14T15:11:03.033320+00:00",
+  "recent_window_ioc_count": 107,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader",
   "description": null,
   "alt_names": [],
@@ -10,13 +10,13 @@
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-03-08",
-      "latest": "2026-07-13"
+      "earliest": "2026-03-16",
+      "latest": "2026-07-14"
     },
     "ioc_type_breakdown": {
-      "domain": 406,
+      "domain": 407,
       "url": 67,
-      "ip:port": 18,
+      "ip:port": 17,
       "sha256_hash": 9
     },
     "confidence_distribution": {
@@ -25,11 +25,6 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-03-08": 3,
-      "2026-03-09": 1,
-      "2026-03-11": 1,
-      "2026-03-12": 1,
-      "2026-03-14": 3,
       "2026-03-16": 1,
       "2026-03-18": 1,
       "2026-03-21": 2,
@@ -91,7 +86,8 @@
       "2026-07-10": 1,
       "2026-07-11": 36,
       "2026-07-12": 2,
-      "2026-07-13": 1
+      "2026-07-13": 5,
+      "2026-07-14": 5
     },
     "top_ports": [
       {
@@ -99,15 +95,15 @@
         "count": 9
       },
       {
-        "port": "80",
-        "count": 2
-      },
-      {
         "port": "63973",
         "count": 1
       },
       {
         "port": "445",
+        "count": 1
+      },
+      {
+        "port": "80",
         "count": 1
       },
       {
@@ -132,6 +128,60 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "woolstem.xyz",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 07:49:36 UTC"
+      },
+      {
+        "ioc": "mentopo.info",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 06:22:42 UTC"
+      },
+      {
+        "ioc": "imagesafedown.info",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 06:22:42 UTC"
+      },
+      {
+        "ioc": "extranet-partners-report.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 06:22:42 UTC"
+      },
+      {
+        "ioc": "dddododiiik.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 06:22:42 UTC"
+      },
+      {
+        "ioc": "cacophonydiaphanous-acquiesce.xyz",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-13 20:50:02 UTC"
+      },
+      {
+        "ioc": "moonshadowforge.top",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-13 17:24:45 UTC"
+      },
+      {
+        "ioc": "timecommittee.space",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-13 17:07:01 UTC"
+      },
+      {
+        "ioc": "anazon2-aws.xyz",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-13 16:48:26 UTC"
+      },
       {
         "ioc": "droptest.xyz",
         "type": "domain",
@@ -167,60 +217,6 @@
         "type": "domain",
         "confidence": 100,
         "first_seen": "2026-07-11 08:50:58 UTC"
-      },
-      {
-        "ioc": "bu383.krify.co",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-11 05:30:25 UTC"
-      },
-      {
-        "ioc": "blindboxmall.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-11 05:30:25 UTC"
-      },
-      {
-        "ioc": "grisor.co",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-11 05:30:24 UTC"
-      },
-      {
-        "ioc": "eesa.surf",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-11 05:30:24 UTC"
-      },
-      {
-        "ioc": "ilovedogsinc.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-11 05:30:23 UTC"
-      },
-      {
-        "ioc": "hassanalsaadawi.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-11 05:30:23 UTC"
-      },
-      {
-        "ioc": "growingkey.net",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-11 05:30:23 UTC"
-      },
-      {
-        "ioc": "ittenz.ru",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-11 05:30:22 UTC"
-      },
-      {
-        "ioc": "ittenz.pt",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-11 05:30:22 UTC"
       }
     ]
   }

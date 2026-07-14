@@ -1,8 +1,8 @@
 {
   "malware_id": "js.clearfake",
   "family": "ClearFake",
-  "generated": "2026-07-13T16:05:18.407055+00:00",
-  "recent_window_ioc_count": 1092,
+  "generated": "2026-07-14T15:09:14.618375+00:00",
+  "recent_window_ioc_count": 1108,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake",
   "description": "ClearFake is a malicious JavaScript framework deployed on compromised websites to deliver further malware using the drive-by download technique. The malware leverages social engineering to trick the user into running a fake web browser update.",
   "alt_names": [],
@@ -10,8 +10,8 @@
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-07-09",
-      "latest": "2026-07-13"
+      "earliest": "2026-07-10",
+      "latest": "2026-07-14"
     },
     "ioc_type_breakdown": {
       "domain": 497,
@@ -23,103 +23,103 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-07-09": 3,
-      "2026-07-10": 81,
-      "2026-07-11": 151,
+      "2026-07-10": 26,
+      "2026-07-11": 70,
       "2026-07-12": 146,
-      "2026-07-13": 119
+      "2026-07-13": 172,
+      "2026-07-14": 86
     },
     "top_ports": [],
     "sample_iocs": [
       {
-        "ioc": "zzcg.bet90forward.win",
+        "ioc": "vrlr8kbu.couple.bet",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-13 15:41:58 UTC"
+        "first_seen": "2026-07-14 14:57:49 UTC"
       },
       {
-        "ioc": "zucx.bet90forward.win",
+        "ioc": "couple.bet",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-13 15:40:22 UTC"
+        "first_seen": "2026-07-14 14:56:34 UTC"
       },
       {
-        "ioc": "kaumdowe.jadoou.sbs",
+        "ioc": "ecourwue.takhtenard-online.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-13 15:37:22 UTC"
+        "first_seen": "2026-07-14 14:56:32 UTC"
       },
       {
-        "ioc": "2cca57zt.onjabet1.com",
+        "ioc": "takhtenard-online.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-13 14:52:41 UTC"
+        "first_seen": "2026-07-14 14:54:37 UTC"
       },
       {
-        "ioc": "tzcy9ec8.onjabet1.com",
+        "ioc": "sycr.betforward90.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-13 14:51:29 UTC"
+        "first_seen": "2026-07-14 14:21:25 UTC"
       },
       {
-        "ioc": "ulgqmzld.jadoou.online",
+        "ioc": "betforward90.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-13 14:43:26 UTC"
+        "first_seen": "2026-07-14 14:20:09 UTC"
       },
       {
-        "ioc": "dzjr.bekabet.casino",
+        "ioc": "haqkrygx.site-takhtenard-sharti.online",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-13 14:40:47 UTC"
+        "first_seen": "2026-07-14 13:59:39 UTC"
       },
       {
-        "ioc": "rjhrnhqj.jadoou.online",
+        "ioc": "site-takhtenard-sharti.online",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-13 14:39:59 UTC"
+        "first_seen": "2026-07-14 13:59:15 UTC"
       },
       {
-        "ioc": "qwfh.bekabet.casino",
+        "ioc": "2skmlgm2.motabartarin-site-shartbandi-jahan.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-13 14:39:43 UTC"
+        "first_seen": "2026-07-14 13:54:23 UTC"
       },
       {
-        "ioc": "yxxyqkkf.jadoou.one",
+        "ioc": "zsvipfhj.fileboroo.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-13 13:47:40 UTC"
+        "first_seen": "2026-07-14 13:53:28 UTC"
       },
       {
-        "ioc": "jadoou.boats",
+        "ioc": "motabartarin-site-shartbandi-jahan.com",
         "type": "domain",
-        "confidence": 75,
-        "first_seen": "2026-07-13 13:44:30 UTC"
+        "confidence": 100,
+        "first_seen": "2026-07-14 13:53:13 UTC"
       },
       {
-        "ioc": "jadoou.cfd",
+        "ioc": "gbij.betbuf90.com",
         "type": "domain",
-        "confidence": 75,
-        "first_seen": "2026-07-13 13:44:29 UTC"
+        "confidence": 100,
+        "first_seen": "2026-07-14 13:23:22 UTC"
       },
       {
-        "ioc": "jadoou.club",
+        "ioc": "auth-code-verif.beer",
         "type": "domain",
-        "confidence": 75,
-        "first_seen": "2026-07-13 13:44:28 UTC"
+        "confidence": 90,
+        "first_seen": "2026-07-14 13:21:55 UTC"
       },
       {
-        "ioc": "jadoou.monster",
+        "ioc": "ewer.betbuf90.com",
         "type": "domain",
-        "confidence": 75,
-        "first_seen": "2026-07-13 13:44:27 UTC"
+        "confidence": 100,
+        "first_seen": "2026-07-14 13:19:22 UTC"
       },
       {
-        "ioc": "jadoou.online",
+        "ioc": "fwyw.betturkey.bet",
         "type": "domain",
-        "confidence": 75,
-        "first_seen": "2026-07-13 13:44:26 UTC"
+        "confidence": 100,
+        "first_seen": "2026-07-14 13:18:24 UTC"
       }
     ]
   }

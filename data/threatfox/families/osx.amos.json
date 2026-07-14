@@ -1,0 +1,151 @@
+{
+  "malware_id": "osx.amos",
+  "family": "AMOS",
+  "generated": "2026-07-14T15:13:05.345478+00:00",
+  "recent_window_ioc_count": 34,
+  "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos",
+  "description": null,
+  "alt_names": [
+    "Atomic macOS Stealer"
+  ],
+  "associated_groups": [],
+  "stats": {
+    "total_iocs": 75,
+    "date_range": {
+      "earliest": "2025-05-26",
+      "latest": "2026-07-14"
+    },
+    "ioc_type_breakdown": {
+      "domain": 50,
+      "url": 10,
+      "ip:port": 7,
+      "sha256_hash": 5,
+      "sha1_hash": 3
+    },
+    "confidence_distribution": {
+      "high": 69,
+      "medium": 5,
+      "low": 1
+    },
+    "activity_timeline": {
+      "2025-05-26": 1,
+      "2025-10-24": 1,
+      "2026-01-16": 1,
+      "2026-01-26": 1,
+      "2026-01-28": 1,
+      "2026-03-27": 3,
+      "2026-04-07": 2,
+      "2026-04-11": 2,
+      "2026-04-18": 7,
+      "2026-05-15": 1,
+      "2026-06-05": 8,
+      "2026-06-11": 3,
+      "2026-06-21": 3,
+      "2026-06-24": 1,
+      "2026-06-25": 6,
+      "2026-07-14": 34
+    },
+    "top_ports": [
+      {
+        "port": "80",
+        "count": 4
+      },
+      {
+        "port": "443",
+        "count": 3
+      }
+    ],
+    "sample_iocs": [
+      {
+        "ioc": "102z512uqjl6m.xyz",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 14:11:28 UTC"
+      },
+      {
+        "ioc": "108h764sg7npw.xyz",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 14:11:28 UTC"
+      },
+      {
+        "ioc": "1ard675vnxd1l.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 14:11:27 UTC"
+      },
+      {
+        "ioc": "1jmldxvj0gimm.app",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 14:11:27 UTC"
+      },
+      {
+        "ioc": "1p6kkehfjfb2s.net",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 14:11:26 UTC"
+      },
+      {
+        "ioc": "1v9g4jgcqisg4.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 14:11:26 UTC"
+      },
+      {
+        "ioc": "1z0ky1gcb02j8.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 14:11:26 UTC"
+      },
+      {
+        "ioc": "20hc9ahim3kky.site",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 14:11:25 UTC"
+      },
+      {
+        "ioc": "212uqd371gsar.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 14:11:25 UTC"
+      },
+      {
+        "ioc": "2169tae0hhtd6.net",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 14:11:24 UTC"
+      },
+      {
+        "ioc": "226c6tcnujin1.app",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 14:11:24 UTC"
+      },
+      {
+        "ioc": "2hnjv5o9tq18x.xyz",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 14:11:24 UTC"
+      },
+      {
+        "ioc": "2qww8z7zh33r1.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 14:11:23 UTC"
+      },
+      {
+        "ioc": "2t8cpyvwbhcze.app",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 14:11:23 UTC"
+      },
+      {
+        "ioc": "2w6p9lgp0st41.org",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 14:11:22 UTC"
+      }
+    ]
+  }
+}

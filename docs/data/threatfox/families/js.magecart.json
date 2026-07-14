@@ -1,8 +1,8 @@
 {
   "malware_id": "js.magecart",
   "family": "magecart",
-  "generated": "2026-07-13T16:10:41.631612+00:00",
-  "recent_window_ioc_count": 21,
+  "generated": "2026-07-14T15:15:00.235124+00:00",
+  "recent_window_ioc_count": 22,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.magecart",
   "description": "Magecart is a malware framework intended to steal credit card information from compromised eCommerce websites. Used in criminal activities, it's a sophisticated implant built on top of relays, command and controls and anonymizers used to steal eCommerce customers' credit card information. The first stage is typically implemented in Javascript included into a compromised checkout page. It copies data from \"input fields\" and send them to a relay which collects credit cards coming from a subset of compromised eCommerces and forwards them to Command and Control servers.",
   "alt_names": [],
@@ -11,19 +11,19 @@
     "MageCart"
   ],
   "stats": {
-    "total_iocs": 170,
+    "total_iocs": 171,
     "date_range": {
       "earliest": "2025-06-02",
-      "latest": "2026-07-10"
+      "latest": "2026-07-14"
     },
     "ioc_type_breakdown": {
-      "domain": 141,
+      "domain": 142,
       "url": 17,
       "ip:port": 8,
       "sha256_hash": 4
     },
     "confidence_distribution": {
-      "high": 160,
+      "high": 161,
       "medium": 9,
       "low": 1
     },
@@ -43,7 +43,8 @@
       "2026-06-03": 24,
       "2026-06-24": 1,
       "2026-06-30": 2,
-      "2026-07-10": 21
+      "2026-07-10": 21,
+      "2026-07-14": 1
     },
     "top_ports": [
       {
@@ -52,6 +53,12 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "moonshadowforge.top",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-14 07:47:17 UTC"
+      },
       {
         "ioc": "warmcoffeetime.top",
         "type": "domain",
@@ -132,12 +139,6 @@
       },
       {
         "ioc": "electricvoidsig.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-10 11:48:49 UTC"
-      },
-      {
-        "ioc": "electricvoidfire.top",
         "type": "domain",
         "confidence": 100,
         "first_seen": "2026-07-10 11:48:49 UTC"

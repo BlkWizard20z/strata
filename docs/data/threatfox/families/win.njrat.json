@@ -1,8 +1,8 @@
 {
   "malware_id": "win.njrat",
   "family": "NjRAT",
-  "generated": "2026-07-13T16:09:44.419590+00:00",
-  "recent_window_ioc_count": 23,
+  "generated": "2026-07-14T15:14:03.233670+00:00",
+  "recent_window_ioc_count": 27,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.njrat",
   "description": "RedPacket Security describes NJRat as \"a remote access trojan (RAT) has capabilities to log keystrokes, access the victim's camera, steal credentials stored in browsers, open a reverse shell, upload/download files, view the victim's desktop, perform process, file, and registry manipulations, and capabilities to let the attacker update, uninstall, restart, close, disconnect the RAT and rename its campaign ID. Through the Command & Control (CnC) server software, the attacker has capabilities to create and configure the malware to spread through USB drives.\"\r\n\r\nIt is supposedly popular with actors in the Middle East. Similar to other RATs, many leaked builders may be backdoored.",
   "alt_names": [
@@ -16,13 +16,13 @@
     "The Gorgon Group"
   ],
   "stats": {
-    "total_iocs": 330,
+    "total_iocs": 331,
     "date_range": {
       "earliest": "2022-02-23",
-      "latest": "2026-07-11"
+      "latest": "2026-07-13"
     },
     "ioc_type_breakdown": {
-      "ip:port": 120,
+      "ip:port": 121,
       "domain": 92,
       "md5_hash": 39,
       "sha1_hash": 39,
@@ -30,7 +30,7 @@
       "url": 1
     },
     "confidence_distribution": {
-      "high": 312,
+      "high": 313,
       "medium": 18,
       "low": 0
     },
@@ -54,7 +54,6 @@
       "2026-01-06": 3,
       "2026-01-09": 1,
       "2026-01-10": 1,
-      "2026-01-13": 3,
       "2026-01-14": 2,
       "2026-01-16": 2,
       "2026-01-18": 1,
@@ -146,12 +145,13 @@
       "2026-07-03": 2,
       "2026-07-08": 16,
       "2026-07-10": 4,
-      "2026-07-11": 3
+      "2026-07-11": 3,
+      "2026-07-13": 4
     },
     "top_ports": [
       {
         "port": "1177",
-        "count": 16
+        "count": 17
       },
       {
         "port": "18928",
@@ -191,6 +191,30 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "178.80.40.237:1177",
+        "type": "ip:port",
+        "confidence": 100,
+        "first_seen": "2026-07-13 23:20:03 UTC"
+      },
+      {
+        "ioc": "8043b87976309cfaf0ccff63f629b9b6",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-13 16:58:23 UTC"
+      },
+      {
+        "ioc": "116e43d5451e060b48a892e46a6f83e0374bde3f",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-13 16:58:22 UTC"
+      },
+      {
+        "ioc": "475774774c013c3a5d6db3ccdb025504c7151999a63097bf98476578d0533f5b",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-13 16:58:22 UTC"
+      },
       {
         "ioc": "64.89.160.127:1818",
         "type": "ip:port",
@@ -256,30 +280,6 @@
         "type": "md5_hash",
         "confidence": 95,
         "first_seen": "2026-07-08 18:14:41 UTC"
-      },
-      {
-        "ioc": "04ed410e130bba2e28e7fc5e921ee6820547c31f",
-        "type": "sha1_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-08 18:14:41 UTC"
-      },
-      {
-        "ioc": "f5d8c56c2b66818eba0bacd35be33b2d2069ff3e28befe67dd4ca17b675b7b27",
-        "type": "sha256_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-08 18:14:41 UTC"
-      },
-      {
-        "ioc": "158.160.75.185:43291",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-08 14:00:09 UTC"
-      },
-      {
-        "ioc": "188.48.208.56:1177",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-08 10:15:07 UTC"
       }
     ]
   }

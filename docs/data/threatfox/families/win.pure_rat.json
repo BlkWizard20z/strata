@@ -1,7 +1,7 @@
 {
   "malware_id": "win.pure_rat",
   "family": "PureRAT",
-  "generated": "2026-07-13T16:09:17.555258+00:00",
+  "generated": "2026-07-14T15:13:48.727927+00:00",
   "recent_window_ioc_count": 30,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat",
   "description": "According to Morphisec, this RAT combines advanced in-memory execution, API and resource resolution at runtime, and layered evasion techniques. They have named it \u2018Resolver\u2019 due to its heavy reliance on runtime resolution mechanisms and dynamic resource handling, which make static and behavioral analysis significantly more difficult.",
