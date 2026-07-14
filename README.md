@@ -1,7 +1,7 @@
 # Strata
 - Strata is a threat-intelligence platform that aggregates Known Exploited Vulnerabilities (KEVs) and Indicators of Compromise (IOCs) by malware family. It gives defenders a single, continuously-updated view of the active threat landscape.
 
-**[ Live Demo Link ] https://blkwizard20z.github.io/strata/index.html**
+**[ Live Demo Link ] https://larryrhodes.github.io/strata/index.html**
  
 # Features
 - Separate Data Feeds - CISA KEV and ThreatFox
