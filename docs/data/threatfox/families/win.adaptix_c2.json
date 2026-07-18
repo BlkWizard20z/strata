@@ -1,8 +1,8 @@
 {
   "malware_id": "win.adaptix_c2",
   "family": "AdaptixC2",
-  "generated": "2026-07-17T14:59:54.077341+00:00",
-  "recent_window_ioc_count": 145,
+  "generated": "2026-07-18T14:37:24.814967+00:00",
+  "recent_window_ioc_count": 136,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2",
   "description": "AdaptixC2 is a open-source post-exploitation and adversarial emulation framework that lets penetration testers control compromised hosts and execute system actions. While being created for red-teaming it is also used by threat actors for attacks.",
   "alt_names": [],
@@ -10,8 +10,8 @@
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-03-15",
-      "latest": "2026-07-17"
+      "earliest": "2026-03-16",
+      "latest": "2026-07-18"
     },
     "ioc_type_breakdown": {
       "ip:port": 482,
@@ -26,8 +26,7 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-03-15": 1,
-      "2026-03-16": 2,
+      "2026-03-16": 1,
       "2026-03-17": 1,
       "2026-03-18": 2,
       "2026-03-19": 5,
@@ -107,12 +106,13 @@
       "2026-07-14": 20,
       "2026-07-15": 3,
       "2026-07-16": 60,
-      "2026-07-17": 37
+      "2026-07-17": 37,
+      "2026-07-18": 2
     },
     "top_ports": [
       {
         "port": "4321",
-        "count": 125
+        "count": 126
       },
       {
         "port": "443",
@@ -152,6 +152,18 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "217.217.97.111:4321",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-18 09:45:49 UTC"
+      },
+      {
+        "ioc": "138.124.90.26:4321",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-18 09:43:33 UTC"
+      },
       {
         "ioc": "38.54.63.135:8080",
         "type": "ip:port",
@@ -229,18 +241,6 @@
         "type": "ip:port",
         "confidence": 100,
         "first_seen": "2026-07-17 07:05:07 UTC"
-      },
-      {
-        "ioc": "217.60.97.3:80",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-17 07:05:06 UTC"
-      },
-      {
-        "ioc": "217.60.97.3:443",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-17 07:05:05 UTC"
       }
     ]
   }

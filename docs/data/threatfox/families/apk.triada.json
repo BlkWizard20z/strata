@@ -1,7 +1,7 @@
 {
   "malware_id": "apk.triada",
   "family": "Triada",
-  "generated": "2026-07-17T14:58:48.084564+00:00",
+  "generated": "2026-07-18T14:36:13.583911+00:00",
   "recent_window_ioc_count": 353,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/apk.triada",
   "description": "Triada is a remote access trojan (RAT) malware that is used to compromise Android devices in order to steal confidential and sensitive information such as credit card numbers, passwords, bank account information, etc. It also provides a backdoor for attackers to include the device as part of a botnet and perform other malicious activities.",

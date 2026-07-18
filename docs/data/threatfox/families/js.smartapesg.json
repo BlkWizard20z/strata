@@ -1,8 +1,8 @@
 {
   "malware_id": "js.smartapesg",
   "family": "SmartApeSG",
-  "generated": "2026-07-17T15:03:30.342526+00:00",
-  "recent_window_ioc_count": 42,
+  "generated": "2026-07-18T14:40:10.327807+00:00",
+  "recent_window_ioc_count": 41,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.smartapesg",
   "description": "According to Proofpoint, this is a cluster of fake update campaigns delivering payloads like NetSupportManager RAT and Lumma Stealer.",
   "alt_names": [
@@ -11,19 +11,19 @@
   ],
   "associated_groups": [],
   "stats": {
-    "total_iocs": 180,
+    "total_iocs": 176,
     "date_range": {
       "earliest": "2026-01-30",
       "latest": "2026-07-17"
     },
     "ioc_type_breakdown": {
-      "url": 110,
-      "domain": 50,
+      "url": 107,
+      "domain": 49,
       "sha256_hash": 11,
       "ip:port": 9
     },
     "confidence_distribution": {
-      "high": 178,
+      "high": 174,
       "medium": 2,
       "low": 0
     },
@@ -42,7 +42,7 @@
       "2026-05-12": 8,
       "2026-05-27": 2,
       "2026-06-13": 1,
-      "2026-06-18": 11,
+      "2026-06-18": 7,
       "2026-06-19": 3,
       "2026-06-20": 5,
       "2026-06-22": 6,

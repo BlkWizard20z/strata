@@ -1,8 +1,8 @@
 {
   "malware_id": "win.vshell",
   "family": "VShell",
-  "generated": "2026-07-17T14:59:18.395270+00:00",
-  "recent_window_ioc_count": 283,
+  "generated": "2026-07-18T14:36:39.059691+00:00",
+  "recent_window_ioc_count": 222,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell",
   "description": "VShell is an OST framework written in Go, enabling availability of implants for multiple platforms (Windows, Linux, macOS).",
   "alt_names": [],
@@ -10,19 +10,21 @@
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-06-17",
+      "earliest": "2026-06-03",
       "latest": "2026-07-17"
     },
     "ioc_type_breakdown": {
       "ip:port": 500
     },
     "confidence_distribution": {
-      "high": 500,
-      "medium": 0,
+      "high": 498,
+      "medium": 2,
       "low": 0
     },
     "activity_timeline": {
-      "2026-06-17": 8,
+      "2026-06-03": 1,
+      "2026-06-04": 5,
+      "2026-06-05": 2,
       "2026-06-18": 8,
       "2026-06-19": 13,
       "2026-06-20": 5,
@@ -64,11 +66,11 @@
       },
       {
         "port": "80",
-        "count": 17
+        "count": 19
       },
       {
         "port": "8080",
-        "count": 10
+        "count": 12
       },
       {
         "port": "8085",
@@ -83,7 +85,7 @@
         "count": 7
       },
       {
-        "port": "8443",
+        "port": "9090",
         "count": 6
       },
       {
@@ -91,8 +93,8 @@
         "count": 6
       },
       {
-        "port": "9999",
-        "count": 6
+        "port": "8443",
+        "count": 5
       }
     ],
     "sample_iocs": [

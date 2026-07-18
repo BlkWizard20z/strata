@@ -1,8 +1,8 @@
 {
   "malware_id": "win.vidar",
   "family": "Vidar",
-  "generated": "2026-07-17T14:59:35.379700+00:00",
-  "recent_window_ioc_count": 145,
+  "generated": "2026-07-18T14:36:54.195109+00:00",
+  "recent_window_ioc_count": 162,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar",
   "description": "Vidar is a forked malware based on Arkei. It seems this stealer is one of the first that is grabbing information on 2FA Software and Tor Browser.",
   "alt_names": [],
@@ -10,30 +10,24 @@
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-04-13",
-      "latest": "2026-07-17"
+      "earliest": "2026-04-24",
+      "latest": "2026-07-18"
     },
     "ioc_type_breakdown": {
-      "url": 170,
-      "domain": 134,
-      "md5_hash": 56,
-      "sha1_hash": 56,
-      "sha256_hash": 56,
+      "url": 160,
+      "domain": 126,
+      "md5_hash": 62,
+      "sha1_hash": 62,
+      "sha256_hash": 62,
       "ip:port": 28
     },
     "confidence_distribution": {
-      "high": 498,
-      "medium": 1,
+      "high": 499,
+      "medium": 0,
       "low": 1
     },
     "activity_timeline": {
-      "2026-04-13": 2,
-      "2026-04-14": 6,
-      "2026-04-15": 3,
-      "2026-04-16": 4,
-      "2026-04-17": 2,
-      "2026-04-22": 2,
-      "2026-04-24": 2,
+      "2026-04-24": 1,
       "2026-04-26": 2,
       "2026-05-01": 2,
       "2026-05-11": 2,
@@ -51,8 +45,8 @@
       "2026-06-28": 2,
       "2026-06-30": 1,
       "2026-07-01": 1,
-      "2026-07-03": 5,
-      "2026-07-04": 38,
+      "2026-07-03": 4,
+      "2026-07-04": 37,
       "2026-07-05": 108,
       "2026-07-06": 66,
       "2026-07-07": 14,
@@ -65,7 +59,8 @@
       "2026-07-14": 6,
       "2026-07-15": 90,
       "2026-07-16": 23,
-      "2026-07-17": 13
+      "2026-07-17": 33,
+      "2026-07-18": 2
     },
     "top_ports": [
       {
@@ -79,94 +74,94 @@
     ],
     "sample_iocs": [
       {
-        "ioc": "https://battagliadipavia1525.it/",
+        "ioc": "https://targe.in/",
         "type": "url",
         "confidence": 75,
-        "first_seen": "2026-07-17 14:15:03 UTC"
+        "first_seen": "2026-07-18 06:15:02 UTC"
       },
       {
-        "ioc": "https://okx.kliksm188.top/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-17 11:10:08 UTC"
-      },
-      {
-        "ioc": "okx.kliksm188.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-17 11:10:07 UTC"
-      },
-      {
-        "ioc": "https://okx.ambiltogel.net/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-17 11:10:06 UTC"
-      },
-      {
-        "ioc": "okx.ambiltogel.net",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-17 11:10:05 UTC"
-      },
-      {
-        "ioc": "https://d11.kliksm188.top/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-17 08:15:10 UTC"
-      },
-      {
-        "ioc": "d11.kliksm188.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-17 08:15:09 UTC"
-      },
-      {
-        "ioc": "https://d11.ambiltogel.net/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-17 08:15:09 UTC"
-      },
-      {
-        "ioc": "d11.ambiltogel.net",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-17 08:15:08 UTC"
-      },
-      {
-        "ioc": "https://bfg.kliksm188.top/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-17 00:55:06 UTC"
-      },
-      {
-        "ioc": "bfg.kliksm188.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-17 00:55:04 UTC"
-      },
-      {
-        "ioc": "https://bfg.ambiltogel.net/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-17 00:45:07 UTC"
-      },
-      {
-        "ioc": "bfg.ambiltogel.net",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-17 00:45:07 UTC"
-      },
-      {
-        "ioc": "ffz.kliksm188.top",
-        "type": "domain",
-        "confidence": 75,
-        "first_seen": "2026-07-16 23:26:51 UTC"
-      },
-      {
-        "ioc": "https://ffz.kliksm188.top/",
+        "ioc": "https://pressurewashingsacramento.net/",
         "type": "url",
         "confidence": 75,
-        "first_seen": "2026-07-16 23:26:51 UTC"
+        "first_seen": "2026-07-18 04:15:03 UTC"
+      },
+      {
+        "ioc": "https://sei.ambiltogel.net/",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-17 22:55:07 UTC"
+      },
+      {
+        "ioc": "sei.ambiltogel.net",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-17 22:55:07 UTC"
+      },
+      {
+        "ioc": "c45f291fda8740a843202a77180a15a1",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-17 22:51:04 UTC"
+      },
+      {
+        "ioc": "915456ad1037056f7b542db11a97011da74d710f",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-17 22:51:04 UTC"
+      },
+      {
+        "ioc": "7073018596b174f584299d5152cf90f89a1f4e3bf072b778fc3342fda5c82f4f",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-17 22:51:04 UTC"
+      },
+      {
+        "ioc": "240861bb6ee7723f0a7449ec501c466b",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-17 22:51:03 UTC"
+      },
+      {
+        "ioc": "f6d6bf43990bde77af73d24f237c86889adacbfd",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-17 22:51:03 UTC"
+      },
+      {
+        "ioc": "8ca5069041a3de3536f0be3b8f1b9044a0dfffd0295d7495cbd57d6a312af0b5",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-17 22:51:02 UTC"
+      },
+      {
+        "ioc": "cf4866e9f6c60a4b253de4bb85f4da90",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-17 22:51:02 UTC"
+      },
+      {
+        "ioc": "3ec44d141f4d08ada015759eb2c5c79d76b53c54",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-17 22:51:02 UTC"
+      },
+      {
+        "ioc": "2fdcac512cef51c5b0d8a4fb23c278b973d20978aab5d463abbe131dd04879a0",
+        "type": "sha256_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-17 22:51:01 UTC"
+      },
+      {
+        "ioc": "0a9a59c9e53e6d9f218fc6c307016b44",
+        "type": "md5_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-17 22:51:01 UTC"
+      },
+      {
+        "ioc": "904eed155444a8ba021d2f6b1c1bb6c89cb739e7",
+        "type": "sha1_hash",
+        "confidence": 95,
+        "first_seen": "2026-07-17 22:51:01 UTC"
       }
     ]
   }

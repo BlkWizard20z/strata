@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-17T15:07:21.535374+00:00",
+  "generated": "2026-07-18T14:44:05.635342+00:00",
   "families": [
     {
       "malware_id": "win.metastealer",
@@ -10,44 +10,44 @@
       "family": "ClearFake"
     },
     {
-      "malware_id": "apk.triada",
-      "family": "Triada"
-    },
-    {
       "malware_id": "unknown",
       "family": "Unknown malware"
+    },
+    {
+      "malware_id": "apk.triada",
+      "family": "Triada"
     },
     {
       "malware_id": "win.vshell",
       "family": "VShell"
     },
     {
-      "malware_id": "win.cobalt_strike",
-      "family": "Cobalt Strike"
-    },
-    {
       "malware_id": "win.vidar",
       "family": "Vidar"
+    },
+    {
+      "malware_id": "win.cobalt_strike",
+      "family": "Cobalt Strike"
     },
     {
       "malware_id": "win.adaptix_c2",
       "family": "AdaptixC2"
     },
     {
+      "malware_id": "js.kongtuke",
+      "family": "KongTuke"
+    },
+    {
       "malware_id": "win.remcos",
       "family": "Remcos"
     },
     {
-      "malware_id": "elf.aisuru",
-      "family": "Aisuru"
-    },
-    {
-      "malware_id": "unknown_loader",
-      "family": "Unknown Loader"
-    },
-    {
       "malware_id": "win.asyncrat",
       "family": "AsyncRAT"
+    },
+    {
+      "malware_id": "elf.aisuru",
+      "family": "Aisuru"
     },
     {
       "malware_id": "elf.kuiper",
@@ -66,16 +66,16 @@
       "family": "SmartApeSG"
     },
     {
-      "malware_id": "win.latrodectus",
-      "family": "Latrodectus"
-    },
-    {
       "malware_id": "win.netwire",
       "family": "NetWire RC"
     },
     {
       "malware_id": "osx.amos",
       "family": "AMOS"
+    },
+    {
+      "malware_id": "unknown_rat",
+      "family": "Unknown RAT"
     },
     {
       "malware_id": "win.dcrat",
@@ -86,8 +86,12 @@
       "family": "Havoc"
     },
     {
-      "malware_id": "win.stealc",
-      "family": "Stealc"
+      "malware_id": "win.wannacryptor",
+      "family": "WannaCryptor"
+    },
+    {
+      "malware_id": "py.venus_stealer",
+      "family": "Venus Stealer"
     }
   ]
 }

@@ -1,27 +1,27 @@
 {
   "malware_id": "unknown_rat",
   "family": "Unknown RAT",
-  "generated": "2026-07-16T15:23:56.803798+00:00",
-  "recent_window_ioc_count": 35,
+  "generated": "2026-07-18T14:42:27.548934+00:00",
+  "recent_window_ioc_count": 33,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_rat",
   "description": null,
   "alt_names": [],
   "associated_groups": [],
   "stats": {
-    "total_iocs": 500,
+    "total_iocs": 497,
     "date_range": {
       "earliest": "2025-03-29",
       "latest": "2026-07-16"
     },
     "ioc_type_breakdown": {
-      "ip:port": 266,
+      "ip:port": 263,
       "domain": 159,
       "url": 58,
       "sha256_hash": 15,
       "md5_hash": 2
     },
     "confidence_distribution": {
-      "high": 466,
+      "high": 463,
       "medium": 34,
       "low": 0
     },
@@ -33,7 +33,6 @@
       "2025-10-10": 1,
       "2025-11-23": 1,
       "2026-01-14": 1,
-      "2026-01-16": 3,
       "2026-01-18": 3,
       "2026-01-19": 1,
       "2026-01-20": 3,
@@ -160,7 +159,7 @@
       },
       {
         "port": "80",
-        "count": 25
+        "count": 23
       },
       {
         "port": "8041",

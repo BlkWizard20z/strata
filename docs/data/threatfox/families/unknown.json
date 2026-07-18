@@ -1,8 +1,8 @@
 {
   "malware_id": "unknown",
   "family": "Unknown malware",
-  "generated": "2026-07-17T14:59:02.601862+00:00",
-  "recent_window_ioc_count": 347,
+  "generated": "2026-07-18T14:35:50.978294+00:00",
+  "recent_window_ioc_count": 645,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown",
   "description": null,
   "alt_names": [],
@@ -10,163 +10,189 @@
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-07-09",
-      "latest": "2026-07-17"
+      "earliest": "2026-06-08",
+      "latest": "2026-07-18"
     },
     "ioc_type_breakdown": {
-      "domain": 233,
-      "ip:port": 172,
-      "url": 72,
-      "sha256_hash": 23
+      "url": 235,
+      "ip:port": 139,
+      "domain": 114,
+      "sha256_hash": 12
     },
     "confidence_distribution": {
-      "high": 479,
-      "medium": 21,
+      "high": 483,
+      "medium": 17,
       "low": 0
     },
     "activity_timeline": {
-      "2026-07-09": 21,
-      "2026-07-10": 26,
-      "2026-07-11": 95,
-      "2026-07-12": 23,
-      "2026-07-13": 81,
-      "2026-07-14": 118,
-      "2026-07-15": 82,
+      "2026-06-08": 26,
+      "2026-06-09": 2,
+      "2026-06-10": 3,
+      "2026-06-11": 2,
+      "2026-06-13": 2,
+      "2026-06-15": 1,
+      "2026-06-16": 2,
+      "2026-06-17": 2,
+      "2026-06-18": 1,
+      "2026-06-19": 1,
+      "2026-06-20": 4,
+      "2026-06-21": 1,
+      "2026-06-23": 2,
+      "2026-06-24": 1,
+      "2026-06-25": 1,
+      "2026-06-26": 1,
+      "2026-06-28": 2,
+      "2026-06-29": 2,
+      "2026-06-30": 3,
+      "2026-07-01": 6,
+      "2026-07-02": 2,
+      "2026-07-03": 2,
+      "2026-07-04": 2,
+      "2026-07-05": 3,
+      "2026-07-06": 2,
+      "2026-07-07": 2,
+      "2026-07-08": 4,
+      "2026-07-09": 4,
+      "2026-07-10": 2,
+      "2026-07-11": 1,
+      "2026-07-12": 3,
+      "2026-07-15": 42,
       "2026-07-16": 39,
-      "2026-07-17": 15
+      "2026-07-17": 272,
+      "2026-07-18": 55
     },
     "top_ports": [
       {
-        "port": "443",
-        "count": 27
-      },
-      {
         "port": "7443",
-        "count": 14
+        "count": 66
       },
       {
-        "port": "6969",
-        "count": 9
-      },
-      {
-        "port": "80",
+        "port": "22",
         "count": 8
       },
       {
-        "port": "8080",
-        "count": 8
+        "port": "443",
+        "count": 7
       },
       {
-        "port": "8888",
-        "count": 6
+        "port": "8812",
+        "count": 3
       },
       {
-        "port": "10213",
-        "count": 6
+        "port": "33061",
+        "count": 3
       },
       {
-        "port": "15987",
-        "count": 4
+        "port": "8443",
+        "count": 2
       },
       {
-        "port": "9090",
-        "count": 4
+        "port": "28888",
+        "count": 2
       },
       {
-        "port": "60000",
-        "count": 4
+        "port": "5555",
+        "count": 2
+      },
+      {
+        "port": "8001",
+        "count": 2
+      },
+      {
+        "port": "59517",
+        "count": 2
       }
     ],
     "sample_iocs": [
       {
-        "ioc": "infociganka.cc",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-17 13:02:41 UTC"
-      },
-      {
-        "ioc": "bacon-rumors.xyz",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-17 13:01:21 UTC"
-      },
-      {
-        "ioc": "records.perfectlinestarter.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-17 11:33:23 UTC"
-      },
-      {
-        "ioc": "156.38.149.102:7443",
+        "ioc": "106.52.255.211:7070",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-17 11:05:05 UTC"
+        "first_seen": "2026-07-18 14:05:05 UTC"
       },
       {
-        "ioc": "earthweight.xyz",
+        "ioc": "106.52.255.211:5223",
+        "type": "ip:port",
+        "confidence": 100,
+        "first_seen": "2026-07-18 14:05:05 UTC"
+      },
+      {
+        "ioc": "103.39.79.102:4433",
+        "type": "ip:port",
+        "confidence": 100,
+        "first_seen": "2026-07-18 14:05:04 UTC"
+      },
+      {
+        "ioc": "vid-secure.info",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-17 10:53:04 UTC"
+        "first_seen": "2026-07-18 13:36:15 UTC"
       },
       {
-        "ioc": "http://41.216.189.236/nz.sh",
-        "type": "url",
-        "confidence": 75,
-        "first_seen": "2026-07-17 09:14:29 UTC"
-      },
-      {
-        "ioc": "football-attraction.pro",
+        "ioc": "vault-imagehub.info",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-17 07:52:43 UTC"
+        "first_seen": "2026-07-18 13:36:15 UTC"
       },
       {
-        "ioc": "photo-check93123.pro",
+        "ioc": "skrin-archiv.info",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-17 06:50:39 UTC"
+        "first_seen": "2026-07-18 13:36:15 UTC"
       },
       {
-        "ioc": "drive-search-id84192.info",
+        "ioc": "protectvids.info",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-17 06:50:39 UTC"
+        "first_seen": "2026-07-18 13:36:15 UTC"
       },
       {
-        "ioc": "mytrfnuif.com",
+        "ioc": "imagestore-vault.info",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-17 06:48:15 UTC"
+        "first_seen": "2026-07-18 13:36:15 UTC"
       },
       {
-        "ioc": "https://chorg.xyz/",
-        "type": "url",
-        "confidence": 90,
-        "first_seen": "2026-07-17 06:36:22 UTC"
-      },
-      {
-        "ioc": "https://strastergy.com/",
-        "type": "url",
-        "confidence": 90,
-        "first_seen": "2026-07-17 06:36:21 UTC"
-      },
-      {
-        "ioc": "https://robinhrood.com/",
-        "type": "url",
-        "confidence": 90,
-        "first_seen": "2026-07-17 06:36:21 UTC"
-      },
-      {
-        "ioc": "rebel-pause.xyz",
+        "ioc": "cloud-scn.info",
         "type": "domain",
-        "confidence": 75,
-        "first_seen": "2026-07-17 06:36:20 UTC"
+        "confidence": 100,
+        "first_seen": "2026-07-18 13:36:15 UTC"
       },
       {
-        "ioc": "https://stogagirlssoccer.com/",
-        "type": "url",
-        "confidence": 90,
-        "first_seen": "2026-07-17 06:36:12 UTC"
+        "ioc": "103.236.92.210:8443",
+        "type": "ip:port",
+        "confidence": 100,
+        "first_seen": "2026-07-18 13:05:06 UTC"
+      },
+      {
+        "ioc": "103.39.79.102:22",
+        "type": "ip:port",
+        "confidence": 100,
+        "first_seen": "2026-07-18 13:05:06 UTC"
+      },
+      {
+        "ioc": "103.39.79.102:14657",
+        "type": "ip:port",
+        "confidence": 100,
+        "first_seen": "2026-07-18 13:05:05 UTC"
+      },
+      {
+        "ioc": "101.34.222.38:5244",
+        "type": "ip:port",
+        "confidence": 100,
+        "first_seen": "2026-07-18 13:05:05 UTC"
+      },
+      {
+        "ioc": "101.34.222.38:28888",
+        "type": "ip:port",
+        "confidence": 100,
+        "first_seen": "2026-07-18 12:05:08 UTC"
+      },
+      {
+        "ioc": "101.34.222.38:21118",
+        "type": "ip:port",
+        "confidence": 100,
+        "first_seen": "2026-07-18 12:05:06 UTC"
       }
     ]
   }

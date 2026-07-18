@@ -1,8 +1,8 @@
 {
   "malware_id": "js.kongtuke",
   "family": "KongTuke",
-  "generated": "2026-07-16T15:20:54.137136+00:00",
-  "recent_window_ioc_count": 92,
+  "generated": "2026-07-18T14:37:44.723205+00:00",
+  "recent_window_ioc_count": 83,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.kongtuke",
   "description": "Kongtuke is a sophisticated TDS system that was initially discovered around May 2024. Making use of compromised CMS Websites, Kongtuke redirects website visitors through a multi-stage infection process ultimately leading to device infection. Initially using fake Update lures, it started to use FakeCaptcha lures at the beginning of 2025. It is likely an initial access service, selling infections to both Ransomware affiliates and other IA vendors like SocGholish.",
   "alt_names": [
@@ -14,11 +14,11 @@
     "total_iocs": 500,
     "date_range": {
       "earliest": "2026-04-15",
-      "latest": "2026-07-16"
+      "latest": "2026-07-17"
     },
     "ioc_type_breakdown": {
-      "url": 275,
-      "domain": 209,
+      "url": 270,
+      "domain": 214,
       "sha256_hash": 10,
       "ip:port": 6
     },
@@ -28,7 +28,7 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-04-15": 56,
+      "2026-04-15": 63,
       "2026-04-18": 4,
       "2026-04-21": 1,
       "2026-04-22": 1,
@@ -47,8 +47,6 @@
       "2026-06-08": 2,
       "2026-06-09": 2,
       "2026-06-15": 1,
-      "2026-06-16": 7,
-      "2026-06-17": 7,
       "2026-06-18": 9,
       "2026-06-20": 2,
       "2026-06-21": 2,
@@ -72,7 +70,8 @@
       "2026-07-13": 5,
       "2026-07-14": 30,
       "2026-07-15": 24,
-      "2026-07-16": 13
+      "2026-07-16": 13,
+      "2026-07-17": 7
     },
     "top_ports": [
       {
@@ -85,6 +84,48 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "monteiro.click",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-17 13:12:06 UTC"
+      },
+      {
+        "ioc": "https://monteiro.click/api/v1/verify",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-17 13:12:05 UTC"
+      },
+      {
+        "ioc": "https://monteiro.click/api/v1/status",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-17 13:12:04 UTC"
+      },
+      {
+        "ioc": "https://monteiro.click/api/v1/session",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-17 13:12:04 UTC"
+      },
+      {
+        "ioc": "tommy-aa.lol",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-17 13:12:03 UTC"
+      },
+      {
+        "ioc": "https://tommy-aa.lol/f",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-17 13:12:03 UTC"
+      },
+      {
+        "ioc": "https://ritchie.click/o9qhk2jz.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-17 06:36:29 UTC"
+      },
       {
         "ioc": "https://tommy-or.lol/f",
         "type": "url",
@@ -132,48 +173,6 @@
         "type": "url",
         "confidence": 100,
         "first_seen": "2026-07-16 12:07:42 UTC"
-      },
-      {
-        "ioc": "https://ritchie.click/85iuztos.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-16 07:15:04 UTC"
-      },
-      {
-        "ioc": "https://ritchie.click/gkbfcesb.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-16 04:25:18 UTC"
-      },
-      {
-        "ioc": "https://ritchie.click/q7eu4gpd.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-16 04:25:11 UTC"
-      },
-      {
-        "ioc": "https://ritchie.click/jh2fg27r.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-16 04:25:07 UTC"
-      },
-      {
-        "ioc": "https://ritchie.click/7kv57ax9.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-16 04:25:00 UTC"
-      },
-      {
-        "ioc": "https://ritchie.click/5mv24f3u.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-15 20:21:40 UTC"
-      },
-      {
-        "ioc": "bitista.icu",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-15 20:21:30 UTC"
       }
     ]
   }
