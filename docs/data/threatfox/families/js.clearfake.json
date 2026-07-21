@@ -1,7 +1,7 @@
 {
   "malware_id": "js.clearfake",
   "family": "ClearFake",
-  "generated": "2026-07-20T15:30:02.213476+00:00",
+  "generated": "2026-07-21T15:23:18.616103+00:00",
   "recent_window_ioc_count": 865,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake",
   "description": "ClearFake is a malicious JavaScript framework deployed on compromised websites to deliver further malware using the drive-by download technique. The malware leverages social engineering to trick the user into running a fake web browser update.",
@@ -10,11 +10,13 @@
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-07-16",
-      "latest": "2026-07-20"
+      "earliest": "2026-07-13",
+      "latest": "2026-07-21"
     },
     "ioc_type_breakdown": {
-      "domain": 500
+      "domain": 497,
+      "url": 2,
+      "ip:port": 1
     },
     "confidence_distribution": {
       "high": 500,
@@ -22,103 +24,112 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-07-16": 14,
-      "2026-07-17": 85,
-      "2026-07-18": 112,
+      "2026-07-13": 6,
+      "2026-07-14": 1,
+      "2026-07-15": 10,
+      "2026-07-16": 6,
+      "2026-07-17": 1,
+      "2026-07-18": 43,
       "2026-07-19": 145,
-      "2026-07-20": 144
+      "2026-07-20": 188,
+      "2026-07-21": 100
     },
-    "top_ports": [],
+    "top_ports": [
+      {
+        "port": "8880",
+        "count": 1
+      }
+    ],
     "sample_iocs": [
       {
-        "ioc": "lvcrn.monicarobles.org",
+        "ioc": "hsdav.stable-virtual-camera.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-20 15:29:47 UTC"
+        "first_seen": "2026-07-21 15:22:44 UTC"
       },
       {
-        "ioc": "monicarobles.org",
+        "ioc": "stable-virtual-camera.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-20 15:24:46 UTC"
+        "first_seen": "2026-07-21 15:22:02 UTC"
       },
       {
-        "ioc": "drsvt.nextbahis.poker",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-20 15:22:52 UTC"
-      },
-      {
-        "ioc": "axoo.colg1.org",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-20 15:07:18 UTC"
-      },
-      {
-        "ioc": "colg1.org",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-20 15:03:54 UTC"
-      },
-      {
-        "ioc": "xhbgt.nextbahis.blog",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-20 14:47:31 UTC"
-      },
-      {
-        "ioc": "aeiyi.jetbet.download",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-20 14:32:53 UTC"
-      },
-      {
-        "ioc": "pjjuosk1.fredcoplumbingpros.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-20 14:26:00 UTC"
-      },
-      {
-        "ioc": "igsx.closedfistllc.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-20 14:08:34 UTC"
-      },
-      {
-        "ioc": "aruhq.jbgroup21.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-20 14:04:14 UTC"
-      },
-      {
-        "ioc": "vastlogicweb.petalune.garden",
+        "ioc": "ironlogicway5.florenth.garden",
         "type": "domain",
         "confidence": 90,
-        "first_seen": "2026-07-20 13:43:43 UTC"
+        "first_seen": "2026-07-21 15:11:24 UTC"
       },
       {
-        "ioc": "stellar5bit.petalune.garden",
-        "type": "domain",
-        "confidence": 90,
-        "first_seen": "2026-07-20 13:28:43 UTC"
-      },
-      {
-        "ioc": "wbpypinui.generososbakerycafe.com",
+        "ioc": "nhos.pikachuplush.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-20 13:15:19 UTC"
+        "first_seen": "2026-07-21 15:05:51 UTC"
       },
       {
-        "ioc": "generososbakerycafe.com",
+        "ioc": "r7e0hc30.legend-capital-group.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-20 13:12:22 UTC"
+        "first_seen": "2026-07-21 14:37:25 UTC"
       },
       {
-        "ioc": "cglp.cleantruckchecksac.com",
+        "ioc": "legend-capital-group.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-20 13:03:30 UTC"
+        "first_seen": "2026-07-21 14:34:56 UTC"
+      },
+      {
+        "ioc": "ybsve.springhillcommons.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-21 14:26:47 UTC"
+      },
+      {
+        "ioc": "springhillcommons.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-21 14:21:28 UTC"
+      },
+      {
+        "ioc": "udsik.springfieldsummerhoops.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-21 14:17:52 UTC"
+      },
+      {
+        "ioc": "springfieldsummerhoops.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-21 14:16:27 UTC"
+      },
+      {
+        "ioc": "nrqbf.spencershorttexas.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-21 14:13:52 UTC"
+      },
+      {
+        "ioc": "spencershorttexas.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-21 14:12:49 UTC"
+      },
+      {
+        "ioc": "cppeh.spacedecorideas.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-21 14:09:26 UTC"
+      },
+      {
+        "ioc": "spacedecorideas.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-21 14:08:45 UTC"
+      },
+      {
+        "ioc": "mvjx.phtaxiservices.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-21 14:04:26 UTC"
       }
     ]
   }

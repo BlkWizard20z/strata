@@ -1,8 +1,8 @@
 {
   "malware_id": "unknown_loader",
   "family": "Unknown Loader",
-  "generated": "2026-07-20T15:33:44.402783+00:00",
-  "recent_window_ioc_count": 38,
+  "generated": "2026-07-21T15:26:49.156110+00:00",
+  "recent_window_ioc_count": 30,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader",
   "description": null,
   "alt_names": [],
@@ -11,7 +11,7 @@
     "total_iocs": 500,
     "date_range": {
       "earliest": "2026-04-01",
-      "latest": "2026-07-19"
+      "latest": "2026-07-21"
     },
     "ioc_type_breakdown": {
       "domain": 407,
@@ -25,7 +25,7 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-04-01": 2,
+      "2026-04-01": 1,
       "2026-04-02": 1,
       "2026-04-06": 5,
       "2026-04-08": 2,
@@ -81,7 +81,8 @@
       "2026-07-16": 2,
       "2026-07-17": 3,
       "2026-07-18": 6,
-      "2026-07-19": 2
+      "2026-07-19": 2,
+      "2026-07-21": 1
     },
     "top_ports": [
       {
@@ -106,6 +107,12 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "wormfear.xyz",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-21 05:42:24 UTC"
+      },
       {
         "ioc": "photo-hotel8413.info",
         "type": "domain",
@@ -186,12 +193,6 @@
       },
       {
         "ioc": "b54739eeed5e94c43e842add170215fe4b29395794fad74b8c984cc8d2ddf5db",
-        "type": "sha256_hash",
-        "confidence": 50,
-        "first_seen": "2026-07-15 20:21:37 UTC"
-      },
-      {
-        "ioc": "88a4125114cfe57530d3fbcbd156280ae1f33e192b769c96f1fbab7411fd0a98",
         "type": "sha256_hash",
         "confidence": 50,
         "first_seen": "2026-07-15 20:21:37 UTC"

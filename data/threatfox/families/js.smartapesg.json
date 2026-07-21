@@ -1,8 +1,8 @@
 {
   "malware_id": "js.smartapesg",
   "family": "SmartApeSG",
-  "generated": "2026-07-20T15:33:17.765605+00:00",
-  "recent_window_ioc_count": 42,
+  "generated": "2026-07-21T15:26:35.038433+00:00",
+  "recent_window_ioc_count": 32,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.smartapesg",
   "description": "According to Proofpoint, this is a cluster of fake update campaigns delivering payloads like NetSupportManager RAT and Lumma Stealer.",
   "alt_names": [
@@ -43,7 +43,6 @@
       "2026-05-12": 8,
       "2026-05-27": 2,
       "2026-06-13": 1,
-      "2026-06-20": 1,
       "2026-06-22": 6,
       "2026-06-23": 10,
       "2026-06-24": 4,
@@ -63,7 +62,7 @@
       "2026-07-15": 6,
       "2026-07-16": 6,
       "2026-07-17": 14,
-      "2026-07-20": 3
+      "2026-07-20": 4
     },
     "top_ports": [
       {
@@ -76,6 +75,12 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "https://aurorapavilion.top/acl/principal-payload.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-20 15:55:18 UTC"
+      },
       {
         "ioc": "https://aurorapavilion.top/acl/principal-core.js",
         "type": "url",
@@ -159,12 +164,6 @@
         "type": "url",
         "confidence": 100,
         "first_seen": "2026-07-17 06:36:28 UTC"
-      },
-      {
-        "ioc": "https://copperlandmark.top/claims/realm-fetch.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-17 06:36:27 UTC"
       }
     ]
   }

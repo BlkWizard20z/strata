@@ -1,8 +1,8 @@
 {
   "malware_id": "win.havoc",
   "family": "Havoc",
-  "generated": "2026-07-20T15:34:51.370942+00:00",
-  "recent_window_ioc_count": 25,
+  "generated": "2026-07-21T15:27:30.143256+00:00",
+  "recent_window_ioc_count": 23,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.havoc",
   "description": "First released in October 2022, the Havoc C2 Framework is a flexible post-exploitation framework written in Golang, C++, and Qt, with agents called 'Demons' written in C and ASM, created by @C5pider. Designed to support red team engagements and adversary emulation, it offers a robust set of capabilities tailored for offensive security operations. The framework, which is under active development, utilizes HTTP(s) and SMB as communication protocols for its implants. Havoc can generate implants, known as Demons, in several formats including EXE, DLL, and Shellcode. A notable feature of Havoc is its ability to bypass EDR by employing advanced evasion techniques such as sleep obfuscation, return address stack spoofing, and indirect syscalls. This capability enhances its effectiveness in evading detection and circumventing security measures.",
   "alt_names": [
@@ -13,7 +13,7 @@
     "total_iocs": 500,
     "date_range": {
       "earliest": "2025-12-11",
-      "latest": "2026-07-19"
+      "latest": "2026-07-21"
     },
     "ioc_type_breakdown": {
       "ip:port": 448,
@@ -32,7 +32,7 @@
       "2025-12-11": 2,
       "2025-12-13": 1,
       "2025-12-17": 4,
-      "2025-12-18": 3,
+      "2025-12-18": 2,
       "2025-12-19": 2,
       "2025-12-21": 1,
       "2025-12-23": 2,
@@ -182,7 +182,8 @@
       "2026-07-14": 3,
       "2026-07-16": 2,
       "2026-07-17": 17,
-      "2026-07-19": 1
+      "2026-07-19": 1,
+      "2026-07-21": 1
     },
     "top_ports": [
       {
@@ -191,7 +192,7 @@
       },
       {
         "port": "8443",
-        "count": 54
+        "count": 53
       },
       {
         "port": "80",
@@ -199,7 +200,7 @@
       },
       {
         "port": "8080",
-        "count": 17
+        "count": 18
       },
       {
         "port": "22",
@@ -227,6 +228,12 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "8.133.197.201:8080",
+        "type": "ip:port",
+        "confidence": 100,
+        "first_seen": "2026-07-21 05:05:08 UTC"
+      },
       {
         "ioc": "164.92.79.49:22",
         "type": "ip:port",
@@ -310,12 +317,6 @@
         "type": "ip:port",
         "confidence": 100,
         "first_seen": "2026-07-17 13:05:04 UTC"
-      },
-      {
-        "ioc": "142.93.88.220:22",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-17 12:05:07 UTC"
       }
     ]
   }

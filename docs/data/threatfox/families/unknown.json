@@ -1,8 +1,8 @@
 {
   "malware_id": "unknown",
   "family": "Unknown malware",
-  "generated": "2026-07-20T15:30:19.755554+00:00",
-  "recent_window_ioc_count": 707,
+  "generated": "2026-07-21T15:23:28.255482+00:00",
+  "recent_window_ioc_count": 618,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown",
   "description": null,
   "alt_names": [],
@@ -10,39 +10,43 @@
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-07-08",
-      "latest": "2026-07-20"
+      "earliest": "2026-07-17",
+      "latest": "2026-07-21"
     },
     "ioc_type_breakdown": {
-      "url": 241,
-      "ip:port": 172,
-      "domain": 87
+      "url": 242,
+      "ip:port": 166,
+      "domain": 91,
+      "sha256_hash": 1
     },
     "confidence_distribution": {
-      "high": 500,
-      "medium": 0,
+      "high": 495,
+      "medium": 5,
       "low": 0
     },
     "activity_timeline": {
-      "2026-07-08": 4,
-      "2026-07-09": 4,
-      "2026-07-10": 2,
-      "2026-07-11": 1,
-      "2026-07-12": 3,
-      "2026-07-16": 9,
-      "2026-07-17": 257,
+      "2026-07-17": 239,
       "2026-07-18": 101,
       "2026-07-19": 53,
-      "2026-07-20": 66
+      "2026-07-20": 73,
+      "2026-07-21": 34
     },
     "top_ports": [
       {
         "port": "22",
-        "count": 24
+        "count": 25
       },
       {
-        "port": "7443",
-        "count": 24
+        "port": "9443",
+        "count": 6
+      },
+      {
+        "port": "443",
+        "count": 5
+      },
+      {
+        "port": "80",
+        "count": 5
       },
       {
         "port": "111",
@@ -53,11 +57,7 @@
         "count": 5
       },
       {
-        "port": "443",
-        "count": 5
-      },
-      {
-        "port": "9443",
+        "port": "7443",
         "count": 4
       },
       {
@@ -71,102 +71,98 @@
       {
         "port": "888",
         "count": 3
-      },
-      {
-        "port": "8766",
-        "count": 3
       }
     ],
     "sample_iocs": [
       {
-        "ioc": "https://blocuriizolatetermic.primariapetrosani.ro/",
+        "ioc": "api.googlevv.com",
+        "type": "domain",
+        "confidence": 75,
+        "first_seen": "2026-07-21 13:54:48 UTC"
+      },
+      {
+        "ioc": "analyzer01.com",
+        "type": "domain",
+        "confidence": 75,
+        "first_seen": "2026-07-21 13:54:47 UTC"
+      },
+      {
+        "ioc": "https://pub-7ac99e69d5af40ffa345a3f731c1b833.r2.dev/tz.js",
+        "type": "url",
+        "confidence": 75,
+        "first_seen": "2026-07-21 13:54:47 UTC"
+      },
+      {
+        "ioc": "moorlandatlas.com",
+        "type": "domain",
+        "confidence": 75,
+        "first_seen": "2026-07-21 13:54:46 UTC"
+      },
+      {
+        "ioc": "5.161.192.203:443",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-21 13:54:45 UTC"
+      },
+      {
+        "ioc": "https://markdl.pro/",
         "type": "url",
         "confidence": 90,
-        "first_seen": "2026-07-20 14:14:46 UTC"
+        "first_seen": "2026-07-21 10:52:02 UTC"
       },
       {
-        "ioc": "clouderfaster.cc",
+        "ioc": "alkociferblat.cc",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-20 13:22:21 UTC"
+        "first_seen": "2026-07-21 09:37:00 UTC"
       },
       {
-        "ioc": "43.143.128.126:22",
+        "ioc": "124.220.77.21:22",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-20 13:05:08 UTC"
+        "first_seen": "2026-07-21 09:05:09 UTC"
       },
       {
-        "ioc": "47.108.140.10:8099",
+        "ioc": "47.108.140.10:20885",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-20 13:05:07 UTC"
+        "first_seen": "2026-07-21 09:05:08 UTC"
       },
       {
-        "ioc": "43.138.148.100:10022",
+        "ioc": "47.108.140.10:20881",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-20 13:05:06 UTC"
+        "first_seen": "2026-07-21 08:05:05 UTC"
       },
       {
-        "ioc": "43.138.148.100:20000",
+        "ioc": "94.198.96.165:63921",
         "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-20 13:05:05 UTC"
+        "confidence": 75,
+        "first_seen": "2026-07-21 07:10:00 UTC"
       },
       {
-        "ioc": "https://solaric.com.ph/",
+        "ioc": "markdl.pro",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-21 06:56:06 UTC"
+      },
+      {
+        "ioc": "http://196.251.107.186/api.php",
         "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-20 12:20:31 UTC"
+        "confidence": 50,
+        "first_seen": "2026-07-21 06:50:09 UTC"
       },
       {
-        "ioc": "43.143.128.126:6379",
+        "ioc": "101.33.76.127:443",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-20 12:05:05 UTC"
+        "first_seen": "2026-07-21 06:05:05 UTC"
       },
       {
-        "ioc": "47.94.13.0:22",
+        "ioc": "31.76.252.47:443",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-20 12:05:05 UTC"
-      },
-      {
-        "ioc": "192.144.211.249:888",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-20 11:05:08 UTC"
-      },
-      {
-        "ioc": "117.72.189.142:22",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-20 11:05:08 UTC"
-      },
-      {
-        "ioc": "106.52.255.211:9443",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-20 11:05:07 UTC"
-      },
-      {
-        "ioc": "103.236.92.210:22",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-20 11:05:05 UTC"
-      },
-      {
-        "ioc": "124.220.77.21:8082",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-20 10:05:07 UTC"
-      },
-      {
-        "ioc": "101.34.222.38:22",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-20 10:05:07 UTC"
+        "first_seen": "2026-07-21 05:46:43 UTC"
       }
     ]
   }

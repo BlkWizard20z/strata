@@ -1,7 +1,7 @@
 {
   "malware_id": "win.latrodectus",
   "family": "Latrodectus",
-  "generated": "2026-07-20T15:33:57.546104+00:00",
+  "generated": "2026-07-21T15:25:52.607633+00:00",
   "recent_window_ioc_count": 37,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.latrodectus",
   "description": "First discovered in October 2023, BLACKWIDOW is a backdoor written in C that communicates over HTTP using RC4 encrypted requests. The malware has the capability to execute discovery commands, query information about the victim's machine, update itself, as well as download and execute an EXE, DLL, or shellcode. The malware is believed to have been developed by LUNAR SPIDER, the creators of IcedID (aka BokBot) Malware.",

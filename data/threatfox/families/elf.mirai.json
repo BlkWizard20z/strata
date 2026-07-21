@@ -1,8 +1,8 @@
 {
   "malware_id": "elf.mirai",
   "family": "Mirai",
-  "generated": "2026-07-20T15:32:50.278851+00:00",
-  "recent_window_ioc_count": 49,
+  "generated": "2026-07-21T15:25:15.779705+00:00",
+  "recent_window_ioc_count": 42,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai",
   "description": "Mirai is one of the first significant botnets targeting exposed networking devices running Linux. Found in August 2016 by MalwareMustDie, its name means \"future\" in Japanese. Nowadays it targets a wide range of networked embedded devices such as IP cameras, home routers (many vendors involved), and other IoT devices. Since the source code was published on \"Hack Forums\" many variants of the Mirai family appeared, infecting mostly home networks all around the world.",
   "alt_names": [
@@ -16,9 +16,9 @@
       "latest": "2026-07-20"
     },
     "ioc_type_breakdown": {
-      "ip:port": 305,
+      "ip:port": 306,
       "domain": 92,
-      "url": 72,
+      "url": 71,
       "sha256_hash": 31
     },
     "confidence_distribution": {
@@ -27,7 +27,7 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-05-23": 4,
+      "2026-05-23": 3,
       "2026-05-24": 1,
       "2026-05-26": 1,
       "2026-05-27": 24,
@@ -77,12 +77,12 @@
       "2026-07-15": 1,
       "2026-07-16": 2,
       "2026-07-19": 34,
-      "2026-07-20": 4
+      "2026-07-20": 5
     },
     "top_ports": [
       {
         "port": "80",
-        "count": 77
+        "count": 78
       },
       {
         "port": "25565",
@@ -122,6 +122,12 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "94.154.43.77:80",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-20 19:45:56 UTC"
+      },
       {
         "ioc": "162.249.125.140:4569",
         "type": "ip:port",
@@ -183,13 +189,13 @@
         "first_seen": "2026-07-19 07:08:37 UTC"
       },
       {
-        "ioc": "http://103.83.87.122/iran.aarch64",
+        "ioc": "http://103.83.87.122/iran.x86_64",
         "type": "url",
         "confidence": 100,
         "first_seen": "2026-07-19 07:08:37 UTC"
       },
       {
-        "ioc": "http://103.83.87.122/iran.x86_64",
+        "ioc": "http://103.83.87.122/iran.aarch64",
         "type": "url",
         "confidence": 100,
         "first_seen": "2026-07-19 07:08:37 UTC"
@@ -205,12 +211,6 @@
         "type": "url",
         "confidence": 100,
         "first_seen": "2026-07-19 07:08:36 UTC"
-      },
-      {
-        "ioc": "http://103.83.87.122/iran.mipsel",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-19 07:08:35 UTC"
       }
     ]
   }

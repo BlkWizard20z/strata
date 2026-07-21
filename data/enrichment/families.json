@@ -281,6 +281,15 @@
     "source": "malpedia",
     "status": "ok"
   },
+  "js.mints_loader": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "MintsLoader",
+    "description": "According to Orange Cyberdefense, MintsLoader is a little-known, multi-stage malware loader that has been used since at least February 2023. It has been observed in widespread distribution campaigns between July and October 2024. The name comes from a very characteristic use of an URL parameter \u201c1.php?s=mintsXX\" (with XX being numbers).\r\n\r\nMintsLoader primarily delivers malicious RAT or infostealing payloads such as AsyncRAT and Vidar through phishing emails, targeting organizations in Europe (Spain, Italy, Poland, etc.). Written in JavaScript and PowerShell, MintsLoader operates through a multi-step infection process involving several URLs and domains, most of which use a domain generation algorithm (DGA) with .top TLD.",
+    "enriched_at": "2026-07-21T15:22:57.883235+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
   "js.smartapesg": {
     "alt_names": [
       "HANEYMANEY",
@@ -425,6 +434,15 @@
   "unknown_webinject": {
     "enriched_at": "2026-07-11T14:35:51.527926+00:00",
     "status": "not_found"
+  },
+  "win.5t_downloader": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "5.t Downloader",
+    "description": "Downloader used in suspected APT attack against Vietnam.",
+    "enriched_at": "2026-07-21T15:23:00.607458+00:00",
+    "source": "malpedia",
+    "status": "ok"
   },
   "win.acr_stealer": {
     "alt_names": [],
@@ -1218,6 +1236,17 @@
     "common_name": "Redosdru",
     "description": "Redosdru is a malware family that primarily acts as a downloader. Upon execution, it may drop downloaded DLLs in the \"%ProgramFiles%\\AppPatch\" directory. The malware modifies the Windows registry to ensure its persistence, adding entries to run automatically at system startup.",
     "enriched_at": "2026-07-08T17:01:09.874973+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.remcom": {
+    "alt_names": [
+      "RemoteCommandExecution"
+    ],
+    "associated_groups": [],
+    "common_name": "RemCom",
+    "description": null,
+    "enriched_at": "2026-07-21T15:22:59.232225+00:00",
     "source": "malpedia",
     "status": "ok"
   },

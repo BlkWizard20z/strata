@@ -1,8 +1,8 @@
 {
   "malware_id": "win.vidar",
   "family": "Vidar",
-  "generated": "2026-07-20T15:30:29.990050+00:00",
-  "recent_window_ioc_count": 301,
+  "generated": "2026-07-21T15:23:38.021763+00:00",
+  "recent_window_ioc_count": 314,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar",
   "description": "Vidar is a forked malware based on Arkei. It seems this stealer is one of the first that is grabbing information on 2FA Software and Tor Browser.",
   "alt_names": [],
@@ -10,8 +10,8 @@
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-02-09",
-      "latest": "2026-07-20"
+      "earliest": "2026-01-16",
+      "latest": "2026-07-21"
     },
     "ioc_type_breakdown": {
       "url": 221,
@@ -27,7 +27,9 @@
       "low": 1
     },
     "activity_timeline": {
-      "2026-02-09": 1,
+      "2026-01-16": 1,
+      "2026-01-23": 2,
+      "2026-02-09": 2,
       "2026-02-13": 2,
       "2026-02-23": 2,
       "2026-03-02": 2,
@@ -64,8 +66,8 @@
       "2026-06-30": 1,
       "2026-07-01": 1,
       "2026-07-03": 4,
-      "2026-07-06": 16,
-      "2026-07-07": 14,
+      "2026-07-06": 3,
+      "2026-07-07": 9,
       "2026-07-08": 24,
       "2026-07-09": 27,
       "2026-07-10": 13,
@@ -78,7 +80,8 @@
       "2026-07-17": 33,
       "2026-07-18": 9,
       "2026-07-19": 45,
-      "2026-07-20": 95
+      "2026-07-20": 99,
+      "2026-07-21": 10
     },
     "top_ports": [
       {
@@ -92,94 +95,94 @@
     ],
     "sample_iocs": [
       {
+        "ioc": "https://hur.luckyturbo88.top/",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-21 14:40:05 UTC"
+      },
+      {
+        "ioc": "hur.luckyturbo88.top",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-21 14:40:04 UTC"
+      },
+      {
+        "ioc": "https://hur.aww88.net/",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-21 14:35:05 UTC"
+      },
+      {
+        "ioc": "hur.aww88.net",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-21 14:35:04 UTC"
+      },
+      {
+        "ioc": "https://datarecoverycenterbd.com/",
+        "type": "url",
+        "confidence": 75,
+        "first_seen": "2026-07-21 12:15:03 UTC"
+      },
+      {
+        "ioc": "https://cldaa.org/",
+        "type": "url",
+        "confidence": 75,
+        "first_seen": "2026-07-21 10:15:02 UTC"
+      },
+      {
+        "ioc": "https://ets.luckyturbo88.top/",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-21 07:20:05 UTC"
+      },
+      {
+        "ioc": "ets.luckyturbo88.top",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-21 07:20:04 UTC"
+      },
+      {
+        "ioc": "https://ets.aww88.net/",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-21 07:00:08 UTC"
+      },
+      {
+        "ioc": "ets.aww88.net",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-21 07:00:07 UTC"
+      },
+      {
+        "ioc": "https://foh.luckyturbo88.top/",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-20 20:25:05 UTC"
+      },
+      {
+        "ioc": "foh.luckyturbo88.top",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-20 20:25:05 UTC"
+      },
+      {
+        "ioc": "https://foh.aww88.net/",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-20 20:25:05 UTC"
+      },
+      {
+        "ioc": "foh.aww88.net",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-20 20:25:04 UTC"
+      },
+      {
         "ioc": "https://dif.loloxsm188.top/",
         "type": "url",
         "confidence": 100,
         "first_seen": "2026-07-20 14:25:05 UTC"
-      },
-      {
-        "ioc": "dif.loloxsm188.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-20 14:25:04 UTC"
-      },
-      {
-        "ioc": "https://dif.brslot.net/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-20 14:10:05 UTC"
-      },
-      {
-        "ioc": "dif.brslot.net",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-20 14:10:04 UTC"
-      },
-      {
-        "ioc": "https://nenodescolado.com.br/",
-        "type": "url",
-        "confidence": 75,
-        "first_seen": "2026-07-20 13:15:04 UTC"
-      },
-      {
-        "ioc": "https://adminbyrequest.agilemtech.ae/",
-        "type": "url",
-        "confidence": 75,
-        "first_seen": "2026-07-20 12:15:04 UTC"
-      },
-      {
-        "ioc": "https://bechisalbinoantenne.it/",
-        "type": "url",
-        "confidence": 75,
-        "first_seen": "2026-07-20 12:15:04 UTC"
-      },
-      {
-        "ioc": "https://viv.loloxsm188.top/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-20 11:55:05 UTC"
-      },
-      {
-        "ioc": "viv.loloxsm188.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-20 11:55:05 UTC"
-      },
-      {
-        "ioc": "https://viv.brslot.net/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-20 11:55:05 UTC"
-      },
-      {
-        "ioc": "viv.brslot.net",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-20 11:55:04 UTC"
-      },
-      {
-        "ioc": "788fc952b7bdc334fc677426dcf2af39",
-        "type": "md5_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-20 11:23:15 UTC"
-      },
-      {
-        "ioc": "2dc11386a208dfe528ef8fdd70d7b81290e7b5ce",
-        "type": "sha1_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-20 11:23:15 UTC"
-      },
-      {
-        "ioc": "0a4b3b6e4de78361552735cbbc95a1819a7338c810e7f31e1a3d68a06a5252bb",
-        "type": "sha256_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-20 11:23:15 UTC"
-      },
-      {
-        "ioc": "84b7baaa2e134146258d883388114f18",
-        "type": "md5_hash",
-        "confidence": 95,
-        "first_seen": "2026-07-20 11:23:15 UTC"
       }
     ]
   }

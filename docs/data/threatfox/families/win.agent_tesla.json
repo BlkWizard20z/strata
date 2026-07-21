@@ -1,8 +1,8 @@
 {
   "malware_id": "win.agent_tesla",
   "family": "Agent Tesla",
-  "generated": "2026-07-20T15:31:54.066886+00:00",
-  "recent_window_ioc_count": 65,
+  "generated": "2026-07-21T15:24:46.053258+00:00",
+  "recent_window_ioc_count": 55,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.agent_tesla",
   "description": "According to Palo Alto Networks Unit 42, Agent Tesla is a widely used .NET-based (C#) commercial keylogger and information stealer whose leaked builders have made it easily obtainable for many threat actors. It can log keystrokes, capture clipboard contents, take screenshots, and harvest credentials or other valuable data from browsers, email clients and local files, then exfiltrate this information via HTTP(S), SMTP, FTP or Telegram channels. Unit 42\u2019s analysis shows that OriginLogger is a direct evolution and variant of Agent Tesla, heavily reusing its code and configuration-handling techniques so that many Agent Tesla-focused detection rules still catch OriginLogger. This tight relationship positions Agent Tesla as the predecessor in a closely related family of .NET stealers, with OriginLogger continuing and expanding its functionality.",
   "alt_names": [

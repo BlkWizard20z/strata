@@ -1,8 +1,8 @@
 {
   "malware_id": "unknown_rat",
   "family": "Unknown RAT",
-  "generated": "2026-07-20T15:34:37.643371+00:00",
-  "recent_window_ioc_count": 28,
+  "generated": "2026-07-21T15:28:10.808966+00:00",
+  "recent_window_ioc_count": 19,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_rat",
   "description": null,
   "alt_names": [],
@@ -11,7 +11,7 @@
     "total_iocs": 491,
     "date_range": {
       "earliest": "2025-03-29",
-      "latest": "2026-07-16"
+      "latest": "2026-07-21"
     },
     "ioc_type_breakdown": {
       "ip:port": 257,
@@ -33,7 +33,6 @@
       "2025-10-10": 1,
       "2025-11-23": 1,
       "2026-01-14": 1,
-      "2026-01-20": 1,
       "2026-01-21": 1,
       "2026-01-22": 1,
       "2026-01-23": 5,
@@ -148,12 +147,13 @@
       "2026-07-13": 5,
       "2026-07-14": 10,
       "2026-07-15": 13,
-      "2026-07-16": 3
+      "2026-07-16": 3,
+      "2026-07-21": 1
     },
     "top_ports": [
       {
         "port": "443",
-        "count": 136
+        "count": 135
       },
       {
         "port": "80",
@@ -193,6 +193,12 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "94.198.96.165:63921",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-21 07:10:00 UTC"
+      },
       {
         "ioc": "gals.kleenghjah.com",
         "type": "domain",
@@ -276,12 +282,6 @@
         "type": "ip:port",
         "confidence": 75,
         "first_seen": "2026-07-15 06:35:07 UTC"
-      },
-      {
-        "ioc": "77.91.123.220:443",
-        "type": "ip:port",
-        "confidence": 75,
-        "first_seen": "2026-07-15 06:34:28 UTC"
       }
     ]
   }

@@ -1,8 +1,8 @@
 {
   "malware_id": "apk.kimwolf",
   "family": "Kimwolf",
-  "generated": "2026-07-13T16:09:58.312773+00:00",
-  "recent_window_ioc_count": 21,
+  "generated": "2026-07-21T15:27:43.888647+00:00",
+  "recent_window_ioc_count": 20,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/apk.kimwolf",
   "description": "KIMWOLF is an android based malware which uses compromised systems to relay malicious and abusive Internet traffic, as well as participating in distributed denial-of-service (DDoS). KIMWOLF primarily infects unofficial Android-TV set-top boxes and digital photo frames. The malware has frequently been noted to achieve infection spread via abusing Android Debug Bridge (ADB) and residential proxies. There are multiple reports suggesting a connection to the Aisuru botnet, with Kimwolf acting as the Android variant.",
   "alt_names": [],
@@ -10,8 +10,8 @@
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-04-12",
-      "latest": "2026-07-13"
+      "earliest": "2026-04-13",
+      "latest": "2026-07-20"
     },
     "ioc_type_breakdown": {
       "ip:port": 499,
@@ -23,8 +23,7 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-04-12": 18,
-      "2026-04-13": 8,
+      "2026-04-13": 6,
       "2026-04-14": 14,
       "2026-04-15": 12,
       "2026-04-21": 9,
@@ -62,7 +61,8 @@
       "2026-07-03": 10,
       "2026-07-08": 10,
       "2026-07-09": 1,
-      "2026-07-13": 10
+      "2026-07-13": 10,
+      "2026-07-20": 20
     },
     "top_ports": [
       {
@@ -72,94 +72,94 @@
     ],
     "sample_iocs": [
       {
-        "ioc": "178.62.228.25:25001",
+        "ioc": "134.209.93.215:25001",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-13 13:44:44 UTC"
+        "first_seen": "2026-07-20 15:55:17 UTC"
       },
       {
-        "ioc": "178.62.235.14:25001",
+        "ioc": "165.232.88.245:25001",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-13 13:44:43 UTC"
+        "first_seen": "2026-07-20 15:55:17 UTC"
       },
       {
-        "ioc": "188.166.1.226:25001",
+        "ioc": "134.122.48.179:25001",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-13 13:44:42 UTC"
+        "first_seen": "2026-07-20 15:55:16 UTC"
       },
       {
-        "ioc": "188.166.105.148:25001",
+        "ioc": "64.227.69.17:25001",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-13 13:44:41 UTC"
+        "first_seen": "2026-07-20 15:55:16 UTC"
       },
       {
-        "ioc": "167.99.42.38:25001",
+        "ioc": "157.245.77.63:25001",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-13 13:44:40 UTC"
+        "first_seen": "2026-07-20 15:55:16 UTC"
       },
       {
-        "ioc": "142.93.231.53:25001",
+        "ioc": "209.38.99.84:25001",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-13 13:44:39 UTC"
+        "first_seen": "2026-07-20 15:55:15 UTC"
       },
       {
-        "ioc": "178.128.249.233:25001",
+        "ioc": "164.92.153.43:25001",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-13 13:44:37 UTC"
+        "first_seen": "2026-07-20 15:55:15 UTC"
       },
       {
-        "ioc": "209.38.46.121:25001",
+        "ioc": "188.166.58.104:25001",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-13 13:44:37 UTC"
+        "first_seen": "2026-07-20 15:55:14 UTC"
       },
       {
-        "ioc": "157.245.71.64:25001",
+        "ioc": "68.183.0.134:25001",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-13 13:44:36 UTC"
+        "first_seen": "2026-07-20 15:55:14 UTC"
       },
       {
-        "ioc": "64.225.73.161:25001",
+        "ioc": "188.166.121.223:25001",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-13 13:44:35 UTC"
+        "first_seen": "2026-07-20 15:55:14 UTC"
       },
       {
-        "ioc": "4ff468f704f266022358d80e61845af92dea230f66e1e2674776431c161e8c01",
-        "type": "sha256_hash",
-        "confidence": 75,
-        "first_seen": "2026-07-09 05:28:03 UTC"
-      },
-      {
-        "ioc": "104.248.81.151:25001",
+        "ioc": "159.223.212.162:25001",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-08 10:33:31 UTC"
+        "first_seen": "2026-07-20 12:20:31 UTC"
       },
       {
-        "ioc": "178.62.249.180:25001",
+        "ioc": "209.38.38.123:25001",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-08 10:33:30 UTC"
+        "first_seen": "2026-07-20 12:20:30 UTC"
       },
       {
-        "ioc": "159.223.221.16:25001",
+        "ioc": "167.99.46.90:25001",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-08 10:33:30 UTC"
+        "first_seen": "2026-07-20 12:20:30 UTC"
       },
       {
-        "ioc": "164.92.144.85:25001",
+        "ioc": "209.38.44.99:25001",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-08 10:33:29 UTC"
+        "first_seen": "2026-07-20 12:20:29 UTC"
+      },
+      {
+        "ioc": "161.35.85.184:25001",
+        "type": "ip:port",
+        "confidence": 100,
+        "first_seen": "2026-07-20 12:20:29 UTC"
       }
     ]
   }

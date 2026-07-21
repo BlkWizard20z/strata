@@ -1,8 +1,8 @@
 {
   "malware_id": "win.remcos",
   "family": "Remcos",
-  "generated": "2026-07-20T15:31:39.567620+00:00",
-  "recent_window_ioc_count": 67,
+  "generated": "2026-07-21T15:25:25.699631+00:00",
+  "recent_window_ioc_count": 40,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos",
   "description": "Remcos (acronym of Remote Control & Surveillance Software) is a commercial Remote Access Tool to remotely control computers.\r\n\r\nRemcos is advertised as legitimate software which can be used for surveillance and penetration testing purposes, but has been used in numerous hacking campaigns.\r\nRemcos, once installed, opens a backdoor on the computer, granting full access to the remote user.\r\nRemcos is developed by the cybersecurity company BreakingSecurity.",
   "alt_names": [
@@ -18,12 +18,12 @@
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-05-02",
-      "latest": "2026-07-20"
+      "earliest": "2026-03-14",
+      "latest": "2026-07-21"
     },
     "ioc_type_breakdown": {
-      "ip:port": 468,
-      "domain": 32
+      "ip:port": 469,
+      "domain": 31
     },
     "confidence_distribution": {
       "high": 500,
@@ -31,7 +31,11 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-05-02": 3,
+      "2026-03-14": 1,
+      "2026-03-19": 1,
+      "2026-03-20": 1,
+      "2026-05-01": 7,
+      "2026-05-02": 6,
       "2026-05-05": 1,
       "2026-05-06": 2,
       "2026-05-08": 4,
@@ -47,8 +51,8 @@
       "2026-05-31": 1,
       "2026-06-02": 2,
       "2026-06-04": 1,
-      "2026-06-06": 2,
-      "2026-06-07": 4,
+      "2026-06-06": 1,
+      "2026-06-07": 3,
       "2026-06-08": 4,
       "2026-06-09": 8,
       "2026-06-10": 13,
@@ -78,7 +82,7 @@
       "2026-07-04": 12,
       "2026-07-05": 5,
       "2026-07-06": 9,
-      "2026-07-07": 32,
+      "2026-07-07": 20,
       "2026-07-08": 16,
       "2026-07-09": 21,
       "2026-07-10": 18,
@@ -90,12 +94,13 @@
       "2026-07-16": 5,
       "2026-07-17": 2,
       "2026-07-19": 2,
-      "2026-07-20": 2
+      "2026-07-20": 2,
+      "2026-07-21": 1
     },
     "top_ports": [
       {
         "port": "2404",
-        "count": 33
+        "count": 31
       },
       {
         "port": "14644",
@@ -135,6 +140,12 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "46.151.182.127:8080",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-21 07:05:54 UTC"
+      },
       {
         "ioc": "energy4665.duckdns.org",
         "type": "domain",
@@ -218,12 +229,6 @@
         "type": "ip:port",
         "confidence": 75,
         "first_seen": "2026-07-15 19:44:13 UTC"
-      },
-      {
-        "ioc": "103.83.86.48:2404",
-        "type": "ip:port",
-        "confidence": 75,
-        "first_seen": "2026-07-15 19:43:14 UTC"
       }
     ]
   }
