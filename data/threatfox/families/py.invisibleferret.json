@@ -1,0 +1,140 @@
+{
+  "malware_id": "py.invisibleferret",
+  "family": "InvisibleFerret",
+  "generated": "2026-07-22T15:25:26.603338+00:00",
+  "recent_window_ioc_count": 16,
+  "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.invisibleferret",
+  "description": null,
+  "alt_names": [],
+  "associated_groups": [
+    "WageMole"
+  ],
+  "stats": {
+    "total_iocs": 17,
+    "date_range": {
+      "earliest": "2025-04-16",
+      "latest": "2026-07-16"
+    },
+    "ioc_type_breakdown": {
+      "url": 6,
+      "sha256_hash": 5,
+      "ip:port": 4,
+      "domain": 2
+    },
+    "confidence_distribution": {
+      "high": 17,
+      "medium": 0,
+      "low": 0
+    },
+    "activity_timeline": {
+      "2025-04-16": 1,
+      "2026-07-16": 16
+    },
+    "top_ports": [
+      {
+        "port": "1224",
+        "count": 2
+      },
+      {
+        "port": "1144",
+        "count": 1
+      },
+      {
+        "port": "1244",
+        "count": 1
+      }
+    ],
+    "sample_iocs": [
+      {
+        "ioc": "95.216.64.240:1224",
+        "type": "ip:port",
+        "confidence": 85,
+        "first_seen": "2026-07-16 04:25:36 UTC"
+      },
+      {
+        "ioc": "95.217.102.138:1144",
+        "type": "ip:port",
+        "confidence": 85,
+        "first_seen": "2026-07-16 04:25:34 UTC"
+      },
+      {
+        "ioc": "138.201.128.169:1224",
+        "type": "ip:port",
+        "confidence": 85,
+        "first_seen": "2026-07-16 04:25:33 UTC"
+      },
+      {
+        "ioc": "http://144.172.103.226/301/301m",
+        "type": "url",
+        "confidence": 85,
+        "first_seen": "2026-07-16 04:25:32 UTC"
+      },
+      {
+        "ioc": "http://144.172.103.226/301/301l",
+        "type": "url",
+        "confidence": 85,
+        "first_seen": "2026-07-16 04:25:31 UTC"
+      },
+      {
+        "ioc": "http://144.172.103.226/301/301w",
+        "type": "url",
+        "confidence": 85,
+        "first_seen": "2026-07-16 04:25:30 UTC"
+      },
+      {
+        "ioc": "http://95.217.102.138:1144/s/30620700",
+        "type": "url",
+        "confidence": 85,
+        "first_seen": "2026-07-16 04:25:29 UTC"
+      },
+      {
+        "ioc": "http://95.216.64.240:1224/main",
+        "type": "url",
+        "confidence": 85,
+        "first_seen": "2026-07-16 04:25:27 UTC"
+      },
+      {
+        "ioc": "pub-acf013a9b65140b7b58cc3c104ee7105.r2.dev",
+        "type": "domain",
+        "confidence": 80,
+        "first_seen": "2026-07-16 04:25:26 UTC"
+      },
+      {
+        "ioc": "http://95.216.64.240:1224/client/36/700",
+        "type": "url",
+        "confidence": 85,
+        "first_seen": "2026-07-16 04:25:26 UTC"
+      },
+      {
+        "ioc": "pub-06714264305c44ea94491c0c8d961a87.r2.dev",
+        "type": "domain",
+        "confidence": 80,
+        "first_seen": "2026-07-16 04:25:25 UTC"
+      },
+      {
+        "ioc": "683a1607808f49446191d775d181ec9cccd1d629fba76e4d416fa54d1cf42630",
+        "type": "sha256_hash",
+        "confidence": 90,
+        "first_seen": "2026-07-16 04:25:23 UTC"
+      },
+      {
+        "ioc": "a129de4fd4f1374a292bd8964df30c9e82c99bac680c4d36d6890fbf30ffac1c",
+        "type": "sha256_hash",
+        "confidence": 90,
+        "first_seen": "2026-07-16 04:25:23 UTC"
+      },
+      {
+        "ioc": "cd3b606d31c9d3c2ee972916f8de9a403caf00f00698fd6b9acece6ff30647c6",
+        "type": "sha256_hash",
+        "confidence": 90,
+        "first_seen": "2026-07-16 04:25:22 UTC"
+      },
+      {
+        "ioc": "b34aa84e8b4ad57d773fab6cbd7c40cda65f5f17c566cbd726ce3edcd04255b1",
+        "type": "sha256_hash",
+        "confidence": 90,
+        "first_seen": "2026-07-16 04:25:21 UTC"
+      }
+    ]
+  }
+}

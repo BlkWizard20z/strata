@@ -1,0 +1,166 @@
+{
+  "malware_id": "win.vjw0rm",
+  "family": "Vjw0rm",
+  "generated": "2026-07-22T15:24:38.805558+00:00",
+  "recent_window_ioc_count": 19,
+  "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vjw0rm",
+  "description": "VJW0rm (aka Vengeance Justice Worm) is a publicly available, modular JavaScript RAT. Vjw0rm was first released in November 2016 by its primary author, v_B01 (aka Sliemerez), within the prominent DevPoint Arabic-language malware development community. VJW0rm appears to be the JavaScript variant of a series of RATs with identical functionality released by the author throughout late 2016. Other variants include a Visual Basic Script (VBS) based worm titled vw0rm (Vengeance Worm), an AutoHotkey-based tool called vrw0rm (Vengeance Rise Worm), and a PowerShell-based variant called vdw0rm (Vengeance Depth Worm).",
+  "alt_names": [],
+  "associated_groups": [],
+  "stats": {
+    "total_iocs": 37,
+    "date_range": {
+      "earliest": "2026-02-02",
+      "latest": "2026-07-18"
+    },
+    "ioc_type_breakdown": {
+      "domain": 22,
+      "ip:port": 13,
+      "url": 2
+    },
+    "confidence_distribution": {
+      "high": 37,
+      "medium": 0,
+      "low": 0
+    },
+    "activity_timeline": {
+      "2026-02-02": 1,
+      "2026-03-05": 1,
+      "2026-03-10": 1,
+      "2026-03-24": 2,
+      "2026-04-17": 2,
+      "2026-04-27": 1,
+      "2026-04-29": 1,
+      "2026-06-18": 8,
+      "2026-07-10": 1,
+      "2026-07-17": 5,
+      "2026-07-18": 14
+    },
+    "top_ports": [
+      {
+        "port": "443",
+        "count": 6
+      },
+      {
+        "port": "7045",
+        "count": 1
+      },
+      {
+        "port": "8000",
+        "count": 1
+      },
+      {
+        "port": "7575",
+        "count": 1
+      },
+      {
+        "port": "7076",
+        "count": 1
+      },
+      {
+        "port": "1188",
+        "count": 1
+      },
+      {
+        "port": "7044",
+        "count": 1
+      },
+      {
+        "port": "36102",
+        "count": 1
+      }
+    ],
+    "sample_iocs": [
+      {
+        "ioc": "fiscalnotificacionmunicipal.store",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-18 17:33:17 UTC"
+      },
+      {
+        "ioc": "fundacionolipica.store",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-18 17:33:17 UTC"
+      },
+      {
+        "ioc": "www.firmaprincipal.store",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-18 17:33:16 UTC"
+      },
+      {
+        "ioc": "www.remicionesexternas.store",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-18 17:33:16 UTC"
+      },
+      {
+        "ioc": "notificadorlocalsolionesfis.store",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-18 17:33:16 UTC"
+      },
+      {
+        "ioc": "comidarapidas.store",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-18 17:33:15 UTC"
+      },
+      {
+        "ioc": "solicitudelarchivo.store",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-18 17:33:15 UTC"
+      },
+      {
+        "ioc": "calzadoswer.store",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-18 17:33:15 UTC"
+      },
+      {
+        "ioc": "notificacionesnacionales.store",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-18 17:33:14 UTC"
+      },
+      {
+        "ioc": "cominiucadosinternos.store",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-18 17:33:14 UTC"
+      },
+      {
+        "ioc": "etiendasb.store",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-18 17:33:12 UTC"
+      },
+      {
+        "ioc": "cpantalonesnegro.store",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-18 17:33:12 UTC"
+      },
+      {
+        "ioc": "detalleselparaiso.store",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-18 17:33:11 UTC"
+      },
+      {
+        "ioc": "bpadellcali.store",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-18 17:33:11 UTC"
+      },
+      {
+        "ioc": "solicitudesinternas.store",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-17 06:36:25 UTC"
+      }
+    ]
+  }
+}

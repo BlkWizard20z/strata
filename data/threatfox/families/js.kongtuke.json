@@ -1,8 +1,8 @@
 {
   "malware_id": "js.kongtuke",
   "family": "KongTuke",
-  "generated": "2026-07-21T15:23:54.487831+00:00",
-  "recent_window_ioc_count": 144,
+  "generated": "2026-07-22T15:21:33.587632+00:00",
+  "recent_window_ioc_count": 129,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.kongtuke",
   "description": "Kongtuke is a sophisticated TDS system that was initially discovered around May 2024. Making use of compromised CMS Websites, Kongtuke redirects website visitors through a multi-stage infection process ultimately leading to device infection. Initially using fake Update lures, it started to use FakeCaptcha lures at the beginning of 2025. It is likely an initial access service, selling infections to both Ransomware affiliates and other IA vendors like SocGholish.",
   "alt_names": [
@@ -14,11 +14,11 @@
     "total_iocs": 500,
     "date_range": {
       "earliest": "2026-04-23",
-      "latest": "2026-07-21"
+      "latest": "2026-07-22"
     },
     "ioc_type_breakdown": {
-      "url": 261,
-      "domain": 223,
+      "url": 259,
+      "domain": 225,
       "sha256_hash": 10,
       "ip:port": 6
     },
@@ -28,7 +28,7 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-04-23": 47,
+      "2026-04-23": 40,
       "2026-04-24": 2,
       "2026-04-25": 5,
       "2026-05-02": 2,
@@ -44,7 +44,6 @@
       "2026-06-09": 2,
       "2026-06-15": 1,
       "2026-06-20": 2,
-      "2026-06-21": 2,
       "2026-06-22": 5,
       "2026-06-23": 12,
       "2026-06-24": 9,
@@ -69,7 +68,8 @@
       "2026-07-17": 7,
       "2026-07-18": 4,
       "2026-07-20": 6,
-      "2026-07-21": 76
+      "2026-07-21": 76,
+      "2026-07-22": 9
     },
     "top_ports": [
       {
@@ -82,6 +82,60 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "tommy-nn.lol",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-22 14:17:29 UTC"
+      },
+      {
+        "ioc": "https://tommy-nn.lol/f",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-22 14:17:29 UTC"
+      },
+      {
+        "ioc": "https://monterro.click/api/v1/status",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-22 14:17:29 UTC"
+      },
+      {
+        "ioc": "https://goncllves.click/api/v1/session",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:35:37 UTC"
+      },
+      {
+        "ioc": "goncllves.click",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:35:37 UTC"
+      },
+      {
+        "ioc": "https://goncllves.click/api/v1/verify",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:35:36 UTC"
+      },
+      {
+        "ioc": "monterro.click",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-22 12:12:52 UTC"
+      },
+      {
+        "ioc": "https://monterro.click/api/v1/verify",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-22 12:12:51 UTC"
+      },
+      {
+        "ioc": "https://monterro.click/api/v1/session",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-22 12:12:51 UTC"
+      },
       {
         "ioc": "meduurst.space",
         "type": "domain",
@@ -117,60 +171,6 @@
         "type": "domain",
         "confidence": 50,
         "first_seen": "2026-07-21 05:21:52 UTC"
-      },
-      {
-        "ioc": "leconto.lol",
-        "type": "domain",
-        "confidence": 50,
-        "first_seen": "2026-07-21 05:21:52 UTC"
-      },
-      {
-        "ioc": "henreques.lol",
-        "type": "domain",
-        "confidence": 50,
-        "first_seen": "2026-07-21 05:21:51 UTC"
-      },
-      {
-        "ioc": "fraitas.lol",
-        "type": "domain",
-        "confidence": 50,
-        "first_seen": "2026-07-21 05:21:50 UTC"
-      },
-      {
-        "ioc": "schester.beer",
-        "type": "domain",
-        "confidence": 50,
-        "first_seen": "2026-07-21 05:21:49 UTC"
-      },
-      {
-        "ioc": "azevedo.lol",
-        "type": "domain",
-        "confidence": 50,
-        "first_seen": "2026-07-21 05:21:49 UTC"
-      },
-      {
-        "ioc": "abernaahy.sbs",
-        "type": "domain",
-        "confidence": 50,
-        "first_seen": "2026-07-21 05:21:48 UTC"
-      },
-      {
-        "ioc": "riviere.sbs",
-        "type": "domain",
-        "confidence": 50,
-        "first_seen": "2026-07-21 05:21:47 UTC"
-      },
-      {
-        "ioc": "ackeamann.xyz",
-        "type": "domain",
-        "confidence": 50,
-        "first_seen": "2026-07-21 05:21:43 UTC"
-      },
-      {
-        "ioc": "lombaidi.lol",
-        "type": "domain",
-        "confidence": 50,
-        "first_seen": "2026-07-21 05:21:42 UTC"
       }
     ]
   }

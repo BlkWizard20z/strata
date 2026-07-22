@@ -1,8 +1,8 @@
 {
   "malware_id": "unknown",
   "family": "Unknown malware",
-  "generated": "2026-07-21T15:23:28.255482+00:00",
-  "recent_window_ioc_count": 618,
+  "generated": "2026-07-22T15:20:49.578234+00:00",
+  "recent_window_ioc_count": 615,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown",
   "description": null,
   "alt_names": [],
@@ -11,13 +11,13 @@
     "total_iocs": 500,
     "date_range": {
       "earliest": "2026-07-17",
-      "latest": "2026-07-21"
+      "latest": "2026-07-22"
     },
     "ioc_type_breakdown": {
-      "url": 242,
-      "ip:port": 166,
-      "domain": 91,
-      "sha256_hash": 1
+      "url": 200,
+      "ip:port": 196,
+      "domain": 90,
+      "sha256_hash": 14
     },
     "confidence_distribution": {
       "high": 495,
@@ -25,28 +25,29 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-07-17": 239,
+      "2026-07-17": 176,
       "2026-07-18": 101,
       "2026-07-19": 53,
       "2026-07-20": 73,
-      "2026-07-21": 34
+      "2026-07-21": 47,
+      "2026-07-22": 50
     },
     "top_ports": [
       {
         "port": "22",
-        "count": 25
+        "count": 26
+      },
+      {
+        "port": "443",
+        "count": 10
+      },
+      {
+        "port": "80",
+        "count": 8
       },
       {
         "port": "9443",
         "count": 6
-      },
-      {
-        "port": "443",
-        "count": 5
-      },
-      {
-        "port": "80",
-        "count": 5
       },
       {
         "port": "111",
@@ -57,112 +58,112 @@
         "count": 5
       },
       {
+        "port": "3306",
+        "count": 4
+      },
+      {
+        "port": "8443",
+        "count": 4
+      },
+      {
         "port": "7443",
         "count": 4
       },
       {
         "port": "28888",
         "count": 4
-      },
-      {
-        "port": "6379",
-        "count": 3
-      },
-      {
-        "port": "888",
-        "count": 3
       }
     ],
     "sample_iocs": [
       {
-        "ioc": "api.googlevv.com",
-        "type": "domain",
-        "confidence": 75,
-        "first_seen": "2026-07-21 13:54:48 UTC"
-      },
-      {
-        "ioc": "analyzer01.com",
-        "type": "domain",
-        "confidence": 75,
-        "first_seen": "2026-07-21 13:54:47 UTC"
-      },
-      {
-        "ioc": "https://pub-7ac99e69d5af40ffa345a3f731c1b833.r2.dev/tz.js",
-        "type": "url",
-        "confidence": 75,
-        "first_seen": "2026-07-21 13:54:47 UTC"
-      },
-      {
-        "ioc": "moorlandatlas.com",
-        "type": "domain",
-        "confidence": 75,
-        "first_seen": "2026-07-21 13:54:46 UTC"
-      },
-      {
-        "ioc": "5.161.192.203:443",
-        "type": "ip:port",
-        "confidence": 75,
-        "first_seen": "2026-07-21 13:54:45 UTC"
-      },
-      {
-        "ioc": "https://markdl.pro/",
-        "type": "url",
-        "confidence": 90,
-        "first_seen": "2026-07-21 10:52:02 UTC"
-      },
-      {
-        "ioc": "alkociferblat.cc",
+        "ioc": "marvelouslooks.monster",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-21 09:37:00 UTC"
+        "first_seen": "2026-07-22 14:00:39 UTC"
       },
       {
-        "ioc": "124.220.77.21:22",
+        "ioc": "3a432ebb39e02f2e6397814ed931697fc820ed5ea1b41e2d595f26f5391adefd",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "7b4b991e822eaebebd75246685ae83fc4594f32c4b3f8aaa73db575e243d3393",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "09051ca12c765d6924bfb0f749b039020f0b48bc172caea6bce36d4bb89a7669",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "28ed4300b02bf46b75bc6308f74d57256142d585227834c34bbfedfb4937bdc7",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "0cee8e69fc0ac841371d917b70416fd015a0f68257f417ae02424f7bd3fb5e46",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "ad934cf87b306026e1e983e5181d32fb3f6e472acd5a3d5d4b5e709b7baa72be",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "8767ded54ab7a27b70b873e9cc35ee75088ff43c089731048f81da60fa01f9bb",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "1f2778afba16c4fe5e06d233012b517f39e3dfc4f913e6e66ca4161ec998e6e1",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "af2a34de39f74be9402871e3c947ba39df9e1556b11cd081be4d8a37cd2fa893",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "d8f554e58aa646555f1b277ed9acb908bbaaf8654a6ff5b19b41716eb7e0ed9a",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "ba4c2d8a377ae14b8c98750208405858b0b6419ea4f4f9c9699f2adad1d639f5",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "009023aeda3457861b31a4a8f29dfb058f16321f5621b1a74ebdb3137930158a",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "b6849ce4f0c9c5a26b15b994a88e951c84cdb4a8721388878ed0c9bd1775cd67",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "43.143.94.53:3306",
         "type": "ip:port",
         "confidence": 100,
-        "first_seen": "2026-07-21 09:05:09 UTC"
-      },
-      {
-        "ioc": "47.108.140.10:20885",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-21 09:05:08 UTC"
-      },
-      {
-        "ioc": "47.108.140.10:20881",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-21 08:05:05 UTC"
-      },
-      {
-        "ioc": "94.198.96.165:63921",
-        "type": "ip:port",
-        "confidence": 75,
-        "first_seen": "2026-07-21 07:10:00 UTC"
-      },
-      {
-        "ioc": "markdl.pro",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-21 06:56:06 UTC"
-      },
-      {
-        "ioc": "http://196.251.107.186/api.php",
-        "type": "url",
-        "confidence": 50,
-        "first_seen": "2026-07-21 06:50:09 UTC"
-      },
-      {
-        "ioc": "101.33.76.127:443",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-21 06:05:05 UTC"
-      },
-      {
-        "ioc": "31.76.252.47:443",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-21 05:46:43 UTC"
+        "first_seen": "2026-07-22 11:05:08 UTC"
       }
     ]
   }

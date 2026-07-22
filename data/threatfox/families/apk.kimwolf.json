@@ -1,7 +1,7 @@
 {
   "malware_id": "apk.kimwolf",
   "family": "Kimwolf",
-  "generated": "2026-07-21T15:27:43.888647+00:00",
+  "generated": "2026-07-22T15:24:02.365575+00:00",
   "recent_window_ioc_count": 20,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/apk.kimwolf",
   "description": "KIMWOLF is an android based malware which uses compromised systems to relay malicious and abusive Internet traffic, as well as participating in distributed denial-of-service (DDoS). KIMWOLF primarily infects unofficial Android-TV set-top boxes and digital photo frames. The malware has frequently been noted to achieve infection spread via abusing Android Debug Bridge (ADB) and residential proxies. There are multiple reports suggesting a connection to the Aisuru botnet, with Kimwolf acting as the Android variant.",

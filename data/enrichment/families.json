@@ -193,6 +193,22 @@
     "source": "malpedia",
     "status": "ok"
   },
+  "jar.adwind": {
+    "alt_names": [
+      "AlienSpy",
+      "JSocket",
+      "Frutas",
+      "UNRECOM",
+      "JBifrost",
+      "Sockrat"
+    ],
+    "associated_groups": [],
+    "common_name": "AdWind",
+    "description": "Part of Malware-as-service platform\r\nUsed as a generic name for Java-based RAT\r\nFunctionality\r\n- collect general system and user information \r\n- terminate process\r\n-log keystroke\r\n-take screenshot and access webcam\r\n- steal cache password from local or web forms\r\n- download and execute Malware\r\n- modify registry\r\n- download components\r\n- Denial of Service attacks\r\n- Acquire VPN certificates\r\n\r\nInitial infection vector\r\n1. Email to JAR files attached\r\n2. Malspam URL to downlaod the malware\r\n\r\nPersistence\r\n- Runkey - HKCU\\Software\\Microsoft\\Windows\\current version\\run\r\n\r\nHiding\r\nUses attrib.exe \r\n\r\nNotes on Adwind\r\nThe malware is not known to be proxy aware",
+    "enriched_at": "2026-07-22T15:20:21.338301+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
   "jar.crossrat": {
     "alt_names": [
       "Trupto"
@@ -299,6 +315,17 @@
     "common_name": "SmartApeSG",
     "description": "According to Proofpoint, this is a cluster of fake update campaigns delivering payloads like NetSupportManager RAT and Lumma Stealer.",
     "enriched_at": "2026-07-08T17:00:30.405059+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "js.tonrat": {
+    "alt_names": [
+      "TONResolver"
+    ],
+    "associated_groups": [],
+    "common_name": "TonRAT",
+    "description": null,
+    "enriched_at": "2026-07-22T15:20:19.840159+00:00",
     "source": "malpedia",
     "status": "ok"
   },
@@ -1405,6 +1432,15 @@
     "common_name": "StrelaStealer",
     "description": "According to PCRisk, StrelaStealer seeks to extract email account log-in credentials. At the time of writing, this program targets Microsoft Outlook and Mozilla Thunderbird email clients.\r\n\r\nFollowing successful infiltration, StrelaStealer searches for \"logins.json\" (account/password) and \"key4.db\" (password database) within the \"%APPDATA%\\Thunderbird\\Profiles\\\" directory - by doing so, it can acquire the credentials for Thunderbird.\r\n\r\nAlternatively, if Outlook credentials are targeted - StrelaStealer seeks out the Windows Registry from where it can retrieve the program's key and \"IMAP User\", \"IMAP Server\", as well as the \"IMAP Password\" values. Since the latter is kept in an encrypted form, the malicious program employs the Windows CryptUnprotectData feature to decrypt it prior to exfiltration.",
     "enriched_at": "2026-07-08T17:00:20.472664+00:00",
+    "source": "malpedia",
+    "status": "ok"
+  },
+  "win.svcstealer": {
+    "alt_names": [],
+    "associated_groups": [],
+    "common_name": "SVCStealer",
+    "description": "According to Broadcom, SVCStealer is an information stealer written in C++, targeting devices running an windows operating system. It collects sensitive information from the infected device such as system information, credentials, cryptocurrency wallets, data stored in browsers, screenshots, data from messaging applications such as Telegram or VPN apps. The collected information is compressed into a .zip archive and extracted to botnet C2 servers.",
+    "enriched_at": "2026-07-22T15:20:17.810023+00:00",
     "source": "malpedia",
     "status": "ok"
   },

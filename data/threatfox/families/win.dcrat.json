@@ -1,8 +1,8 @@
 {
   "malware_id": "win.dcrat",
   "family": "DCRat",
-  "generated": "2026-07-18T14:42:56.237304+00:00",
-  "recent_window_ioc_count": 26,
+  "generated": "2026-07-22T15:24:52.451694+00:00",
+  "recent_window_ioc_count": 18,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.dcrat",
   "description": "DCRat is a typical RAT that has been around since at least June 2019.",
   "alt_names": [
@@ -13,23 +13,23 @@
     "total_iocs": 500,
     "date_range": {
       "earliest": "2026-02-05",
-      "latest": "2026-07-17"
+      "latest": "2026-07-22"
     },
     "ioc_type_breakdown": {
-      "ip:port": 320,
-      "domain": 96,
-      "url": 76,
+      "ip:port": 324,
+      "domain": 93,
+      "url": 75,
       "sha256_hash": 5,
       "md5_hash": 2,
       "sha1_hash": 1
     },
     "confidence_distribution": {
-      "high": 392,
-      "medium": 108,
+      "high": 401,
+      "medium": 99,
       "low": 0
     },
     "activity_timeline": {
-      "2026-02-05": 11,
+      "2026-02-05": 1,
       "2026-02-06": 4,
       "2026-02-07": 2,
       "2026-02-08": 2,
@@ -108,7 +108,7 @@
       "2026-05-09": 1,
       "2026-05-11": 2,
       "2026-05-12": 4,
-      "2026-05-14": 3,
+      "2026-05-14": 2,
       "2026-05-15": 3,
       "2026-05-16": 2,
       "2026-05-17": 1,
@@ -139,7 +139,7 @@
       "2026-06-18": 2,
       "2026-06-19": 3,
       "2026-06-20": 2,
-      "2026-06-21": 3,
+      "2026-06-21": 2,
       "2026-06-23": 1,
       "2026-06-24": 4,
       "2026-06-25": 3,
@@ -162,12 +162,16 @@
       "2026-07-13": 3,
       "2026-07-15": 4,
       "2026-07-16": 2,
-      "2026-07-17": 2
+      "2026-07-17": 2,
+      "2026-07-18": 4,
+      "2026-07-19": 3,
+      "2026-07-21": 2,
+      "2026-07-22": 3
     },
     "top_ports": [
       {
         "port": "8848",
-        "count": 56
+        "count": 58
       },
       {
         "port": "7777",
@@ -186,12 +190,12 @@
         "count": 14
       },
       {
-        "port": "8888",
+        "port": "8080",
         "count": 12
       },
       {
-        "port": "8080",
-        "count": 11
+        "port": "8888",
+        "count": 12
       },
       {
         "port": "8090",
@@ -207,6 +211,78 @@
       }
     ],
     "sample_iocs": [
+      {
+        "ioc": "137.220.158.10:8848",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-22 09:43:26 UTC"
+      },
+      {
+        "ioc": "154.219.109.133:8848",
+        "type": "ip:port",
+        "confidence": 100,
+        "first_seen": "2026-07-22 08:05:05 UTC"
+      },
+      {
+        "ioc": "160.202.241.103:8080",
+        "type": "ip:port",
+        "confidence": 100,
+        "first_seen": "2026-07-22 02:05:05 UTC"
+      },
+      {
+        "ioc": "http://cy614451.tw1.ru/L1nc0In.php",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-21 22:25:12 UTC"
+      },
+      {
+        "ioc": "45.59.120.31:5656",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-21 19:45:46 UTC"
+      },
+      {
+        "ioc": "209.160.115.136:8624",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-19 19:44:19 UTC"
+      },
+      {
+        "ioc": "91.92.47.95:56999",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-19 09:46:24 UTC"
+      },
+      {
+        "ioc": "http://keutbdump3.temp.swtest.ru/pipePhpjsPacketLongpoll.php",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-19 04:25:06 UTC"
+      },
+      {
+        "ioc": "144.172.88.233:5656",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-18 19:43:31 UTC"
+      },
+      {
+        "ioc": "nuevocomienzp333.duckdns.org",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-18 17:33:11 UTC"
+      },
+      {
+        "ioc": "gfhdsjkasd.duckdns.org",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-18 17:33:10 UTC"
+      },
+      {
+        "ioc": "https://store.julias.makeup/img_094957.png",
+        "type": "url",
+        "confidence": 50,
+        "first_seen": "2026-07-18 17:33:03 UTC"
+      },
       {
         "ioc": "46.246.82.7:2003",
         "type": "ip:port",
@@ -224,78 +300,6 @@
         "type": "ip:port",
         "confidence": 75,
         "first_seen": "2026-07-16 19:46:28 UTC"
-      },
-      {
-        "ioc": "http://ct607808.tw1.ru/L1nc0In.php",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-16 07:50:05 UTC"
-      },
-      {
-        "ioc": "178.73.192.16:8848",
-        "type": "ip:port",
-        "confidence": 75,
-        "first_seen": "2026-07-15 19:44:08 UTC"
-      },
-      {
-        "ioc": "104.225.104.237:3020",
-        "type": "ip:port",
-        "confidence": 75,
-        "first_seen": "2026-07-15 19:43:16 UTC"
-      },
-      {
-        "ioc": "82.47.101.76:8080",
-        "type": "ip:port",
-        "confidence": 75,
-        "first_seen": "2026-07-15 09:46:24 UTC"
-      },
-      {
-        "ioc": "104.225.104.237:2030",
-        "type": "ip:port",
-        "confidence": 75,
-        "first_seen": "2026-07-15 09:43:17 UTC"
-      },
-      {
-        "ioc": "176.53.159.46:8090",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-13 20:05:05 UTC"
-      },
-      {
-        "ioc": "128.90.105.247:7998",
-        "type": "ip:port",
-        "confidence": 75,
-        "first_seen": "2026-07-13 19:43:19 UTC"
-      },
-      {
-        "ioc": "196.251.121.74:2323",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-13 19:05:06 UTC"
-      },
-      {
-        "ioc": "178.73.218.4:8848",
-        "type": "ip:port",
-        "confidence": 75,
-        "first_seen": "2026-07-12 19:44:04 UTC"
-      },
-      {
-        "ioc": "137.220.152.132:8848",
-        "type": "ip:port",
-        "confidence": 75,
-        "first_seen": "2026-07-12 19:43:29 UTC"
-      },
-      {
-        "ioc": "137.220.152.131:12159",
-        "type": "ip:port",
-        "confidence": 75,
-        "first_seen": "2026-07-12 19:43:28 UTC"
-      },
-      {
-        "ioc": "196.251.121.120:35630",
-        "type": "ip:port",
-        "confidence": 100,
-        "first_seen": "2026-07-12 11:05:05 UTC"
       }
     ]
   }

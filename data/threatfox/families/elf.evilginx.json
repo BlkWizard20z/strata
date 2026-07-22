@@ -1,0 +1,207 @@
+{
+  "malware_id": "elf.evilginx",
+  "family": "Evilginx",
+  "generated": "2026-07-22T15:25:40.046560+00:00",
+  "recent_window_ioc_count": 13,
+  "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.evilginx",
+  "description": "According to the author, Evilginx is a standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication.",
+  "alt_names": [],
+  "associated_groups": [],
+  "stats": {
+    "total_iocs": 125,
+    "date_range": {
+      "earliest": "2026-03-30",
+      "latest": "2026-07-21"
+    },
+    "ioc_type_breakdown": {
+      "ip:port": 113,
+      "domain": 12
+    },
+    "confidence_distribution": {
+      "high": 125,
+      "medium": 0,
+      "low": 0
+    },
+    "activity_timeline": {
+      "2026-03-30": 14,
+      "2026-04-14": 1,
+      "2026-05-01": 28,
+      "2026-05-02": 2,
+      "2026-05-04": 1,
+      "2026-05-07": 2,
+      "2026-05-08": 6,
+      "2026-05-09": 1,
+      "2026-05-10": 1,
+      "2026-05-11": 4,
+      "2026-05-15": 1,
+      "2026-05-18": 1,
+      "2026-05-19": 1,
+      "2026-05-26": 2,
+      "2026-05-29": 4,
+      "2026-06-07": 1,
+      "2026-06-10": 6,
+      "2026-06-11": 1,
+      "2026-06-13": 1,
+      "2026-06-14": 3,
+      "2026-06-15": 1,
+      "2026-06-16": 1,
+      "2026-06-17": 1,
+      "2026-06-22": 1,
+      "2026-06-24": 1,
+      "2026-06-25": 1,
+      "2026-06-27": 2,
+      "2026-06-28": 1,
+      "2026-06-29": 1,
+      "2026-06-30": 2,
+      "2026-07-01": 4,
+      "2026-07-02": 2,
+      "2026-07-04": 1,
+      "2026-07-06": 1,
+      "2026-07-07": 1,
+      "2026-07-09": 4,
+      "2026-07-10": 2,
+      "2026-07-13": 2,
+      "2026-07-14": 1,
+      "2026-07-15": 4,
+      "2026-07-16": 1,
+      "2026-07-17": 2,
+      "2026-07-19": 3,
+      "2026-07-20": 3,
+      "2026-07-21": 1
+    },
+    "top_ports": [
+      {
+        "port": "9000",
+        "count": 29
+      },
+      {
+        "port": "3333",
+        "count": 25
+      },
+      {
+        "port": "8080",
+        "count": 11
+      },
+      {
+        "port": "3000",
+        "count": 7
+      },
+      {
+        "port": "443",
+        "count": 6
+      },
+      {
+        "port": "8443",
+        "count": 5
+      },
+      {
+        "port": "2850",
+        "count": 4
+      },
+      {
+        "port": "2030",
+        "count": 4
+      },
+      {
+        "port": "80",
+        "count": 2
+      },
+      {
+        "port": "5000",
+        "count": 2
+      }
+    ],
+    "sample_iocs": [
+      {
+        "ioc": "159.203.187.219:8080",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-21 19:43:52 UTC"
+      },
+      {
+        "ioc": "185.212.131.28:9000",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-20 09:44:09 UTC"
+      },
+      {
+        "ioc": "185.212.128.155:9000",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-20 09:44:07 UTC"
+      },
+      {
+        "ioc": "169.58.12.228:443",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-20 09:43:51 UTC"
+      },
+      {
+        "ioc": "213.160.77.221:443",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-19 19:44:23 UTC"
+      },
+      {
+        "ioc": "159.65.232.209:8080",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-19 19:43:41 UTC"
+      },
+      {
+        "ioc": "157.230.235.215:8080",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-19 19:43:40 UTC"
+      },
+      {
+        "ioc": "178.83.226.199:9091",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-17 19:44:03 UTC"
+      },
+      {
+        "ioc": "15.235.149.212:9443",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-17 19:43:41 UTC"
+      },
+      {
+        "ioc": "194.32.142.225:3333",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-16 19:44:38 UTC"
+      },
+      {
+        "ioc": "64.23.182.12:3333",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-15 19:46:03 UTC"
+      },
+      {
+        "ioc": "185.212.131.22:9000",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-15 19:44:19 UTC"
+      },
+      {
+        "ioc": "162.35.175.224:3333",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-15 19:43:55 UTC"
+      },
+      {
+        "ioc": "74.0.32.137:80",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-15 09:46:18 UTC"
+      },
+      {
+        "ioc": "147.182.143.172:8080",
+        "type": "ip:port",
+        "confidence": 75,
+        "first_seen": "2026-07-14 19:43:36 UTC"
+      }
+    ]
+  }
+}

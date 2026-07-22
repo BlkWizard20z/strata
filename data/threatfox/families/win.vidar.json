@@ -1,8 +1,8 @@
 {
   "malware_id": "win.vidar",
   "family": "Vidar",
-  "generated": "2026-07-21T15:23:38.021763+00:00",
-  "recent_window_ioc_count": 314,
+  "generated": "2026-07-22T15:21:03.352405+00:00",
+  "recent_window_ioc_count": 252,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar",
   "description": "Vidar is a forked malware based on Arkei. It seems this stealer is one of the first that is grabbing information on 2FA Software and Tor Browser.",
   "alt_names": [],
@@ -10,12 +10,12 @@
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-01-16",
-      "latest": "2026-07-21"
+      "earliest": "2026-02-09",
+      "latest": "2026-07-22"
     },
     "ioc_type_breakdown": {
-      "url": 221,
-      "domain": 199,
+      "url": 222,
+      "domain": 198,
       "ip:port": 32,
       "md5_hash": 16,
       "sha1_hash": 16,
@@ -27,8 +27,6 @@
       "low": 1
     },
     "activity_timeline": {
-      "2026-01-16": 1,
-      "2026-01-23": 2,
       "2026-02-09": 2,
       "2026-02-13": 2,
       "2026-02-23": 2,
@@ -66,9 +64,8 @@
       "2026-06-30": 1,
       "2026-07-01": 1,
       "2026-07-03": 4,
-      "2026-07-06": 3,
-      "2026-07-07": 9,
-      "2026-07-08": 24,
+      "2026-07-06": 1,
+      "2026-07-08": 17,
       "2026-07-09": 27,
       "2026-07-10": 13,
       "2026-07-11": 8,
@@ -81,7 +78,8 @@
       "2026-07-18": 9,
       "2026-07-19": 45,
       "2026-07-20": 99,
-      "2026-07-21": 10
+      "2026-07-21": 18,
+      "2026-07-22": 13
     },
     "top_ports": [
       {
@@ -95,94 +93,94 @@
     ],
     "sample_iocs": [
       {
-        "ioc": "https://hur.luckyturbo88.top/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-21 14:40:05 UTC"
-      },
-      {
-        "ioc": "hur.luckyturbo88.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-21 14:40:04 UTC"
-      },
-      {
-        "ioc": "https://hur.aww88.net/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-21 14:35:05 UTC"
-      },
-      {
-        "ioc": "hur.aww88.net",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-21 14:35:04 UTC"
-      },
-      {
-        "ioc": "https://datarecoverycenterbd.com/",
+        "ioc": "https://almavidahorseranch.com/",
         "type": "url",
         "confidence": 75,
-        "first_seen": "2026-07-21 12:15:03 UTC"
+        "first_seen": "2026-07-22 14:15:02 UTC"
       },
       {
-        "ioc": "https://cldaa.org/",
+        "ioc": "https://bsw.majusm188.top/",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-22 12:20:06 UTC"
+      },
+      {
+        "ioc": "bsw.majusm188.top",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-22 12:20:05 UTC"
+      },
+      {
+        "ioc": "https://bsw.77zeus.com/",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-22 12:20:05 UTC"
+      },
+      {
+        "ioc": "bsw.77zeus.com",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-22 12:20:05 UTC"
+      },
+      {
+        "ioc": "https://theglobeandmail.com.au/",
         "type": "url",
         "confidence": 75,
-        "first_seen": "2026-07-21 10:15:02 UTC"
+        "first_seen": "2026-07-22 12:15:04 UTC"
       },
       {
-        "ioc": "https://ets.luckyturbo88.top/",
+        "ioc": "https://thequint.com.au/",
+        "type": "url",
+        "confidence": 75,
+        "first_seen": "2026-07-22 12:15:03 UTC"
+      },
+      {
+        "ioc": "https://the-sun.com.au/",
+        "type": "url",
+        "confidence": 75,
+        "first_seen": "2026-07-22 11:15:02 UTC"
+      },
+      {
+        "ioc": "https://45.83.180.74",
+        "type": "url",
+        "confidence": 75,
+        "first_seen": "2026-07-22 05:40:47 UTC"
+      },
+      {
+        "ioc": "https://stt.majusm188.top/",
         "type": "url",
         "confidence": 100,
-        "first_seen": "2026-07-21 07:20:05 UTC"
+        "first_seen": "2026-07-22 00:20:05 UTC"
       },
       {
-        "ioc": "ets.luckyturbo88.top",
+        "ioc": "stt.majusm188.top",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-21 07:20:04 UTC"
+        "first_seen": "2026-07-22 00:20:05 UTC"
       },
       {
-        "ioc": "https://ets.aww88.net/",
+        "ioc": "https://stt.77zeus.com/",
         "type": "url",
         "confidence": 100,
-        "first_seen": "2026-07-21 07:00:08 UTC"
+        "first_seen": "2026-07-22 00:15:07 UTC"
       },
       {
-        "ioc": "ets.aww88.net",
+        "ioc": "stt.77zeus.com",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-21 07:00:07 UTC"
+        "first_seen": "2026-07-22 00:15:07 UTC"
       },
       {
-        "ioc": "https://foh.luckyturbo88.top/",
+        "ioc": "https://goc.majusm188.top/",
         "type": "url",
         "confidence": 100,
-        "first_seen": "2026-07-20 20:25:05 UTC"
+        "first_seen": "2026-07-21 18:45:05 UTC"
       },
       {
-        "ioc": "foh.luckyturbo88.top",
+        "ioc": "goc.majusm188.top",
         "type": "domain",
         "confidence": 100,
-        "first_seen": "2026-07-20 20:25:05 UTC"
-      },
-      {
-        "ioc": "https://foh.aww88.net/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-20 20:25:05 UTC"
-      },
-      {
-        "ioc": "foh.aww88.net",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-20 20:25:04 UTC"
-      },
-      {
-        "ioc": "https://dif.loloxsm188.top/",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-20 14:25:05 UTC"
+        "first_seen": "2026-07-21 18:45:04 UTC"
       }
     ]
   }

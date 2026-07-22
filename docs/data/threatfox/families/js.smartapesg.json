@@ -1,8 +1,8 @@
 {
   "malware_id": "js.smartapesg",
   "family": "SmartApeSG",
-  "generated": "2026-07-21T15:26:35.038433+00:00",
-  "recent_window_ioc_count": 32,
+  "generated": "2026-07-22T15:22:30.149915+00:00",
+  "recent_window_ioc_count": 40,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.smartapesg",
   "description": "According to Proofpoint, this is a cluster of fake update campaigns delivering payloads like NetSupportManager RAT and Lumma Stealer.",
   "alt_names": [
@@ -11,19 +11,19 @@
   ],
   "associated_groups": [],
   "stats": {
-    "total_iocs": 164,
+    "total_iocs": 177,
     "date_range": {
       "earliest": "2026-01-23",
-      "latest": "2026-07-20"
+      "latest": "2026-07-22"
     },
     "ioc_type_breakdown": {
-      "url": 99,
-      "domain": 45,
+      "url": 108,
+      "domain": 49,
       "sha256_hash": 11,
       "ip:port": 9
     },
     "confidence_distribution": {
-      "high": 162,
+      "high": 175,
       "medium": 2,
       "low": 0
     },
@@ -62,7 +62,8 @@
       "2026-07-15": 6,
       "2026-07-16": 6,
       "2026-07-17": 14,
-      "2026-07-20": 4
+      "2026-07-20": 4,
+      "2026-07-22": 13
     },
     "top_ports": [
       {
@@ -76,6 +77,84 @@
     ],
     "sample_iocs": [
       {
+        "ioc": "isctmasjid.org",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-22 14:17:28 UTC"
+      },
+      {
+        "ioc": "https://isctmasjid.org/analytics.google.com",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-22 14:17:28 UTC"
+      },
+      {
+        "ioc": "cometparapet.top",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-22 14:17:27 UTC"
+      },
+      {
+        "ioc": "https://cometparapet.top/alias/metrics-render.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-22 14:17:27 UTC"
+      },
+      {
+        "ioc": "https://cometparapet.top/alias/legacy-dom",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-22 14:17:26 UTC"
+      },
+      {
+        "ioc": "https://cometparapet.top/alias/acl-component.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-22 14:17:25 UTC"
+      },
+      {
+        "ioc": "sorrelalmanac.top",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-22 08:31:11 UTC"
+      },
+      {
+        "ioc": "https://sorrelalmanac.top/alias/legacy-dom",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-22 08:31:11 UTC"
+      },
+      {
+        "ioc": "https://sorrelalmanac.top/alias/acl-component.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-22 08:31:10 UTC"
+      },
+      {
+        "ioc": "https://nebulaloom.top/oauth/reset-dom.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-22 06:54:32 UTC"
+      },
+      {
+        "ioc": "https://nebulaloom.top/oauth/gateway-html.js",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-22 06:54:31 UTC"
+      },
+      {
+        "ioc": "https://nebulaloom.top/oauth/auth-server",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-22 06:54:31 UTC"
+      },
+      {
+        "ioc": "nebulaloom.top",
+        "type": "domain",
+        "confidence": 100,
+        "first_seen": "2026-07-22 06:54:31 UTC"
+      },
+      {
         "ioc": "https://aurorapavilion.top/acl/principal-payload.js",
         "type": "url",
         "confidence": 100,
@@ -86,84 +165,6 @@
         "type": "url",
         "confidence": 100,
         "first_seen": "2026-07-20 14:14:47 UTC"
-      },
-      {
-        "ioc": "aurorapavilion.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-20 14:14:47 UTC"
-      },
-      {
-        "ioc": "https://aurorapavilion.top/acl/trace-serializer",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-20 14:14:47 UTC"
-      },
-      {
-        "ioc": "https://mv2group.com/meta.google.com",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-17 13:01:21 UTC"
-      },
-      {
-        "ioc": "https://cedaristhmus.top/public/scope-cookie.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-17 13:01:20 UTC"
-      },
-      {
-        "ioc": "mv2group.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-17 13:01:20 UTC"
-      },
-      {
-        "ioc": "cedaristhmus.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-17 11:33:22 UTC"
-      },
-      {
-        "ioc": "https://cedaristhmus.top/public/middleware-sessionstore",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-17 11:33:22 UTC"
-      },
-      {
-        "ioc": "https://cedaristhmus.top/public/callback-asset.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-17 11:33:21 UTC"
-      },
-      {
-        "ioc": "https://amberobservatory.top/public/scope-cookie.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-17 09:14:29 UTC"
-      },
-      {
-        "ioc": "https://amberobservatory.top/public/callback-asset.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-17 09:14:28 UTC"
-      },
-      {
-        "ioc": "https://amberobservatory.top/public/middleware-sessionstore",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-17 09:14:28 UTC"
-      },
-      {
-        "ioc": "amberobservatory.top",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-17 09:14:28 UTC"
-      },
-      {
-        "ioc": "https://copperlandmark.top/claims/redirect-state.js",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-17 06:36:28 UTC"
       }
     ]
   }

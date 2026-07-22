@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-21T15:28:11.309807+00:00",
+  "generated": "2026-07-22T15:25:40.547315+00:00",
   "families": [
     {
       "malware_id": "win.metastealer",
@@ -14,20 +14,20 @@
       "family": "Unknown malware"
     },
     {
-      "malware_id": "win.vidar",
-      "family": "Vidar"
-    },
-    {
       "malware_id": "win.cobalt_strike",
       "family": "Cobalt Strike"
     },
     {
-      "malware_id": "js.kongtuke",
-      "family": "KongTuke"
+      "malware_id": "win.vidar",
+      "family": "Vidar"
     },
     {
       "malware_id": "win.adaptix_c2",
       "family": "AdaptixC2"
+    },
+    {
+      "malware_id": "js.kongtuke",
+      "family": "KongTuke"
     },
     {
       "malware_id": "win.asyncrat",
@@ -38,52 +38,32 @@
       "family": "Aisuru"
     },
     {
-      "malware_id": "win.agent_tesla",
-      "family": "Agent Tesla"
-    },
-    {
-      "malware_id": "py.venus_stealer",
-      "family": "Venus Stealer"
-    },
-    {
       "malware_id": "elf.mirai",
       "family": "Mirai"
-    },
-    {
-      "malware_id": "win.remcos",
-      "family": "Remcos"
-    },
-    {
-      "malware_id": "win.netwire",
-      "family": "NetWire RC"
-    },
-    {
-      "malware_id": "win.latrodectus",
-      "family": "Latrodectus"
-    },
-    {
-      "malware_id": "elf.kuiper",
-      "family": "Kuiper"
-    },
-    {
-      "malware_id": "win.valley_rat",
-      "family": "ValleyRAT"
     },
     {
       "malware_id": "js.smartapesg",
       "family": "SmartApeSG"
     },
     {
+      "malware_id": "py.venus_stealer",
+      "family": "Venus Stealer"
+    },
+    {
+      "malware_id": "win.valley_rat",
+      "family": "ValleyRAT"
+    },
+    {
       "malware_id": "unknown_loader",
       "family": "Unknown Loader"
     },
     {
-      "malware_id": "win.wannacryptor",
-      "family": "WannaCryptor"
+      "malware_id": "unknown_stealer",
+      "family": "Unknown Stealer"
     },
     {
-      "malware_id": "win.pure_rat",
-      "family": "PureRAT"
+      "malware_id": "win.wannacryptor",
+      "family": "WannaCryptor"
     },
     {
       "malware_id": "win.havoc",
@@ -94,12 +74,32 @@
       "family": "Kimwolf"
     },
     {
+      "malware_id": "win.remcos",
+      "family": "Remcos"
+    },
+    {
       "malware_id": "win.vshell",
       "family": "VShell"
     },
     {
-      "malware_id": "unknown_rat",
-      "family": "Unknown RAT"
+      "malware_id": "win.vjw0rm",
+      "family": "Vjw0rm"
+    },
+    {
+      "malware_id": "win.dcrat",
+      "family": "DCRat"
+    },
+    {
+      "malware_id": "win.pure_rat",
+      "family": "PureRAT"
+    },
+    {
+      "malware_id": "py.invisibleferret",
+      "family": "InvisibleFerret"
+    },
+    {
+      "malware_id": "elf.evilginx",
+      "family": "Evilginx"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "malware_id": "unknown_stealer",
   "family": "Unknown Stealer",
-  "generated": "2026-07-16T15:18:19.827404+00:00",
-  "recent_window_ioc_count": 485,
+  "generated": "2026-07-22T15:23:22.470656+00:00",
+  "recent_window_ioc_count": 25,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer",
   "description": null,
   "alt_names": [],
@@ -10,13 +10,14 @@
   "stats": {
     "total_iocs": 500,
     "date_range": {
-      "earliest": "2026-07-06",
-      "latest": "2026-07-14"
+      "earliest": "2026-07-09",
+      "latest": "2026-07-22"
     },
     "ioc_type_breakdown": {
-      "domain": 494,
-      "url": 5,
-      "ip:port": 1
+      "domain": 481,
+      "sha256_hash": 14,
+      "url": 3,
+      "ip:port": 2
     },
     "confidence_distribution": {
       "high": 499,
@@ -24,15 +25,21 @@
       "low": 0
     },
     "activity_timeline": {
-      "2026-07-06": 3,
-      "2026-07-07": 1,
-      "2026-07-08": 8,
-      "2026-07-09": 482,
+      "2026-07-09": 469,
       "2026-07-11": 1,
       "2026-07-13": 4,
-      "2026-07-14": 1
+      "2026-07-14": 1,
+      "2026-07-17": 5,
+      "2026-07-18": 3,
+      "2026-07-19": 1,
+      "2026-07-21": 1,
+      "2026-07-22": 15
     },
     "top_ports": [
+      {
+        "port": "5000",
+        "count": 1
+      },
       {
         "port": "443",
         "count": 1
@@ -40,94 +47,94 @@
     ],
     "sample_iocs": [
       {
-        "ioc": "unauth-amper.cc",
-        "type": "domain",
+        "ioc": "b6849ce4f0c9c5a26b15b994a88e951c84cdb4a8721388878ed0c9bd1775cd67",
+        "type": "sha256_hash",
         "confidence": 100,
-        "first_seen": "2026-07-14 20:56:08 UTC"
+        "first_seen": "2026-07-22 13:05:44 UTC"
       },
       {
-        "ioc": "51.38.99.224:443",
+        "ioc": "009023aeda3457861b31a4a8f29dfb058f16321f5621b1a74ebdb3137930158a",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "ba4c2d8a377ae14b8c98750208405858b0b6419ea4f4f9c9699f2adad1d639f5",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "1f2778afba16c4fe5e06d233012b517f39e3dfc4f913e6e66ca4161ec998e6e1",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "af2a34de39f74be9402871e3c947ba39df9e1556b11cd081be4d8a37cd2fa893",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "d8f554e58aa646555f1b277ed9acb908bbaaf8654a6ff5b19b41716eb7e0ed9a",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "8767ded54ab7a27b70b873e9cc35ee75088ff43c089731048f81da60fa01f9bb",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "ad934cf87b306026e1e983e5181d32fb3f6e472acd5a3d5d4b5e709b7baa72be",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "0cee8e69fc0ac841371d917b70416fd015a0f68257f417ae02424f7bd3fb5e46",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "28ed4300b02bf46b75bc6308f74d57256142d585227834c34bbfedfb4937bdc7",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "09051ca12c765d6924bfb0f749b039020f0b48bc172caea6bce36d4bb89a7669",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "3a432ebb39e02f2e6397814ed931697fc820ed5ea1b41e2d595f26f5391adefd",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "7b4b991e822eaebebd75246685ae83fc4594f32c4b3f8aaa73db575e243d3393",
+        "type": "sha256_hash",
+        "confidence": 100,
+        "first_seen": "2026-07-22 13:05:44 UTC"
+      },
+      {
+        "ioc": "http://93.152.223.30:5000/api/stealer/report",
+        "type": "url",
+        "confidence": 100,
+        "first_seen": "2026-07-22 08:48:01 UTC"
+      },
+      {
+        "ioc": "93.152.223.30:5000",
         "type": "ip:port",
-        "confidence": 50,
-        "first_seen": "2026-07-13 14:04:23 UTC"
-      },
-      {
-        "ioc": "https://irahook.com/mods/api/log-download",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-13 06:00:24 UTC"
-      },
-      {
-        "ioc": "https://irahook.com/get/config",
-        "type": "url",
-        "confidence": 100,
-        "first_seen": "2026-07-13 06:00:24 UTC"
-      },
-      {
-        "ioc": "irahook.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-13 06:00:23 UTC"
-      },
-      {
-        "ioc": "shift-art.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-11 05:29:58 UTC"
-      },
-      {
-        "ioc": "zurawealth.co.uk",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-09 15:33:40 UTC"
-      },
-      {
-        "ioc": "zaneogle.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-09 15:33:39 UTC"
-      },
-      {
-        "ioc": "yushiboutique.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-09 15:33:39 UTC"
-      },
-      {
-        "ioc": "yogasegrate.it",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-09 15:33:39 UTC"
-      },
-      {
-        "ioc": "yiwulanggu.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-09 15:33:39 UTC"
-      },
-      {
-        "ioc": "xn--wakacjewewoszech-syc.pl",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-09 15:33:39 UTC"
-      },
-      {
-        "ioc": "xn--61-mlcmthgg3e.xn--p1ai",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-09 15:33:39 UTC"
-      },
-      {
-        "ioc": "xdlab.com.br",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-09 15:33:39 UTC"
-      },
-      {
-        "ioc": "wpthemesdemo.com",
-        "type": "domain",
-        "confidence": 100,
-        "first_seen": "2026-07-09 15:33:39 UTC"
+        "confidence": 75,
+        "first_seen": "2026-07-22 08:48:00 UTC"
       }
     ]
   }

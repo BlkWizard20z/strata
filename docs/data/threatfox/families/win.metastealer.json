@@ -1,8 +1,8 @@
 {
   "malware_id": "win.metastealer",
   "family": "MetaStealer",
-  "generated": "2026-07-21T15:23:10.439002+00:00",
-  "recent_window_ioc_count": 1000,
+  "generated": "2026-07-22T15:20:31.545458+00:00",
+  "recent_window_ioc_count": 997,
   "malpedia_url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.metastealer",
   "description": "On March 7, 2022, KELA observed a threat actor named _META_ announcing the launch of META \u2013 a new information-stealing malware, available for sale for USD125 per month or USD1000 for unlimited use. The actor claimed it has the same functionality, code, and panel as the Redline stealer, but with several improvements.",
   "alt_names": [],
